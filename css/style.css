@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+p,h1,h2,h3,h4,h5,h6,a {
+  font-family: source sans pro;
+}
+.arrow-down {
+  bottom: 0;
+}
+ul.nav > li > a {
+  float: right;
+  display: inline;
+}
+.nav{
+  margin-bottom: -20px;
+}
+
+.cd-intro {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* vertically align its content */
+  display: table;
+  background: #EFF5FC;
+  overflow: hidden;
+}
+.cd-intro-content {
+  /* vertically align inside its parent */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 100px 5%;
+}
+.angle-down {
+  padding-top: 30px;
+  margin-bottom: -100px;
+}
+.punchline {
+  color: #000000;
+  font-size: 20pt;
+}
+.sous-punchline{
+  color: #000000;
+  font-size: 16pt;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.punchline-offre{
+  font-size: 12pt;
+  color: #53516A;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.cd-story{
+  position: relative;
+  /*height: 100vh;*/
+  width: 100%;
+  /* vertically align its content */
+  display: table;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.cd-story-content{
+  /* vertically align inside its parent */
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 5%;
+  background: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (min-width: 600px){
+  .story {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12pt;
+  }
+@media screen and (min-width: 940px){
+  .story {
+    margin-left: 170px;
+    margin-right: 170px;
+    font-size: 18pt;
+  }
+}
+.story {
+  text-align:justify;
+}
+/*@media screen and (min-width: 600px){
+  .realisations {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12pt;
+  }
+}
+@media screen and (min-width: 940px){
+  .realisations {
+    margin-left: 170px;
+    margin-right: 170px;
+    font-size: 14pt;
+  }
+}
+.realisations {
+  text-align:center;
+}*/
+.cd-equipe{
+  position: relative;
+  /*height: 100vh;*/
+  width: 100vw;
+  /* vertically align its content */
+  display: table;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.cd-equipe-content{
+  /* vertically align inside its parent */
+  display: table-cell;
+  vertical-align: middle;
+  align-items: center;
+  padding: 0 10%;
+  background: #FFFFFF;
+  margin-left: 50px;
+  margin-right: 50px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*@media screen and (max-width: 480px){
+  .thumbnail{
+
+  }
+}*/
+.thumbnail {
+  /*max-width: 100%;*/
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-top: 35px;
+}
+.fa{
+  padding-left: 8px;
+  color: #000000;
+}
+.fa:hover{
+  color: #0A529E;
+}
+
+.btn-bleu{
+  color: #FFFFFF;
+  background-color: #0A529E;
+  font-size: 12pt;
+}
+.btn-bleu:hover{
+  background-color: #0288D1;
+  color: #FFFFFF;
+}
