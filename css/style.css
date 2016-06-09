@@ -37,11 +37,16 @@ ul.nav > li > a {
   color: #000000;
   font-size: 20pt;
 }
-.sous-punchline{
+.container-punchline > h3{
   color: #000000;
-  font-size: 16pt;
+  font-size: 17pt;
   font-weight: 300;
   padding-bottom: 30px;
+}
+@media screen and (min-width: 940px){
+  .container-punchline {
+    width: 50%;
+  }
 }
 .punchline-offre{
   font-size: 12pt;
