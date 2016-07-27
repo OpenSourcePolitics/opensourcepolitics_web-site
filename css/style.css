@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+
+body {
+  padding-bottom: 45px;
+}
+
 p,h1,h2,h3,h4,h5,h6,a {
   font-family: source sans pro;
 }
@@ -43,7 +48,7 @@ ul.nav > li > a {
   font-weight: 300;
   padding-bottom: 30px;
 }
-@media screen and (min-width: 940px){
+@media screen and (min-width: 992px){
   .container-punchline {
     width: 50%;
   }
@@ -81,24 +86,37 @@ ul.nav > li > a {
     margin-right: 50px;
     font-size: 12pt;
   }
-@media screen and (min-width: 940px){
+
+}
+
+@media screen and (min-width: 992px){
   .story {
     margin-left: 170px;
     margin-right: 170px;
     font-size: 18pt;
   }
 }
+
+
+
+@media screen and (max-width: 1199px){
+  .thumbnail {
+    border: 0;
+  }
+}
+
+
 .story {
   text-align:justify;
 }
-/*@media screen and (min-width: 600px){
+/*@media screen and (min-width: 768px){
   .realisations {
     margin-left: 50px;
     margin-right: 50px;
     font-size: 12pt;
   }
 }
-@media screen and (min-width: 940px){
+@media screen and (min-width: 992px){
   .realisations {
     margin-left: 170px;
     margin-right: 170px;
@@ -156,4 +174,14 @@ ul.nav > li > a {
 .btn-bleu:hover{
   background-color: #0288D1;
   color: #FFFFFF;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 1199px){
+  .site-footer {
+    margin-top: 25px ;
+  }
 }
