@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
 
+.section-bg{
+  width: 100vw;
+  height: 40vh;
+  background-color:#EFF5FC;
+  display:table-cell;
+  vertical-align:middle;
+}
+.spacer{
+  margin-left: 10px;
+}
+
 body {
   padding-bottom: 45px;
 }
