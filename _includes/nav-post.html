@@ -1,0 +1,15 @@
+<div class="container nav-post">
+    <div class="row">
+        <div class="col-sm-9">
+            <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logos/osp-bleu.png" class="logo-osp" width="150px"></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                {% for network in site.social %}
+                <li><a href="{{ network.url }}" class="hidden-xs"><i class="fa fa-2x fa-{{ network.title }}"></i></a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

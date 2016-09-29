@@ -1,0 +1,46 @@
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contactez-nous</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form  action="https://formspree.io/contact@opensourcepolitics.eu" method="POST" name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <input type="text" class="form-control" placeholder="Votre nom *" id="name" required data-validation-required-message="Merci d'entrer votre nom.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="email" class="form-control" placeholder="Votre email *" id="email" required data-validation-required-message="Merci d'entrer votre adresse email.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="tel" class="form-control" placeholder="Votre n° téléphone *" id="phone" required data-validation-required-message="Merci d'entrer votre numéro de téléphone.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <!-- <input type="text" class="form-control" placeholder="Votre message *" id="message" required data-validation-required-message="Merci d'entrer votre message.">
+                                    <p class="help-block text-danger"></p> -->
+                                    <textarea class="form-control" placeholder="Votre message *" id="message" required data-validation-required-message="Merci d'entrer votre message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <input type="submit" value="Envoyer" class="btn btn-xl">
+                                <!-- <button type="submit" class="btn btn-xl">Envoyer</button> -->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>

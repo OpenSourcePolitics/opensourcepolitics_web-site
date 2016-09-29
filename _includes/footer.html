@@ -1,0 +1,21 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+                <div class="col-md-4">
+                    <span class="copyright">32 rue des Cascades 75020 Paris France</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons copyright">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                        <li><a href="http://meetup.com/open-source-politics/"><img src="{{ site.baseurl }}img/logos/meetup.svg" class="fa"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
