@@ -60,7 +60,8 @@
     text-align: center;
     padding-top: 5px;
     padding-bottom:5px;
-    margin-top: -5px;  
+    margin-top: -5px;
+    margin-bottom: 25px;  
 }
 img {
     display: block;
@@ -261,9 +262,15 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fff;
+   /* background-color: #{{ site.data.template.color.primary }};
+    border-radius: 3px;*/
+}
+@media (min-width: 770px) {
+  .navbar-brand {
     background-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
-}
+  }
+ } 
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -301,7 +308,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+    border-radius: 3px;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -389,7 +398,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 35px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 30px;
         font-style: italic;
@@ -399,7 +408,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
