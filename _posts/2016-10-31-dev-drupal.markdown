@@ -1,8 +1,6 @@
 ---
 title: Développeur freelance PHP, MySQL, JS
 layout: job
-img: hackathon-odn-mairie18.jpeg
-thumbnail: hackathon-mairie-18.png
 available-when: Dès que possible
 category: jobs
 type: code
@@ -11,7 +9,7 @@ tag: Développment, PHP, MySql, Drupal
 ---
 
 #### Le projet
-Nous sommes chargés du développement de la seconde version du site arcinnovation.fr. L'idée est de créé une plateforme informative et de collaboration pour les acteurs innovants de l'Est parisien. 
+En support de notre lead dev nous recherchons un développeur expérimenté PHP, MySql, JS pour développer un portail interactif pour plusieurs institutions d'Ile-de-France dans le but de connecter les acteurs de l'innovation.
 
 #### Principales fonctionnalités
 - Information : présentation de la démarche, des différents lieux
@@ -28,14 +26,11 @@ Langages à maîtriser : PHP, JavaScript, HTML, CSS, MySQL
 - Les pages froides
 - Les fiches d’information (les lieux, les parties prenantes)
 
-#### Délais 
-- mise en ligne le 8 décembre
-
 #### Profils recherchés
 Développeur PHP, JavaScript, HTML, CSS, MySQL
 
 #### Dispos 
-Tout de suite ou à partir du 21 novembre
+Tout de suite ou au plus tard le 21 novembre
 
 #### Charge de travail 
 Entre 5 et 10 jours de travail. A évaluer avec l’équipe projet.

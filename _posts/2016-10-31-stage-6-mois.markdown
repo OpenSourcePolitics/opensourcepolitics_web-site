@@ -1,8 +1,6 @@
 ---
 title: Stage 6 mois, Assistant communication
 layout: job
-img: hackathon-odn-mairie18.jpeg
-thumbnail: hackathon-mairie-18.png
 available-when: Dès que possible
 category: jobs
 type: rocket
