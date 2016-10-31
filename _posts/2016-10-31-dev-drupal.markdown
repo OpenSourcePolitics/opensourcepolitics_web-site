@@ -38,7 +38,8 @@ Entre 5 et 10 jours de travail. A évaluer avec l’équipe projet.
 #### A propos d'Open Source Politics : 
 Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics (citoyens, collaborateurs et membres d'asso). Les fondateurs sont très impliqués dans la communauté civic tech open source, via leur meetup (http://www.meetup.com/open-source-politics/)  et l'organisation des hackathons Open Democracy Now (http://opendemocracynow.net/). 
 
-#### Exemple de tâches à réaliser  : 
+#### Exemple de tâches à réaliser (en fonction de vos compétences) : 
+
 - Thème : charte graphique, template de pages (pour inspiration participez.nanterre.fr )
 - API entrée/sortie : interconnexion avec les serveurs de données externes de l’APUR (http://www.apur.org/)
 - Formulaires et processus de contribution : configurer les mails selon les droits d’accès
