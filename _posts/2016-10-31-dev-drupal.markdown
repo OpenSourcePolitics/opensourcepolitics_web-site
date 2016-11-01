@@ -9,7 +9,7 @@ tag: Développment, PHP, MySql, Drupal
 ---
 
 #### Le projet
-En support de notre lead dev nous recherchons un développeur expérimenté PHP, MySql, JS pour développer un portail interactif pour plusieurs institutions d'Ile-de-France dans le but de connecter les acteurs de l'innovation.
+En support de notre lead dev, nous recherchons un développeur expérimenté PHP, MySQL, JS afin de développer un portail interactif pour plusieurs institutions d'Ile-de-France dont le but est de connecter les acteurs de l'innovation.
 
 #### Principales fonctionnalités
 - Information : présentation de la démarche, des différents lieux
