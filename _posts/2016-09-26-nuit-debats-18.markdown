@@ -13,5 +13,8 @@ client: Mairie 18e
 
 ---
 
-En avril 2016, la mairie de Paris a organisé sa première Nuit des débats. Elle a réuni plus de 2000 citoyens sur une centaine d’événements. Nous en avons animé un pour la mairie du 18e arrondissement sous un format « forum ouvert ». Une cinquantaine de participants a pu se réunir en 6 six groupes thématiques dont nous avons facilité les travaux et publié les synthèses sur une [instance DemocracyOS](http://nuitdesdebatsparis18.herokuapp.com/).
+Le 2 avril 2016, la mairie de Paris a organisé sa première Nuit des débats. Ce nouveau temps fort de la vie démocratique locale a réuni plus de 2000 citoyens sur une centaine de lieux différents. 
 
+Nous avons animé l'un des événements de cette soirée sous la forme d'un "forum ouvert" organisé pour la mairie du 18e arrondissement. La cinquantaine de participants s'est répartie en 6 six groupes thématiques dont nous avons facilité les travaux et publié les synthèses sur une [instance DemocracyOS](http://nuitdesdebatsparis18.herokuapp.com/).
+
+Ces ateliers inclusifs ont trouvé une continuité lors du [hackathon Open Democracy Now](http://www.opensourcepolitics.eu/refs/2016/09/25/hackathon-mairie18/) organisé en septembre 2016 en partenariat avec la mairie du 18e. 
