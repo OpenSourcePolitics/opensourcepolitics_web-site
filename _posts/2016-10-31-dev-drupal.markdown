@@ -47,7 +47,7 @@ Open Source Politics est une entreprise de l'ESS qui développe des solutions ci
 - Un projet orienté recettes nous intéresse également : Réception et correction des bugs pendant que les autres développeurs font avancer l’étape d’après
 Profil expérimenté PHP
 
-
-Pour répondre à l'offre : [contact@opensourcepolitics.eu](mailto:contact@opensourcepolitics.eu)
+<hr>
+#### Pour répondre à l'offre : **[contact@opensourcepolitics.eu](mailto:contact@opensourcepolitics.eu)**
 
 
