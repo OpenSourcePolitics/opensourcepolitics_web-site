@@ -364,7 +364,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('https://hd.unsplash.com/photo-1445754574409-bcd715e18017');
+    background-image: url('{{ site.baseurl }}/img/arc-triomphe.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
