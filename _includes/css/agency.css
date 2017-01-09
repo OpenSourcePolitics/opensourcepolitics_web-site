@@ -6,6 +6,18 @@
 
 /*Mon CSS
 <--- ! --->*/
+
+@media (min-width: 700px) {
+  .clients {
+    margin-left: 5%;
+  }
+ }
+img.desaturate {
+	filter: grayscale(100%);
+}
+img.desaturate:hover {
+  filter: grayscale(0%);
+}
 .nav-post {
     margin-top: 15px;
 }
@@ -20,11 +32,11 @@
 .radius-up {
     border-top-left-radius:3px;
     border-top-right-radius:3px;
-    
+
 }
 .radius-down {
     border-bottom-right-radius:3px;
-    border-bottom-left-radius:3px; 
+    border-bottom-left-radius:3px;
 }
 .btn-project {
     width: 100%;
@@ -61,7 +73,7 @@
     padding-top: 5px;
     padding-bottom:5px;
     margin-top: -5px;
-    margin-bottom: 25px;  
+    margin-bottom: 25px;
 }
 img {
     display: block;
@@ -70,7 +82,7 @@ img {
 }
 .sub-heading-margin {
     margin-left:10%;
-    margin-right:10%; 
+    margin-right:10%;
 }
 .video-container {
     position: relative;
@@ -150,7 +162,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #B6CDFF;
 }
 
 .bg-darkest-gray {
@@ -274,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
   }
- } 
+ }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -364,7 +376,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/arc-triomphe.jpeg');
+    background-image: url('{{ site.baseurl }}/img/stars2.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -754,6 +766,7 @@ section h3.section-subheading {
 aside.clients img {
     margin: 50px auto;
 }
+
 
 section#contact {
     background-color: #222;

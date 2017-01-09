@@ -5,6 +5,7 @@ available-when: Dès que possible
 category: jobs
 type: code
 tag: Développment, PHP, MySql, Drupal
+published: false
 
 ---
 
@@ -14,8 +15,8 @@ En support de notre lead dev, nous recherchons un développeur expérimenté PHP
 #### Principales fonctionnalités
 - Information : présentation de la démarche, des différents lieux
 - Inscription d’un site/projet à l’Arc de l’Innovation (carte dynamique OSM)
-- Gestion d’appel à projet 
-- Mise en relation des différentes parties prenantes sur un projet 
+- Gestion d’appel à projet
+- Mise en relation des différentes parties prenantes sur un projet
 
 #### Stack technique du projet
 
@@ -29,16 +30,16 @@ Langages à maîtriser : PHP, JavaScript, HTML, CSS, MySQL
 #### Profils recherchés
 Développeur PHP, JavaScript, HTML, CSS, MySQL
 
-#### Dispos 
+#### Dispos
 Tout de suite ou au plus tard le 21 novembre
 
-#### Charge de travail 
+#### Charge de travail
 Entre 5 et 10 jours de travail. A évaluer avec l’équipe projet.
 
-#### A propos d'Open Source Politics : 
-Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics (citoyens, collaborateurs et membres d'asso). Les fondateurs sont très impliqués dans la communauté civic tech open source, via leur meetup (http://www.meetup.com/open-source-politics/)  et l'organisation des hackathons Open Democracy Now (http://opendemocracynow.net/). 
+#### A propos d'Open Source Politics :
+Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics (citoyens, collaborateurs et membres d'asso). Les fondateurs sont très impliqués dans la communauté civic tech open source, via leur meetup (http://www.meetup.com/open-source-politics/)  et l'organisation des hackathons Open Democracy Now (http://opendemocracynow.net/).
 
-#### Exemple de tâches à réaliser (en fonction de vos compétences) : 
+#### Exemple de tâches à réaliser (en fonction de vos compétences) :
 
 - Thème : charte graphique, template de pages (pour inspiration participez.nanterre.fr )
 - API entrée/sortie : interconnexion avec les serveurs de données externes de l’APUR (http://www.apur.org/)
@@ -49,5 +50,3 @@ Profil expérimenté PHP
 
 <hr>
 #### Pour répondre à l'offre : **[contact@opensourcepolitics.eu](mailto:contact@opensourcepolitics.eu)**
-
-

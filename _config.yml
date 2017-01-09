@@ -1,5 +1,5 @@
 url: http://opensourpolitics.eu
-baseurl: 
+baseurl:
 
 # Site settings
 title: OSP
@@ -32,7 +32,7 @@ people:
     - title: medium
       url: https://medium.com/@virgiledeville
     - title: envelope
-      url: mailto:virgile@opensourcepolitics.eu  
+      url: mailto:virgile@opensourcepolitics.eu
 
 - name: Valentin Chaput
   pic: 3
@@ -51,13 +51,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/opensourcepolitics
+    url: http://twitter.com/opensourcepol
   - title: facebook
     url: https://www.facebook.com/OpenSourcePolitics/
   - title: github
     url: https://github.com/OpenSourcePolitics
   - title: medium
-    url: https://medium.com/open-source-politics  
+    url: https://medium.com/open-source-politics
 
 
 # Postal address (add as many lines as necessary)
