@@ -162,7 +162,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #B6CDFF;
+    background-color: #82EFFF;
 }
 
 .bg-darkest-gray {
@@ -376,7 +376,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/stars2.jpg');
+    background-image: url('{{ site.baseurl }}/img/stars2.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
