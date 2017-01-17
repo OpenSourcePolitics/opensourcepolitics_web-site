@@ -6,7 +6,9 @@
 
 /*Mon CSS
 <--- ! --->*/
-
+.orange {
+  color : #FDC63D;
+}
 @media (min-width: 700px) {
   .clients {
     margin-left: 5%;
@@ -162,7 +164,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #FFCE40;
+    background-color: #FDC63D;
 }
 
 .bg-darkest-gray {
@@ -409,7 +411,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 230px;
         padding-bottom: 200px;
     }
 
