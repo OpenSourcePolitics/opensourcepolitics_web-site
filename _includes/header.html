@@ -14,7 +14,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-center">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -22,7 +22,7 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#references">Références</a>
+                        <a class="page-scroll" href="#references">Réalisations</a>
                     </li>
                     <!-- <li> -->
                         <!-- <a class="page-scroll" href="#products">Outils</a> -->
@@ -34,14 +34,17 @@
                         <a class="page-scroll" href="#team">Equipe</a>
                     </li>
                     <li>
-                        <a href="#jobs"><b><i class="fa fa-rocket"></i>&nbsp;On recrute !</b></a>
+                        <a href="#jobs" class="page-scroll"><b><i class="fa fa-rocket"></i>&nbsp;On recrute !</b></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="">Articles</a>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                     </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

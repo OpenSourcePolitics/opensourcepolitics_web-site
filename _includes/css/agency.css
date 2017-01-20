@@ -6,6 +6,11 @@
 
 /*Mon CSS
 <--- ! --->*/
+@media (min-width: 525px) {
+.navbar-center {
+  margin-left: 10px;
+  }
+}
 .orange {
   color : #FDC63D;
 }
@@ -164,7 +169,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #FDC63D;
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .bg-darkest-gray {
@@ -454,11 +459,11 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     section {
         padding: 150px 0;
     }
-}
+}*/
 
 .service-heading {
     margin: 15px 0;
@@ -980,5 +985,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+    webkit-tap-highlight-color: #{{ site.data.template.color.second }};
 }
