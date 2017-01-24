@@ -8,6 +8,10 @@ description: "Solutions Civic Tech : nous mettons en place des outils open sourc
 
 contact: static
 
+collections:
+  - jobs
+  - clients
+
 # Team names, titles and social links
 people:
 - name: Alain Buchotte

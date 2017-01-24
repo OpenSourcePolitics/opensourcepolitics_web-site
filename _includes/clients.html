@@ -1,6 +1,15 @@
 <!-- Clients Aside -->
     <aside class="clients">
         <!-- <div class="container"> -->
+        <div class="row">
+          <center>
+            <ul class="list-inline clear-fix">
+              {% for client in site.clients %}
+                <li><img src="img/clients/{{ client.img }}" alt="{{ client.alt }}" width="208px" height="120px" class="img-responsive img-centered"></li>
+              {% endfor %}
+            </ul>
+          </center>
+        <!-- </div>
             <div class="row">
                 <div class="col-md-2 col-sm-4 col-lg-offset-1">
                     <a href="#">
@@ -12,11 +21,11 @@
                         <img src="img/clients/rivp.png" class="img-responsive img-centered desaturate" alt="">
                     </a>
                 </div>
-                <!-- <div class="col-md-2 col-sm-4">
+                <div class="col-md-2 col-sm-4">
                     <a href="#">
                         <img src="img/clients/sncf.png" class="img-centered desaturate" alt="">
                     </a>
-                </div> -->
+                </div>
                 <div class="col-md-2 col-sm-4">
                     <a href="#">
                         <img src="img/clients/nanterre.png" class="img-responsive img-centered desaturate" alt="">
@@ -32,6 +41,5 @@
                         <img src="img/clients/mairie-du-18.png" class="img-responsive img-centered desaturate" alt="">
                     </a>
                 </div>
-            </div>
-        <!-- </div> -->
+            </div> -->
     </aside>

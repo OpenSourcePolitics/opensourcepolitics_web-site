@@ -14,9 +14,8 @@
 .orange {
   color : #FDC63D;
 }
-@media (min-width: 700px) {
-  .clients {
-    margin-left: 5%;
+.clients {
+    margin-top: 50px;
   }
  }
 img.desaturate {
