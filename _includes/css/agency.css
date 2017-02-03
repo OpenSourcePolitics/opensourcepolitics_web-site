@@ -6,6 +6,13 @@
 
 /*Mon CSS
 <--- ! --->*/
+.jumbotron {
+  background-image: url('{{ site.baseurl }}/img/stellar.jpeg'); ;
+}
+.white-container {
+  background-color: #fff;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
 @media (min-width: 525px) {
 .navbar-center {
   margin-left: 10px;
@@ -190,8 +197,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #{{ site.data.template.color.primary }};
-    background-color: transparent;
+    color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-primary:active,

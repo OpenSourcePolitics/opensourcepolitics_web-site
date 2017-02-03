@@ -8,8 +8,12 @@ tag: Développment, Ruby On Rails, PHP, MySql, Drupal, Node.js, Meteor
 published: true
 
 ---
+![Octo-Civic-Hacker]({{ site.baseurl }}/img/octo-civic-hacker.jpg)
+
+<br>
 
 #### Dev Wanted
+
 Nous sommes toujours à la recherche de nouveaux talents techniques expérimentés pour nous accompagner dans nos réalisations. Si vous avez l'habitude de contribuer à des projets open source n'hésitez pas à nous laisser votre email, nous vous contacterons dès qu'une opportunité surgit.
 
 <hr>
