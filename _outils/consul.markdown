@@ -1,6 +1,6 @@
 ---
-title: Consul
 layout: outils
+title: Consul
 img: decide-madrid.png
 logo: consul.png
 alt: {{ post.title }}

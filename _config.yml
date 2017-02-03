@@ -2,15 +2,18 @@ url: http://opensourpolitics.eu
 baseurl:
 
 # Site settings
-title: OSP
+title: Open Source Politics
 email: virgile@opensourcepolitics.eu
 description: "Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives."
 
 contact: static
 
 collections:
-  - jobs
-  - clients
+  clients:
+  jobs:
+      output: true
+  outils:
+      output: true
 
 # Team names, titles and social links
 people:

@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
     <body class="post">
       <nav class="navbar">
-        {% include nav-post.html %}  
+        {% include nav-post.html %}
       </nav>
         <div class="container">
-          <h1>{{ page.title }}</h1>
+          <h1>{{ outil.title }}</h1>
           <hr>
           <!-- Date/Time -->
-          <p><b>Editeur</b>&nbsp;&nbsp;<i class="fa fa-user" aria-hidden="true"></i>&nbsp;:&nbsp;<a href="page.editeur-url">{{ page.editeur }}</a> &nbsp; &nbsp; &nbsp; <b>Fonctionnalités</b>&nbsp;&nbsp;<i class="fa fa-cogs"></i>&nbsp;:&nbsp;<span style="color:#{{site.data.template.color.primary }}">{{ page.tags }}</span> &nbsp; &nbsp; &nbsp;<a href="{{ page.product-url }}" class="btn btn-secondary hidden-xs"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp;Site de l'outil</a></p>
+          <p><b>Editeur</b>&nbsp;&nbsp;<i class="fa fa-user" aria-hidden="true"></i>&nbsp;:&nbsp;<a href="page.editeur-url">{{ outil.editeur }}</a> &nbsp; &nbsp; &nbsp; <b>Fonctionnalités</b>&nbsp;&nbsp;<i class="fa fa-cogs"></i>&nbsp;:&nbsp;<span style="color:#{{site.data.template.color.primary }}">{{ page.tags }}</span> &nbsp; &nbsp; &nbsp;<a href="{{ page.product-url }}" class="btn btn-secondary hidden-xs"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp;Site de l'outil</a></p>
           <hr>
-          <div class="row">    
+          <div class="row">
             <div class="col-md-9">
                 <!-- Preview Image -->
-              <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/{{ page.img }}" alt="{{ page.title }}">
-              <br>   
-              <h4>Présentation de l'outil</h4>      
+              <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/{{ outil.img }}" alt="{{ outil.title }}">
+              <br>
+              <h4>Présentation de l'outil</h4>
                   {{ content }}
 
 
-             </div> 
+             </div>
             <div class="col-sm-3">
               {% include implementations.html %}
               {% include sidebar-products.html %}
             </div>
-          </div>      
+          </div>
         </div>
-    <br>    
-    <hr>    
-    {% include footer.html %}    
-    {% include js.html %}    
+    <br>
+    <hr>
+    {% include footer.html %}
+    {% include js.html %}
     </body>
 </html>

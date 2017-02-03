@@ -8,19 +8,19 @@
 	        </div>
 	    </div>
 	    <div class="row">
-			{% for post in site.categories.products | sort %}
+			{% for outil in site.outils %}
 	        <div class="col-md-3 col-sm-12 portfolio-item">
 	            <div>
-	            	<a href="{{ site.baseurl}}{{ post.url }}">
-                        <img src="img/products/{{ post.logo }}" class="img-responsive img-centered img-circle" alt="{{ post.title }}" width="200px">
+	            	<a href="{{ site.baseurl}}{{ outil.url }}">
+                        <img src="{{ site.baseurl}}img/products/{{ outil.logo }}" class="img-responsive img-centered img-circle" alt="{{ outil.title }}" width="200px">
                     </a>
                 </div>
 	            <div class="product-name">
-	                <h4><a href="{{ site.baseurl }}/{{ page.url }}"><span style="color:#000">{{ post.title }}</span></a></h4>
-	                <p class="text-muted"><i class="fa fa-cogs"></i>&nbsp;&nbsp;{{ post.tags }}</p>
+	                <h4><a href="{{ site.baseurl }}/{{ outils.url }}"><span style="color:#000">{{ outil.title }}</span></a></h4>
+	                <p class="text-muted"><i class="fa fa-cogs"></i>&nbsp;&nbsp;{{ outil.tags }}</p>
 	            </div>
             </div>
-		            {% endfor %}
+		  {% endfor %}
         </div>
     </div>
 </section>

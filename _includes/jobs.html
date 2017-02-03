@@ -9,11 +9,11 @@
   <div class="container">
     {% for job in site.jobs %}
       <div class="col-sm-3 align-right">
-        <a href="{{ site.baseurl}}{{ jobs.url }}"><i class="fa fa-3x fa-{{ post.type }}"></i></a>
+        <a href="{{ site.baseurl}}{{ job.url }}"><i class="fa fa-3x fa-{{ job.type }}"></i></a>
       </div>
       <div class="col-sm-9">
         <blockquote>
-          <a href="{{ site.baseurl}}{{ jobs.url }}" target="blank"><h4>{{ job.title }}</h4></a>
+          <a href="{{ site.baseurl}}{{ job.url }}" target="blank"><h4>{{ job.title }}</h4></a>
           <p><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>{{ job.available-when }}</p>
         </blockquote>
       </div>

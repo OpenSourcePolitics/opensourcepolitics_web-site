@@ -241,15 +241,15 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border: solid 3px #{{ site.data.template.color.primary }};
-    color: #fff;
-    background-color: transparent;
+    /*border: solid 3px #{{ site.data.template.color.primary }};*/
+    color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    background-image: none;
+    /*background-image: none;*/
 }
 
 .btn-xl.disabled,
@@ -294,12 +294,12 @@ fieldset[disabled] .btn-xl.active {
   }
  }
 
-.navbar-default .navbar-brand:hover,
+/*.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #{{ site.data.template.color.secondary }};
-}
+}*/
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
