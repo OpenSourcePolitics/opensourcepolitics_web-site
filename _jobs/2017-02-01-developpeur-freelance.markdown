@@ -8,7 +8,7 @@ tag: Développment, Ruby On Rails, PHP, MySql, Drupal, Node.js, Meteor
 published: true
 
 ---
-![Octo-Civic-Hacker]({{ site.baseurl }}/img/octo-civic-hacker.jpg)
+![Octo-Civic-Hacker]({{ site.baseurl }}/img/dev-freelance.png)
 
 <br>
 

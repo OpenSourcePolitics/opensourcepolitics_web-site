@@ -8,9 +8,7 @@
   </div>
   <div class="container">
     {% for job in site.jobs %}
-      <div class="col-sm-3 align-right">
-        <a href="{{ site.baseurl}}{{ job.url }}"></a>
-      </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="jumbotron">
         <center>
           <h3><a href="{{ site.baseurl}}{{ job.url }}" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;{{ job.title }}</span></a></h3>
@@ -18,6 +16,7 @@
           <p><a href="{{ site.baseurl}}{{ job.url }}" class="btn btn-primary">Voir l'annonce</a></p>
         </center>
       </div>
+    </div>  
       {% endfor %}
   </div>
 
