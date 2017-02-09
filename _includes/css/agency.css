@@ -6,6 +6,9 @@
 
 /*Mon CSS
 <--- ! --->*/
+.fixed{
+    position: fixed;
+}
 .jumbotron {
   background-image: url('{{ site.baseurl }}/img/stellar.jpeg'); ;
 }
