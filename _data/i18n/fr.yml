@@ -1,0 +1,77 @@
+# data home
+menu:
+  item-1: "Services"
+  item-2: "Réalisations"
+  item-3: "À propos"
+  item-4: "Equipe"
+  item-5: "On recrute !"
+  item-6: "Contact"
+
+punchline:
+  line-1: "Solutions"
+  line-2: "Civic tech libres"
+  line-3: "Utilisons le numérique pour redonner du sens à la démocratie"
+
+btn-contact: "Contactez-nous"
+
+service:
+  title-1: "Nos services"
+  feature-1: "Choix de l'outil"
+  feature-1-desc: "Grâce à une veille internationale soutenue, notre équipe est capable d'identifier les outils open source les plus adaptés à vos besoins."
+  feature-2: "Intégration technique"
+  feature-2-desc: "Nos équipes déploient et maintiennent les outils nécessaires à votre démarche de participation."
+  feature-3: "Conseil"
+  feature-3-desc: "Nous vous accompagnons dans la mise en place de stratégies permettant de mobiliser les publics concernés."
+  feature-4: "Evénements"
+  feature-4-desc: "Hackathons, meetups, workshops... Nous concrétisons votre démarche participative grâce à des événements physiques."
+  title2: "Pour mettre en place des"
+  feature-5: "Budgets participatifs"
+  feature-6: "Consultations publiques"
+  feature-7: "Appels à projets"
+  feature-8: "Cartographies collaboratives"
+
+realisations:
+  title: "Réalisations"
+
+story:
+  title: "A propos"
+  story-subheading: "Open Source Politics est une entreprise relevant du champ de l’économie sociale et solidaire qui développe des plateformes numériques libres et open source et anime des ateliers d’intelligence collective pour accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Découvrez notre histoire :"
+  story-link: "https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e#.5sdy4qtla"
+  story-article-title: "Notre philosophie"
+
+team:
+  title: "L'équipe fondatrice"
+
+jobs:
+  title: "OSP recrute !"
+  btn-action: "Voir l'annonce"
+
+contact:
+  title: "Contact"
+  place-holder-name: "Votre nom *"
+  name-data-validation-required-message: "Merci d'entrer votre nom."
+  place-holder-mail: "Votre email *"
+  mail-data-validation-required-message: "Merci d'entrer votre adresse email."
+  place-holder-phone: "Votre n° téléphone *"
+  phone-data-validation-required-message: "Merci d'entrer votre numéro de téléphone."
+  place-holder-msg: "Votre message *"
+  msg-data-validation-required-message: "Merci d'entrer votre message."
+  btn-submit: "Envoyer"
+# end data home
+
+# data job
+btn-apply: "Postuler à cette offre"
+# en data job
+
+# data ref
+btn-link-project: "Lien vers le projet"
+project-description: "Description du projet"
+# end data ref
+
+# data side bar jobs
+other-job-offers: "Autres offres d'emploi"
+# data side bar jobs
+
+# data side bar refs
+other-projects: "Autres projets"
+# data side bar refs

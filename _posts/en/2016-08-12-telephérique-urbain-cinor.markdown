@@ -10,6 +10,7 @@ tag: Stratégie numérique de mobilisation
 client-url: http://www.la-sdi.net/
 project-link: http://telepherique-urbain.cinor.org/
 client: La SDI
+locale: en
 
 ---
 

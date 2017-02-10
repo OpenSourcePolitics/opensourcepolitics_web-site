@@ -5,7 +5,7 @@
           <center>
             <ul class="list-inline clear-fix">
               {% for client in site.clients %}
-                <li><img src="img/clients/{{ client.img }}" alt="{{ client.alt }}" width="208px" height="120px" class="img-responsive img-centered"></li>
+                <li><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" width="208px" height="120px" class="img-responsive img-centered"></li>
               {% endfor %}
             </ul>
           </center>

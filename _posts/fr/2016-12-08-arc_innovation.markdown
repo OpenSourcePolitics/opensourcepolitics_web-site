@@ -10,5 +10,6 @@ tag: Appel à projets, Cartographie collaborative
 client-url: http://www.paris.fr/
 project-link: https://arcinnovation.fr
 client: Mairie de Paris
+locale: fr
 
 ---

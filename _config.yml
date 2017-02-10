@@ -10,6 +10,8 @@ contact: static
 
 collections:
   clients:
+  refs:
+    output: true
   jobs:
       output: true
   outils:

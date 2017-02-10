@@ -6,6 +6,7 @@ category: jobs
 type: code
 tag: Développment, Ruby On Rails, PHP, MySql, Drupal, Node.js, Meteor
 published: true
+locale: fr
 
 ---
 ![Octo-Civic-Hacker]({{ site.baseurl }}/img/dev-freelance.png)

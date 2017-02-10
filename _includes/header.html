@@ -19,28 +19,30 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">{{ site.data.i18n[page.locale].menu.item-1 }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#references">Réalisations</a>
+                        <a class="page-scroll" href="#references">{{ site.data.i18n[page.locale].menu.item-2 }}</a>
                     </li>
                     <!-- <li> -->
                         <!-- <a class="page-scroll" href="#products">Outils</a> -->
                     <!-- </li> -->
                     <li>
-                        <a class="page-scroll" href="#about">À propos</a>
+                        <a class="page-scroll" href="#about">{{ site.data.i18n[page.locale].menu.item-3 }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Equipe</a>
+                        <a class="page-scroll" href="#team">{{ site.data.i18n[page.locale].menu.item-4 }}</a>
                     </li>
                     <li>
-                        <a href="#jobs" class="page-scroll"><b><i class="fa fa-rocket"></i>&nbsp;On recrute !</b></a>
+                        <a href="#jobs" class="page-scroll"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
+                    </li> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ site.baseurl }}/fr/index.html">{% if page.locale == "fr" %}<span style="font-size:2em">🇫🇷</span> {% elsif page.locale == "en" %}<span style="font-size:1.3em">🇫🇷</span>{% endif %}</a></li>
+                    <li><a href="{{ site.baseurl }}/en/index.html">{% if page.locale == "en" %}<span style="font-size:2em">🇬🇧</span> {% elsif page.locale == "fr" %}<span style="font-size:1.3em">🇬🇧</span> {% endif %}</a></li>
                     {% for network in site.social %}
                     <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                     </li>
@@ -56,9 +58,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">Solutions <br>Civic Tech Libres</div>
-                <div class="intro-lead-in">Utilisons le numérique pour redonner du sens à la démocratie</div>
-                <a href="#contact" class="page-scroll btn btn-xl">Contactez-nous</a>
+                <div class="intro-heading">{{ site.data.i18n[page.locale].punchline.line-1 }} <br>{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
+                <div class="intro-lead-in">{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
+                <a href="#contact" class="page-scroll btn btn-xl">{{ site.data.i18n[page.locale].btn-contact }}</a>
             </div>
         </div>
     </header>

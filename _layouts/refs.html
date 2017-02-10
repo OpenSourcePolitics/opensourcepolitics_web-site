@@ -10,7 +10,7 @@
           <h1>{{ page.title }}</h1>
           <hr>
           <!-- Date/Time -->
-          <p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; {{ page.project-date }}</b>&nbsp; &nbsp; &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp;<a href="{{ page.client-url }}">{{ page.client }}</a></b> &nbsp; &nbsp; &nbsp; <b><i class="fa fa-tags"></i>&nbsp;{{ page.tags }}</b> &nbsp; &nbsp; &nbsp;<a href="{{ page.project-link }}" class="btn btn-primary hidden-xs"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp;Lien vers le projet</a></p>
+          <p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; {{ page.project-date }}</b>&nbsp; &nbsp; &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp;<a href="{{ page.client-url }}">{{ page.client }}</a></b> &nbsp; &nbsp; &nbsp; <b><i class="fa fa-tags"></i>&nbsp;{{ page.tags }}</b> &nbsp; &nbsp; &nbsp;<a href="{{ page.project-link }}" class="btn btn-primary hidden-xs"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp;{{ site.data.i18n[page.locale].btn-link-project }}</a></p>
           <hr>
           <div class="row">
             <div class="col-md-9">
@@ -24,9 +24,9 @@
               </div>
               {% endif %}
               <br>
-               <h4>Description du projet</h4>
+               <h4>{{ site.data.i18n[page.locale].project-description }}</h4>
                   {{ content }}
-               <a href="{{ page.project-link }}" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; Lien vers le projet</a>
+               <a href="{{ page.project-link }}" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; {{ site.data.i18n[page.locale].btn-link-project }}</a>
 
 
              </div>

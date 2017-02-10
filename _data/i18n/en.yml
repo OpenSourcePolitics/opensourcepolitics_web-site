@@ -1,0 +1,79 @@
+# data home
+menu:
+  item-1: "Our services"
+  item-2: "Productions"
+  item-3: "About"
+  item-4: "Team"
+  item-5: "Now hiring!"
+  item-6: "Contact us"
+
+punchline:
+  line-1: "Open source"
+  line-2: "Civic tech tools"
+  line-3: "Digital technologies can help Democracy make sense again"
+
+btn-contact: "Contact us"
+
+service:
+  title-1: "Services"
+  feature-1: "Tool selection"
+  feature-1-desc: "Thanks to permanent monitoring, our team is able to identify the open source tools that best suit your needs."
+  feature-2: "Technical integration"
+  feature-2-desc: "Our teams can set up and maintain your participation tools."
+  feature-3: "Consulting"
+  feature-3-desc: "We help you set up strategies to muster the relevant public."
+  feature-4: "Events"
+  feature-4-desc: "Hackathons, meetups, workshops... We materialize your participatory initiative through physical events."
+  title2: "To help you set up"
+  feature-5: "Partipatory budgets"
+  feature-6: "Public consultations"
+  feature-7: "Call for projects"
+  feature-8: "Collaborative mapping"
+
+realisations:
+  title: "Productions"
+
+story:
+  title: "About us"
+  story-subheading: "Open Source Politics is a solidarity economy company that builds free open source tools and hosts collective inteligence workshops for private or public stakeholders willing to engage in participatory initiatives. Learn more about our story :"
+  story-link: "https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2#.56a7n42yd"
+  story-article-title: "Our philosophy"
+
+team:
+  title: "Meet the founders"
+
+jobs:
+  title: "OSP IS NOW HIRING!"
+
+jobs:
+  title: "OSP recrute !"
+  btn-action: "See job offer"
+
+contact:
+  title: "Contact"
+  place-holder-name: "Name *"
+  name-data-validation-required-message: "Please enter your name."
+  place-holder-mail: "Email *"
+  mail-data-validation-required-message: "Please enter your email."
+  place-holder-phone: "Phone number *"
+  phone-data-validation-required-message: "Please enter your phone number."
+  place-holder-msg: "Message *"
+  msg-data-validation-required-message: "Please enter your message."
+  btn-submit: "Send"
+# end data home
+
+# data job
+btn-apply: "Apply"
+# en data job
+
+# data ref
+btn-apply: "Apply"
+# en data ref
+
+# data side bar jobs
+other-job-offers: "Other job offers"
+# data side bar jobs
+
+# data side bar refs
+other-projects: "Other projects"
+# data side bar refs

@@ -6,6 +6,7 @@ category: jobs
 type: code
 tag: admin sys, bash/shell, ubuntu/debian, openstack
 published: true
+locale: fr
 
 ---
 ![Octo-Civic-Hacker]({{ site.baseurl }}/img/stage-admin-sys.png)
