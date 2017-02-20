@@ -75,3 +75,9 @@ other-job-offers: "Autres offres d'emploi"
 # data side bar refs
 other-projects: "Autres projets"
 # data side bar refs
+
+team:
+  title: "L'équipe fondatrice"
+  position-alain: "Technique"
+  position-virgile: "Projets"
+  position-valentin: "Conseil"

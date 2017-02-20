@@ -9,25 +9,47 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.categories.refs limit:6 %}
+              {% if page.locale == "fr" %}
+                {% for ref in site.refs-fr limit:6 %}
                 <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
-                    <a href="{{ site.baseurl}}{{ post.url }}" class="portfolio-link">
+                    <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                         <!--<div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div> -->
-                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+                        <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
                     </a>
                     <div class="portfolio-block radius-down">
-                        <h4><a href="{{ site.baseurl }}{{ post.url }}"><span style="color:#000">{{ post.title }}</span></a></h4>
-                        <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ post.tags }}</span></p>
+                        <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
+                        <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
                     </div>
                     <!-- <div class="tag-portfolio radius-down">
                         <p><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags }}</p>
                     </div> -->
                 </div>
-            {% endfor %}
+                {% endfor %}
+                {% else %}
+                {% for ref in site.refs-en limit:6 %}
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
+                    <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
+                        <!--<div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div> -->
+                        <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+                    </a>
+                    <div class="portfolio-block radius-down">
+                        <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
+                        <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
+                    </div>
+                    <!-- <div class="tag-portfolio radius-down">
+                        <p><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags }}</p>
+                    </div> -->
+                </div>
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
     </section>

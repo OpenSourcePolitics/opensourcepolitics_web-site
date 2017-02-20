@@ -77,3 +77,11 @@ other-job-offers: "Other job offers"
 # data side bar refs
 other-projects: "Other projects"
 # data side bar refs
+
+team:
+  title: "Founding team"
+  position-alain: "Technical director"
+  position-virgile: "Product Management"
+  position-valentin: "Senior Consultant"
+
+btn-link-project: "Project link"

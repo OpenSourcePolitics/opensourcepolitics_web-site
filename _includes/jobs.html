@@ -7,7 +7,8 @@
     </div>
   </div>
   <div class="container">
-      {% for job in site.jobs %}
+    {% if page.locale == "fr" %}
+      {% for job in site.jobs-fr %}
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="jumbotron">
           <center>
@@ -18,6 +19,19 @@
         </div>
       </div>
       {% endfor %}
+      {% else %}
+      {% for job in site.jobs-en %}
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="jumbotron">
+          <center>
+            <h3><a href="{{ site.baseurl}}{{ job.url }}" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;{{ job.title }}</span></a></h3>
+            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>{{ job.available-when }}</span></p>
+            <p><a href="{{ site.baseurl}}{{ job.url }}" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
+          </center>
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
 
   </div>
 

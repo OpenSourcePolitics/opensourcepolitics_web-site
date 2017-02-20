@@ -10,51 +10,16 @@ contact: static
 
 collections:
   clients:
-  refs:
+  refs-fr:
     output: true
-  jobs:
+  refs-en:
+    output: true
+  jobs-en:
       output: true
+  jobs-fr:
+    output: true
   outils:
       output: true
-
-# Team names, titles and social links
-people:
-- name: Alain Buchotte
-  pic: 1
-  position: Technique
-  social:
-    - title: github
-      url: https://github.com/moustachu
-    - title: linkedin
-      url: #
-    - title: envelope
-      url: mailto:alain@opensourcepolitics.eu
-
-- name: Virgile Deville
-  pic: 2
-  position: Projets
-  social:
-    - title: twitter
-      url: https://twitter.com/virgiledeville
-    - title: linkedin
-      url: https://www.linkedin.com/in/virgiledeville
-    - title: medium
-      url: https://medium.com/@virgiledeville
-    - title: envelope
-      url: mailto:virgile@opensourcepolitics.eu
-
-- name: Valentin Chaput
-  pic: 3
-  position: Conseil
-  social:
-    - title: twitter
-      url: https://twitter.com/valentinchaput
-    - title: linkedin
-      url: https://www.linkedin.com/in/valentinchaput
-    - title: medium
-      url: https://medium.com/@ValentinChaput
-    - title: envelope
-      url: mailto:valentin@opensourcepolitics.eu
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
