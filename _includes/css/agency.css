@@ -6,6 +6,28 @@
 
 /*Mon CSS
 <--- ! --->*/
+.fullscreen {
+  background-image: url('/img/background_sw.png');
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.up{
+  margin-top: -3px;
+}
+.shadow-sw{
+  text-shadow: 3px 3px 2px #0050A0;
+}
+.goes-up{
+  margin-top: -20px;
+}
 .fixed{
     position: fixed;
 }
@@ -136,6 +158,7 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    font-family: source sans pro;
 }
 
 p.large {
