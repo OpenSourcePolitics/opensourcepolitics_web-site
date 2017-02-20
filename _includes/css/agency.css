@@ -7,7 +7,7 @@
 /*Mon CSS
 <--- ! --->*/
 .fullscreen {
-  background-image: url('/img/background_sw.png');
+  background-image: url('http://www.opensourcepolitics.eu/img/background_sw.png');
   width: 100vw;
   height: 100vh;
   background-position: center center;
