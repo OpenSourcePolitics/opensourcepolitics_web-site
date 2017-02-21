@@ -6,7 +6,7 @@ thumbnail: participez-nanterre-fr-screens.png
 alt: image-alt
 project-date: mars 2016
 category: refs
-tag: plateforme de consultation
+tag: Public consultation platform
 client-url: http://www.nanterre.fr/
 project-link: http://participez.nanterre.fr/
 client: Ville de Nanterre

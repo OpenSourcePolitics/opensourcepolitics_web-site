@@ -2,11 +2,11 @@
 <div class="list-group">
       {% if page.locale == "fr" %}
           {% for job in site.jobs-fr %}
-               <li class="list-group-item"><a href="{{ post.url }}">{{ job.title}}</a></li>
+               <li class="list-group-item"><a href="{{ job.url }}">{{ job.title}}</a></li>
           {% endfor %}
         {% else %}
           {% for job in site.jobs-en %}
-               <li class="list-group-item"><a href="{{ post.url }}">{{ job.title}}</a></li>
+               <li class="list-group-item"><a href="{{ job.url }}">{{ job.title}}</a></li>
           {% endfor %}
       {% endif %}
 </div>

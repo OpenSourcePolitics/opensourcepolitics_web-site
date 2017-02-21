@@ -7,7 +7,7 @@
 /*Mon CSS
 <--- ! --->*/
 .fullscreen {
-  background-image: url('http://www.opensourcepolitics.eu/img/background_sw.png');
+  background-image: url('{{ site.baseurl }}/img/background_sw.png');
   width: 100vw;
   height: 100vh;
   background-position: center center;
@@ -20,10 +20,13 @@
   padding-right: 10px;
 }
 .margin-top {
-  margin-top: 50px;
+  margin-top: 30px;
 }
-.up{
-  margin-top: -3px;
+.form-width {
+  width: 300px;
+}
+.margin-bottom {
+  margin-bottom: 5px;
 }
 .shadow-sw{
   text-shadow: 3px 3px 2px #0050A0;
@@ -159,9 +162,9 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75;
-    font-family: source sans pro;
+    font-family: {{ site.data.template.font.primary }} ;
 }
 
 p.large {
@@ -177,7 +180,11 @@ a.active {
 }
 
 a {
+    font-family: "{{ site.data.template.font.primary }}";
     color: #{{ site.data.template.color.primary }};
+}
+li {
+  font-family: "{{ site.data.template.font.primary }}";
 }
 
 a:hover,
@@ -195,7 +202,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: "{{ site.data.template.font.primary }}";
     font-weight: 700;
 }
 

@@ -10,7 +10,7 @@
             </div>
             <div class="row">
               {% if page.locale == "fr" %}
-                {% for ref in site.refs-fr limit:6 %}
+                {% for ref in site.refs-fr reversed limit:6 %}
                 <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                     <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                         <!--<div class="portfolio-hover">
@@ -30,7 +30,7 @@
                 </div>
                 {% endfor %}
                 {% else %}
-                {% for ref in site.refs-en limit:6 %}
+                {% for ref in site.refs-en reversed limit:6 %}
                 <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                     <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                         <!--<div class="portfolio-hover">
