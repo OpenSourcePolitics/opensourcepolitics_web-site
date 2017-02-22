@@ -19,9 +19,12 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.well{
+.box{
   background: transparent;
   border: 2px solid #D0AE39;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .margin-top {
   margin-top: 30px;
