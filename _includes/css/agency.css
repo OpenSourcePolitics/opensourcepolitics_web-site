@@ -16,8 +16,7 @@
   margin-top: 50px;
 }
 .fullscreen {
-  /*background-image: url('{{ site.baseurl }}/img/background_sw.png');*/
-  background-color: #000;
+  background-image: url('{{ site.baseurl }}/img/background_sw.png');
   width: 100vw;
   height: 100vh;
   background-position: center center;
@@ -43,6 +42,7 @@
 }
 .form-width {
   width: 270px;
+  color: #{{ site.data.template.color.primary }};
 }
 .margin-bottom {
   margin-bottom: 5px;
