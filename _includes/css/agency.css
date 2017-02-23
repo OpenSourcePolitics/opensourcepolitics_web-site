@@ -6,8 +6,18 @@
 
 /*Mon CSS
 <--- ! --->*/
+.osp-horizontal {
+  background: #{{ site.data.template.color.primary }};
+  border-radius: 3px;
+  color: #fff;
+  width: 200px;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 50px;
+}
 .fullscreen {
-  background-image: url('{{ site.baseurl }}/img/background_sw.png');
+  /*background-image: url('{{ site.baseurl }}/img/background_sw.png');*/
+  background-color: #000;
   width: 100vw;
   height: 100vh;
   background-position: center center;
@@ -25,12 +35,14 @@
   border-radius: 3px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .margin-top {
   margin-top: 30px;
 }
 .form-width {
-  width: 300px;
+  width: 270px;
 }
 .margin-bottom {
   margin-bottom: 5px;
