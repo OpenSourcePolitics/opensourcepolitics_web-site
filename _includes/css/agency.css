@@ -1034,7 +1034,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: #{{ site.data.template.color.muted }};
 }
 
 img::selection {
