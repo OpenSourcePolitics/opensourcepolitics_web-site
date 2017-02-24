@@ -6,6 +6,9 @@
 
 /*Mon CSS
 <--- ! --->*/
+.container-fluid {
+  background-color: #101719;
+}
 .osp-horizontal {
   background: #{{ site.data.template.color.primary }};
   border-radius: 3px;
@@ -13,7 +16,7 @@
   width: 200px;
   font-size: 1.1em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .fullscreen {
   background-image: url('{{ site.baseurl }}/img/background_sw.png');
