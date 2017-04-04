@@ -1,14 +1,20 @@
 <!-- Clients Aside -->
     <aside class="clients">
         <!-- <div class="container"> -->
-        <div class="row">
+        <div class="container">
+          <center><h2>{{ site.data.i18n[page.locale].client-title }}</h2></center>
+        </div>
+
+        <div class="container">
+          <div class="row">
           <center>
             <ul class="list-inline clear-fix">
               {% for client in site.clients %}
-                <li><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" width="208px" height="120px" class="img-responsive img-centered"></li>
+                <li><a href="{{ client.site-url }}" target="blank"><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" width="208px" height="120px" class="img-responsive img-centered"></a></li>
               {% endfor %}
             </ul>
           </center>
+        </div>
         <!-- </div>
             <div class="row">
                 <div class="col-md-2 col-sm-4 col-lg-offset-1">

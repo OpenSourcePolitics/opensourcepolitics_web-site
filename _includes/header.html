@@ -41,8 +41,8 @@
                     </li> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ site.baseurl }}/fr">{% if page.locale == "fr" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">fr</span> {% elsif page.locale == "en" %}<span style="font-size:1em">fr</span>{% endif %}</a></li>
-                    <li><a href="{{ site.baseurl }}/en">{% if page.locale == "en" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">en</span> {% elsif page.locale == "fr" %}<span style="font-size:1em">en</span> {% endif %}</a></li>
+                    <li><a href="{{ site.baseurl }}/fr/accueil">{% if page.locale == "fr" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">fr</span> {% elsif page.locale == "en" %}<span style="font-size:1em">fr</span>{% endif %}</a></li>
+                    <li><a href="{{ site.baseurl }}/en/home">{% if page.locale == "en" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">en</span> {% elsif page.locale == "fr" %}<span style="font-size:1em">en</span> {% endif %}</a></li>
                     {% for network in site.social %}
                     <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                     </li>

@@ -1,0 +1,22 @@
+---
+title: Article 69 Consultation
+layout: refs
+img: article69.png
+thumbnail: article69.png
+alt: Concertation Agence du Numérique - Article 69
+project-date: Février 2017
+category: featured
+tag: Public consultation platform
+client-url: http://agencedunumerique.gouv.fr/
+project-link: https://article69.agencedunumerique.gouv.fr/
+client: Agence du Numérique
+locale: en
+
+---
+
+(translation coming soon)
+Nous avons accompagné [L'Agence du Numérique](http://agencedunumerique.gouv.fr/) (Ministère de l'économie de l'industrie et du numérique) sur la mise en place d'une [instance de consultation](https://article69.agencedunumerique.gouv.fr/) dont le but est de construire les "orientations nationales pour le développement des usages et des services numériques dans les territoires" prévues par l'article 69 de la loi pour une république numérique.
+
+L'Agence du Numérique est la première administration française a avoir utilisé le portail OGP Toolbox pour lancer une consultation sur une plateforme Democracy OS déployée par Open Source Politics.
+
+Grâce à cette démarche plus de 200 contributions ont été déposées sur la plateforme et 25 ateliers ont rassemblé 228 citoyens.

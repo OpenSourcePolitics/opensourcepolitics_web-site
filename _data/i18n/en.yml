@@ -75,7 +75,7 @@ other-job-offers: "Other job offers"
 # data side bar jobs
 
 # data side bar refs
-other-projects: "Other projects"
+other-projects: "All projects"
 # data side bar refs
 
 team:
@@ -85,3 +85,8 @@ team:
   position-valentin: "Senior Consultant"
 
 btn-link-project: "Project link"
+client-title : "They trust us"
+
+allref :
+  btn-text : "See all our productions"
+  url : "/en/productions"

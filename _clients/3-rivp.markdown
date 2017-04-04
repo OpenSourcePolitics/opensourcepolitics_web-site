@@ -1,7 +1,7 @@
 ---
 nom: RIVP
-url: http://www.rivp.fr/
-img: rivp_logo.png
+site-url: http://www.rivp.fr/
+img: logo-rivp.jpg
 alt: logo RIVP
 
 ---

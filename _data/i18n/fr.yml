@@ -73,7 +73,7 @@ other-job-offers: "Autres offres d'emploi"
 # data side bar jobs
 
 # data side bar refs
-other-projects: "Autres projets"
+other-projects: "Tous les projets"
 # data side bar refs
 
 team:
@@ -81,3 +81,9 @@ team:
   position-alain: "Technique"
   position-virgile: "Projets"
   position-valentin: "Conseil"
+
+client-title : "Ils nous font confiance"
+
+allref :
+  btn-text : "Voir toutes nos réalisations"
+  url : "/fr/references"

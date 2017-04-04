@@ -14,7 +14,7 @@ locale: fr
 <br>
 
 #### Votre mission au sein d’OSP
-Maintenance et amélioration de notre infrastructure serveur existante :
+Maintenance et amélioration de notre infrastructure serveur existente :
 - déploiement et config de différents logiciels open source ([DemocracyOS](https://github.com/democracy-os-fr/democracyos), [Drupal8](https://github.com/drupal/drupal), [Consul](https://github.com/consul/consul))
 - réalisation de backups réguliers
 - interventions ponctuelles (vérification des logs)
