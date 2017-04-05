@@ -14,9 +14,8 @@ locale: en
 
 ---
 
-(translation coming soon)
-Nous avons accompagné [L'Agence du Numérique](http://agencedunumerique.gouv.fr/) (Ministère de l'économie de l'industrie et du numérique) sur la mise en place d'une [instance de consultation](https://article69.agencedunumerique.gouv.fr/) dont le but est de construire les "orientations nationales pour le développement des usages et des services numériques dans les territoires" prévues par l'article 69 de la loi pour une république numérique.
+We helped the [French Digital Agency](http://agencedunumerique.gouv.fr/) (Ministry of Economy, Industry and Digital Technology) setup a [consultation platform](https://article69.agencedunumerique.gouv.fr/) which aimed at highlighting “guidelines for a national development of digital practices within territories “. This was part of the recommendations of Bill 69 for a Digital Republic.
 
-L'Agence du Numérique est la première administration française a avoir utilisé le portail OGP Toolbox pour lancer une consultation sur une plateforme Democracy OS déployée par Open Source Politics.
+The Digital Agency is the first case of a French administration using the OGP Toolbox portal [ogptoolbox.org]. This was done in order to launch a consultation on a Democracy OS platform, which was built by Open Source Politics.
 
-Grâce à cette démarche plus de 200 contributions ont été déposées sur la plateforme et 25 ateliers ont rassemblé 228 citoyens.
+This process ended up keeping records of over 200 contributions on the platform. 25 workshops were also held to gather face to face proposals from 228 citizens.
