@@ -12,7 +12,7 @@
               {% if page.locale == "fr" %}
                   {% for ref in site.refs-fr reversed %}
                   {% if ref.category == "featured" %}
-                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
+                <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
                     <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                         <!--<div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -35,7 +35,7 @@
                 {% else %}
                 {% for ref in site.refs-en reversed %}
                   {% if ref.category == "featured" %}
-                    <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
+                    <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
                         <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                             <!--<div class="portfolio-hover">
                                 <div class="portfolio-hover-content">

@@ -1,46 +1,53 @@
 <section id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.i18n[page.locale].contact.title }}</h2>
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-12 text-center"> -->
+                    <!-- <h2 class="section-heading">{{ site.data.i18n[page.locale].contact.title }}</h2> -->
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-                    <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form  action="https://formspree.io/contact@opensourcepolitics.eu" method="POST" name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-name }}" name="name" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.name-data-validation-required-message }}">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-mail }}" name="email" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.email-data-validation-required-message }}.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group form-group">
-                                    <input type="tel" class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-phone }}" name="phone" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.phone-data-validation-required-message }}">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <!-- <input type="text" class="form-control" placeholder="Votre message *" id="message" required data-validation-required-message="Merci d'entrer votre message.">
-                                    <p class="help-block text-danger"></p> -->
-                                    <textarea class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-msg }}" name="message" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.msg-data-validation-required-message }}"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <input type="submit" value="{{ site.data.i18n[page.locale].contact.btn-submit }}" class="btn btn-xl">
-                                <!-- <button type="submit" class="btn btn-xl">Envoyer</button> -->
-                            </div>
+                    <!-- <br> -->
+                <!-- </div> -->
+
+                <div class="row">
+                  <form  action="https://formspree.io/contact@opensourcepolitics.eu" method="POST" name="sentMessage" id="contactForm" novalidate>
+                    <div class="col-md-6">
+                      <center><h2 class="section-heading">{{ site.data.i18n[page.locale].contact.title }}</h2></center>
+                        <div class="control-group form-group">
+                            <input type="text" class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-name }}" name="name" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.name-data-validation-required-message }}">
+                            <p class="help-block text-danger"></p>
                         </div>
+                        <div class="control-group form-group">
+                            <input type="email" class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-mail }}" name="email" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.email-data-validation-required-message }}.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group form-group">
+                            <input type="tel" class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-phone }}" name="phone" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.phone-data-validation-required-message }}">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group form-group">
+                            <!-- <input type="text" class="form-control" placeholder="Votre message *" id="message" required data-validation-required-message="Merci d'entrer votre message.">
+                            <p class="help-block text-danger"></p> -->
+                            <textarea class="form-control" placeholder="{{ site.data.i18n[page.locale].contact.place-holder-msg }}" name="message" required data-validation-required-message="{{ site.data.i18n[page.locale].contact.msg-data-validation-required-message }}"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <input type="submit" value="{{ site.data.i18n[page.locale].contact.btn-submit }}" class="btn btn-xl">
+                            <!-- <button type="submit" class="btn btn-xl">Envoyer</button> -->
+                        </div>
+                      </div>
                     </form>
+                  <div class="col-md-6">
+                    <center>
+                      <a href="https://ospforms.typeform.com/to/C5DUNs"><img src="{{ site.baseurl }}/img/forms.png" width="150px" alt="formulaire" style="padding-top:30px;"></a>
+                      <!-- <p>&nbsp;</p> -->
+                      <p style="color:#fff;font-size:1.1em;padding:30px;">Vous représentez une organisation au sein de laquelle vous souhaitez mettre en place un processus de participation. N'hésitez pas à remplir notre questionnaire pour définir avec précision quels sont vos besoins.</p>
+                      <!-- <p>&nbsp;</p> -->
+                      <a href="https://ospforms.typeform.com/to/C5DUNs" class="btn btn-primary">Répondez au questionnaire</a>
+                    </center>
+                  </div>
+                </div>
+
                 </div>
             </div>
         </div>

@@ -6,6 +6,18 @@
 
 /*Mon CSS
 <--- ! --->*/
+.goes-up-ep{
+  margin-top: -50px;
+}
+.list-nl {
+  width: 50%;
+  background-color: transparent;
+  border-color: #D0AE39;
+}
+.list-group-nl {
+  background-color: transparent;
+  border-color: #D0AE39;
+}
 .container-fluid {
   background-color: #101719;
 }
@@ -54,7 +66,7 @@
   text-shadow: 3px 3px 2px #0050A0;
 }
 .goes-up{
-  margin-top: -20px;
+  margin-top: -100px;
 }
 .fixed{
     position: fixed;
@@ -857,7 +869,7 @@ section#contact .form-group {
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px;
+    padding: 10px;
 }
 
 section#contact .form-group input.form-control {
@@ -866,7 +878,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 150px;
     color: #{{ site.data.template.color.primary }};
 }
 
