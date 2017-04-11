@@ -1,5 +1,5 @@
 ---
-title: Article 69 Consultation
+title: French Digital Agency Consultation
 layout: refs
 img: article69.png
 thumbnail: article69.png

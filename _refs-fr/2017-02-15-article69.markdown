@@ -1,5 +1,5 @@
 ---
-title: Consultation Article 69
+title: Consultation Agende du Numérique
 layout: refs
 img: article69.png
 thumbnail: article69.png
