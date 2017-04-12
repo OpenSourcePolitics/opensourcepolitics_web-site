@@ -1,0 +1,12 @@
+<h4>{{ site.data.i18n[page.locale].other-offre }}</h4>
+<div class="list-group">
+      {% if page.locale == "fr" %}
+          {% for offre in site.offres-fr %}
+               <li class="list-group-item"><a href="{{ job.url }}">{{ offre.title}}</a></li>
+          {% endfor %}
+        {% else %}
+          {% for offre in site.offres-en %}
+               <li class="list-group-item"><a href="{{ job.url }}">{{ offre.title}}</a></li>
+          {% endfor %}
+      {% endif %}
+</div>

@@ -26,6 +26,8 @@ service:
   feature-4-desc: "Hackathons, meetups, workshops... We materialize your participatory initiative through physical events."
   title2: "To help you set up"
   feature-5: "Partipatory budgets"
+  bp-txt : "See product"
+  bp-btn : "OSP Budgets"
   feature-6: "Public consultations"
   feature-7: "Call for projects"
   feature-8: "Collaborative mapping"
@@ -90,3 +92,5 @@ client-title : "They trust us"
 allref :
   btn-text : "See all our productions"
   url : "/en/productions"
+
+other-offre : Other products

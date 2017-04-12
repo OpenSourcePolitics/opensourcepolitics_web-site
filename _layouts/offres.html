@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body class="post">
+      <nav class="navbar">
+        {% include nav-post.html %}
+      </nav>
+        <div class="container">
+          <center><h1 class="shadow-sw"><span style="color:#{{ site.data.template.color.secondary }}">{{ page.title }}</span></h1></center>
+          <hr>
+          <!-- Date/Time -->
+          <center><p><b><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp; {{ page.baseline }}</b></p></center>
+          <hr>
+          <div class="row">
+            <div class="col-md-9">
+                <!-- Preview Image -->
+              {% if page.img %}
+              <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/{{ page.img }}" alt="{{ page.title }}">
+              {% endif %}
+             {% if page.youtubeid %}
+              <div class="video-container">
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/{{ page.youtubeid }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {% endif %}
+              <br>
+                  {{ content }}
+             </div>
+            <div class="col-sm-3">
+              <div>
+                {% include sidebar-offres.html %}
+              </div>
+              <div class="fixed">
+                <!-- cassededi à noé -->
+                <h4>Référence(s)</h4>
+                <a href="https://budget-participatif.rivp.fr" class="btn btn-primary btn-project"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;Budget participatif de la RIVP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    <br>
+    <hr>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
