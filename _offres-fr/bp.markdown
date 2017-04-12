@@ -6,7 +6,7 @@ published: true
 locale: fr
 permalink: /budget-participatif
 ---
-![Octo-Civic-Hacker]({{ site.baseurl }}/img/bp-rivp.png)
+![Budget Participatif]({{ site.baseurl }}/img/visuel-bp.png)
 
 <br>
 
