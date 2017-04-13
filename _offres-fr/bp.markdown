@@ -24,7 +24,7 @@ Après avoir rassemblé plus de 45 000 Madrilènes lors de la première édition
 
 La plateforme permet aux citoyens de proposer, soutenir et décider directement des dépenses du budget participatif sur l’ensemble de la ville et des quartiers, tout en fournissant à l’institution locale une interface d’administration complète pour superviser toutes les étapes et évaluer les propositions.
 
-Nous avons réalisé le premier déploiement de Consul en France pour [RIVP](https://budget-participatif.rivp.fr). Il s’agit du premier budget participatif en ligne d’un bailleur social en France, que nous accompagnons également sur le terrain avec notre partenaire Copas. Plus concrètement, les habitants des 10 sites concernés par le dispositif pourront décider de la manière dont sera employé un budget d'investissement dédié de 200 000 euros. 
+Nous avons réalisé le premier déploiement de Consul en France pour [RIVP](https://budget-participatif.rivp.fr). Il s’agit du premier budget participatif en ligne d’un bailleur social en France, que nous accompagnons également sur le terrain avec notre partenaire Copas. Plus concrètement, les habitants des 10 sites concernés par le dispositif pourront décider de la manière dont sera employé un budget d'investissement dédié de 200 000 euros.
 
 <br>
 
@@ -32,7 +32,7 @@ Nous avons réalisé le premier déploiement de Consul en France pour [RIVP](htt
 
 Ayant un impact direct sur l’utilisation des fonds publics, une telle démarche se doit d’être totalement inclusive. Pour cette raison, avec le cabinet Copas, nous animons des ateliers sur le terrain pour présente les principes et l’intérêt des budgets participatifs et susciter un maximum de propositions venant des participants. Nous les aidons ensuite à approfondir ces idées pour en faire de véritables projets d’investissement.
 
-<center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'information</a></center>
+<center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 
 <br>
 
