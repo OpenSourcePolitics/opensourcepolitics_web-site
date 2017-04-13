@@ -14,6 +14,7 @@ permalink: /budget-participatif
 
 Un budget participatif est une démarche qui consiste à impliquer les citoyens dans la gestion financière de leur ville, leur département etc. Une collectivité souhaitant mettre en place un budget participatif procèdera par étapes : définir le pourcentage du budget total qui sera alloué au processus, puis collecter les propositions des citoyens quant à l’utilisation de ces fonds. Enfin, il s’agira de faire voter puis mettre en place les meilleurs projets. À une période où la défiance des Français vis-à-vis de la politique se fait de plus en plus grande, une telle démarche permet de restaurer le lien de confiance entre élus et citoyens en mettant en place un dispositif de participation qui garantit le respect des engagements pris par tous.
 
+<br>
 
 #### Consul, la plateforme open source de référence pour l’organisation d’un budget participatif
 
@@ -23,7 +24,9 @@ Après avoir rassemblé plus de 45 000 Madrilènes lors de la première édition
 
 La plateforme permet aux citoyens de proposer, soutenir et décider directement des dépenses du budget participatif sur l’ensemble de la ville et des quartiers, tout en fournissant à l’institution locale une interface d’administration complète pour superviser toutes les étapes et évaluer les propositions.
 
-Nous déployons actuellement Consul pour la première fois en France pour la [RIVP](https://budget-participatif.rivp.fr).
+Nous avons réalisé le premier déploiement de Consul en France pour [RIVP](https://budget-participatif.rivp.fr). Il s’agit du premier budget participatif en ligne d’un bailleur social en France, que nous accompagnons également sur le terrain avec notre partenaire Copas. Plus concrètement, les habitants des 10 sites concernés par le dispositif pourront décider de la manière dont sera employé un budget d'investissement dédié de 200 000 euros. 
+
+<br>
 
 #### Les budgets participatifs nécessitent un accompagnement fort sur le terrain
 
