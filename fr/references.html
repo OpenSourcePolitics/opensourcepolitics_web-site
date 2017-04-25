@@ -10,13 +10,14 @@ permalink: /fr/references
 
   {% include head.html %}
     <body class="post">
-      <nav class="navbar">
         {% include nav-post.html %}
-      </nav>
         <div class="container">
           <h1>{{ page.title }}</h1>
           <hr>
-          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
               {% if page.locale == "fr" %}
                 {% for ref in site.refs-fr reversed %}
                 {% cycle 'add row' : '<div class="row">', nil %}
@@ -34,10 +35,9 @@ permalink: /fr/references
               {% else %}
               {% endif %}
             </div>
-        </div>    
-
-          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-              {% include sidebar-refs.html %}
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                {% include sidebar-refs.html %}
+            </div>
           </div>
         </div>
 
