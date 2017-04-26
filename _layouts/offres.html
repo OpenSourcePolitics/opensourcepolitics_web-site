@@ -32,8 +32,27 @@
                 {% include sidebar-offres.html %}
               </div>
               <div>
+                {% if page.ref1-name %}
                 <h4>Référence(s)</h4>
-                <a href="{{ page.ref1-url }}" class="btn btn-primary btn-project">{{ page.ref1-name }}</a>
+                <a href="{{ page.ref1-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref1-name }}</a>
+                {% endif %}
+                {% if page.ref2-name %}
+                <a href="{{ page.ref2-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref2-name }}</a>
+                {% endif %}
+                {% if page.ref3-name %}
+                <a href="{{ page.ref3-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref3-name }}</a>
+                {% endif %}
+                {% if page.ref4-name %}
+                <a href="{{ page.ref4-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref4-name }}</a>
+                {% endif %}
+                {% if page.ref5-name %}
+                <a href="{{ page.ref5-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref5-name }}</a>
+                {% endif %}
+              </div>
+              <div>
+                <br>
+                <hr>
+                <div style="font-size:0.8em;">Icons made by <a href="http://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
               </div>
             </div>
           </div>

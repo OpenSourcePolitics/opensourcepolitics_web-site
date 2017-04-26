@@ -2,7 +2,7 @@
 <div class="list-group">
       {% if page.locale == "fr" %}
           {% for offre in site.offres-fr %}
-               <li class="list-group-item"><a href="{{ offre.url }}">{{ offre.title}}</a></li>
+               <li class="list-group-item"><a href="{{ offre.url }}"><b>{{ offre.title}}</b></a></li>
           {% endfor %}
         {% else %}
           {% for offre in site.offres-en %}
