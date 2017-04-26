@@ -4,12 +4,14 @@
   {% include head.html %}
     <body class="post">
         {% include nav-post.html %}
+        <div class="container-fluid"style="background-color:#{{ site.data.template.color.primary }};margin-top:-20px;">
+            <center>
+              <h1 style="margin-top:30px;"><span style="color:#fff;font-size:1.3em;">{{ page.title }}</span></h1>
+              <img src="{{ site.baseurl }}{{ page.image }}" style="margin-top:-20px;width:500px;">
+              <p style="margin-top:-15px;"><b><span style="color:#fff;">{{ page.baseline }}</b></span></p>
+            </center>
+        </div>
         <div class="container">
-          <center><h1 class="shadow-sw"><span style="color:#{{ site.data.template.color.secondary }}">{{ page.title }}</span></h1></center>
-          <hr>
-          <!-- Date/Time -->
-          <center><p><b><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp; {{ page.baseline }}</b></p></center>
-          <hr>
           <div class="row">
             <div class="col-md-9">
                 <!-- Preview Image -->
@@ -25,13 +27,13 @@
                   {{ content }}
              </div>
             <div class="col-sm-3">
-              <!-- <div>
+              <br>
+              <div>
                 {% include sidebar-offres.html %}
-              </div> -->
-              <div class="fixed">
-                <!-- cassededi à noé -->
+              </div>
+              <div>
                 <h4>Référence(s)</h4>
-                <a href="https://budget-participatif.rivp.fr" class="btn btn-primary btn-project"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;Budget participatif de la RIVP</a>
+                <a href="{{ page.ref1-url }}" class="btn btn-primary btn-project">{{ page.ref1-name }}</a>
               </div>
             </div>
           </div>

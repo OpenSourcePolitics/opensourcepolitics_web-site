@@ -3,13 +3,12 @@ title: OSP Budgets
 layout: offres
 baseline: Notre offre de plateforme numérique et d'accompagnement pour la mise en place de budgets participatifs
 published: true
+image: /img/budget-participatif.png
 locale: fr
 permalink: /budget-participatif
+ref1-name: Budget participatif de la RIVP
+ref1-url: https://budget-participatif.rivp.fr
 ---
-![Budget Participatif]({{ site.baseurl }}/img/visuel-bp.png)
-
-<br>
-
 #### Le budget participatif, qu'est-ce que c'est ?
 
 Un budget participatif est une démarche qui consiste à impliquer les citoyens dans la gestion financière de leur ville, leur département etc. Une collectivité souhaitant mettre en place un budget participatif procèdera par étapes : définir le pourcentage du budget total qui sera alloué au processus, puis collecter les propositions des citoyens quant à l’utilisation de ces fonds. Enfin, il s’agira de faire voter puis mettre en place les meilleurs projets. À une période où la défiance des Français vis-à-vis de la politique se fait de plus en plus grande, une telle démarche permet de restaurer le lien de confiance entre élus et citoyens en mettant en place un dispositif de participation qui garantit le respect des engagements pris par tous.
