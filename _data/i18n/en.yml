@@ -100,7 +100,7 @@ other-offre : Other products
 newsletter:
   subscribe-btn : "Subscribe"
   email : "Email Adress"
-  sub-prop : "PLS SUM M8"
-  dem-def : "* giant galaxy"
-  subtitle : "foloow pls on twiter"
+  sub-prop : "Subsribe to the Open Source Politics monthly newsletter"
+  dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
+  subtitle : "suivez l'actu d'une entreprise des civic tech libres"
 
