@@ -96,3 +96,11 @@ allref :
   url : "/en/productions"
 
 other-offre : Other products
+
+newsletter:
+  subscribe-btn : "Subscribe"
+  email : "Email Adress"
+  sub-prop : "PLS SUM M8"
+  dem-def : "* giant galaxy"
+  subtitle : "foloow pls on twiter"
+
