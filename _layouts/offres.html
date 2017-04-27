@@ -3,15 +3,15 @@
 
   {% include head.html %}
     <body class="post">
-      <nav class="navbar">
         {% include nav-post.html %}
-      </nav>
+        <div class="container-fluid"style="background-color:#{{ site.data.template.color.primary }};margin-top:-20px;">
+            <center>
+              <h1 style="margin-top:30px;"><span style="color:#fff;font-size:1.3em;">{{ page.title }}</span></h1>
+              <img src="{{ site.baseurl }}{{ page.image }}" style="margin-top:-20px;width:500px;">
+              <p style="margin-top:-15px;"><b><span style="color:#fff;">{{ page.baseline }}</b></span></p>
+            </center>
+        </div>
         <div class="container">
-          <center><h1 class="shadow-sw"><span style="color:#{{ site.data.template.color.secondary }}">{{ page.title }}</span></h1></center>
-          <hr>
-          <!-- Date/Time -->
-          <center><p><b><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp; {{ page.baseline }}</b></p></center>
-          <hr>
           <div class="row">
             <div class="col-md-9">
                 <!-- Preview Image -->
@@ -27,13 +27,32 @@
                   {{ content }}
              </div>
             <div class="col-sm-3">
-              <!-- <div>
+              <br>
+              <div>
                 {% include sidebar-offres.html %}
-              </div> -->
-              <div class="fixed">
-                <!-- cassededi à noé -->
+              </div>
+              <div>
+                {% if page.ref1-name %}
                 <h4>Référence(s)</h4>
-                <a href="https://budget-participatif.rivp.fr" class="btn btn-primary btn-project"><i class="fa fa-link" aria-hidden="true"></i>&nbsp;&nbsp;Budget participatif de la RIVP</a>
+                <a href="{{ page.ref1-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref1-name }}</a>
+                {% endif %}
+                {% if page.ref2-name %}
+                <a href="{{ page.ref2-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref2-name }}</a>
+                {% endif %}
+                {% if page.ref3-name %}
+                <a href="{{ page.ref3-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref3-name }}</a>
+                {% endif %}
+                {% if page.ref4-name %}
+                <a href="{{ page.ref4-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref4-name }}</a>
+                {% endif %}
+                {% if page.ref5-name %}
+                <a href="{{ page.ref5-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref5-name }}</a>
+                {% endif %}
+              </div>
+              <div>
+                <br>
+                <hr>
+                <div style="font-size:0.8em;">Icons made by <a href="http://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
               </div>
             </div>
           </div>
