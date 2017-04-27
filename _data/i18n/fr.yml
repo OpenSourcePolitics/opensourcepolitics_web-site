@@ -93,3 +93,10 @@ allref :
   url : "/fr/references"
 
 other-offre : Autres offres
+
+newsletter:
+  subscribe-btn : "Inscription"
+  email : "Adresse email"
+  sub-prop : "Inscrivez-vous à la newsletter mensuelle d'Open Source Politics"
+  dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
+  subtitle : "suivez l'actu d'une entreprise des civic tech libres"
