@@ -29,7 +29,7 @@ collections:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: envelope
-    url: http://opensourcepolitics.eu/newsletter
+    url: newsletter
   - title: twitter
     url: http://twitter.com/opensourcepol
   - title: facebook
