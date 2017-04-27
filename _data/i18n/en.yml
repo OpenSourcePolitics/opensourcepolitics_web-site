@@ -62,6 +62,8 @@ contact:
   place-holder-msg: "Message *"
   msg-data-validation-required-message: "Please enter your message."
   btn-submit: "Send"
+  message-form: "You represent an organization in which you want to set up a participation process. Feel free to fill in our questionnaire. It will help us understand what your needs are."
+  btn-form: "Complete our questionnaire"
 # end data home
 
 # data job
