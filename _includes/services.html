@@ -3,81 +3,93 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.i18n[page.locale].service.title-1 }}</h2>
+                    <h2 class="section-heading">{{ site.data.i18n[page.locale].serviceV2.Main-title }}</h2>
                 </div>
             </div>
             <br>
 
-<div class="container">
 
+
+  <table width="100%">
+    <td><hr /></td>
+    <td style="width:1px; padding: 0 10px; white-space: nowrap;"><h4>&nbsp;{{ site.data.i18n[page.locale].serviceV2.title-1 }}&nbsp;</h4></td>
+    <td><hr /></td>
+  </table>​
+  <br>
 
 	<div class="row">
 
       <div class="col-md-3 col-xs-6">
-        <div class="dummy"><img src="{{ site.baseurl }}/img/agora.png" align = "right" class = "imgacc"></div>
+        <div class="dummy"><a href="{{site.baseurl }}/agora"><img src="{{ site.baseurl }}/img/agora.png" align = "right" class = "imgacc"></a></div>
 
-       <center><b><a href="#x" class="thumbnail purple"><font color="white">OSP AGORA</font></a></b></center>
+       <center><b><a href="{{site.baseurl }}/agora" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-1 }}</font></a></b></center>
       </div>
       <div class="col-md-3 col-xs-6">
-        <div class="dummy"><img src="{{ site.baseurl }}/img/budget-participatif.png" align = "right" class = "imgacc"></div>
+        <div class="dummy"><a href="{{site.baseurl }}/budget-participatif"><img src="{{ site.baseurl }}/img/budget-participatif.png" align = "right" class = "imgacc"></a></div>
 
-       <center><b><a href="#x" class="thumbnail purple"><font color="white">OSP BUDGET</font></a></b></center>
+       <center><b><a href="{{site.baseurl }}/budget-participatif" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-2 }}</font></a></b></center>
       </div>
       <div class="col-md-3 col-xs-6">
-       <div class="dummy"><img src="{{ site.baseurl }}/img/pic-custom.png" align = "right" class = "imgacc"></div>
+       <div class="dummy"><a href="{{site.baseurl }}/custom"><img src="{{ site.baseurl }}/img/pic-custom.png" align = "right" class = "imgacc"></a></div>
 
-       <center><b><a href="#x" class="thumbnail purple"><font color="white">OSP CUSTOM</font></a></b></center>
+       <center><b><a href="{{site.baseurl }}/custom" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-3 }}</font></a></b></center>
   </div>
        <div class="col-md-3 col-xs-6">
-       <div class="dummy"><img src="{{ site.baseurl }}/img/pic-formation.png" align = "right" class = "imgacc"></div>
+       <div class="dummy"><a href="{{site.baseurl }}/formation"><img src="{{ site.baseurl }}/img/pic-formation.png" align = "right" class = "imgacc"></a></div>
 
-       <center><b><a href="#x" class="thumbnail purple"><font color="white">OSP FORMATION</font></a></b></center>
+       <center><b><a href="{{site.baseurl }}/formation" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-4 }}</font></a></b></center>
 	   </div>
 
 </div>
-
+<br>
+<table width="100%">
+  <td><hr /></td>
+  <td style="width:1px; padding: 0 10px; white-space: nowrap;"><h4>&nbsp;{{ site.data.i18n[page.locale].serviceV2.title2 }}&nbsp;</h4></td>
+  <td><hr /></td>
+</table>​
+<br>
 <div class="row">
 
 
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/votation.png" class = "imgservices">
-<center>VOTATION<br>EN LIGNE</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-1 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/consultations.png" class = "imgservices">
-<center>CONSULTATION</br>PUBLIQUES</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-2 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/budgets.png" class = "imgservices">
-<center>BUDGETS<br>PARTICIPATIFS</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-3 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/projets.png" align = "right" class = "imgservices2">
-<center>APPELS<br>A PROJETS</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-4 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/sur-mesure.png" class = "imgservices">
-<center>PLATEFORME<br>SUR MESURE</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-5 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/carto.png" class = "imgservices">
-<center>CARTOGRAPHIE<br>COLABORATIVE</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-6 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/events.png" class = "imgservices">
-<center>ÉVÉNEMENT,<br>ANIMATION</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-7 }}</center>
   </div>
 
   <div  class = "col-md-3 col-sm-3 col-xs-6 col-lg-17">
 <img src="{{ site.baseurl }}/img/formation-small.png" class = "imgservices">
-<center>PÉDAGOGIE,<br>FORMATION</center>
+<center>{{ site.data.i18n[page.locale].serviceV2.sm-feature-8 }}</center>
   </div>
 
 
@@ -91,52 +103,10 @@
 
 
 
+
             <br>
-            <br>
-            <table width="100%">
-              <td><hr /></td>
-              <td style="width:1px; padding: 0 10px; white-space: nowrap;"><h4>&nbsp;{{ site.data.i18n[page.locale].service.title2 }}&nbsp;</h4></td>
-              <td><hr /></td>
-            </table>​
-            <br>
-            <br>
-            <div class="row text-center">
-                <!-- Budget participatif -->
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="orange fa fa-money fa-stack-1x"></i>
-                    </span>
-                    <h4 class="service-heading">{{ site.data.i18n[page.locale].service.feature-5 }}</h4>
-                    <p>{{ site.data.i18n[page.locale].service.bp-txt }}</p>
-                    <a href="{{site.baseurl }}/budget-participatif" class="btn btn-primary">{{ site.data.i18n[page.locale].service.bp-btn }}</a>
-                </div>
-                <!-- Consultation publique -->
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="orange fa fa-comments-o fa-stack-1x"></i>
-                    </span>
-                    <h4 class="service-heading">{{ site.data.i18n[page.locale].service.feature-6 }}</h4>
-                </div>
-                <!-- Appel à projet -->
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="orange fa fa-bullhorn fa-stack-1x"></i>
-                    </span>
-                    <h4 class="service-heading">{{ site.data.i18n[page.locale].service.feature-7 }}</h4>
-                </div>
-                <!-- Cartographie collaborative -->
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="orange fa fa-map-marker fa-stack-1x"></i>
-                    </span>
-                    <h4 class="service-heading">{{ site.data.i18n[page.locale].service.feature-8 }}</h4>
-                </div>
-            </div>
-            </div>
+
+
             <br>
         </div>
     </section>
