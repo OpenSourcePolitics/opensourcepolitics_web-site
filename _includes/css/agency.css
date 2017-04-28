@@ -1103,11 +1103,11 @@ width: 90%;
 }
 
 .imgservices {
+  max-width: 100px;
+  height: auto;
   margin-top: 10px;
   margin-bottom : 10px;
-}
-
-.imgservices2 {
-  margin-top: 10px;
-  margin-bottom : 10px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
