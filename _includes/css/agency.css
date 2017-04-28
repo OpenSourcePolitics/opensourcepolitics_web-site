@@ -1076,3 +1076,38 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.second }};
 }
+
+
+/*CSS de Lucas
+<--- ! --->*/
+
+.dummy {
+
+}
+.thumbnail {
+      background-color: #0050a0;
+border-radius:10px;
+padding-bottom : 10px;
+padding-top : 10px;
+padding-left : 10px;
+padding-right : 10px;
+}
+
+.imgacc {
+
+width: 90%;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-bottom : 10px;
+    margin-left : 10px;
+}
+
+.imgservices {
+  margin-top: 10px;
+  margin-bottom : 10px;
+}
+
+.imgservices2 {
+  margin-top: 10px;
+  margin-bottom : 10px;
+}
