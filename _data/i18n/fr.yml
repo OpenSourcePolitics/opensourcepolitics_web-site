@@ -32,6 +32,30 @@ service:
   feature-7: "Appels à projets"
   feature-8: "Cartographies collaboratives"
 
+
+
+serviceV2:
+  Main-title: "  Nos services"
+  title-1: "QUATRES OFFRES"
+  bg-feature-1: "OSP AGORA"
+  bg-feature-2: "OSP BUDGET"
+  bg-feature-3: "OSP CUSTOM"
+  bg-feature-4: "OSP FORMATION"
+  title2: "POUR RÉPONDRE PARFAITEMENT À VOS BESOINS"
+  sm-feature-1: "VOTATION<br>EN LIGNE"
+  sm-feature-2: "CONSULTATIONS<br>PUBLIQUES"
+  sm-feature-3: "BUDGETS<br>PARTICIPATIFS"
+  sm-feature-4: "APPELS<br>A PROJETS"
+  sm-feature-5: "PLATEFORME<br>SUR MESURE"
+  sm-feature-6: "CARTOGRAPHIE<br>COLLABORATIVE"
+  sm-feature-7: "ÉVENEMENT,<br>ANIMATION"
+  sm-feature-8: "PÉDAGOGIE,<br>FORMATION"
+
+
+
+
+
+
 realisations:
   title: "Réalisations"
 

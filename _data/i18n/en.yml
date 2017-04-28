@@ -32,6 +32,27 @@ service:
   feature-7: "Call for projects"
   feature-8: "Collaborative mapping"
 
+
+
+
+serviceV2:
+  Main-title: "Our services"
+  title-1: "FOUR OFFERS"
+  bg-feature-1: "OSP AGORA"
+  bg-feature-2: "OSP BUDGET"
+  bg-feature-3: "OSP CUSTOM"
+  bg-feature-4: "OSP TRAINING"
+  title2: "TO PERFECTLY MEET YOUR NEEDS"
+  sm-feature-1: "ONLINE<br>VOTING"
+  sm-feature-2: "PUBLIC<br>CONSULTATION"
+  sm-feature-3: "PARTICIPATORY<br>BUDGET"
+  sm-feature-4: "CALL FOR<br>PROPOSALS"
+  sm-feature-5: "CUSTOMIZED<br>PLATFORM"
+  sm-feature-6: "COLLABORATIVE<br>MAPPING"
+  sm-feature-7: "EVENT,<br>ANIMATION"
+  sm-feature-8: "PEDAGOGY,<br>TRAINING"
+
+
 realisations:
   title: "Productions"
 
