@@ -20,7 +20,11 @@ Une consultation publique est une démarche visant à associer les citoyens à u
 
 #### Plusieurs plateformes disponibles.
 
-Nous travaillons habituellement avec plusieurs outils, vers lesquels nous orientons nos partenaires en fonction de leurs besoins spécifiques. Democracy OS, qui permet de prendre des décisions de manière transparente et Consul, qui propose un excellent module d’appel à propositions.
+Nous proposons plusieurs type de plateformes, vers lesquelles nous orientons nos partenaires en fonction de leurs besoins spécifiques.
+
+[**Democracy OS**](htts://dos.demo.osp.cat), est un outil très simple de débat et de vote qui permet de consulter les citoyens des sujets donnés. Son interface épurée permet une prise en main accélérée de la plateforme par ses utilisateurs (administrateurs et citoyens).
+
+[**Decidim**](http://staging.decidim.codegram.com/?locale=en) quant à lui permet de gérer des démarches de concertation plus complexes. C'est l'outil idéal pour les institutions qui souhaitent rentrer dans une démarche de concertation pérenne à travers un portail unique permettant de gérer plusieurs processus participatifs en parallèle pouvant eux même être séquencés en plusieurs phases. Cet outil permet aussi bien de mettre en place des consultations classiques dîtes "*Top down*" où sur un projet donné on demande aux citoyens de s'exprimer, que des consultations du type "*Bottom-up*" où les citoyens sont appelés à faire part de leur propositions dans un cadre moins limité.
 
 #### Les consultations publiques nécessitent un accompagnement important.
 
