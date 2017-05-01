@@ -8,12 +8,12 @@
             <center>
               <h1 style="margin-top:30px;"><span style="color:#fff;font-size:1.3em;">{{ page.title }}</span></h1>
               <img src="{{ site.baseurl }}{{ page.image }}" style="margin-top:-20px;width:500px;">
-              <p style="margin-top:-15px;"><b><span style="color:#fff;">{{ page.baseline }}</b></span></p>
+              <p style="margin-top:-5px;"><b><span style="color:#fff;">{{ page.baseline }}</b></span></p>
             </center>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9" style="padding-left:30px;padding-right:30px;">
                 <!-- Preview Image -->
               {% if page.img %}
               <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/{{ page.img }}" alt="{{ page.title }}">
@@ -28,6 +28,15 @@
              </div>
             <div class="col-sm-3">
               <br>
+              <div class="well">
+                <center>
+                  <a href="https://ospforms.typeform.com/to/C5DUNs"><img src="{{ site.baseurl }}/img/forms.png" width="150px" alt="formulaire"></a>
+                  <!-- <p>&nbsp;</p> -->
+                   <p>{{ site.data.i18n[page.locale].contact.message-form }}</p>
+                  <!-- <p>&nbsp;</p> -->
+                  <a href="https://ospforms.typeform.com/to/C5DUNs" class="btn btn-primary">{{ site.data.i18n[page.locale].contact.btn-form }}</a>
+                </center>
+              </div>
               <div>
                 {% include sidebar-offres.html %}
               </div>
