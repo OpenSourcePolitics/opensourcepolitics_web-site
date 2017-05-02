@@ -36,7 +36,7 @@ service:
 
 serviceV2:
   Main-title: "  Nos services"
-  title-1: "QUATRES OFFRES"
+  title-1: "4 OFFRES"
   bg-feature-1: "OSP AGORA"
   bg-feature-2: "OSP BUDGET"
   bg-feature-3: "OSP CUSTOM"
@@ -83,8 +83,9 @@ contact:
   place-holder-msg: "Votre message *"
   msg-data-validation-required-message: "Merci d'entrer votre message."
   btn-submit: "Envoyer"
-  message-form: "Vous représentez une organisation au sein de laquelle vous souhaitez mettre en place un processus de participation. N'hésitez pas à remplir notre questionnaire pour définir avec précision quels sont vos besoins."
-  btn-form: "Répondez au questionnaire"
+  message-form: "Vous souhaitez mettre en place un processus de participation. <b>Remplissez notre questionnaire pour définir avec précision vos besoins</b>, nous vous recontacterons dans les plus brefs délais."
+  btn-form: "Questionnaire"
+  btn-link: "https://ospforms.typeform.com/to/C5DUNs"
 # end data home
 
 # data job

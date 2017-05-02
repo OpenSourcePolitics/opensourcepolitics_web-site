@@ -37,7 +37,7 @@ service:
 
 serviceV2:
   Main-title: "Our services"
-  title-1: "FOUR OFFERS"
+  title-1: "4 OFFERS"
   bg-feature-1: "OSP AGORA"
   bg-feature-2: "OSP BUDGET"
   bg-feature-3: "OSP CUSTOM"
@@ -83,8 +83,9 @@ contact:
   place-holder-msg: "Message *"
   msg-data-validation-required-message: "Please enter your message."
   btn-submit: "Send"
-  message-form: "You represent an organization in which you want to set up a participation process. Feel free to fill in our questionnaire. It will help us understand what your needs are."
-  btn-form: "Complete our questionnaire"
+  message-form: "You want to set up a participation process. <b>Fill in our questionnaire to precisely define your needs</b> and we will contact as soon as possible."
+  btn-form: "Questionnaire"
+  btn-link: "https://ospforms.typeform.com/to/A3FKHZ"
 # end data home
 
 # data job
@@ -123,4 +124,4 @@ newsletter:
   email : "Email Adress"
   sub-prop : "Subsribe to the Open Source Politics monthly newsletter"
   dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
-  subtitle : "Follow the news of a french civic tech company" 
+  subtitle : "Follow the news of a french civic tech company"
