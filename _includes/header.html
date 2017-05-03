@@ -58,9 +58,10 @@
       <header>
           <div class="container">
               <div class="intro-text">
-                  <div class="intro-heading">{{ site.data.i18n[page.locale].punchline.line-1 }} <br>{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
-                  <div class="intro-lead-in">{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
-                  <p><a href="#contact" class="page-scroll btn btn-xl">{{ site.data.i18n[page.locale].btn-contact }}</a></p>
+
+                  <div class="intro-heading-min"  style ="font-size:3em;">{{ site.data.i18n[page.locale].punchline.line-1 }}{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
+                  <div class="intro-lead-in" style ="font-size:1.6em;" >{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
+                  <p><a href="#contact" class="page-scroll btn btn-xl">{{ site.data.i18n[page.locale].btn-contact }}</a>&nbsp;<a href="{{ site.data.i18n[page.locale].cta-link }}" class="page-scroll btn btn-link" style ="font-size:1.5em; color:white; font-weight:700; text-transform: uppercase; text-decoration: underline;">{{ site.data.i18n[page.locale].btn-cta }}</a></p>
               </div>
           </div>
       </header>
