@@ -5,7 +5,7 @@ baseline: Notre offre de formation aux bonnes pratiques de la démocratie connec
 published: true
 image: /img/formation.png
 locale: fr
-permalink: /formation-civic-tech
+permalink: /formation
 ---
 
 #### OSP FORMATION est notre offre pédagogique

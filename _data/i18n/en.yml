@@ -13,6 +13,9 @@ punchline:
   line-3: "Digital technologies can help Democracy make sense again"
 
 btn-contact: "Contact us"
+btn-cta : "Read article"
+cta-link: "https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754"
+
 
 service:
   title-1: "Services"
@@ -27,7 +30,7 @@ service:
   title2: "To help you set up"
   feature-5: "Partipatory budgets"
   bp-txt : "See product"
-  bp-btn : "OSP Budget"
+  bp-btn : "OSP Budgets"
   feature-6: "Public consultations"
   feature-7: "Call for projects"
   feature-8: "Collaborative mapping"

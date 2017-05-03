@@ -503,6 +503,14 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .intro-text .intro-heading-min {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 230px;

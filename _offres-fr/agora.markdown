@@ -5,7 +5,7 @@ baseline: Notre offre de plateforme numérique et d'accompagnement pour vos cons
 published: true
 image: /img/agora.png
 locale: fr
-permalink: /consultations-publiques
+permalink: /agora
 ref1-name: Agence du numérique
 ref1-url: /refs-fr/2017-02-15-article69/
 ref2-name: Consultation PGO Etalab
