@@ -1,0 +1,12 @@
+<h4>{{ site.data.i18n[page.locale].other-projects }}</h4>
+<div class="list-group">
+ {% if page.locale == "fr" %}
+        {% for ref in site.refs-fr %}
+             <li class="list-group-item"><a href="{{ ref.url }}">{{ ref.title}}</a></li>
+        {% endfor %}
+    {% else %}
+        {% for ref in site.refs-en %}
+             <li class="list-group-item"><a href="{{ ref.url }}">{{ ref.title}}</a></li>
+        {% endfor %}
+    {% endif %}
+</div>

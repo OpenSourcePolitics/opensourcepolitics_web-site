@@ -1,0 +1,222 @@
+Searching 136 files for "formspree"
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_config.yml:
+   14  
+   15  # Contact form:
+   16: # - static : pass through formspree.io to validate email sending
+   17  # - disqus : replace contact form by disqus thread
+   18  # - comment the line below if you want to stick with the default PHP contact form
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/README.md:
+    6  ## How to use
+    7   - Place a image in `/img/portfolio/`
+    8:  - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
+    9   - Create posts to display your projects. Use the follow as an example:
+   10  ```txt
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_includes/contact_static.html:
+   10  		<div class="row">
+   11  			<div class="col-lg-8 col-lg-offset-2">
+   12: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+   13  					<div class="row control-group">
+   14  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/README.md:
+    6  ## How to use
+    7   - Place a image in `/img/portfolio/`
+    8:  - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
+    9   - Create posts to display your projects. Use the follow as an example:
+   10  ```txt
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/01/26/les_inrocks/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/03/16/Le_Monde/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/03/16/Lyon_mag/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/04/11/rfi/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/05/24/challenges/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/06/09/20_minutes/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2015/04/07/democracy_earth/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2015/04/29/democracy_os_fr/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2016/01/22/open-democracy-now/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2016/05/20/open_source_politics/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+17 matches across 15 files
+
+
+Searching 136 files for "fromspree"
+
+0 matches
+
+Searching 136 files for "formspree"
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_config.yml:
+   14  
+   15  # Contact form:
+   16: # - static : pass through formspree.io to validate email sending
+   17  # - disqus : replace contact form by disqus thread
+   18  # - comment the line below if you want to stick with the default PHP contact form
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/README.md:
+    6  ## How to use
+    7   - Place a image in `/img/portfolio/`
+    8:  - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
+    9   - Create posts to display your projects. Use the follow as an example:
+   10  ```txt
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_includes/contact_static.html:
+   10  		<div class="row">
+   11  			<div class="col-lg-8 col-lg-offset-2">
+   12: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+   13  					<div class="row control-group">
+   14  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/README.md:
+    6  ## How to use
+    7   - Place a image in `/img/portfolio/`
+    8:  - Replace `you@email.com` in `_includes/contact_static.html` with your email address. refer to [formspree](http://formspree.io/) for more information.
+    9   - Create posts to display your projects. Use the follow as an example:
+   10  ```txt
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/01/26/les_inrocks/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/03/16/Le_Monde/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/03/16/Lyon_mag/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/04/11/rfi/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/05/24/challenges/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/media/2016/06/09/20_minutes/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2015/04/07/democracy_earth/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2015/04/29/democracy_os_fr/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2016/01/22/open-democracy-now/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+/Users/virgile/Documents/dev/virgile-dev.github.io/_site/project/2016/05/20/open_source_politics/index.html:
+  293  		<div class="row">
+  294  			<div class="col-lg-8 col-lg-offset-2">
+  295: 				<form  action="//formspree.io/virgile.deville@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+  296  					<div class="row control-group">
+  297  						<div class="form-group col-xs-12 floating-label-form-group controls">
+
+17 matches across 15 files

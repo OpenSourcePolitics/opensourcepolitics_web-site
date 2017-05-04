@@ -1,0 +1,55 @@
+url: http://opensourcepolitics.eu
+baseurl:
+
+# Site settings
+title: Open Source Politics
+email: virgile@opensourcepolitics.eu
+description: "Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives."
+
+contact: static
+
+collections:
+  clients:
+  refs-fr:
+    output: true
+  refs-en:
+    output: true
+  jobs-en:
+      output: true
+  jobs-fr:
+    output: true
+  outils:
+      output: true
+  offres-fr:
+    output: true
+  offres-en:
+    output: true
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: envelope
+    url: newsletter
+  - title: twitter
+    url: http://twitter.com/opensourcepol
+  - title: facebook
+    url: https://www.facebook.com/OpenSourcePolitics/
+  - title: github
+    url: https://github.com/OpenSourcePolitics
+  - title: medium
+    url: https://medium.com/open-source-politics
+  - title: meetup
+    url: https://meetup.com/fr-FR/Open-Source-Politics/
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 32 rue des Cascades
+  - line: 75020 Paris France
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+gems:
+  - jekyll-sitemap

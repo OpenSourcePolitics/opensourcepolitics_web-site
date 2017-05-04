@@ -1,0 +1,46 @@
+<section id="jobs">
+  <div class="row" class="container">
+    <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ site.data.i18n[page.locale].jobs.title }}</h2>
+        <br>
+        <!-- <h3 class="section-subheading text-muted sub-heading-margin">Open Source Politics est une entreprise relevant du champ de l’économie sociale et solidaire qui développe des plateformes numériques libres et open source et anime des ateliers d’intelligence collective pour accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Découvrez notre histoire :</h3> -->
+    </div>
+  </div>
+  <div class="container">
+    {% if page.locale == "fr" %}
+      {% for job in site.jobs-fr %}
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="jumbotron">
+        <div style="height:180px;">
+          <center>
+            <h3><a href="{{ site.baseurl}}{{ job.url }}" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;{{ job.title }}</span></a></h3>
+            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>{{ job.available-when }}</span></p>
+            <p><a href="{{ site.baseurl}}{{ job.url }}" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
+          </center>
+        </div>  
+        </div>
+      </div>
+      {% endfor %}
+      {% else %}
+      {% for job in site.jobs-en %}
+
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+        <div class="jumbotron">
+          <div style="height:180px;">
+          <center>
+            <h3><a href="{{ site.baseurl}}{{ job.url }}" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;{{ job.title }}</span></a></h3>
+            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>{{ job.available-when }}</span></p>
+            <p><a href="{{ site.baseurl}}{{ job.url }}" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
+          </center>
+        </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+
+  </div>
+
+
+</section>

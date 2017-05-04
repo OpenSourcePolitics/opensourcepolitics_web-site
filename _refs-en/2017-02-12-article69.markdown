@@ -1,0 +1,21 @@
+---
+title: French Digital Agency Consultation
+layout: refs
+img: article69.png
+thumbnail: article69.png
+alt: Concertation Agence du Numérique - Article 69
+project-date: Février 2017
+category: featured
+tag: Public consultation platform
+client-url: http://agencedunumerique.gouv.fr/
+project-link: https://article69.agencedunumerique.gouv.fr/
+client: Agence du Numérique
+locale: en
+
+---
+
+We helped the [French Digital Agency](http://agencedunumerique.gouv.fr/) (Ministry of Economy, Industry and Digital Technology) setup a [consultation platform](https://article69.agencedunumerique.gouv.fr/) which aimed at highlighting “guidelines for a national development of digital practices within territories “. This was part of the recommendations of Bill 69 for a Digital Republic.
+
+The Digital Agency is the first case of a French administration using the OGP Toolbox portal [ogptoolbox.org]. This was done in order to launch a consultation on a Democracy OS platform, which was built by Open Source Politics.
+
+This process ended up keeping records of over 200 contributions on the platform. 25 workshops were also held to gather face to face proposals from 228 citizens.

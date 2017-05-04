@@ -1,0 +1,62 @@
+<!-- Portfolio Grid Section -->
+    <section id="references" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.data.i18n[page.locale].realisations.title }}</h2>
+                    <br>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+            <div class="row">
+              {% if page.locale == "fr" %}
+                  {% for ref in site.refs-fr reversed %}
+                  {% if ref.category == "featured" %}
+                <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
+                    <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
+                        <!--<div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div> -->
+                        <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+                    </a>
+                    <div class="portfolio-block radius-down">
+                        <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
+                        <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
+                    </div>
+                    <!-- <div class="tag-portfolio radius-down">
+                        <p><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags }}</p>
+                    </div> -->
+                </div>
+                {% else %}
+                {% endif %}
+                {% endfor %}
+                {% else %}
+                {% for ref in site.refs-en reversed %}
+                  {% if ref.category == "featured" %}
+                    <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
+                        <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
+                            <!--<div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div> -->
+                            <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+                        </a>
+                        <div class="portfolio-block radius-down">
+                            <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
+                            <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
+                        </div>
+                        <!-- <div class="tag-portfolio radius-down">
+                            <p><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags }}</p>
+                        </div> -->
+                    </div>
+                {% else %}
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+            </div>
+              <center><a href="{{ site.baseurl }}{{ site.data.i18n[page.locale].allref.url }}" class="btn btn-secondary">{{ site.data.i18n[page.locale].allref.btn-text }}</a></center>
+        </div>
+    </section>
