@@ -8,7 +8,7 @@ project-date: Septembre 2016
 category: refs
 tag: Program co-construction, 2017 legislative elections
 client-url: http://yanchantrel.com/
-project-link: htts://ssl.projetdesprogressistes.org
+project-link: https://ssl.projetdesprogressistes.org
 client: Yan Chantrel
 locale: en
 

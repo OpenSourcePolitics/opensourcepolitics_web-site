@@ -1,6 +1,6 @@
 # data home
 menu:
-  item-1: "Our services"
+  item-1: "services"
   item-2: "Productions"
   item-3: "About"
   item-4: "Team"
@@ -8,7 +8,7 @@ menu:
   item-6: "Contact us"
 
 punchline:
-  line-1: "Open source"
+  line-1: "Open source "
   line-2: "Civic tech tools"
   line-3: "Digital technologies can help Democracy make sense again"
 
