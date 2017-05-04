@@ -1,5 +1,5 @@
 ---
-title: OSP Budget
+title: OSP Budgets
 layout: offres
 baseline: Notre offre de plateforme numérique et d'accompagnement pour la mise en place de budgets participatifs
 published: true
