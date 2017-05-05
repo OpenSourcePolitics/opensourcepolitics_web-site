@@ -15,16 +15,19 @@ collections:
   refs-en:
     output: true
   jobs-en:
-      output: true
+    output: true
   jobs-fr:
     output: true
   outils:
-      output: true
+    output: true
   offres-fr:
     output: true
   offres-en:
     output: true
-
+  post-fr:
+    output: true
+  post-en:
+    output: true
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
