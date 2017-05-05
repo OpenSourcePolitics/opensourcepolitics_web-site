@@ -13,8 +13,8 @@ punchline:
   line-3: "Digital technologies can help Democracy make sense again"
 
 btn-contact: "Contact us"
-btn-cta : "Read article"
-cta-link: "https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754"
+btn-cta : "Read the article"
+cta-link: "https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd"
 
 
 service:
@@ -64,6 +64,8 @@ story:
   story-subheading: "Open Source Politics is a solidarity economy company that builds free open source tools and hosts collective inteligence workshops for private or public stakeholders willing to engage in participatory initiatives. Learn more about our story :"
   story-link: "https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2#.56a7n42yd"
   story-article-title: "Our philosophy"
+  all-article-btn: "See all our articles"
+  url : "/en/blog"
 
 team:
   title: "Meet the founders"
