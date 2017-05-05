@@ -47,10 +47,10 @@ var start = new Date().getTime();
 
 $(document).scroll(popup)
 
-if (getCookie(11832) == 1){
+if (getCookie(11832) == 1 && trigered == 0){
 trigered = 1;
 }
-else {
+else if(trigered == 0) {
 trigered = 0;
 }
 
