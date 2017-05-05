@@ -87,7 +87,7 @@
   color : #FDC63D;
 }
 .clients {
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
  }
 img.desaturate {
@@ -1118,4 +1118,18 @@ width: 90%;
   display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.modal-transparent {
+  background: transparent;
+}
+.modal-transparent .modal-content {
+  background: transparent;
+}
+.modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90);
 }

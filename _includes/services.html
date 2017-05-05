@@ -1,5 +1,5 @@
 <!-- Services Section -->
-    <section id="services">
+    <section id="services" style = "padding:10px; padding-top:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -17,30 +17,33 @@
 <div class="row">
 
 
-{% if page.locale == "fr" %}
+  {% if page.locale == "fr" %}
 
 
-  <div class="col-md-3 col-xs-6">
-     <div class="dummy"><a href="{{site.baseurl }}/consultations-publiques"><img src="{{ site.baseurl }}/img/agora.png" align = "right" class = "imgacc"></a></div>
-     <center><b><div style ="font-size:1.5em;"> <a href="{{site.baseurl }}/consultations-publiques" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-1 }}</font></a></div></b></center>
+
+    <div class="col-md-3 col-xs-6">
+       <div class="dummy"><a href="{{site.baseurl }}/consultations-publiques"><img src="{{ site.baseurl }}/img/agora.png" align = "right" class = "imgacc"></a></div>
+       <center><b><div style ="font-size:1.5em;"> <a href="{{site.baseurl }}/consultations-publiques" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-1 }}</font></a></div></b></center>
+    </div>
+    <div class="col-md-3 col-xs-6">
+       <div class="dummy"><a href="{{site.baseurl }}/budget-participatif"><img src="{{ site.baseurl }}/img/budget-participatif.png" align = "right" class = "imgacc"></a></div>
+       <center><b><div style ="font-size:1.5em;"><a href="{{site.baseurl }}/budget-participatif" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-2 }}</font></a></b></center>
+    </div>
+    <div class="col-md-3 col-xs-6">
+       <div class="dummy"><a href="{{site.baseurl }}/custom"><img src="{{ site.baseurl }}/img/pic-custom.png" align = "right" class = "imgacc"></a></div>
+       <center><b><div style ="font-size:1.5em;"><a href="{{site.baseurl }}/custom" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-3 }}</font></a></b></center>
+    </div>
+    <div class="col-md-3 col-xs-6">
+       <div class="dummy"><a href="{{site.baseurl }}/formation-civic-tech"><img src="{{ site.baseurl }}/img/pic-formation.png" align = "right" class = "imgacc"></a></div>
+       <center><b><div style ="font-size:1.5em;"><a href="{{site.baseurl }}/formation-civic-tech" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-4 }}</font></a></div></b></center>
+    </div>
+
+
+
   </div>
-  <div class="col-md-3 col-xs-6">
-     <div class="dummy"><a href="{{site.baseurl }}/budget-participatif"><img src="{{ site.baseurl }}/img/budget-participatif.png" align = "right" class = "imgacc"></a></div>
-     <center><b><div style ="font-size:1.5em;"><a href="{{site.baseurl }}/budget-participatif" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-2 }}</font></a></b></center>
-  </div>
-  <div class="col-md-3 col-xs-6">
-     <div class="dummy"><a href="{{site.baseurl }}/custom"><img src="{{ site.baseurl }}/img/pic-custom.png" align = "right" class = "imgacc"></a></div>
-     <center><b><div style ="font-size:1.5em;"><a href="{{site.baseurl }}/custom" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-3 }}</font></a></b></center>
-  </div>
-  <div class="col-md-3 col-xs-6">
-     <div class="dummy"><a href="{{site.baseurl }}/formation-civic-tech"><img src="{{ site.baseurl }}/img/pic-formation.png" align = "right" class = "imgacc"></a></div>
-     <center><b><div style ="font-size:1.5em;"><a href="{{site.baseurl }}/formation-civic-tech" class="thumbnail purple"><font color="white">{{ site.data.i18n[page.locale].serviceV2.bg-feature-4 }}</font></a></div></b></center>
-  </div>
 
+  {% elsif page.locale == "en" %}
 
-</div>
-
-{% elsif page.locale == "en" %}
 
   <div class="col-md-3 col-xs-6">
        <div class="dummy"><a ="{{site.baseurl }}/agora"><img src="{{ site.baseurl }}/img/agora.png" align = "right" class = "imgacc"></a></div>
