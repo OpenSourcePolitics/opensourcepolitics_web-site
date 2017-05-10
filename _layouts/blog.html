@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body class="post">
+        {% include nav-post.html %}
+        <div class="container">
+          <br>
+          <!-- Date/Time -->
+          <div class = "col-md-8 col-md-offset-2 row">
+          <div class = "col-lg-8 col-md-12 col-sm-12" style = "margin-top:6px;"><p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Posté en {{ page.project-date }}</b>
+          &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp; par {{ page.author }} <img src ="{{ page.author-pic }}" class ="img-circle avatar" style = "height:40px;"></b></div>
+          <a href="{{ page.Medium-link }}" class="btn btn-primary col-md-12 col-sm-12 col-xs-12 col-lg-4"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;Voir l'article sur medium</a></p>
+          <hr>
+        </div>
+        <div class = "row col-md-10 col-md-offset-1">
+          <center><h1>{{ page.title }}</h1></center>
+        </div>
+<div>
+
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <!-- Preview Image -->
+
+              {% if page.youtubeid %}
+              <div class="video-container">
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/{{ page.youtubeid }}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {% endif %}
+              <br>
+               <h4>{{ site.data.i18n[page.locale].project-description }}</h4>
+                  <div class = "blogcontent">{{ content }}</div>
+              <!--<a href="{{ page.project-link }}" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; {{ site.data.i18n[page.locale].btn-link-project }}</a> -->
+
+
+             </div>
+
+          </div>
+
+          <div class="share-icons ">
+               <center><br>Partager cet article:
+               <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+               <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" title="Partager sur Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></center>
+
+</div>
+
+
+<div class = "col-md-8 col-md-offset-2">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://osp-1.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </div> <!-- fin container -->
+    <br>
+    <hr>
+    <script id="dsq-count-scr" src="//osp-1.disqus.com/count.js" async></script>
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

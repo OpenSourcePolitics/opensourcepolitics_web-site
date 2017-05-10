@@ -28,6 +28,10 @@ collections:
     output: true
   post-en:
     output: true
+  blog-fr:
+    output: true
+  blog-en:
+    output: true
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
