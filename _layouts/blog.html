@@ -51,8 +51,8 @@
 
         <div class = "hidden-xs hidden-sm col-md-3" data-sticky data-margin-top="330" data-margin-bottom="500">
 
-          <center> <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;Partager sur Twitter &nbsp;</a></center>
-          <center> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;Partager sur Facebook</a></center>
+          <center> <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;{% if page.locale == "fr" %}Partager sur{% else %}Share on{% endif %} Twitter &nbsp;</a></center>
+          <center> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;{% if page.locale == "fr" %}Partager sur{% else %}Share on{% endif %} Facebook</a></center>
 
         </div>
 
@@ -61,7 +61,7 @@
 
 
       <br><br>
-      <b><center>Autres Articles</center><b>
+      <b><center>{% if page.locale == "fr" %}Autres Articles{% else %}Other Articles{% endif %}</center><b>
 
 
         <div class = "row col-xs-6 col-xs-offset-3">
@@ -158,7 +158,7 @@
 
           <div class=" hidden-lg hidden-md navbar navbar-default navbar-fixed-bottom" style = "padding-bottom:0px; width:100%;">
             <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
-              Partager :
+              {% if page.locale == "fr" %}Partager : {% else %}Share : {% endif %}
               <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
 
 
