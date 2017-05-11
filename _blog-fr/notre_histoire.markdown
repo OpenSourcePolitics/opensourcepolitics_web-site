@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: Notre Histoire
 layout: blog
 comments: true

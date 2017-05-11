@@ -1,4 +1,5 @@
 ---
+locale: en
 title: How we built a permanent Agora in Nanterre
 layout: blog
 comments: true
@@ -52,7 +53,7 @@ Virgile Deville and Alain Buchotte tell us about the collaboration between Open 
 
 <b>V.D.: </b>We were almost incubated at the Agora of Nanterre, I went there very often, especially during the first months. In order to produce a tool that would not disappoint the expectations of the citizens, we had to collaborate with the various departments of the town hall and to understand concertation. This process took time, and despite previous deliverable products presented in January 2016, we had to double our efforts to make a stable platform by March, which was the deadline to present our first version. The week before the rendering was a tough one, but we managed to achieve a satisfactory result since the city has adopted it and is still using it to this day.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*UDHS58rflB9iZ_ivjucrog.jpeg"><br><center><i>Virgile, Valentin and Anne-Gaël Chiche, head of the Agora, during a meeting in Nanterre — early 2016</i></center>	
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*UDHS58rflB9iZ_ivjucrog.jpeg"><br><center><i>Virgile, Valentin and Anne-Gaël Chiche, head of the Agora, during a meeting in Nanterre — early 2016</i></center>
 <br><br>
 <b>A.B.: </b>Personally I was less present in Nanterre; being in charge of the technical aspect, development that is, I mostly worked from afar. Our mode of operation was permanently iterative, we were 150% focused on this. From a logistical point of view this is not necessarily a good thing, but this type of experience in which you work almost exclusively on one project for several months remains very formative.
 <br><br>

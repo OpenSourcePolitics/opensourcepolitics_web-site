@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: La démocratie continue entre les élections
 layout: blog
 comments: true
@@ -18,7 +19,7 @@ article-description: La France sort d’une intense campagne. Haletante pour les
 <div class ="citation">Heureusement, grâce au numérique, la démocratie ne s’arrête plus durant les cinq ans qui séparent deux scrutins.</div>
 <br>
 Ces technologies qui renforcent l’engagement citoyen, la participation démocratique et la transparence des gouvernements sont regroupées sous le terme de “civic-tech”. Mais concrètement, à quoi servent-elle ?
-<br><br>	
+<br><br>
 <img src = "https://cdn-images-1.medium.com/max/960/1*NCDcGjBbiG3j2i-PIW61kw.png">
 <br>
 Les outils c’est bien, mais les citoyens répondent-ils vraiment à l’appel ? L’interrogation est légitime, au regard du succès mitigé des principaux dispositifs de participation mis en place jusqu’à ce jour.<br>

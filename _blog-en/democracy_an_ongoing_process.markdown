@@ -1,4 +1,5 @@
 ---
+locale: en
 title: Make democracy an ongoing process with digital technology
 layout: blog
 comments: true

@@ -1,5 +1,6 @@
 ---
-title: Comment le mouvement g0v transforme le gouvernement taïwanais grâce à des solutions open source	
+locale: fr
+title: Comment le mouvement g0v transforme le gouvernement taïwanais grâce à des solutions open source
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*H99WNXXR2ico79MS8zM_yw.png

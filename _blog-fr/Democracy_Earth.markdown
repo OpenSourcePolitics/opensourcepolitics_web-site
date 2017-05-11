@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: Democracy Earth, la promesse de votes en ligne sécurisés et indépendants
 layout: blog
 comments: true

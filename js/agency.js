@@ -88,4 +88,3 @@ function getCookie(cname) {
     return "";
 }
 
-var sticky = new Sticky('[data-sticky]');

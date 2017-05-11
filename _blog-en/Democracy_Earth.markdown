@@ -1,4 +1,5 @@
 ---
+locale: en
 title: Democracy Earth, the promise of a safe and independent online voting system
 layout: blog
 comments: true
@@ -9,7 +10,7 @@ author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/democracy-earth-the-promise-of-a-safe-independant-online-voting-system-37366935db5e
 project-date : 4 january 2017
 filename : Democracy_Earth
-article-description: This interview deals with his involvement in Democracy Earth and their “Sovereign” tool.	
+article-description: This interview deals with his involvement in Democracy Earth and their “Sovereign” tool.
 ---
 
 <div class = "blogcontent">

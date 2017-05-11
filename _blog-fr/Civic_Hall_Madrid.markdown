@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: Quinze jours en immersion dans le Civic Hall européen à Madrid
 layout: blog
 comments: true
@@ -124,7 +125,7 @@ Parmi les autres projets, Virgile a été particulièrement impressionné par :
 Le Medialab Prado est un véritable modèle d’innovation démocratique pour plusieurs raisons :
 <br><br>
 1. L’accessibilité : le lieu est ouvert à tout citoyen qui veut y mener un projet, et une équipe de médiateurs y est disponible pour l’accompagner.
-<br><br> 
+<br><br>
 2. La collaboration avec la mairie : les membres du “ParticipaLab” travaillent à la mairie et mènent les expérimentations au sein du Medialab. Ce genre de partenariat entre société civile et institutions est passionnant car il élargit le champ des parties prenantes dans les démarches de concertation et rend plus facile l’implication des citoyens.
 <br><br>
 3. L’ouverture sur l’international : tout en traitant des sujets locaux, l’équipe du Medialab parvient à organiser des hackathons avec des participants venus du monde entier et leur garantit un accompagnement par des mentors reconnus, comme Audrey Tang, ministre du numérique de Taiwan.

@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: La civic-tech française risque de se détourner de la création des biens communs numériques
 layout: blog
 comments: true

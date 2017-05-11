@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: Comment le mouvement Umbrella a lancé une dynamique de renouveau démocratique à Hong Kong
 layout: blog
 comments: true

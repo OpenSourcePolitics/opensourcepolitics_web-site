@@ -1,4 +1,5 @@
 ---
+locale: en
 title: The 15M generation is fulfilling its promise of political renewal through Podemos and Madrid’s ParticipaLab
 layout: blog
 comments: true

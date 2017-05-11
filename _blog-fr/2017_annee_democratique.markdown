@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: 2017, année démocratique
 layout: blog
 comments: true

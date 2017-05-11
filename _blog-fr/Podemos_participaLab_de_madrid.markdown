@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: Comment la génération des Indignés remplit la promesse de renouvellement politique au sein de Podemos et du ParticipaLab de Madrid		
 layout: blog
 comments: true

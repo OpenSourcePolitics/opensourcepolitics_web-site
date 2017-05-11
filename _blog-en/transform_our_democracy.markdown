@@ -1,4 +1,5 @@
 ---
+locale: en
 title: French civic-tech is turning away from the digital commons creation dynamic we need to transform our democracy
 layout: blog
 comments: true

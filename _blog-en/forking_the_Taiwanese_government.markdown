@@ -1,4 +1,5 @@
 ---
+locale: en
 title: How the g0v movement is forking the Taiwanese government
 layout: blog
 comments: true
@@ -23,7 +24,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 <b>CL:</b> I have been an open source developer since before 2000, and I actually started the g0v community in 2012 around the end of my sabatical. At the time I was in the hospital and I got interested in politics, so with friends we decided to try and make government information more understandable. In the meantime we thought it would be helpful to build a community of technologists who care about civic affairs that would want to use their abilities to take part in this new kind of civic movement.
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png"><br><center><i>CL in the hospital!</i></center>	
+<img src = "https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png"><br><center><i>CL in the hospital!</i></center>
 
 <br><br>
 

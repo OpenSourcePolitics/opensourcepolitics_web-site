@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: Comment nous avons co-construit une Agora permanente à Nanterre
 layout: blog
 comments: true

@@ -1,4 +1,5 @@
 ---
+locale: fr
 title: 20 propositions pour des conseils de quartier 2.0
 layout: blog
 comments: true

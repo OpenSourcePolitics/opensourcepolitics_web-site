@@ -1,4 +1,5 @@
 ---
+locale: en
 title: How the Umbrella movement sparked new concerns for democracy in Hong Kong
 layout: blog
 comments: true

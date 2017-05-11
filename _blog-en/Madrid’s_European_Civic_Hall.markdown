@@ -1,4 +1,5 @@
 ---
+locale: en
 title: A Fifteen Days Immersion in Madrid’s European Civic Hall
 layout: blog
 comments: true
@@ -60,7 +61,7 @@ Keep in mind that in Spain, where the king still has real powers — like be
 
 The goal was to underline the following: like the kings and queens of old, <b>our digital governance tools’ administators are the kings of our online democracies.</b> They can monitor our decision-making processes, our opinions, our data and so on.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*SaDn4sDsJslHKXJ3IertFw.png"><br><br>	
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*SaDn4sDsJslHKXJ3IertFw.png"><br><br>
 
 This is why a whole segment of the international civic tech community proposes that we use open source platforms instead of proprietary softwares that pose a grave threat to transparency and sovereignty. To fix this, we need to build a decentralized and incorruptible digital governance system. That is where Democracy Earth, the next project from former members of DemocracyOS, comes into play. But that’s another story…
 
