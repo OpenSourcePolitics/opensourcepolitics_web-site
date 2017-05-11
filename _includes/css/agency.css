@@ -881,7 +881,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1154,7 +1153,8 @@ text-align: center;
 
 
 .blogcontent{
-font-size:1.2em;
+font-size:1em;
+font-weight: 300;
 }
 
 
@@ -1759,4 +1759,16 @@ bodycorps {
 @media (max-width: 550px) {
 .hidden-xxs {
   display: none !important
-}>
+}
+
+
+.jumbotron-post{
+  min-height: 600px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px){
+  .jumbotron-post{
+    min-height: 400px;
+    margin-bottom: 0;
+}
