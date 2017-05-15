@@ -1,0 +1,30 @@
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+   <!-- Bootstrap Core JavaScript -->
+   <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+   <script src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
+   <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+
+
+
+     <!--  Jekyll Search -->
+     <script type="text/javascript">
+           SimpleJekyllSearch({
+             searchInput: document.getElementById('search-input'),
+             resultsContainer: document.getElementById('results-container'),
+             json: [
+             {% for post in site.posts %}
+                 {
+                   "title"     : {{ post.title | jsonify }},
+                   "url"       : "{{ site.baseurl }}{{ post.url }}",
+                   "desc"      : {{ site.baseurl }}{{ post.description | jsonify }}
+                 } {% unless forloop.last %},{% endunless %}
+               {% endfor %}
+             ],
+             searchResultTemplate: '<a href="{url}" title="{desc}"><li class="search-result">{title}</li></a>',
+             noResultsText: 'No article found',
+             limit: 10,
+             fuzzy: true,
+             exclude: ['Welcome']
+           })
+     </script>

@@ -1,0 +1,138 @@
+---
+layout:
+title: Open Source Politics Blog
+locale: fr
+permalink: /fr/blog
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+
+
+<body>
+  {% include nav-post.html %}
+  <div class = "post post2 postbis">
+
+  <div class="container">
+    <center><h1>{{ page.title }}</h1></center>
+    <hr>
+  </div>
+
+
+
+
+
+  <div class="container text-center blog">
+
+
+    <!-- Latest article -->
+    {% assign posts = site.posts | sort: 'date' | reverse %}
+    {% for ref in site.blog-fr  limit:1  %}
+    <div class="jumbotron hidden-xxs" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ ref.img }}) center no-repeat; background-size: cover ; ">
+      <a href="{{site.baseurl}}{{ref.url}}">
+        <div class="jumbotron-title">
+          <h2>{{ref.title}}</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;"><p>{{ref.article-description}}</p></div>
+        </a>
+
+      </div>
+
+
+      <a href="{{site.baseurl}}{{ref.url}}"><div class="btn btn-primary btn-md btn-lireplus">Lire l'article</div></a>
+    </div>
+    {% endfor %}
+
+    <!-- Search Box -->
+    <div class="container-search" style = "margin-top:10px;">
+      <div class="input-group">
+        <input type="text" id="search-input" class="form-control" placeholder="Rechercher un article...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </span>
+        <!-- /.input-group -->
+      </div>
+      <ul class= "list-unstyled search-list search-blog" id="results-container"></ul>
+      <br>
+    </div>
+
+
+    <!-- Posts list -->
+    {% for ref in site.blog-fr %}
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="{{site.baseurl}}{{ref.url}}">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url({{ ref.img }}) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>{{ref.title}}</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">{{ref.article-description}}</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="{{ref.author-pic}}" alt="{{ ref.author }}">
+            <div class="post-date"><a class="blue" href="{{ref.author-medium}}">{{ref.author}}</a> <br>{{ ref.project-date }}</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/{{ref.filename}}&text={{ ref.title}}" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/{{ref.filename}}&title={{ref.title}}" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {% endfor %}
+      <hr>
+
+
+
+
+      <a href="lien.html" >
+
+
+
+      </div>
+
+
+      <br>
+      <hr>
+
+
+
+
+
+</div>
+
+      {% include footer.html %}
+      {% include js.html %}
+    </body>
+    </html>

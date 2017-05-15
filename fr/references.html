@@ -9,8 +9,9 @@ permalink: /fr/references
 <html>
 
   {% include head.html %}
-    <body class="post">
+    <body>
         {% include nav-post.html %}
+<div class = "post">
         <div class="container">
           <h1>{{ page.title }}</h1>
           <hr>
@@ -22,11 +23,11 @@ permalink: /fr/references
                 {% for ref in site.refs-fr reversed %}
                 {% cycle 'add row' : '<div class="row">', nil %}
                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 portfolio-item">
-                      <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
-                          <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+                      <a href="{{ ref.url }}" class="portfolio-link">
+                          <img src="/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
                       </a>
                       <div class="portfolio-block radius-down">
-                          <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
+                          <h4><a href="{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
                           <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
                       </div>
                   </div>
@@ -45,6 +46,7 @@ permalink: /fr/references
 
     <br>
     <hr>
+  </div>
     {% include footer.html %}
     {% include js.html %}
     </body>

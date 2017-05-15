@@ -8,41 +8,42 @@ permalink: /en/productions
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-    <body class="post">
-        {% include nav-post.html %}
-      <div class="container">
-        <h1>{{ page.title }}</h1>
-        <hr>
-      </div>
-      <div class="container">
+{% include head.html %}
+<body>
+      {% include nav-post.html %}
+  <div class = "post">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <hr>
+    </div>
+    <div class="container">
       <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-            {% if page.locale == "en" %}
-              {% for ref in site.refs-en reversed %}
-              {% cycle 'add row' : '<div class="row">', nil %}
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 portfolio-item">
-                    <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
-                        <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
-                    </a>
-                    <div class="portfolio-block radius-down">
-                        <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
-                        <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
-                    </div>
-                </div>
-              {% cycle 'end row' : nil, '</div>' %}
-              {% endfor %}
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+          {% if page.locale == "en" %}
+          {% for ref in site.refs-en reversed %}
+          {% cycle 'add row' : '<div class="row">', nil %}
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 portfolio-item">
+              <a href="{{ ref.url }}" class="portfolio-link">
+                <img src="/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+              </a>
+              <div class="portfolio-block radius-down">
+                <h4><a href="{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
+                <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
+              </div>
+            </div>
+            {% cycle 'end row' : nil, '</div>' %}
+            {% endfor %}
             {% else %}
             {% endif %}
           </div>
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-              {% include sidebar-refs.html %}
+            {% include sidebar-refs.html %}
           </div>
+        </div>
+        <hr>
       </div>
-      <hr>
     </div>
-
     {% include footer.html %}
     {% include js.html %}
-    </body>
-</html>
+  </body>
+  </html>

@@ -40,8 +40,8 @@ $('div.modal').on('show.bs.modal', function() {
 
 
 
-var trigered = 1; // pour désactiver les popups, passer a 1
-var popupdelay = 9; //délai en secondes avant l'apparition du popup
+var trigered = 0; // pour désactiver les popups, passer a 1
+var popupdelay = 3; //délai en secondes avant l'apparition du popup
 
 var start = new Date().getTime();
 
@@ -87,3 +87,4 @@ function getCookie(cname) {
     }
     return "";
 }
+

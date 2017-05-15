@@ -1,5 +1,8 @@
 # data home
 menu:
+  item-0-1: "Services"
+  item-0-2: "Productions"
+  item-0-3: "Articles"
   item-1: "services"
   item-2: "Productions"
   item-3: "About"
@@ -64,6 +67,8 @@ story:
   story-subheading: "Open Source Politics is a solidarity economy company that builds free open source tools and hosts collective inteligence workshops for private or public stakeholders willing to engage in participatory initiatives. Learn more about our story :"
   story-link: "https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2#.56a7n42yd"
   story-article-title: "Our philosophy"
+  all-article-btn : "See more articles"
+  url : "/en/blog"
 
 team:
   title: "Meet the founders"
@@ -128,3 +133,4 @@ newsletter:
   sub-prop : "Subsribe to the Open Source Politics monthly newsletter"
   dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
   subtitle : "Follow the news of a french civic tech company"
+

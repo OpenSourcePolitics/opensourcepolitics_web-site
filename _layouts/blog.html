@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+<body class="">
+  {% include nav-post.html %}
+  <div class = "post post2" style = "background-color:white;">
+    <div class="container">
+      <br>
+      <!-- Date/Time -->
+      <div class = "col-md-8 col-md-offset-2 row">
+        <div class = "col-lg-8 col-md-12 col-sm-12" style = "margin-top:6px;"><p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; {% if page.locale == "fr" %}Posté le{% else %} Posted on {% endif %}{{ page.project-date }}</b>
+          &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp; {% if page.locale == "fr" %}par{% else %}by{% endif %} {{ page.author }} <img src ="{{ page.author-pic }}" class ="img-circle avatar" style = "height:40px;"></b>
+        </div>
+        <a href="{{ page.Medium-link }}" class="btn btn-primary col-md-12 col-sm-12 col-xs-12 col-lg-4"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;{% if page.locale == "fr" %}Voir l'article sur medium{% else %}See the article on Medium &nbsp; {% endif %}</a></p>
+        <hr>
+      </div>
+      <div class = "row col-md-10 col-md-offset-1">
+        <center><h1>{{ page.title }}</h1></center>
+      </div>
+    </div>
+    <div class = "row container-fluid" style = "  background-color: transparent; background-image:url({{page.img}}); background-size: cover; background-position: center; height:500px; margin-top:20px;"></div>
+
+
+
+
+
+    <div class="container-fluid" style = "background-color: transparent;">
+      <div class="row">
+
+
+
+        <div class="col-md-6 col-md-offset-3">
+          <!-- Preview Image -->
+
+          {% if page.youtubeid %}
+          <div class="video-container">
+            <iframe width="100%" height="150%" src="https://www.youtube.com/embed/{{ page.youtubeid }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% endif %}
+          <br>
+          <h4>{{ site.data.i18n[page.locale].project-description }}</h4>
+          <div class = "blogcontent">{{ content }}</div>
+          <!--<a href="{{ page.project-link }}" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; {{ site.data.i18n[page.locale].btn-link-project }}</a> -->
+
+
+        </div>
+
+
+
+
+        <div class = "hidden-xs hidden-sm col-md-3" data-sticky data-margin-top="330" data-margin-bottom="500">
+
+          <center> <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;{% if page.locale == "fr" %}Partager sur{% else %}Share on{% endif %} Twitter &nbsp;</a></center>
+          <center> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;{% if page.locale == "fr" %}Partager sur{% else %}Share on{% endif %} Facebook</a></center>
+
+        </div>
+
+      </div>
+
+
+
+      <br><br>
+      <b><center>{% if page.locale == "fr" %}Autres Articles{% else %}Other Articles{% endif %}</center><b>
+
+
+        <div class = "row col-xs-6 col-xs-offset-3">
+
+          {% if page.locale == "fr" %}
+          {% for ref in site.blog-fr limit:2 %}
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="{{site.baseurl}}{{ref.url}}">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url({{ ref.img }}) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>{{ref.title}}</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">{{ref.article-description}}</div><br>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="{{ref.author-pic}}" alt="{{ ref.author }}">
+                  <div class="post-date"><a class="blue" href="{{ref.author-medium}}">{{ref.author}}</a> <br>{{ ref.project-date }}</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          {% endfor %}
+          <hr>
+
+          {% else %}
+
+          {% for ref in site.blog-en limit:2 %}
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="{{site.baseurl}}{{ref.url}}">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url({{ ref.img }}) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>{{ref.title}}</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">{{ref.article-description}}</div>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="{{ref.author-pic}}" alt="{{ ref.author }}">
+                  <div class="post-date"><a class="blue" href="{{ref.author-medium}}">{{ref.author}}</a> <br>{{ ref.project-date }}</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          {% endfor %}
+          <hr>
+
+
+
+
+          {% endif %}
+
+        </div>
+        <div class = "col-md-6 col-md-offset-3" style = "margin-top:20px;">
+          <div id="disqus_thread"></div>
+
+          <div class=" hidden-lg hidden-md navbar navbar-default navbar-fixed-bottom" style = "padding-bottom:0px; width:100%;">
+            <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
+              {% if page.locale == "fr" %}Partager : {% else %}Share : {% endif %}
+              <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
+
+
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
+            </center>
+          </div>
+
+
+        </div>
+
+
+
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://osp-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div> <!-- fin container -->
+  <br>
+  <hr>
+  <script src="/js/sticky.min.js">
+  </script>
+  <script id="dsq-count-scr" src="//osp-1.disqus.com/count.js" async></script>
+  <script>
+
+  var sticky = new Sticky('[data-sticky]', {});
+
+  </script>
+</div>
+<div style = "margin-bottom:50px;">
+  {% include footer.html %}
+</div>
+
+
+{% include js.html %}
+
+</body>
+</html>
