@@ -1,66 +1,70 @@
-<footer>
-  <div class="container">
-<!--
-    <div class = "row">
-<h4><center>Plan du site</center></h4>
-    <div class="col-md-2 col-md-offset-1" style = "text-align: left;">
-
-<ul>
-      <li>
-      <a href="{{site.baseurl }}/{% if page.locale == "fr" %}consultations-publiques{% else %}public-consultations{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-1 }}</a>
-    </li><li>
-      <a href="{{site.baseurl }}/{% if page.locale == "fr" %}budget-participatif{% else %}participatory-budgeting{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-2 }}</a>
-    </li><li>
-      <a href="{{site.baseurl }}/{% if page.locale == "fr" %}custom{% else %}en-custom{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-3 }}</a>
-    </li><li>
-      <a href="{{site.baseurl }}/{% if page.locale == "fr" %}formation-civic-tech{% else %}civic-tech-training{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-4 }}</a>
-</li>
-
-</ul>
-    </div>
-
-    <div class="col-md-4 col-md-offset-1" style = "padding-top:10px;">
-      <center>
-
-<a href = "">Nos productions</a>
-<br>
-<a href = "">Notre Blog</a>
-</center>
-    </div>
-
-    <div class="col-md-4">
-
-    </div>
-
-
-
-    </div>
-
-  -->
-
-
-    <div class="row" style = "margin-top:10px;">
-      <div class="col-md-4">
-        <center>  <div style ="font-size:1em;">
-          Open Source Politics,<br>
-          RCS Paris 820 412 161<br>
-          32 rue des cascades<br>
-          75020 Paris (France)
-        </div></center>
-      </div>
-      <div class="col-md-4" style = "padding-right:20px;">
-        <center>  Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relation avec ses partenaires</center>
-      </div>
-      <div class="col-md-4">
-        <center>
-          contact@opensourcepolitics.eu<br>
-          édition mai 2017<br>
-          Remerciements :<br> Icône flaticon, créateur du template du site
-        </center>
-
-      </ul>
-    </div>
-  </div>
+<footer style="background-color:#000">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <ul class="list-inline clearfix">
+                  {% if page.locale == "fr" %}
+                    <li><b class="menu-item" style="color:#fff;">Offres</b></li>
+                  {% else %}
+                    <li><b>Offers</b></li>
+                  {% endif %}
+                  {% if page.locale == "fr" %}
+                    <li><a href="/consultations-publiques" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+                  {% else %}
+                    <li><a href="/public-consultations" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+                  {% endif %}
+                  {% if page.locale == "fr" %}
+                    <li><a href="/budget-participatif" class="menu-item" style="color:#fff;">OSP Budget</li>
+                  {% else %}
+                    <li><a href="/participatory-budgeting" class="menu-item" style="color:#fff;">OSP Bugdet</a></li>
+                  {% endif %}
+                  {% if page.locale == "fr" %}
+                    <li><a href="/custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+                  {% else %}
+                    <li><a href="/en-custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+                  {% endif %}
+                  {% if page.locale == "fr" %}
+                    <li><a href="/formation-civic-tech" class="menu-item" style="color:#fff;">OSP Formation</a></li>
+                  {% else %}
+                    <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
+                  {% endif %}
+                  {% if page.locale == "fr" %}
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-inline clearfix">
+                <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mention légales</a></li>
+              {% else %}
+                <li></li>
+              {% endif %}
+              {% if page.locale == "fr" %}
+                <li><a href="" class="menu-item" style="color:#fff;">Crédits</a></li>
+              {% else %}
+                <li></li>
+              {% endif %}
+            </ul>
+              </div>
+            </div>
+            <p>&nbsp;</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div style ="font-size:1em;color:#fff;">
+                          <p>Open Source Politics,<br>
+                          RCS Paris 820 412 161<br>
+                          32 rue des cascades<br>
+                          75020 Paris (France)</p>
+                          </div>
+                </div>
+                <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+                  <p>Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relation avec ses partenaires</p>
+                </div>
+                <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+                        <p>contact@opensourcepolitics.eu<br>
+                        édition mai 2017<br>
+                        </p>
+                    </ul>
+                </div>
+            </div>
 </div>
 </footer>
 

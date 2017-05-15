@@ -1,5 +1,8 @@
 # data home
 menu:
+  item-0-1: "Services"
+  item-0-2: "Références"
+  item-0-3: "Articles"
   item-1: "Services"
   item-2: "Réalisations"
   item-3: "À propos"
@@ -66,6 +69,7 @@ story:
   story-subheading: "Open Source Politics est une entreprise relevant du champ de l’économie sociale et solidaire qui développe des plateformes numériques libres et open source et anime des ateliers d’intelligence collective pour accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Découvrez notre histoire :"
   story-link: "https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e#.5sdy4qtla"
   story-article-title: "Notre philosophie"
+  all-article-btn : "Voir plus d'articles"
   all-article-btn : "Tous nos Articles"
   url : "/fr/blog"
 
@@ -129,3 +133,4 @@ newsletter:
   sub-prop : "Inscrivez-vous à la newsletter mensuelle d'Open Source Politics"
   dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
   subtitle : "suivez l'actu d'une entreprise des civic tech libres"
+
