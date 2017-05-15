@@ -33,10 +33,10 @@
                   <a href="#page-top"></a>
               </li>
               <li>
-                  <a class="page-scroll menu-item" href="#services">{{ site.data.i18n[page.locale].menu.item-0-1 }}</a>
+                  <a class="page-scroll menu-item" href="{% if page.locale == "fr" %}/fr/accueil{% else %}/en/home/#services{% endif %}">{{ site.data.i18n[page.locale].menu.item-0-1 }}</a>
               </li>
               <li>
-                  <a class="page-scroll menu-item" href="#references">{{ site.data.i18n[page.locale].menu.item-0-2 }}</a>
+                  <a class="page-scroll menu-item" href="{% if page.locale == "fr" %}/fr/accueil{% else %}/en/home/#services{% endif %}#references">{{ site.data.i18n[page.locale].menu.item-0-2 }}</a>
               </li>
               <li>
               {% if page.locale == "fr" %}
@@ -46,10 +46,12 @@
               {% endif %}
               </li>
               <li>
-                  <a class="page-scroll menu-item" href="#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
+                  <a class="page-scroll menu-item" href="{% if page.locale == "fr" %}/fr/accueil{% else %}/en/home/#services{% endif %}#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
               </li>
           </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="{{ site.baseurl }}/fr/accueil">{% if page.locale == "fr" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">fr</span> {% elsif page.locale == "en" %}<span style="font-size:1em">fr</span>{% endif %}</a></li>
+              <li><a href="{{ site.baseurl }}/en/home">{% if page.locale == "en" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">en</span> {% elsif page.locale == "fr" %}<span style="font-size:1em">en</span> {% endif %}</a></li>
                 {% for network in site.social %}
                 <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                 </li>
@@ -62,4 +64,3 @@
 </nav>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-
