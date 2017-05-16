@@ -3,7 +3,7 @@ menu:
   item-0-1: "Services"
   item-0-2: "Productions"
   item-0-3: "Articles"
-  item-1: "services"
+  item-1: "Services"
   item-2: "Productions"
   item-3: "About"
   item-4: "Team"
@@ -134,3 +134,6 @@ newsletter:
   dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
   subtitle : "Follow the news of a french civic tech company"
 
+footer:
+  middle: "Open Source Politics is a solidarity economy LLC. We advocate the principles of open source through the tools we build and our partnerships."
+  right-bottom: "Release: May 2017"

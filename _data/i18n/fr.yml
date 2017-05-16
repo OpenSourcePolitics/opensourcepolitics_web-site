@@ -134,3 +134,7 @@ newsletter:
   dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
   subtitle : "suivez l'actu d'une entreprise des civic tech libres"
 
+footer:
+  middle: "Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relation avec ses partenaires"
+  right-bottom: "édition mai 2017"
+  
