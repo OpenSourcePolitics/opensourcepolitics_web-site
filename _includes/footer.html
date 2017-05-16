@@ -28,19 +28,20 @@
             {% else %}
             <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
             {% endif %}
-            {% if page.locale == "fr" %}
+
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="list-inline clearfix">
+            {% if page.locale == "fr" %}
             <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mention légales</a></li>
             {% else %}
-            <li></li>
+            <li><a href="/en/Legal-Notice" class="menu-item" style="color:#fff;">Legal Notice</a></li>
             {% endif %}
             {% if page.locale == "fr" %}
             <li><a href="/fr/Credits" class="menu-item" style="color:#fff;">Crédits</a></li>
             {% else %}
-            <li></li>
+            <li><a href="/en/Credits" class="menu-item" style="color:#fff;">Credits</a></li>
             {% endif %}
           </ul>
         </div>
