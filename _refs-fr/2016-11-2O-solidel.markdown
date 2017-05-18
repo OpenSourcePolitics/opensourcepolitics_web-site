@@ -6,7 +6,7 @@ thumbnail: solidel-thumbnail.png
 alt: Solidel
 project-date: Novembre 2016
 category: refs
-tag: animation
+tag: Animation
 client-url: http://www.solidel.fr/
 project-link: http://www.solidel.fr/
 client: Solidel

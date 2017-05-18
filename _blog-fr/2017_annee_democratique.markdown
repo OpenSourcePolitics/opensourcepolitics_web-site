@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jp
 author-medium : https://medium.com/@ValentinChaput
 Medium-link : https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754
 project-date : 18 janvier 2017
+date : 2017-01-18 11:17
 filename : 2017_annee_democratique
 article-description: Le 6 janvier chez Volumes, nous avons présenté nos voeux et nos projets aux membres de notre meetup et à nos partenaires...
 ---
@@ -20,7 +21,7 @@ Le 6 janvier chez Volumes, nous avons présenté nos voeux et nos projets aux me
 <br>
 <img src = "https://cdn-images-1.medium.com/max/960/1*RQfMoeFevGUjyo7rczqOBw.png">
 
-<br><b>2016 nous a apporté de premières réponses</b>
+<center><b>2016 nous a apporté de premières réponses</b></center>
 
 <br>
 
@@ -37,7 +38,7 @@ Les outils civic-tech ne peuvent avoir un impact représentatif que s’ils sont
 
 <img src = "https://cdn-images-1.medium.com/max/960/1*m5V4yyDWqlbMxH5IXwSebg.png">
 <br>
-<img src = "https://cdn-images-1.medium.com/max/960/1*rlAghlMXdVzsqzxsWu2Xjg.png"><br><center><i>Le nouveau portail www.arcinnovation.fr que nous sommes en train de créer avec la Mairie de Paris et les collectivités partenaires permet aux acteurs de l’Arc de l’innovation de répondre à des appels à projets. Nous ajouterons dans les prochains mois un outil de réseau social pour les connecter et accompagner la conduite de leurs initiatives.</i></center><br><br>
+<img src = "https://cdn-images-1.medium.com/max/960/1*rlAghlMXdVzsqzxsWu2Xjg.png"><center><i>Le nouveau portail www.arcinnovation.fr que nous sommes en train de créer avec la Mairie de Paris et les collectivités partenaires permet aux acteurs de l’Arc de l’innovation de répondre à des appels à projets. Nous ajouterons dans les prochains mois un outil de réseau social pour les connecter et accompagner la conduite de leurs initiatives.</i></center><br><br>
 
 Nos enjeux démocratiques se retrouvent partout ailleurs. En participant à des événements à l’étranger et en rencontrant des innovateurs du monde entier, nous sommes en mesure de documenter et d’importer les meilleurs outils et les meilleures pratiques en France.<br>
 
@@ -49,8 +50,8 @@ Nous avons activement contribué à l’organisation de six hackathons en 2016. 
 
 <img src = "https://cdn-images-1.medium.com/max/960/1*8ZIRbY8D7fAC1Dr6bIm43g.png"><br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*_g8hJ599EjD1Boac7ImpIg.png"><br>
-<b>2017 doit permettre de consolider ces dynamiques</b>
+<img src = "https://cdn-images-1.medium.com/max/960/1*_g8hJ599EjD1Boac7ImpIg.png"><center>
+<b>2017 doit permettre de consolider ces dynamiques</b></center>
 
 <br> <img src = "https://cdn-images-1.medium.com/max/960/1*jkP1d9I18EzCosFgZmUx7A.png">
 

@@ -6,7 +6,7 @@ thumbnail: bp-rivp-thumbnail.png
 alt: Budget Participatif RIVP
 project-date: mars 2017
 category: featured
-tag: budget participatif
+tag: Budget participatif
 client-url: http://rivp.fr
 project-link: https://budget-participatif.rivp.fr
 client: RIVP

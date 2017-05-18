@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jp
 author-medium : https://medium.com/@ValentinChaput
 Medium-link : https://medium.com/open-source-politics/notre-histoire-c61bbec90334
 project-date : 22 septembre 2016
+date : 2016-09-22 17:17
 filename : notre_histoire
 article-description: Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale...
 
@@ -27,7 +28,7 @@ Virgile avait vécu la création de la plateforme Democracy OS et du Partido de 
 
 Avec les autres membres de l’association Democracy OS France, nous avons profité de la venue à Paris de Pia Mancini, la co-fondatrice de Democracy OS, pour organiser une rencontre. C’est comme cela qu’est né le Meetup Open Source Politics le 15 mai 2015, dans le but de diffuser l’invitation aux développeurs et entrepreneurs présents sur ce réseau.
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*gVPBs_HzNu_SNeoXLeLX9A.jpeg"><br><center><i>Premier Meetup Open Source Politics avec Pia Mancini le 21 mai 2015 chez Volumes.</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*gVPBs_HzNu_SNeoXLeLX9A.jpeg"><center><i>Premier Meetup Open Source Politics avec Pia Mancini le 21 mai 2015 chez Volumes.</i></center>
 
 <br><br>
 
@@ -62,7 +63,7 @@ Grâce à une curation des meilleurs logiciels libres, nous avons pu identifier,
 
 Les technologies de la citoyenneté sont pleines de promesses. Nos attentes collectives sont très élevées. Pourtant, l’impact du numérique sur la politique est, encore à ce jour, trop limité à un cercle restreint d’initiés répondant aux mêmes traits socio-économiques. Cette réalité, à laquelle nous nous sommes confrontés dans chacun de nos projets, nous a incité à développer un second pan d’activité complémentaire autour de l’animation de campagnes de mobilisation et de participation. Au contact de nos partenaires CivicWise et SourcesLab, véritables laboratoires d’urbanisme collaboratif et de méthodes d’animation créatives, nous avons appris à tirer les meilleures propositions d’un groupe de citoyens qui n’ont que quelques heures pour découvrir la problématique et les autres participants. Nous avons à notre tour acquis de l’expérience en devenant facilitateurs lors de plusieurs événements publics. Nous avons trouvé dans ces nombreuses méthodes d’intelligence collective les recettes d’une bonne hybridation entre l’organisation d’événements hors ligne et la restitution des contributions en ligne pour enrichir le contenu de nos plateformes. Vaccinés par la pratique contre les discours béats sur le solutionnisme technologique, nous proposons à nos clients des approches et des compétences complémentaires alliant ingénierie et animation de la concertation, développement web et marketing sur les réseaux sociaux.
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*RSrwzmrgySI36W2keHO5yQ.jpeg"><br><center><i>Mindmap de propositions sur l’émancipation lors d’un atelier du SourcesLab, le 4 juin 2016 chez Volumes.</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*RSrwzmrgySI36W2keHO5yQ.jpeg"><center><i>Mindmap de propositions sur l’émancipation lors d’un atelier du SourcesLab, le 4 juin 2016 chez Volumes.</i></center>
 
 <br><br>
 

@@ -5,7 +5,7 @@ menu:
   item-0-3: "Articles"
   item-1: "Services"
   item-2: "Réalisations"
-  item-3: "À propos"
+  item-3: "A propos"
   item-4: "Equipe"
   item-5: "On recrute !"
   item-6: "Contact"
@@ -70,7 +70,7 @@ story:
   story-link: "https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e#.5sdy4qtla"
   story-article-title: "Notre philosophie"
   all-article-btn : "Voir plus d'articles"
-  all-article-btn : "Tous nos Articles"
+  all-article-btn : "Tous nos articles"
   url : "/fr/blog"
 
 team:
@@ -118,6 +118,7 @@ team:
   position-alain: "Technique"
   position-virgile: "Projets"
   position-valentin: "Conseil"
+  position-olivier: "Gestion"
 
 client-title : "Ils nous font confiance"
 
@@ -125,7 +126,7 @@ allref :
   btn-text : "Voir toutes nos réalisations"
   url : "/fr/references"
 
-other-offre : Autres offres
+other-offre : Toutes nos offres
 
 newsletter:
   subscribe-btn : "Inscription"
@@ -135,6 +136,5 @@ newsletter:
   subtitle : "suivez l'actu d'une entreprise des civic tech libres"
 
 footer:
-  middle: "Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relation avec ses partenaires"
+  middle: "Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relations avec ses partenaires."
   right-bottom: "édition mai 2017"
-  

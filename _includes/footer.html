@@ -4,9 +4,9 @@
       <div class="col-md-8">
         <ul class="list-inline clearfix">
           {% if page.locale == "fr" %}
-          <li><b class="menu-item" style="color:#fff;">Offres</b></li>
+          <li><b class="menu-item" style="color:#fff;">Offres :</b></li>
           {% else %}
-          <li><b>Offers</b></li>
+          <li><b class="menu-item" style="color:#fff;">Offers :</b></li>
           {% endif %}
           {% if page.locale == "fr" %}
           <li><a href="/consultations-publiques" class="menu-item" style="color:#fff;">OSP Agora</a></li>
@@ -14,7 +14,7 @@
           <li><a href="/public-consultations" class="menu-item" style="color:#fff;">OSP Agora</a></li>
           {% endif %}
           {% if page.locale == "fr" %}
-          <li><a href="/budget-participatif" class="menu-item" style="color:#fff;">OSP Budget</li>
+          <li><a href="/budget-participatif" class="menu-item" style="color:#fff;">OSP Budget</a></li>
             {% else %}
             <li><a href="/participatory-budgeting" class="menu-item" style="color:#fff;">OSP Bugdet</a></li>
             {% endif %}
@@ -28,13 +28,12 @@
             {% else %}
             <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
             {% endif %}
-
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="list-inline clearfix">
             {% if page.locale == "fr" %}
-            <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mention légales</a></li>
+            <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mentions légales</a></li>
             {% else %}
             <li><a href="/en/Legal-Notice" class="menu-item" style="color:#fff;">Legal Notice</a></li>
             {% endif %}
@@ -52,7 +51,7 @@
           <div style ="font-size:1em;color:#fff;">
             <p>Open Source Politics,<br>
               RCS Paris 820 412 161<br>
-              32 rue des cascades<br>
+              32 rue des Cascades<br>
               75020 Paris (France)</p>
             </div>
           </div>
@@ -60,8 +59,9 @@
             <p>{{ site.data.i18n[page.locale].footer.middle }}</p>
           </div>
           <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
             <p>contact@opensourcepolitics.eu<br>
-              {{ site.data.i18n[page.locale].footer.right-bottom }}<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
             </p>
           </ul>
         </div>
