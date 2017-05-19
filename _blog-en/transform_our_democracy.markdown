@@ -12,7 +12,6 @@ project-date : 7 december 2016
 date : 2016-12-07 11:17
 filename : transform_our_democracy
 article-description: Our generation yearns to create a more collaborative world. The stakes of our time does not leave us much choice anyway...
-
 ---
 
 <div class = "blogcontent">

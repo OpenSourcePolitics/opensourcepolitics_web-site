@@ -12,6 +12,7 @@ project-date : 13 march 2017
 date : 2017-03-13 11:17
 filename : permanent_Agora_in_Nanterre
 article-description: Virgile Deville and Alain Buchotte tell us about the collaboration between Open Source Politics and the town hall of Nanterre...
+mis-en-avant: 1
 ---
 
 <div class = "blogcontent">
