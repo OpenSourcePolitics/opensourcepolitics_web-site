@@ -24,7 +24,7 @@ permalink: /fr/references
                 {% cycle 'add row' : '<div class="row">', nil %}
                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 portfolio-item">
                       <a href="{{ ref.url }}" class="portfolio-link">
-                          <img src="/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
+                          <img src="/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="" style = "margin-bottom:0px;">
                       </a>
                       <div class="portfolio-block radius-down">
                           <h4><a href="{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
@@ -39,6 +39,10 @@ permalink: /fr/references
           </div>
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 {% include sidebar-refs.html %}
+                {% if page.locale == "fr" %}
+                <center><button type="button" class="btn btn-primary" data-toggle="modal" style = "margin-bottom:5px;" data-target="#news"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newsletter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center>
+               {% include newsletter-popup.html %}
+               {% endif %}
             </div>
           </div>
         </div>

@@ -1,124 +1,134 @@
 <!-- Navigation -->
 
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><b>OSP</b></a>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top"><b>OSP</b></a>
+    </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-center">
-                  <li class="hidden">
-                      <a href="#page-top"></a>
-                  </li>
-                  <li>
-                      <a class="page-scroll menu-item" href="#services">{{ site.data.i18n[page.locale].menu.item-0-1 }}</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll menu-item" href="#references">{{ site.data.i18n[page.locale].menu.item-0-2 }}</a>
-                  </li>
-                  <li>
-                  {% if page.locale == "fr" %}
-                      <a class="page-scroll menu-item" href="/fr/blog">{{ site.data.i18n[page.locale].menu.item-0-3 }}</a>
-                  {% else %}
-                      <a class="page-scroll menu-item" href="/en/blog">{{ site.data.i18n[page.locale].menu.item-0-3 }}</a>
-                  {% endif %}
-                  </li>
-                  <li>
-                      <a class="page-scroll menu-item" href="#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
-                  </li>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-center">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <!--  <a class="page-scroll menu-item" href="#services">{{ site.data.i18n[page.locale].menu.item-0-1 }}</a> -->
+
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+              <span class="caret"></span></button>
+              <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}consultations-publiques{% else %}public-consultations{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-1 }}</a></li>
+                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}budget-participatif{% else %}participatory-budgeting{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-2 }}</a></li>
+                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}custom{% else %}en-custom{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-3 }}</a></li>
+                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}formation-civic-tech{% else %}civic-tech-training{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-4 }}</a></li>
               </ul>
-                <!-- <ul class="nav navbar-nav navbar-center">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">{{ site.data.i18n[page.locale].menu.item-1 }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#references">{{ site.data.i18n[page.locale].menu.item-2 }}</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#about">{{ site.data.i18n[page.locale].menu.item-3 }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">{{ site.data.i18n[page.locale].menu.item-4 }}</a>
-                    </li>
-                    <li>
-                        <a href="#jobs" class="page-scroll"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
-                    </li>
-
-                </ul> -->
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ site.baseurl }}/fr/accueil">{% if page.locale == "fr" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">fr</span> {% elsif page.locale == "en" %}<span style="font-size:1em">fr</span>{% endif %}</a></li>
-                    <li><a href="{{ site.baseurl }}/en/home">{% if page.locale == "en" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">en</span> {% elsif page.locale == "fr" %}<span style="font-size:1em">en</span> {% endif %}</a></li>
-                    {% for network in site.social %}
-                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                    </li>
-                    {% endfor %}
-                </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-      <header>
-          <div class="container">
-              <div class="intro-text">
-
-                  <div class="intro-heading-min"  style ="font-size:3em;">{{ site.data.i18n[page.locale].punchline.line-1 }}{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
-                  <div class="intro-lead-in" style ="font-size:1.6em;" >{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
-                  <div>
-                    <center>
-                    <ul class="breadcrumb" style="font-size:1.2em;">
-                      <li>
-                          <a class="page-scroll" href="#services" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-1 }}</b></a>
-                      </li>
-                      <li>
-                          <a class="page-scroll" href="#references" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-2 }}</b></a>
-                      </li>
-                      <!-- <li> -->
-                          <!-- <a class="page-scroll" href="#products">Outils</a> -->
-                      <!-- </li> -->
-                      <li>
-                          <a class="page-scroll" href="#about" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-3 }}</b></a>
-                      </li>
-                      <li>
-                          <a class="page-scroll" href="#team" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-4 }}</b></a>
-                      </li>
-                      <li>
-                          <a href="#jobs" class="page-scroll" style="color:white;"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
-                      </li>
-                      <!-- <li>
-                          <a class="page-scroll" href="#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
-                      </li> -->
-                    </ul>
-                  </center>
-                  <p>&nbsp;</p>
-                </div>
-                  <p><a href="#contact" class="page-scroll btn btn-xl">{{ site.data.i18n[page.locale].btn-contact }}</a>&nbsp;<a href="{{ site.data.i18n[page.locale].cta-link }}" class="page-scroll btn btn-link" style ="font-size:1.5em; color:white; font-weight:700; text-transform: uppercase; text-decoration: underline;">{{ site.data.i18n[page.locale].btn-cta }}</a></p>
-              </div>
 
 
+          </li>
+          <li>
+            <a class="page-scroll menu-item" href="{{site.baseurl }}/{% if page.locale == "fr" %}fr/references{% else %}en/productions{% endif %}" style = "margin-left:0px;">{% if page.locale == "fr" %}Réalisation{% else %}References{% endif %}</a>
+          </li>
+          <li>
+            {% if page.locale == "fr" %}
+            <a class="page-scroll menu-item" href="/fr/blog" style = "margin-left:4px;">{{ site.data.i18n[page.locale].menu.item-0-3 }}</a>
+            {% else %}
+            <a class="page-scroll menu-item" href="/en/blog" style = "margin-left:4px;">{{ site.data.i18n[page.locale].menu.item-0-3 }}</a>
+            {% endif %}
+          </li>
+          <li>
+            <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">{{ site.data.i18n/fr/.menu.item-6 }}</a>
+          </li>
+        </ul>
+        <!-- <ul class="nav navbar-nav navbar-center">
+        <li class="hidden">
+        <a href="#page-top"></a>
+      </li>
+      <li>
+      <a class="page-scroll" href="#services">{{ site.data.i18n[page.locale].menu.item-1 }}</a>
+    </li>
+    <li>
+    <a class="page-scroll" href="#references">{{ site.data.i18n[page.locale].menu.item-2 }}</a>
+  </li>
 
-          </div>
+  <li>
+  <a class="page-scroll" href="#about">{{ site.data.i18n[page.locale].menu.item-3 }}</a>
+</li>
+<li>
+<a class="page-scroll" href="#team">{{ site.data.i18n[page.locale].menu.item-4 }}</a>
+</li>
+<li>
+<a href="#jobs" class="page-scroll"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
+</li>
+
+</ul> -->
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="{{ site.baseurl }}/fr/accueil">{% if page.locale == "fr" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">fr</span> {% elsif page.locale == "en" %}<span style="font-size:1em">fr</span>{% endif %}</a></li>
+  <li><a href="{{ site.baseurl }}/en/home">{% if page.locale == "en" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">en</span> {% elsif page.locale == "fr" %}<span style="font-size:1em">en</span> {% endif %}</a></li>
+  {% for network in site.social %}
+  <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+  </li>
+  {% endfor %}
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="intro-text">
+
+      <div class="intro-heading-min"  style ="font-size:3em;">{{ site.data.i18n[page.locale].punchline.line-1 }}{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
+      <div class="intro-lead-in" style ="font-size:1.6em;" >{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
+      <div>
+        <center>
+          <ul class="breadcrumb" style="font-size:1.2em;">
+            <li>
+              <a class="page-scroll" href="#services" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-1 }}</b></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#references" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-2 }}</b></a>
+            </li>
+            <!-- <li> -->
+            <!-- <a class="page-scroll" href="#products">Outils</a> -->
+            <!-- </li> -->
+            <li>
+              <a class="page-scroll" href="#about" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-3 }}</b></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#team" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-4 }}</b></a>
+            </li>
+            <li>
+              <a href="#jobs" class="page-scroll" style="color:white;"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
+            </li>
+            <!-- <li>
+            <a class="page-scroll" href="#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
+          </li> -->
+        </ul>
+      </center>
+      <p>&nbsp;</p>
+    </div>
+    <p><a href="#contact" class="page-scroll btn btn-xl">{{ site.data.i18n[page.locale].btn-contact }}</a>&nbsp;<a href="{{ site.data.i18n[page.locale].cta-link }}" class="page-scroll btn btn-link" style ="font-size:1.5em; color:white; font-weight:700; text-transform: uppercase; text-decoration: underline;">{{ site.data.i18n[page.locale].btn-cta }}</a></p>
+  </div>
+</div>
 
 
-      </header>
+</header>
 <!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+{% for page in site.pages %}
+{% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+{% endfor %}
+-->

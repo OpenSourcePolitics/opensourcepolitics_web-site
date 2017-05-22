@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/comment-le-mouvement-umbrella-a-lanc%C3%A9-une-dynamique-de-renouveau-d%C3%A9mocratique-%C3%A0-hong-kong-46367c71603f
 project-date : 20 avril 2017
+date : 2017-04-20 20:43
 filename : Podemos_participaLab_de_madrid
 article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.hk et de la façon dont les manifestations de 2014 ont donné naissance...
 
@@ -34,15 +35,15 @@ Une interview de Yago Bermejo Abati à propos de son implication au sein du mouv
 
 <b>YB :</b> Le facteur liant est d’essayer de faire émerger des politiques de crowdsourcing. C’est ce qui relie ce type de projets. Cela dit, le 15M était un peu différent parce qu’il s’agissait avant tout d’un mouvement protestataire, mais il y a eu des tentatives de création d’outils de participation à l’époque. Ce qui nous motive c’est cette idée de démocratie ascendante mais bien sûr, au fil du temps, nous progressons. Donc, ce que je fais maintenant avec ParticipaLab est tout à fait différent des civic tech produites lors des démonstrations du 15M.
 <br>
-<img src = "https://cdn-images-1.medium.com/max/1200/1*tZwvyE4I4oCOYntYmJTWgA.jpeg"><br><i>Un atelier du Medialab Prado : l’intelligence collective au service de la démocratie (2016)</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*tZwvyE4I4oCOYntYmJTWgA.jpeg"><center><i>Un atelier du Medialab Prado : l’intelligence collective au service de la démocratie (2016)</i></center>
 
 <br><br>
 
 <b>Dirais-tu que tout a commencé avec les manifestations des Indignés ? Quelles étaient les spécificités de ce mouvement ?</b>
 <br>
 <b>YB :</b> Le point de départ est de réaliser les défauts de la démocratie. Une fois que vous êtes dans l’état d’esprit de changer ce qui ne va pas, vous pouvez travailler à améliorer le système. Il existe de nombreuses façons de le faire, mais dans notre cas, nous essayons de repenser la façon dont les institutions fonctionnent et comment elles peuvent utiliser internet pour que l’intelligence collective se mette au service de la démocratie. Il est réconfortant de constater que ces mouvements surgissent en plusieurs endroits à la fois. Comme l’Islande, Taïwan, l’Argentine, etc. Pour résumer, je dirais que nous essayons de faire ce type de connexion entre l’innovation participative et les réseaux, en trouvant de nouvelles façons de reconstruire la démocratie.
-<br>
-<img scr = "https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg"><br><i>Un rassemblement des Indignés sur la place de la Puerta del Sol à Madrid (20 mai 2011)</i>
+<br><br>
+<img src = "https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg"><center><i>Un rassemblement des Indignés sur la place de la Puerta del Sol à Madrid (20 mai 2011)</i></center>
 <br><br>
 
 
@@ -58,7 +59,7 @@ Une interview de Yago Bermejo Abati à propos de son implication au sein du mouv
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/1200/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg"><br><i>La façade en DEL du Medialab Prado</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg"><center><i>La façade en DEL du Medialab Prado</i></center>
 <br><br>
 
 <b>En quoi ce que l’on fait au sein du Medialab Prado est différent de ce que proposent les entreprises privées des civic tech ?</b>
@@ -68,7 +69,7 @@ Une interview de Yago Bermejo Abati à propos de son implication au sein du mouv
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/1200/1*mBOJi6w-VkT5ew3qOmBB7Q.jpeg"> <br><i>L’intelligence collective au service de la démocratie (2016)</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*mBOJi6w-VkT5ew3qOmBB7Q.jpeg"><center><i>L’intelligence collective au service de la démocratie (2016)</i></center>
 
 <br><br>
 
@@ -78,7 +79,7 @@ Une interview de Yago Bermejo Abati à propos de son implication au sein du mouv
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/1200/1*_YG2QkEaIDZGtvL_LlLtOQ.png"><br><i>L’ensemble des villes qui utilisent Consul, la plateforme de participation créée à Madrid.</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*_YG2QkEaIDZGtvL_LlLtOQ.png"><center><i>L’ensemble des villes qui utilisent Consul, la plateforme de participation créée à Madrid.</i></center
 
 <br><br>
 

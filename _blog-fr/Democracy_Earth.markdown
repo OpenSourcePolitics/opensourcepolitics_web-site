@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/democracy-earth-la-promesse-de-votes-en-ligne-s%C3%A9curis%C3%A9s-et-ind%C3%A9pendants-905476a39787
 project-date : 4 janvier 2017
+date : 2017-01-04 19:17
 filename : Democracy_Earth
 article-description: Une interview de Virgile Deville, co-fondateur d’Open Source Politics, des hackathons Open Democracy Now ...
 ---
@@ -74,14 +75,14 @@ Effectivement, ce système implique un risque. Au sein de la fondation nous réf
 
 <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/UajbQTHnTfM?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
-<br><center><i>Conférence de Santiago Siri lors de l’Échapée Volée 2016 en France</i></center>
+<center><i>Conférence de Santiago Siri lors de l’Échapée Volée 2016 en France</i></center>
 
 <br><br>
 
 <b>Sovereign a-t-il déjà été utilisé ? Si oui : où et comment ?</b>
 <br>Oui, il y a eu une utilisation publique, liée au dernier référendum en Colombie. À l’époque nous avons été contactés par des Colombiens vivant à l’étranger car certains expatriés ne pouvaient pas voter : le gouvernement avait en effet décidé de ne pas ré-ouvrir les inscriptions sur les listes électorales pour cette échéance. Il faut savoir que la communauté expatriée colombienne est proportionnellement, la plus importante au monde, justement parce que les tensions avec les FARC ont fait fuir beaucoup d’habitants. Ainsi, à l’étranger, c’est près de six millions de personnes qui n’ont pas pu voter lors de ce référendum. Pour tester notre plateforme, nous avons donc proposé à un petit nombre d’entre elles d’utiliser Sovereign pour exprimer leur avis sur la question. Il faut noter que le référendum ne concernait pas seulement un accord de paix avec les FARC, mais aussi un programme de réforme agraire, des mesures de prévention du trafic de drogue etc. C’est aussi ça que notre démarche tend à souligner : les plateformes en ligne permettent d’éviter d’avoir à répondre de manière binaire, comme ça a été le cas pour ce référendum, ou bien pour le Brexit par exemple.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*xdgmrNOyaINkHvzVcFun1Q.png"><br><center><i>Référendum alternatif proposé aux expatriés colombiens par Democracy Earth.</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*xdgmrNOyaINkHvzVcFun1Q.png"><center><i>Référendum alternatif proposé aux expatriés colombiens par Democracy Earth.</i></center>
 <br><br>
 Nous avons documenté notre réaction aux résultats surprenants du référendum, en montrant qu’une pluralité de questions et la participation des Colombiens expatriés auraient pu aboutir à des décisions différentes.
 
@@ -97,7 +98,7 @@ Nous avons documenté notre réaction aux résultats surprenants du référendum
 <br>C’est principalement mon implication dans la civic tech depuis deux ans au sein de la fondation, d’Open Source Politics dont je suis co-fondateur, mais aussi du projet Democracy OS auparavant, et donc de toutes les rencontres que cela implique. C’est ainsi que j’ai connu Santiago Siri et c’est lui qui m’a sensibilisé à ces thématiques de décentralisation et d’incorruptibilité. Des questions qui sont centrales pour la fondation et qui à notre sens doivent devenir des standards non seulement pour la civic tech, mais plus largement pour la démocratie en général.
 
 <br>
-
+<br><br>
 <div class = "citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
 
 

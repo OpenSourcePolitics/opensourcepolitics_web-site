@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jp
 author-medium : https://medium.com/@ValentinChaput
 Medium-link : https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754
 project-date : 3 mai 2017
+date : 2017-05-03 10:17
 filename : La_democratie_continue
 article-description: La France sort d’une intense campagne. Haletante pour les uns, tant elle fut imprévisible et marquée par les rebondissements...
 

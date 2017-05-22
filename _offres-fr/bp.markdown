@@ -13,7 +13,7 @@ ref1-url: /refs-fr/2017-03-29-bp-rivp/
 
 Un budget participatif est une démarche qui consiste à impliquer les citoyens dans la gestion financière de leur ville, leur département etc. Une collectivité souhaitant mettre en place un budget participatif procèdera par étapes : définir le pourcentage du budget total qui sera alloué au processus, puis collecter les propositions des citoyens quant à l’utilisation de ces fonds. Enfin, il s’agira de faire voter puis mettre en place les meilleurs projets. À une période où la défiance des Français vis-à-vis de la politique se fait de plus en plus grande, une telle démarche permet de restaurer le lien de confiance entre élus et citoyens en mettant en place un dispositif de participation qui garantit le respect des engagements pris par tous.
 
-<br>
+
 
 #### Consul, la plateforme open source de référence pour l’organisation d’un budget participatif
 
@@ -21,11 +21,10 @@ Un budget participatif est une démarche qui consiste à impliquer les citoyens 
 
 La plateforme permet aux citoyens de proposer, soutenir et décider directement des dépenses du budget participatif sur l’ensemble de la ville et des quartiers, tout en fournissant à l’institution locale une interface d’administration complète pour superviser toutes les étapes et évaluer les propositions.
 
-<br>
 
 #### Les budgets participatifs nécessitent un accompagnement fort sur le terrain
 
-Ayant un impact direct sur l’utilisation des fonds publics, une telle démarche se doit d’être totalement inclusive. Pour cette raison, avec le cabinet Copas, nous animons des ateliers sur le terrain pour présente les principes et l’intérêt des budgets participatifs et susciter un maximum de propositions venant des participants. Nous les aidons ensuite à approfondir ces idées pour en faire de véritables projets d’investissement.
+Ayant un impact direct sur l’utilisation des fonds publics, une telle démarche se doit d’être totalement inclusive. Pour cette raison, avec le cabinet  [Copas](http://copas.coop/), nous animons des ateliers sur le terrain pour présente les principes et l’intérêt des budgets participatifs et susciter un maximum de propositions venant des participants. Nous les aidons ensuite à approfondir ces idées pour en faire de véritables projets d’investissement.
 
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 

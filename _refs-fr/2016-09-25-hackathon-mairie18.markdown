@@ -6,7 +6,7 @@ thumbnail: hackathon-mairie-18.png
 alt: Hackathon ODN @ Mairie du 18e
 project-date: septembre 2016
 category: refs
-tag: hackathon, animation
+tag: hackathon, Animation
 client-url: http://www.mairie18.paris.fr/mairie18/
 project-link: http://opendemocracynow.net/
 client: Mairie 18e

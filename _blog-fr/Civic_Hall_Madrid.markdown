@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/quinze-jours-en-immersion-dans-le-civic-hall-europ%C3%A9en-%C3%A0-madrid-8317299829f9
 project-date : 21 decembre 2016
+date : 2016-12-21 17:34
 filename : Civic_Hall_Madrid
 article-description: Dans le cadre d’un hackathon de deux semaines sur le thème de l’intelligence collective au service de...
 
@@ -28,7 +29,7 @@ Arrivé à Madrid le 18 novembre 2016, Virgile a pu rapidement s’imprégner de
 Situé en plein centre de la ville, à proximité de la gare d’Atocha, le Civic Hall madrilène s’est installé dans une ancienne scierie réaménagée, au cœur d’un quartier dynamique et festif. Le bâtiment est spacieux et aéré. Il compte un fablab, un espace d’exposition, un grand espace de travail et une salle de conférence. L’équipe du Medialab Prado est composée non seulement de personnes de la mairie — le “ParticipaLab” — mais aussi de personnes en résidence sur place — sociologues, hackers (robotique), arts numériques... Ce staff éclectique gère l’accueil et travaille sur des projets personnels. Une attention toute particulière est donnée à la médiation. Ainsi, des personnes sont là pour accueillir les différents publics et les aider à utiliser le lieu, ouvert à tous. Chacun peut décider de venir y proposer un projet quand il le souhaite. En résumé, le Medialab Prado c’est une équipe bienveillante et ouverte, mais aussi et avant tout acharnée et travailleuse, professionnelle et expérimentée puisqu’il existe depuis 10 ans. Avant d’occuper son emplacement actuel, l’équipe du Medialab se réunissait dans un espace en sous-sol.
 
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*uTFk0i-Gu95CNn38fEUQFw.jpeg"><br><center><i>Installés dans une ancienne scierie, les locaux du Medialab Prado sont esthétiques et spacieux</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*uTFk0i-Gu95CNn38fEUQFw.jpeg"><center><i>Installés dans une ancienne scierie, les locaux du Medialab Prado sont esthétiques et spacieux</i></center>
 
 <br><br>
 
@@ -42,7 +43,7 @@ Le sujet sur lequel tous les groupes allaient devoir travailler était le suivan
 
 En plus de Virgile (Open Source Politics/Democracy Earth 🇫🇷), l’équipe était composée de Claudia (artiste numérique 🇵🇹), Angeliki (illustratrice 🇬🇷), Mia (auteure d’une thèse sur les nouvelles formes de partis politiques 🇩🇪), Mair (étudiante en sciences politiques 🇦🇷), Roxana (experte en design-thinking 🇲🇽) et enfin Juan-Felipe (scénariste 🇨🇴). En parallèle, deux codeurs ont participé au projet : Gage (🇨🇦) et Osiel (🇲🇽).
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*zRejOb3DA8VE5JWTx7hq3w.jpeg"><br><center><i>Dream Team at work !</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*zRejOb3DA8VE5JWTx7hq3w.jpeg"><center><i>Dream Team at work !</i></center>
 <br><br>
 
 Une équipe dont les membres avaient donc des parcours diamétralement opposés, mais complémentaires... Pas évident pour Virgile d’encadrer des profils aussi éclectiques. Cela dit les participants ont pu, dès les premiers jours, utiliser une instance de Sovereign pour prendre leurs décisions. Ils ont reproduit le processus de développement des livrables suivant :
@@ -83,7 +84,7 @@ C’est la raison pour laquelle toute une partie de la communauté international
 
 Après plusieurs jours de travail, l’équipe lance la plateforme “Kingdom Tale”. Il s’agit d’une expérience en ligne dont l’objectif est de sensibiliser l’opinion sur la question globale de la souveraineté individuelle au XXIe siècle et, à travers une narration fictionnelle, de discuter de la monarchie en Espagne et des autres monarchies modernes en dressant un parallèle entre celles-ci et l’aspect numérique des systèmes politiques contemporains.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*Sh9nZNz0DbB19luNn-KANQ.jpeg"><br><center><i>“Kingdom Tale” une expérimentation narrative sur le thème de la souveraineté individuelle</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*Sh9nZNz0DbB19luNn-KANQ.jpeg"><center><i>“Kingdom Tale” une expérimentation narrative sur le thème de la souveraineté individuelle</i></center>
 
 <br><br>
 
@@ -95,13 +96,13 @@ Après cette courte introduction, le lecteur est propulsé dans un mini-jeu dans
 
 Dès lors, l’axe narratif se dévoile et l’on découvre le contexte dans lequel évoluent les citoyens et le successeur de l’empereur, le “Roi Ier” du “Royaume dont je ne veux pas me souvenir”. Un roi qui a su faire preuve d’un désir d’équité et de justice sociale, mais qui reste l’héritier d’un système fondamentalement injuste dont il ne peut que préserver l’intégrité, malgré sa bonne volonté.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*BLzIIJvHWulBSyxrJhHB8w.jpeg"><br><center><i>Développement narratif #KingdomTale</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*BLzIIJvHWulBSyxrJhHB8w.jpeg"><center><i>Développement narratif #KingdomTale</i></center>
 
 <br><br>
 
 Enfin, le lien final est un appel à la mobilisation intitulé “Become Sovereign” qui ouvre sur une instance de Democracy Earth permettant aux utilisateurs de voter sur des questions telles que les lois de succession des héritiers royaux ou encore le maintien des pouvoirs décisionnels des monarques.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*LFPc-EaKWxVR3fNMOkz_aw.png"><br><center><i>“Sovereign” un projet de Democracy Earth</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*LFPc-EaKWxVR3fNMOkz_aw.png"><center><i>“Sovereign” un projet de Democracy Earth</i></center>
 
 <br><br>
 

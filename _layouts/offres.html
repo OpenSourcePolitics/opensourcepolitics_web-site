@@ -40,9 +40,13 @@
               <div>
                 {% include sidebar-offres.html %}
               </div>
+              {% if page.locale == "fr" %}
+              <center><button type="button" class="btn btn-primary" data-toggle="modal" style = "margin-bottom:5px;" data-target="#news"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Newsletter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center>
+             {% include newsletter-popup.html %}
+             {% endif %}
               <div>
                 {% if page.ref1-name %}
-                <h4>Référence(s)</h4>
+                <h4>Référence</h4>
                 <a href="{{ page.ref1-url }}" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;{{ page.ref1-name }}</a>
                 {% endif %}
                 {% if page.ref2-name %}

@@ -14,6 +14,14 @@ Elle vise à faire connaître la civic tech et les différents processus de part
 #### Nous intervenons directement auprès de vos services
 
 Les formations sont assurées par Valentin Chaput, enseignant à Sciences Po Lille et Saint-Germain-en-Laye sur l’impact du numérique sur les processus démocratiques et l’action publique et Virgile Deville, intervenant à Paris 8.
+<div class = "row">
+
+<div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-fr/La_democratie_continue/"><img src = "img/products/formation/fr/demo-1.jpg" class = "img-thumbnail" style = "margin-right:7px;margin-bottom: 8px;" alt = "Exemple de sildes présentés lors d'une formation sur la civic tech"></a></div>
+<div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-fr/La_democratie_continue/"><img src = "img/products/formation/fr/demo-2.jpg" class = "img-thumbnail" style = "margin-right:7px;margin-bottom: 8px;" alt = "Exemple de sildes présentés lors d'une formation sur la civic tech"></a></div>
+<div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-fr/La_democratie_continue/"><img src = "img/products/formation/fr/demo-3.jpg" class = "img-thumbnail" style = "margin-bottom: 8px;" alt = "Exemple de sildes présentés lors d'une formation sur la civic tech"></a></div>
+</div>
+<center><i>Exemple de sildes présentés lors d'une formation sur la civic tech.</i></center>
+<br>
 
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 

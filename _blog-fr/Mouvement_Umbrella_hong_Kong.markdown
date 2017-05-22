@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/comment-le-mouvement-umbrella-a-lanc%C3%A9-une-dynamique-de-renouveau-d%C3%A9mocratique-%C3%A0-hong-kong-46367c71603f
 project-date : 3 mai 2017
+date : 2017-05-03 11:12
 filename : Mouvement_Umbrella_hong_Kong
 article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.hk et de la façon dont les manifestations de 2014 ont donné naissance...
 
@@ -29,12 +30,12 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 <br><br>
 
 <b>Pouvez-vous nous parler du mouvement Umbrella ?</b>
-
+<br>
 <b>SnD :</b> Depuis la fin du mois d’août 2014, le gouvernement chinois a mis en place de nouvelles contraintes sur la façon dont le chef de l’exécutif à Hong Kong peut être élu. Par exemple, ils ont créé un comité qui peut désigner les candidats à l’élection. Ils ont un droit de veto sur qui peut ou ne peut pas se présenter. L’idée du mouvement d’occupation pro-démocratie était de dire au camp pro-Pékin qu’il n’est pas normal d’avoir ce genre de pouvoir. En ce qui concerne la partie «Umbrella», elle est liée aux tactiques utilisées par les autorités pour faire taire les manifestants. À plusieurs reprises, la police a utilisé des jets d’eau froide ou du pepper spray pour disperser les gens. Les parapluies peuvent vous protéger de ces choses-là, ils sont donc logiquement devenus notre symbole.
 
 <br><br>
 
-<img src="https://cdn-images-1.medium.com/max/960/1*bLFIjTAqjz0COp5LDLK8ig.png"><br><i>Symbole du mouvement (photo: Wikimedia Commons)</i>
+<img src="https://cdn-images-1.medium.com/max/960/1*bLFIjTAqjz0COp5LDLK8ig.png"><center><i>Symbole du mouvement (photo: Wikimedia Commons)</i></center>
 
 
 <br><br>
@@ -43,7 +44,7 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 <br>
 <b>SnD :</b> Il y a eu des manifestations avant 2014. Je pense que depuis 2012, les préoccupations au sein de la population se sont faites de plus en plus pressantes, parce que le chef de l’exécutif était très impopulaire. Au fur et à mesure, le camp pro-Pékin est devenu de plus en plus agressif. Je me souviens qu’à l’époque, les gens utilisaient déjà la technologie pour s’informer, par exemple, il y avait ce mouvement appelé SocRec (Society Record) qui a émergé après 2012 dont l’objectif était de diffuser les nouvelles liées aux manifestations sur les réseaux sociaux.
 <br>
-<img src ="https://cdn-images-1.medium.com/max/960/1*5UMOT7D58hl9wH92vXkCEw.jpeg"><i>Le site de l’Amirauté, nuit du 10 octobre 2014 (picture: Wikimedia Commons)</i>
+<img src ="https://cdn-images-1.medium.com/max/960/1*5UMOT7D58hl9wH92vXkCEw.jpeg"><center><i>Le site de l’Amirauté, nuit du 10 octobre 2014 (picture: Wikimedia Commons)</i></center>
 
 <br><br>
 
@@ -52,7 +53,7 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 <b>Angus :</b> Il n’y a pas beaucoup de gens à Hong Kong qui ont adopté l’idée que la technologie peut améliorer la démocratie et même s’il y a parfois eu beaucoup de participation à nos projets, nous avons encore l’impression qu’un effort supplémentaire est nécessaire. Mais oui, certains de nos projets se sont montrés populaires par le passé. Par exemple, il y a plus de 65 000 personnes qui se sont exprimées lors de notre dernier référendum, en utilisant nos plateformes POPVote. Nous étions un peu déçus parce que nous nous attendions à une plus grande participation, mais cela reste correct. En juin 2014 en revanche, nous avions fait campagne avec le parti pan-démocratique pour le référendum civil afin de proposer une réforme constitutionnelle. Il y a eu beaucoup d’enthousiasme et cela a permis de recueillir les avis de près de 800 000 personnes. À l’époque, nous avions principalement touché les gens via Internet, mais je pense que le succès de ce référendum est principalement dû aux efforts du parti pan-démocratique.
 
 <br>
-<img src ="https://cdn-images-1.medium.com/max/1200/1*894aolKryz-YhWTGep5i_w.png"><i>POPvote est une plateforme de vote electronique qui a été utilisée par près de 800 000 personnes pendant le referendum de juin 2014</i>
+<img src ="https://cdn-images-1.medium.com/max/1200/1*894aolKryz-YhWTGep5i_w.png"><center><i>POPvote est une plateforme de vote electronique qui a été utilisée par près de 800 000 personnes pendant le referendum de juin 2014</i></center>
 <br><br>
 
 
@@ -60,7 +61,7 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 <br>
 <b>SnD :</b> À ma connaisance il n’y a pas d’entreprises privées qui font de la civic tech à Hong Kong pour le moment. Il y avait bien cette entreprise qui a créé une plateforme conçue pour aider les whistleblowers en donnant à ses utilisateurs un endroit pour discuter et partager qui offrait des normes de confidentialité élevées. Mais c’était plus un genre de passe-temps, ses créateurs ne gagnaient pas d’argent dessus. En ce qui concerne les projets qui ont été proposés par le mouvement Umbrella et le parti pan-démocratique, il y a d’abord POPVote (Public Opinion Program), dont Angus vient de parler. POP propose une plateforme Web et une application mobile qui permettent aux citoyens de parler de leurs préoccupations et de faire connaître leurs opinions en ligne via un système de débat et de vote électronique. Il a été utilisé durant 12 événements ici à Hong Kong, y compris 2 référendums civils à l’échelle nationale. En outre, nous avons également construit un outil appelé VotSonar, qui permet aux citoyens de voter et de voir les résultats des sondages en temps réel. Nous l’avons utilisé lors de l’élection du Conseil législatif (LegCo) le 4 septembre 2016 et avons recueilli plus de 42 000 voix.
 <br>
-<img src = "https://cdn-images-1.medium.com/max/1200/1*OI93kETHiKrutkQZ0UOzdg.png"><i>VotSonar permet aux citoyens de voter et d’accéder aux résultats prévus en temps réel</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*OI93kETHiKrutkQZ0UOzdg.png"><center><i>VotSonar permet aux citoyens de voter et d’accéder aux résultats prévus en temps réel</i></center>
 <br><br>
 <b>3 ans après les manifestations, pouvez-vous dresser un bilan des améliorations amenées par la civic tech ?</b>
 <br>
@@ -72,7 +73,7 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/1200/1*-pQ8tN8ho6oHFHYt9Qdfaw.jpeg"><i>Des officiers de police encerclent des manifestants (picture: Wikimedia Commons)</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*-pQ8tN8ho6oHFHYt9Qdfaw.jpeg"><center><i>Des officiers de police encerclent des manifestants (picture: Wikimedia Commons)</i></center>
 
 <br><br>
 
@@ -83,7 +84,7 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 <br><br>
 
 <b>SnD :</b> Notre situation est très spécifique car, contrairement à vous en Europe, nous ne travaillons pas avec, mais contre notre gouvernement. Même par rapport à nos amis de g0v… Ils ont eu l’occasion de faire pression sur leur gouvernement parce qu’ils ont gagné les élections. Dans notre cas, jusqu’à présent, nous ne pouvons pas accéder aux ressources institutionnelles, ce qui rend notre travail beaucoup plus difficile.
-
+<br><br>
 <b>Quelles sont vos motivations ? En quoi la civic tech est-elle importante ?</b>
 <br>
 <b>Angus :</b> La technologie est un outil très puissant qui peut être utilisé pour le meilleur, mais aussi pour le pire, car elle accorde aux dirigeants un pouvoir qui, par le passé, aurait nécessité le soutien d’une armée. De nos jours, un dictateur aurait besoin de très peu de gens pour gérer des milliers et des milliers de drones. Mon objectif est d’aider la société en faisant en sorte que les gens adoptent la culture de la technologie open source et qu’ils en fassent une utilisation vertueuse.
@@ -92,7 +93,7 @@ article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.
 
 <b>SnD :</b> Dans mon cas, j’ai travaillé dans la Silicon Valley où il y a des mouvements open source qui cherchent à utiliser la technologie pour orienter la société vers la culture ouverte. Ce genre de mentalité est très répandu là-bas et quand je suis retourné à Hong Kong, toute la société m’a paru bizarre, surtout en matière de politique. J’avais l’impression que les gens étaient en colère tout le temps et j’ai donc choisi cette vie pour essayer d’améliorer la situation locale.
 
-
+<br><br>
 
 <div class ="citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
 

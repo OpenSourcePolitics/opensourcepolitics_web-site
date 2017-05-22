@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/comment-le-mouvement-g0v-transforme-le-gouvernement-ta%C3%AFwanais-gr%C3%A2ce-%C3%A0-des-solutions-open-source-9ed7d599f375
 project-date : 13 avril 2017
+date : 2017-04-13 14:32
 filename : transformation_gouvernement_taïwanais
 article-description: Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à propos du mouvement g0v (prononcer “gov zéro”)...
 
@@ -21,12 +22,12 @@ Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à p
 <br><br>
 
 <b>Pouvez-vous vous présenter en précisant comment vous avez rejoint le mouvement g0v ?</b>
-
+<br>
 <b>CL :</b> Je suis développeur open source depuis longtemps, avant 2000, et j’ai créé la communauté g0v en 2012 à la fin de mon année sabbatique. À ce moment là, j’étais à l’hôpital et j’ai commencé à m’intéresser à la politique. Alors avec des amis, nous avons décidé d’essayer de rendre les données gouvernementales plus compréhensibles. En parallèle, nous avons pensé qu’il serait utile de construire une communauté de gens adeptes des nouvelles technologies et qui ont un attrait pour les questions de citoyenneté. Nous cherchions des gens souhaitant utiliser leurs compétences pour participer à ce nouveau mouvement civique.
 
 <br>
 
-<img src ="https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png"> <br> <i>CL à l’hôpital !</i><br>
+<img src ="https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png"> <center> <i>CL à l’hôpital !</i><br></center>
 
 <br>
 
@@ -38,7 +39,7 @@ Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à p
 
 <b>TTcat : </b>Je pense que le mouvement Tournesol en 2014 a vraiment fait grandir le projet. Le Tournesol était un mouvement étudiant qui a occupé le parlement taïwanais pendant 23 jours. Le deuxième jour, j’ai demandé à Audrey Tang de mettre en place une connexion internet autour du parlement car il n’y en avait aucune ; les gens utilisaient simplement la 3G, ce qui rendait difficile aux parlementaires et à la population la compréhension de ce qu’il se passait à l’extérieur et vice versa. Fondamentalement, c’était un besoin logistique que nous avons rempli, en permettant aux gens de diffuser des articles en ligne, etc. Nous avons rendu le mouvement et son processus plus visibles et plus inclusifs.<br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*YBlUqpn-FAFVAA02U7ZW0Q.jpeg"> <br> <i>gOv a grandi à travers le mouvement des Tournesols</i>
+<img src = "https://cdn-images-1.medium.com/max/960/1*YBlUqpn-FAFVAA02U7ZW0Q.jpeg"> <center> <i>gOv a grandi à travers le mouvement des Tournesols</i></center>
 
 
 <br><br>
@@ -52,7 +53,7 @@ Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à p
 
 <br>
 
-<img src ="https://cdn-images-1.medium.com/max/960/1*cbVyghGWr8wPIF0kDw9lsQ.jpeg"> <br> <i> gOv Summit (2016) </i><br>
+<img src = "https://cdn-images-1.medium.com/max/960/1*cbVyghGWr8wPIF0kDw9lsQ.jpeg"> <center> <i> gOv Summit (2016) </i><br></center>
 
 <br>
 
@@ -71,7 +72,7 @@ Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à p
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*GN68TvmMaZp8dj28HabwPA.jpeg"> <br> <i>image : http://g0v.asia/tw/</i>
+<img src = "https://cdn-images-1.medium.com/max/960/1*GN68TvmMaZp8dj28HabwPA.jpeg"> <center> <i>image : http://g0v.asia/tw/</i></center>
 
 <br><br>
 
@@ -85,7 +86,7 @@ Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à p
 
 <br>
 
-img src = "https://cdn-images-1.medium.com/max/1200/1*JIRDDzbyLGtqqScR_g5a-Q.jpeg"> <br> <i>gOv Summit (2016)</i>
+<img src = "https://cdn-images-1.medium.com/max/1200/1*JIRDDzbyLGtqqScR_g5a-Q.jpeg"> <center> <i>gOv Summit (2016)</i></center>
 
 <br><br>
 
@@ -100,7 +101,7 @@ img src = "https://cdn-images-1.medium.com/max/1200/1*JIRDDzbyLGtqqScR_g5a-Q.jpe
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg"> <br> <i>Un rassemblement des Indignés sur la place de la Puerta del Sol à Madrid (20 mai 2011)</i><br>
+<img src = "https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg"> <center> <i>Un rassemblement des Indignés sur la place de la Puerta del Sol à Madrid (20 mai 2011)</i><br></center>
 
 <br>
 

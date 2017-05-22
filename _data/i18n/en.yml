@@ -4,7 +4,7 @@ menu:
   item-0-2: "Productions"
   item-0-3: "Articles"
   item-1: "Services"
-  item-2: "Productions"
+  item-2: "Productions & Clients"
   item-3: "About"
   item-4: "Team"
   item-5: "Now hiring!"
@@ -117,6 +117,7 @@ team:
   position-alain: "Technical director"
   position-virgile: "Product Management"
   position-valentin: "Senior Consultant"
+  position-olivier: "Management"
 
 btn-link-project: "Project link"
 client-title : "They trust us"

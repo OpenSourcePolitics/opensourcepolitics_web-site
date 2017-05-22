@@ -9,9 +9,9 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jp
 author-medium : https://medium.com/@ValentinChaput
 Medium-link : https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2
 project-date : 7 december 2016
+date : 2016-12-07 11:17
 filename : transform_our_democracy
 article-description: Our generation yearns to create a more collaborative world. The stakes of our time does not leave us much choice anyway...
-
 ---
 
 <div class = "blogcontent">
@@ -83,7 +83,7 @@ Democracy OS is an open source consulting platform initiated in Argentina.
 
 <div class = "citation"> The French civic-tech is against the tide.</div>
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/0*XhvN5dOVyzp0StLe."><br><center><i>code.gov</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/0*XhvN5dOVyzp0StLe."><center><i>code.gov</i></center>
 <br><br>
 
 
@@ -98,7 +98,7 @@ We at Open Source Politics are convinced that there is an economic model for the
 In his reference book on new peer-to-peer models, Michel Bauwens explains that a common is unlikely to triumph if it is isolated from private competitors, but always ends up winning if it teams-up with public or private actors which bring stability and rewards to the work of the community. As detailed in this brilliant article by Uzbek & Rica [in French], the challenge for public authorities to understand and collaborate with the emergence of commons, goes well beyond the civic-tech framework and concerns the entire innovation sector. That is why the responsibility of leaders attending the World Summit of the Partnership for Open Government exceeds simple marketing.
 
 
-<br><img src ="https://cdn-images-1.medium.com/max/960/0*Yl22uEF4SbOduSM_."><br><center><i>“The Century of Commons”, Usbek & Rica</i></center>
+<br><img src ="https://cdn-images-1.medium.com/max/960/0*Yl22uEF4SbOduSM_."><center><i>“The Century of Commons”, Usbek & Rica</i></center>
 <br><br>
 
 <b>Making a difference is within our reach.</b><br>
