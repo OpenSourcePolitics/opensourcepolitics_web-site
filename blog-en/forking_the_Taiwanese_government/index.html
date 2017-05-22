@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>How the g0v movement is forking the Taiwanese government</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/blog-en/forking_the_Taiwanese_government/">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+<body class="">
+  <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/en/home"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services">Services</a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/public-consultations">OSP AGORA</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/participatory-budgeting">OSP BUDGET</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/en-custom">OSP CUSTOM</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/civic-tech-training">OSP TRAINING</a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/en/productions" style = "margin-left:0px;">References</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/en/blog" style = "margin-left:4px;">Articles</a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"><span style="font-size:1em">fr</span></a></li>
+              <li><a href="/en/home"><span style="font-size:1.5em;color:#FDC63D">en</span> </a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+  <div class = "post post2" style = "background-color:white;">
+    <div class="container">
+      <br>
+      <!-- Date/Time -->
+      <div class = "col-md-8 col-md-offset-2 row">
+        <div class = "col-lg-8 col-md-12 col-sm-12" style = "margin-top:6px;"><p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;  Posted on 13 april 2017</b>
+          &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp; by Noe Jacomet <img src ="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" class ="img-circle avatar" style = "height:40px;"></b>
+        </div>
+        <a href="https://medium.com/open-source-politics/how-the-g0v-movement-is-forking-the-taiwanese-government-74b7cce0e92b" class="btn btn-primary col-md-12 col-sm-12 col-xs-12 col-lg-4"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;See the article on Medium &nbsp; </a></p>
+        <hr>
+      </div>
+      <div class = "row col-md-10 col-md-offset-1">
+        <center><h1>How the g0v movement is forking the Taiwanese government</h1></center>
+      </div>
+    </div>
+    <div class = "row container-fluid" style = "  background-color: transparent; background-image:url(https://cdn-images-1.medium.com/max/2000/1*H99WNXXR2ico79MS8zM_yw.png); background-size: cover; background-position: center; height:500px; margin-top:20px;"></div>
+
+
+
+
+
+    <div class="container-fluid" style = "background-color: transparent;">
+      <div class="row">
+
+
+
+        <div class="col-md-6 col-md-offset-3">
+          <!-- Preview Image -->
+
+          
+          <br>
+          <h4></h4>
+          <div class = "blogcontent"><div class="blogcontent">
+
+An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “CL” about the g0v (pronounced “gov zero”) movement in Taiwan, a community that focuses on building open source digital tools designed to improve civic participation and make government data more transparent.
+
+<br /><br />
+
+<b>Can you present yourself and the way you came to be involved in g0v?</b>
+<br />
+<b>CL:</b> I have been an open source developer since before 2000, and I actually started the g0v community in 2012 around the end of my sabatical. At the time I was in the hospital and I got interested in politics, so with friends we decided to try and make government information more understandable. In the meantime we thought it would be helpful to build a community of technologists who care about civic affairs that would want to use their abilities to take part in this new kind of civic movement.
+<br />
+
+<img src="https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png" /><center><i>CL in the hospital!</i></center>
+
+<br /><br />
+
+<b>TTcat:</b> I was an activist in different social movements before and I also have a developer background, so I understand the technical language as well as the language of social activism. I used to work in an NGO and I got involved in the project when we contacted g0v to try and find if we could collaborate together. Since 2013, I started to take part in hackathons as well.
+
+<br /><br />
+
+<b>Can you briefly present the g0v project?</b>
+<br />
+<b>TTcat:</b> I think it got really big with the sunflower movement in 2014, which was a student movement that occupied the Taiwanese parliament’s surroundings during 23 days. On the second day, I asked Audrey Tang to set up an internet connection around the parliament because there was none here, people were just using 3G which made it difficult for people inside to understand what was going on outside and vice-versa. Basically it was a logistical need that we filled, by allowing people to broadcast stuff online etc. We made the movement and its process more visible and more inclusive.
+
+<br /><img src="https://cdn-images-1.medium.com/max/960/1*YBlUqpn-FAFVAA02U7ZW0Q.jpeg" /><center><i>gOv became big during the Sunflower movement demonstrations</i></center><br /><br />
+
+<b>The initial motto of g0v was the idea of “forking the government” — can you elaborate on that? Is it still true nowadays?</b><br />
+
+<b>CL:</b> The word “fork” is often used in open source communities, meaning that you are creating another version of the working software. In our sense we wanted to create another version of the service that the government should have offered. It is a very “action-oriented” mentality: you create first and then you demonstrate that it is possible to provide a service in this way. In the case of g0v which is providing tools and such, we say that we are “forking the government” because we pilot some new ways of doing things and sometimes the government takes that back, which is what we call “merging back”. For example, this worked for the first project of g0v. At the time we had built a budget visualization tool, and 3 years later the newly elected mayor in Taipei City contacted the community and adopted the code that we had created. In this case, the cirle is complete, because we forked the government by saying : “Ok, this is a good way of showing budgets”.
+
+<br />
+
+<img src="https://cdn-images-1.medium.com/max/960/1*cbVyghGWr8wPIF0kDw9lsQ.jpeg" /><center><i>gOv Summit (2016)</i></center>
+
+<br /><br />
+
+<b>In Europe, I feel like that kind of movements are disregarded by a portion of the population, especially the less fortunate ones. Is that happening in Taiwan as well?</b>
+
+<b>TTcat:</b> Thanks to the sunflower movement, g0v became well known from the general public. I’d go so far as to say that it got famous in civil society and among politicians, still I wouldn’t say that everyone knows g0v, but people who are interested in tech and/or in politics definitely do.
+<br /><br />
+<b>CL: </b>People who do not have a technical background are increasingly getting involved in our hackathons or our other campaigns. I think they started to realize that the technological element in the movement is critical. It helps things grow exponentionally, you are allowed to build new tools, you are allowed to communicate in new ways that are yet to be invented. And people start to get that it is not just a movement but a meta-movement that uses technology to empower citizens.
+<br /><br />
+<b>How is the impact of collectives like g0v different from the work of civic tech companies and such?</b>
+<br />
+<b>CL: </b>Some people would say the change of power in Taiwan was due to the civic movements but it is really hard to connect those things. I think what we can say is that we definitely see more public servants that are willing to embrace new ways of working, less traditionnal hierarchical models etc. Compared to the impact of a private company now, I think the scale is different. Since we are open source, there is no limit to the number of projects we can work on, nor the size of the teams working on the different projects. Companies are focusing on important things too and their work is needed but they can’t really have the experimental approach that we have. I don’t think you should enforce open source, but it is very helpful to demonstrate that there is a benefit to an open system.
+
+<b>TTcat: </b>We must be careful about what we call civic tech companies, some that we have categorized that way provide a very important logistical support to town halls and citizens, but to me civic tech is more about transparency, better democracies, making government data more understandable to the general public etc. As for the impact of g0v, well right now there are lots of meetings hosted by the government which have to do with the internet and fake news and whatnot, and g0v gets invited to these meetings very often, so we are recognized for the fact that we raise awareness on those topics.
+<br />
+
+<img src="https://cdn-images-1.medium.com/max/960/1*GN68TvmMaZp8dj28HabwPA.jpeg" /><center><i>image : http://g0v.asia/tw/</i></center>
+<br /><br />
+<b>This type of organization is very open and people often come in and out of the projects. How can a goal emerge in such a blurry context?</b>
+<b>TTcat:</b> Well there is no boss, obviously. But basically if a project discontinues, then it was probably not meant to happen. The general idea is that when a project is important people will care about it. If nobody contributes to a project, then it might not be a priority.
+<br /><br />
+
+<b>CL:</b> There are beta-projects, for example TTcat and I are part of the task force that organizes hackathons etc. it is kind of the community infrastructure. The community decides what is important and the task force makes sure things go smoothly. There are other basic task forces that make sure we can provide hosting services to projects. It is basically a multi-centralized community. The task force that are working on the fondamental parts of the project are very engaged.
+
+<br /><img src="https://cdn-images-1.medium.com/max/1200/1*JIRDDzbyLGtqqScR_g5a-Q.jpeg" /><center><i>gOv Summit (2016)</i></center>
+
+<br /><br />
+
+<b>What do you think about similar foreign initiatives, like 15M in Spain?</b>
+<br />
+<b>CL: </b>For each network we are definitely curious but it is limited because we cannot always grab the local context. I guess the intersection for the international community is finding common ground with the people that are interested in using technology for this kind of projects. Most of the time these people are like-minded, for instance they tend to want to use technology to improve civic participation and prevent radical people from becoming powerful. Basically what we do is trying to understand as much as we can about each specific context and which technology works.
+
+
+<br /><br />
+
+<b>TTcat: </b>What’s most important to us is to try and learn from foreign experiences, it is a very important job which is just starting. We definitely support these different approaches and so far what I’ve learned is that the community models are all very different from one another. For example Code for Germany have a foundation to back them up, to initiate the movement. And there are different labs in different cities. I also know people from Malaysia which are part of an NGO but they are not very numerous. Each country has its own way of doing things.
+
+<br /> <img src="https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg" /><center><i>The Puerta del Sol square in Madrid, during a 15-M demonstration (20 May 2011)</i></center>
+
+<br /><br />
+
+<b>Compared to your initial journey what is at stakes now?</b>
+<b>CL:</b> So as I said earlier I have been a web developer for quite some time now. I have always had the technical background, however I used not to care that much about the way the government worked and the way they relate to the people. It was only when I was in the hospital that I took an interest in those things, to be honest.
+<br /><br />
+
+<b>TTcat:</b> My story is a bit complex: I was an activist before all that, for green party Taiwan, LGBT rights etc. What I’ve learned on my journey is that we like bottom-up, but people usually don’t understand how the ones in power can listen to the citizens, so there is a lot of frustration in my past due to this. The way g0v operates is fascinating to me, because I think that we will only be able to make a real change if civil society adopts openness. Otherwise the classic system will turn any individual into the same model and we will be going round in circles. So the question which drives me is this: how do we bring this open culture and merge it back with civil society?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+          <!--<a href="" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; Project link</a> -->
+
+
+        </div>
+
+
+
+
+        <div class = "hidden-xs hidden-sm col-md-3" data-sticky data-margin-top="330" data-margin-bottom="500">
+
+          <center> <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/forking_the_Taiwanese_government&text=How the g0v movement is forking the Taiwanese government" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;Share on Twitter &nbsp;</a></center>
+          <center> <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/forking_the_Taiwanese_government&text=How the g0v movement is forking the Taiwanese government" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;Share on Facebook</a></center>
+        
+
+        </div>
+
+      </div>
+
+
+
+      <br><br>
+      <b><center>Other Articles</center><b>
+
+
+        <div class = "row col-xs-6 col-xs-offset-3">
+
+          
+
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-en/transform_our_democracy/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*dsmv165sAAF60Xx-_gMlGQ.png) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>French civic-tech is turning away from the digital commons creation dynamic we need to transform our democracy</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">Our generation yearns to create a more collaborative world. The stakes of our time does not leave us much choice anyway...</div>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>7 december 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-en/Madrid%E2%80%99s_European_Civic_Hall/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>A Fifteen Days Immersion in Madrid’s European Civic Hall</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">Virgile Deville went to Madrid in order to work on Sovereign, Democracy....</div>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>21 december 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <hr>
+
+
+
+
+          
+
+        </div>
+        <div class = "col-md-6 col-md-offset-3" style = "margin-top:20px;">
+          <div id="disqus_thread"></div>
+
+          <div class=" hidden-lg hidden-md navbar navbar-default navbar-fixed-bottom" style = "padding-bottom:0px; width:100%;">
+            <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
+              Share : 
+              <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/forking_the_Taiwanese_government&text=How the g0v movement is forking the Taiwanese government" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/forking_the_Taiwanese_government&text=How the g0v movement is forking the Taiwanese government" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
+            </center>
+          </div>
+
+
+        </div>
+
+        <div class="modal fade centered" id="news" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="/img/R2D2.png">
+                          <h4 class="shadow-sw" id="myModalLabel"><span style="font-size:1.5em;color:#FDC63D">THE LIGHT SIDE OF DIGITAL DEMOCRACY</span></h4>
+                          <span style="font-size:1.2em;color:#000;">Follow the news of a french civic tech company</span>
+                        </div>
+                        <div class="modal-body">
+                          <p style="font-size:1.2em;">Recevez notre <b>newsletter mensuelle</b> : actualités, événements et nouveaux produits civic tech d'OSP.</p>
+                          <div id="control-group form-group">
+                            <form action="//opensourcepolitics.us14.list-manage.com/subscribe/post?u=6a0b5966e1f8f34a5f054f60c&amp;id=55bb1b9f49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="control-group form-group">
+                                <ul class="list-inline clearfix">
+                                  <li><input type="email" value="" name="EMAIL" class="form-width form-control margin-bottom" id="mce-EMAIL" placeholder="Email Adress" required></li>
+                                  <li class="hidden"><input type="text" name="b_6a0b5966e1f8f34a5f054f60c_dc16a6b5e6" tabindex="-1" value=""></li>
+                                  <li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></li>
+                                </ul>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://osp-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div> <!-- fin container -->
+  <br>
+  <hr>
+  <script src="/js/sticky.min.js">
+  </script>
+  <script id="dsq-count-scr" src="//osp-1.disqus.com/count.js" async></script>
+  <script>
+
+  var sticky = new Sticky('[data-sticky]', {});
+
+  </script>
+</div>
+<div style = "margin-bottom:50px;">
+  <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offers :</b></li>
+          
+          
+          <li><a href="/public-consultations" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+            <li><a href="/participatory-budgeting" class="menu-item" style="color:#fff;">OSP Bugdet</a></li>
+            
+            
+            <li><a href="/en-custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/en/Legal-Notice" class="menu-item" style="color:#fff;">Legal Notice</a></li>
+            
+            
+            <li><a href="/en/Credits" class="menu-item" style="color:#fff;">Credits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p>Open Source Politics is a solidarity economy LLC. We advocate the principles of open source through the tools we build and our partnerships.</p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+</div>
+
+
+ <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+</body>
+</html>

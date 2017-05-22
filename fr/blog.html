@@ -1,23 +1,169 @@
----
-layout:
-title: Open Source Politics Blog
-locale: fr
-permalink: /fr/blog
----
-
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Open Source Politics Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/fr/blog">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
 
 
 
 <body>
-  {% include nav-post.html %}
+  <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services">Services</a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/consultations-publiques">OSP AGORA</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/budget-participatif">OSP BUDGET</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/custom">OSP CUSTOM</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/formation-civic-tech">OSP FORMATION</a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/fr/references" style = "margin-left:0px;">Réalisation</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/fr/blog" style = "margin-left:4px;">Articles</a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"><span style="font-size:1.5em;color:#FDC63D">fr</span> </a></li>
+              <li><a href="/en/home"><span style="font-size:1em">en</span> </a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
   <div class = "post post2 postbis">
 
   <div class="container">
-    <center><h1>{{ page.title }}</h1></center>
+    <center><h1>Open Source Politics Blog</h1></center>
     <hr>
   </div>
 
@@ -29,25 +175,47 @@ permalink: /fr/blog
 
 
     <!-- Latest article -->
-    {% assign posts = site.posts | sort: 'date' | reverse %}
-    {% for ref in site.blog-fr %}
-      {% if ref.mis-en-avant %}
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
 
-    <div class="jumbotron hidden-xxs" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ ref.img }}) center no-repeat; background-size: cover ; ">
-      <a href="{{site.baseurl}}{{ref.url}}">
+    <div class="jumbotron hidden-xxs" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(https://cdn-images-1.medium.com/max/2000/1*6WfBu6BXLP9KnvWd5BYoOg.png) center no-repeat; background-size: cover ; ">
+      <a href="/blog-fr/Agora_permanente_Nanterre/">
         <div class="jumbotron-title">
-          <h2>{{ref.title}}</h2>
-          <div class="list-font post-subtitle" style = "text-align: left; color: black;"><p>{{ref.article-description}}</p></div>
+          <h2>Comment nous avons co-construit une Agora permanente à Nanterre</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;"><p>Virgile Deville et Alain Buchotte nous racontent la collaboration d’Open Source Politics avec la mairie de Nanterre...</p></div>
         </a>
 
       </div>
 
 
-      <a href="{{site.baseurl}}{{ref.url}}"><div class="btn btn-primary btn-md btn-lireplus">Lire l'article</div></a>
+      <a href="/blog-fr/Agora_permanente_Nanterre/"><div class="btn btn-primary btn-md btn-lireplus">Lire l'article</div></a>
     </div>
 
-    {% endif %}
-    {% endfor %}
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
 
     <!-- Search Box -->
     <div class="container-search" style = "margin-top:10px;">
@@ -66,24 +234,24 @@ permalink: /fr/blog
 
 
     <!-- Posts list -->
-    {% for ref in site.blog-fr reversed %}
+    
     <br>
     <hr>
     <div class="row post-container" style = "margin-top:30px;">
-      <a href="{{site.baseurl}}{{ref.url}}">
+      <a href="/blog-fr/Mouvement_Umbrella_hong_Kong/">
 
         <!-- Post image -->
 
         <div class="col-sm-4">
-          <div class="image-post" style="background: url({{ ref.img }}) center no-repeat; background-size: cover ; "></div>
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*utvgKETLtcNt1vlmv96fMg.png) center no-repeat; background-size: cover ; "></div>
         </div>
 
 
         <!-- Post title & subtitle -->
 
         <div class="col-sm-8 post-info">
-          <h2>{{ref.title}}</h2>
-          <div class="list-font post-subtitle" style = "text-align: left; color: black;">{{ref.article-description}}</div>
+          <h2>Comment le mouvement Umbrella a lancé une dynamique de renouveau démocratique à Hong Kong</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Une interview d’Angus Chiu et SnD à propos de civicdata.hk et de la façon dont les manifestations de 2014 ont donné naissance...</div>
         </a>
 
         <!-- Post author & share -->
@@ -91,8 +259,8 @@ permalink: /fr/blog
         <div class="row details">
           <div class="col-xs-6">
 
-            <img class="avatar" src="{{ref.author-pic}}" alt="{{ ref.author }}">
-            <div class="post-date"><a class="blue" href="{{ref.author-medium}}">{{ref.author}}</a> <br>{{ ref.project-date }}</div>
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>3 mai 2017</div>
 
           </div>
         </div>
@@ -103,9 +271,9 @@ permalink: /fr/blog
           <!-- Popover content -->
 
           <div class="container share-popover">
-            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/{{ref.filename}}&text={{ ref.title}}" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/Mouvement_Umbrella_hong_Kong&text=Comment le mouvement Umbrella a lancé une dynamique de renouveau démocratique à Hong Kong" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
               <i class="fa fa-twitter-square fa-2x"></i></a>
-              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/{{ref.filename}}&title={{ref.title}}" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/Mouvement_Umbrella_hong_Kong&title=Comment le mouvement Umbrella a lancé une dynamique de renouveau démocratique à Hong Kong" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
                 <i class="fa fa-facebook-square fa-2x"></i>
               </a>
             </div>
@@ -114,7 +282,535 @@ permalink: /fr/blog
         </div>
       </div>
 
-      {% endfor %}
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/La_democratie_continue/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*kPZVQJuDA2YsmPysfQVh-Q.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>La démocratie continue entre les élections</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">La France sort d’une intense campagne. Haletante pour les uns, tant elle fut imprévisible et marquée par les rebondissements...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+            <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>3 mai 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/La_democratie_continue&text=La démocratie continue entre les élections" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/La_democratie_continue&title=La démocratie continue entre les élections" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/Podemos_participaLab_de_madrid/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*CLHUVyp59uc9aI1QmCmPwg.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Comment la génération des Indignés remplit la promesse de renouvellement politique au sein de Podemos et du ParticipaLab de Madrid</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Une interview d’Angus Chiu et SnD à propos de civicdata.hk et de la façon dont les manifestations de 2014 ont donné naissance...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>20 avril 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/Podemos_participaLab_de_madrid&text=Comment la génération des Indignés remplit la promesse de renouvellement politique au sein de Podemos et du ParticipaLab de Madrid" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/Podemos_participaLab_de_madrid&title=Comment la génération des Indignés remplit la promesse de renouvellement politique au sein de Podemos et du ParticipaLab de Madrid" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/transformation_gouvernement_ta%C3%AFwanais/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*H99WNXXR2ico79MS8zM_yw.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Comment le mouvement g0v transforme le gouvernement taïwanais grâce à des solutions open source</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à propos du mouvement g0v (prononcer “gov zéro”)...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>13 avril 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/transformation_gouvernement_taïwanais&text=Comment le mouvement g0v transforme le gouvernement taïwanais grâce à des solutions open source" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/transformation_gouvernement_taïwanais&title=Comment le mouvement g0v transforme le gouvernement taïwanais grâce à des solutions open source" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/budgets_participatifs_inverses/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*ZFnOb6sZ9hrheqcCPAqUiA.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Une discussion avec Hugo Barthelemy, Mael Donnard et Valentin Chaput autour de l’idée d’accompagner des collectivités...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>14 mars 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses&text=Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses&title=Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/Agora_permanente_Nanterre/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*6WfBu6BXLP9KnvWd5BYoOg.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Comment nous avons co-construit une Agora permanente à Nanterre</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Virgile Deville et Alain Buchotte nous racontent la collaboration d’Open Source Politics avec la mairie de Nanterre...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>9 mars 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/Agora_permanente_Nanterre&text=Comment nous avons co-construit une Agora permanente à Nanterre" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/Agora_permanente_Nanterre&title=Comment nous avons co-construit une Agora permanente à Nanterre" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/2017_annee_democratique/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*Qhsk5JSFT2x7F7kd2RKGSA.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>2017, année démocratique</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Le 6 janvier chez Volumes, nous avons présenté nos voeux et nos projets aux membres de notre meetup et à nos partenaires...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+            <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>18 janvier 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/2017_annee_democratique&text=2017, année démocratique" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/2017_annee_democratique&title=2017, année démocratique" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/Democracy_Earth/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*TYA6R9SB06fxOKTjJjYiEg.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Democracy Earth, la promesse de votes en ligne sécurisés et indépendants</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Une interview de Virgile Deville, co-fondateur d’Open Source Politics, des hackathons Open Democracy Now ...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>4 janvier 2017</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/Democracy_Earth&text=Democracy Earth, la promesse de votes en ligne sécurisés et indépendants" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/Democracy_Earth&title=Democracy Earth, la promesse de votes en ligne sécurisés et indépendants" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/Civic_Hall_Madrid/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Quinze jours en immersion dans le Civic Hall européen à Madrid</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Dans le cadre d’un hackathon de deux semaines sur le thème de l’intelligence collective au service de...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+            <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>21 decembre 2016</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/Civic_Hall_Madrid&text=Quinze jours en immersion dans le Civic Hall européen à Madrid" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/Civic_Hall_Madrid&title=Quinze jours en immersion dans le Civic Hall européen à Madrid" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/biens_communs_numeriques/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*dsmv165sAAF60Xx-_gMlGQ.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>La civic-tech française risque de se détourner de la création des biens communs numériques</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Notre génération aspire à créer un monde plus collaboratif. Les enjeux de notre époque ne nous laissent de toute façon pas le choix...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+            <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>6 decembre 2016</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/biens_communs_numeriques&text=La civic-tech française risque de se détourner de la création des biens communs numériques" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/biens_communs_numeriques&title=La civic-tech française risque de se détourner de la création des biens communs numériques" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/conseils_de_quartier_2_0/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*FzTeIYr-WMwHnk7Dt3GrAA.png) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>20 propositions pour des conseils de quartier 2.0</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">L’engagement des citoyens progressera par la pratique démocratique concrète. Avec les associations CivicWise et...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+            <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>25 octobre 2016</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/conseils_de_quartier_2_0&text=20 propositions pour des conseils de quartier 2.0" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/conseils_de_quartier_2_0&title=20 propositions pour des conseils de quartier 2.0" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    <br>
+    <hr>
+    <div class="row post-container" style = "margin-top:30px;">
+      <a href="/blog-fr/notre_histoire/">
+
+        <!-- Post image -->
+
+        <div class="col-sm-4">
+          <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/1200/1*SU8ucxS5Z6Jq7BmxKZYqZg.jpeg) center no-repeat; background-size: cover ; "></div>
+        </div>
+
+
+        <!-- Post title & subtitle -->
+
+        <div class="col-sm-8 post-info">
+          <h2>Notre Histoire</h2>
+          <div class="list-font post-subtitle" style = "text-align: left; color: black;">Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale...</div>
+        </a>
+
+        <!-- Post author & share -->
+
+        <div class="row details">
+          <div class="col-xs-6">
+
+            <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+            <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>22 septembre 2016</div>
+
+          </div>
+        </div>
+
+        <div class="sharer">
+          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+
+          <!-- Popover content -->
+
+          <div class="container share-popover">
+            <a href="https://twitter.com/intent/tweet/?url=http://www.opensourcepolitics.eu/blog-fr/notre_histoire&text=Notre Histoire" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Twitter" class="btn-media twitter">
+              <i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/sharer.php?u=http://www.opensourcepolitics.eu/blog-fr/notre_histoire&title=Notre Histoire" rel="nofollow" onmousedown="window.open(this.href); return false;" title="Share on Facebook" class="btn-media facebook">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
       <hr>
 
 
@@ -135,7 +831,84 @@ permalink: /fr/blog
 
 </div>
 
-      {% include footer.html %}
-      {% include js.html %}
+      <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offres :</b></li>
+          
+          
+          <li><a href="/consultations-publiques" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+          <li><a href="/budget-participatif" class="menu-item" style="color:#fff;">OSP Budget</a></li>
+            
+            
+            <li><a href="/custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/formation-civic-tech" class="menu-item" style="color:#fff;">OSP Formation</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mentions légales</a></li>
+            
+            
+            <li><a href="/fr/Credits" class="menu-item" style="color:#fff;">Crédits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p>Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relations avec ses partenaires.</p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+       <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
     </body>
     </html>

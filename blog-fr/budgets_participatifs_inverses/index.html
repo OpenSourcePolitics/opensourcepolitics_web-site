@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses/">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+<body class="">
+  <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services">Services</a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/consultations-publiques">OSP AGORA</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/budget-participatif">OSP BUDGET</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/custom">OSP CUSTOM</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/formation-civic-tech">OSP FORMATION</a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/fr/references" style = "margin-left:0px;">Réalisation</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/fr/blog" style = "margin-left:4px;">Articles</a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"><span style="font-size:1.5em;color:#FDC63D">fr</span> </a></li>
+              <li><a href="/en/home"><span style="font-size:1em">en</span> </a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+  <div class = "post post2" style = "background-color:white;">
+    <div class="container">
+      <br>
+      <!-- Date/Time -->
+      <div class = "col-md-8 col-md-offset-2 row">
+        <div class = "col-lg-8 col-md-12 col-sm-12" style = "margin-top:6px;"><p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Posté le14 mars 2017</b>
+          &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp; par Noe Jacomet <img src ="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" class ="img-circle avatar" style = "height:40px;"></b>
+        </div>
+        <a href="https://medium.com/open-source-politics/des-budgets-participatifs-invers%C3%A9s-pour-associer-les-citoyens-aux-d%C3%A9cisions-d%C3%A9conomie-budg%C3%A9taire-6b473def4ae7" class="btn btn-primary col-md-12 col-sm-12 col-xs-12 col-lg-4"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;Voir l'article sur medium</a></p>
+        <hr>
+      </div>
+      <div class = "row col-md-10 col-md-offset-1">
+        <center><h1>Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire</h1></center>
+      </div>
+    </div>
+    <div class = "row container-fluid" style = "  background-color: transparent; background-image:url(https://cdn-images-1.medium.com/max/960/1*ZFnOb6sZ9hrheqcCPAqUiA.png); background-size: cover; background-position: center; height:500px; margin-top:20px;"></div>
+
+
+
+
+
+    <div class="container-fluid" style = "background-color: transparent;">
+      <div class="row">
+
+
+
+        <div class="col-md-6 col-md-offset-3">
+          <!-- Preview Image -->
+
+          
+          <br>
+          <h4>Description du projet</h4>
+          <div class = "blogcontent"><div class = "blogcontent">
+
+Une discussion avec Hugo Barthelemy, Mael Donnard et Valentin Chaput autour de l’idée d’accompagner des collectivités et leurs citoyens dans la réalisation de “budgets participatifs inversés” grâce à une formation, un suivi et un outil numérique favorisant la transparence.
+
+<br><br>
+
+<b>Pouvez-vous résumer le contexte qui a donné naissance à cette idée ?</b>
+
+<br>
+
+<b>Hugo Barthelemy : </b>L’idée est liée à un article d’Antoine Bezard, qui détaille la démarche de la ville de Loon-Plage dans le Nord. Cette collectivité devait réduire son budget de 300 000€. Pour ce faire, ils ont tiré au sort les citoyens qui ont ensuite été formés à comprendre le fonctionnement d’un budget municipal, puis à faire un choix sur les différentes dépenses à réduire. À la fin de ce processus, la ville a réussi à réduire de 325 000€ le budget initial, c’est à dire à dépasser l’objectif en atteignant un consensus ! Il y a un réel intérêt à faire participer les citoyens à ce type de démarches. Suite à cet article et aussi à notre travail avec Open Source Politics sur Consul, la plateforme libre de référence en matière de budgets participatifs, je me suis dit qu’il serait intéressant de créer un processus donnant aux citoyens la possibilité de débattre des budgets et de leurs ajustements : réductions des coûts, projets alternatifs, répartitions sur d’autres priorités etc. Il s’agirait à la fois d’un accompagnement physique à travers une démarche pédagogique, mais aussi d’un outil numérique qui permettrait de mieux visualiser les flux financiers liés au budget et de rendre le processus plus transparent. C’est un point important. La formation, l’accompagnement, l’initiative des propositions et le vote des décisions citoyennes sur la plateforme doivent être indépendants de la municipalité. En revanche, la collectivité doit jouer un rôle crucial d’évaluation des projets en particulier pour valider les aspects financiers et leur viabilité.
+
+<br><br>
+
+<b>Quels sont les points forts de cette idée ?</b>
+<br>
+<b>Mael Donnard : </b>La grande force de ce projet est l’implication directe des citoyens, dans le sens où les choix découlent de leurs idées et limitent donc la contestation. Comme dans toute campagne de consultation, cela permettrait de rendre la décision plus conforme aux attentes des habitants. C’est donc une démarche globale. D’ailleurs, la recherche de consensus sur des arbitrages budgétaires est une problématique qui dépasse les institutions publiques et concerne également le secteur privé, voire le foyer de chacun.
+
+
+<br><br>
+
+<b>Valentin Chaput :</b> La méthodologie est intéressante : pour l’instant les budgets participatifs consistent essentiellement à définir une partie des investissements d’une collectivité. Cela permet de faire participer les citoyens sur la création de nouvelles infrastructures mais pas de se confronter aux problèmes d’économies que beaucoup de collectivités territoriales rencontrent : on constate que l’État baisse chaque année ses dotations alors que les dépenses des collectivités — et les services associés — se sont sensiblement accrus depuis trente ans. Dès lors, l’arbitrage des réductions budgétaires est délicat et nécessite une réorganisation sur laquelle les citoyens ne sont pas directement consultés. Pourtant, les quelques expériences réalisées montrent que les initiatives inclusives arrivent à des résultats plus justes et mieux acceptés. Les choix faits dans ce type de processus sont éminemment politiques, voire idéologiques, et il est donc légitime que les citoyens soient impliqués. Pour nous, il y a d’abord un objectif d’explication de la démarche mais aussi, bien sûr, celui de donner de la visibilité aux budgets locaux, pour arriver à des choix transparents et réalistes. En plus de cet objectif de transparence que mentionnait Hugo, c’est aussi une bonne manière de responsabiliser les citoyens sur les problématiques de gestion des budgets locaux et de démystifier ces sujets.
+
+<br><br>
+
+<b>Pouvez-vous définir les enjeux auxquels ce type de démarche sera confrontée ?</b>
+<br><b>V.C. :</b> Il y a un enjeu pédagogique évident, d’explication du fonctionnement du budget d’une collectivité publique. Cette démarche est souvent compliquée pour les villes, qui ont du mal à détailler à leurs citoyens où l’argent part, la différence entre dépenses de fonctionnement et d’investissement, entre les perspectives à court, moyen et long-terme etc. Il nous faut donc définir une méthodologie précise construite autour de supports d’information, d’ateliers collectifs et d’une plateforme de consultation.
+
+<br><br>
+
+<b>M.D. :</b> Nous anticipons quelques risques qu’il nous faudra éviter : ne pas pointer du doigt tel ou tel agent ou groupe d’agents publics, ne pas exposer des informations personnelles comme les niveaux de rémunérations. De manière générale, il faut que les participants soient représentatifs de la population. Pour s’assurer de cela on pourrait par exemple envisager de tirer les participants au sort. Enfin, un enjeu de taille concerne l’aspect inclusif : les thématiques économiques restent assez complexes et il faudra trouver le moyen de lutter contre l’auto-censure pour ne pas se priver de gens dont la contribution serait d’une grande valeur mais qui, par peur de ne pas être à la hauteur, n’oseraient pas participer.
+
+<br><br>
+
+<b>H.B. : </b>Cette démarche pédagogique passe par un enjeu de visualisation, afin de faire comprendre par la représentation graphique que, par exemple, supprimer des dépenses dans un secteur donné peut en engendrer de nouvelles dans un autre. Ce n’est pas évident à réaliser mais ça fait partie du travail de formation qui permettra aux citoyens de réaliser l’influence qu’une décision peut avoir sur une autre.
+
+<br><br>
+
+<b>Quelles modalités pour de telles démarches ?</b>
+<br><b>V.C. :</b> Il nous faut créer un prototype dans une ou deux collectivités pilotes pour être accessibles à tout le monde. Pour la première année nous devons déterminer combien de personnes doivent faire partie de ce prototype. Il faut aussi que l’administration définisse les options budgétaires sur lesquelles la consultation sera effectuée, à moins que l’on parte sur une démarche où des citoyens sont sélectionnés et ont carte blanche pour faire leurs propositions. Se pose ensuite les questions de savoir comment sélectionner les participants, comment les former, comment faire en sorte que l’ensemble des citoyens aient accès à la plateforme et enfin comment arriver à un résultat qui puisse nourrir un conseil municipal. C’est un jeu de rôles pour des citoyens qui ont envie de comprendre ce qu’il se passe à l’intérieur d’une administration. Il faut donc à mon sens partir sur un dispositif resserré, avec des volontaires ou des citoyens tirés au sort que l’on accompagne pendant plusieurs mois au bout desquels ils remettront un rapport expliquant leurs préconisations concernant les secteurs nécessitant des réductions budgétaires au conseil municipal. En ce qui concerne les outils, la plateforme devra passer par une combinaison d’outil pédagogiques qui restent à définir, je pense par exemple au projet OpenBudget qui permet une visualisation des données budgétaires. Pour le vote en revanche, Consul est très adapté.
+
+<br><br>
+
+<b>H.B. :</b> Le choix des subventions à allouer peut-être un bon angle d’attaque pour les prototypes car c’est un domaine à la fois restreint, donc plus facile d’accès, mais qui gagnerait aussi à être plus transparent. Une autre idée peut être de faire une consultation préalable pour définir les règles précises avant de lancer un prototype. On peut aussi simplement laisser l’administration délimiter les options sur lesquelles les citoyens vont être amenés à se prononcer. Se pose alors la question de la sélection des citoyens impliqués dans la décision. À cet égard l’exemple du Conseil de la Nuit est intéressant : pour assurer la parité hommes-femmes, étaient installées une urne “femmes” et une urne “hommes” d’où l’on tirait un nom à tour de rôle, garantissant ainsi un tirage équitable. Concernant les sujets abordés, nous pourrions aussi imaginer collecter les avis des citoyens sur les recettes de la collectivité. Par exemple : “Faut-il une taxe d’habitation plus importante ?”. En ce qui concerne l’outil numérique, je pense que l’idéal serait un modèle similaire à la collaboration d’Open Source Politics avec la mairie de Nanterre pour créer la plateforme de participation de la ville. Il s’est agi d’une véritable démarche de co-construction et c’est le meilleur moyen d’aboutir à un résultat satisfaisant pour les collectivités car il répond plus précisément à leurs besoins et pour les citoyens car cela nous permet de penser l’outil en même temps qu’eux. Pour en revenir au prototype, j’imaginais un processus en deux étapes : une première phase de définition du prototype, puis une seconde où l’on teste ce sur quoi les citoyens sont tombés d’accord.
+
+<br><br>
+
+<b>M.D. :</b> À mon sens, le vote doit se faire sur une plateforme mais pour la phase de formation, sachant que c’est une étape-clé, celle-ci devrait probablement avoir lieu à travers des ateliers physiques car il est nécessaire de travailler avec des gens motivés et on a plus tendance à faire preuve d’abnégation lorsque l’on est physiquement confronté à un groupe. Je pense aussi qu’il faudrait limiter les choix de secteurs, afin d’éviter que les citoyens consultés se contentent de faire des réductions minimes sur chacun d’entre eux. Après tout, l’intérêt d’une telle démarche réside dans l’idée de pouvoir cerner précisément les thématiques qui tiennent à cœur aux citoyens. Sur la question sociologique qu’évoquait Hugo, et à propos du genre, on pourrait même imaginer des débats exclusivement féminins, masculins, puis enfin mixtes. Ce type d’expériences montre des résultats à forte variance et cela peut-être très intéressant.
+
+
+<br><br>
+
+<center><i>Cet article est l’occasion pour nous de lancer un appel aux municipalités qui souhaiteraient réaliser un tel prototype de nous contacter. D’ailleurs, nous avons aussi candidaté sur la plateforme des budgets participatifs de la mairie de Paris, pour une première expérimentation dans le 19e arrondissement.</i></center>
+
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*laatxXQ7iIsIDIvxfQ_tPg.png"><br>
+
+<div class = "citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+          <!--<a href="" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; Lien vers le projet</a> -->
+
+
+        </div>
+
+
+
+
+        <div class = "hidden-xs hidden-sm col-md-3" data-sticky data-margin-top="330" data-margin-bottom="500">
+
+          <center> <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses&text=Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;Partager sur Twitter &nbsp;</a></center>
+          <center> <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses&text=Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;Partager sur Facebook</a></center>
+          <center><button type="button" class="btn btn-primary" data-toggle="modal" style = "margin-bottom:5px;" data-target="#news"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Newsletter &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center> 
+
+        </div>
+
+      </div>
+
+
+
+      <br><br>
+      <b><center>Autres Articles</center><b>
+
+
+        <div class = "row col-xs-6 col-xs-offset-3">
+
+          
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-fr/notre_histoire/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/1200/1*SU8ucxS5Z6Jq7BmxKZYqZg.jpeg) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>Notre Histoire</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale...</div><br>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>22 septembre 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-fr/conseils_de_quartier_2_0/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*FzTeIYr-WMwHnk7Dt3GrAA.png) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>20 propositions pour des conseils de quartier 2.0</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">L’engagement des citoyens progressera par la pratique démocratique concrète. Avec les associations CivicWise et...</div><br>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>25 octobre 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <hr>
+
+          
+
+        </div>
+        <div class = "col-md-6 col-md-offset-3" style = "margin-top:20px;">
+          <div id="disqus_thread"></div>
+
+          <div class=" hidden-lg hidden-md navbar navbar-default navbar-fixed-bottom" style = "padding-bottom:0px; width:100%;">
+            <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
+              Partager : 
+              <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses&text=Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/budgets_participatifs_inverses&text=Des budgets participatifs inversés pour associer les citoyens aux décisions d’économie budgétaire" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
+            </center>
+          </div>
+
+
+        </div>
+
+        <div class="modal fade centered" id="news" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="/img/R2D2.png">
+                          <h4 class="shadow-sw" id="myModalLabel"><span style="font-size:1.5em;color:#FDC63D">THE LIGHT SIDE OF DIGITAL DEMOCRACY</span></h4>
+                          <span style="font-size:1.2em;color:#000;">suivez l'actu d'une entreprise des civic tech libres</span>
+                        </div>
+                        <div class="modal-body">
+                          <p style="font-size:1.2em;">Recevez notre <b>newsletter mensuelle</b> : actualités, événements et nouveaux produits civic tech d'OSP.</p>
+                          <div id="control-group form-group">
+                            <form action="//opensourcepolitics.us14.list-manage.com/subscribe/post?u=6a0b5966e1f8f34a5f054f60c&amp;id=55bb1b9f49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="control-group form-group">
+                                <ul class="list-inline clearfix">
+                                  <li><input type="email" value="" name="EMAIL" class="form-width form-control margin-bottom" id="mce-EMAIL" placeholder="Adresse email" required></li>
+                                  <li class="hidden"><input type="text" name="b_6a0b5966e1f8f34a5f054f60c_dc16a6b5e6" tabindex="-1" value=""></li>
+                                  <li><input type="submit" value="Inscription" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></li>
+                                </ul>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://osp-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div> <!-- fin container -->
+  <br>
+  <hr>
+  <script src="/js/sticky.min.js">
+  </script>
+  <script id="dsq-count-scr" src="//osp-1.disqus.com/count.js" async></script>
+  <script>
+
+  var sticky = new Sticky('[data-sticky]', {});
+
+  </script>
+</div>
+<div style = "margin-bottom:50px;">
+  <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offres :</b></li>
+          
+          
+          <li><a href="/consultations-publiques" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+          <li><a href="/budget-participatif" class="menu-item" style="color:#fff;">OSP Budget</a></li>
+            
+            
+            <li><a href="/custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/formation-civic-tech" class="menu-item" style="color:#fff;">OSP Formation</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mentions légales</a></li>
+            
+            
+            <li><a href="/fr/Credits" class="menu-item" style="color:#fff;">Crédits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p>Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relations avec ses partenaires.</p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+</div>
+
+
+ <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+</body>
+</html>

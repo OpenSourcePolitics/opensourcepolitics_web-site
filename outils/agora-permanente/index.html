@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agora Permanente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/outils/agora-permanente/">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+    <body class="post">
+        <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/en/home"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services"></a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/public-consultations"></a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/participatory-budgeting"></a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/en-custom"></a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/civic-tech-training"></a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/en/productions" style = "margin-left:0px;">References</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/en/blog" style = "margin-left:4px;"></a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"></a></li>
+              <li><a href="/en/home"></a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+        <div class="container">
+          <h1></h1>
+          <hr>
+          <!-- Date/Time -->
+          <p><b>Editeur</b>&nbsp;&nbsp;<i class="fa fa-user" aria-hidden="true"></i>&nbsp;:&nbsp;<a href="page.editeur-url"></a> &nbsp; &nbsp; &nbsp; <b>Fonctionnalités</b>&nbsp;&nbsp;<i class="fa fa-cogs"></i>&nbsp;:&nbsp;<span style="color:#0050A0">CMS dédié à la concertation</span> &nbsp; &nbsp; &nbsp;<a href="https://participez.nanterre.fr" class="btn btn-secondary hidden-xs"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp;Site de l'outil</a></p>
+          <hr>
+          <div class="row">
+            <div class="col-md-9">
+                <!-- Preview Image -->
+              <img class="img-responsive" src="/img/portfolio/" alt="">
+              <br>
+              <h4>Présentation de l'outil</h4>
+                  <p>L’Agora Permanente est un outil que nous avons co-construit en partenariat avec les équipes de la Ville de Nanterre. Pendant 6 mois nous avons étudié leurs besoins en travaillant avec les diverses directions qui gèrent une ville de plus 100 000 habitants. Afin de nous assurer une pleine compréhension des enjeux, nous avons organisé un <a href="http://www.nanterredigital.fr/hackathon/">hackathon lors de la semaine de l’innovation publique en novembre 2015</a> afin d’associer agents publics, élus, citoyens et professionnels du web (designers, développeurs, chefs de projet) à la réflexion.</p>
+
+<p>Le résultat : un <a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_contenu">système de gestion de contenu</a>sur <a href="http://www.drupal.fr/">Drupal</a> entièrement dédié à la concertation en ligne. La plateforme permet à l’organisation qui le met en place de lancer des consultations selon ses besoins et de choisir le meilleur outil de collecte d’opinion citoyenne. Différentes options de contribution peuvent donc être proposées aux citoyens : argument écrit, vote, cartographie collaborative etc.</p>
+
+<p>Grâce à ce site, les citoyens peuvent se tenir informés, contribuer aux différentes campagnes de concertation en cours et proposer des événements sur l’agenda collaboratif tout en gardant une visibilité claire sur l’avancée du processus de décision grâce à la ligne de temps interactive mise en place sur chaque projet.</p>
+
+<p>La ville de Nanterre a déjà lancé <a href="http://www.opensourcepolitics.eu/refs/2016/09/28/participez-nanterre-fr/">6 campagnes de concertation en 6 mois</a> et nous sommes en relation avec plusieurs autres villes qui souhaitent mettre en place leur propre Agora Permanente.</p>
+
+<p>Disposition de la page d’accueil :
+<img src="/img/portfolio/screenshot-home-nanterre.png" alt="Page d'accueil Agora Permanente" /></p>
+
+<p>Disposition d’une page campagne :
+<img src="/img/portfolio/screenshot-page-campagne.png" alt="Page d'accueil Agora Permanente" /></p>
+
+
+
+             </div>
+            <div class="col-sm-3">
+              <h4>Implémentation(s)</h4>
+     
+     <a href="" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; Ville de Nanterre </a>
+     
+     
+     
+     
+      
+     
+              <h4>Autres outils</h4> 
+<div class="list-group">
+        
+</div>
+            </div>
+          </div>
+        </div>
+    <br>
+    <hr>
+    <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offers :</b></li>
+          
+          
+          <li><a href="/public-consultations" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+            <li><a href="/participatory-budgeting" class="menu-item" style="color:#fff;">OSP Bugdet</a></li>
+            
+            
+            <li><a href="/en-custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/en/Legal-Notice" class="menu-item" style="color:#fff;">Legal Notice</a></li>
+            
+            
+            <li><a href="/en/Credits" class="menu-item" style="color:#fff;">Credits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p></p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+    </body>
+</html>

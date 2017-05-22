@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OSP Agora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/public-consultations">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+    <body class="post">
+        <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/en/home"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services">Services</a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/public-consultations">OSP AGORA</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/participatory-budgeting">OSP BUDGET</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/en-custom">OSP CUSTOM</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/civic-tech-training">OSP TRAINING</a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/en/productions" style = "margin-left:0px;">References</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/en/blog" style = "margin-left:4px;">Articles</a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"><span style="font-size:1em">fr</span></a></li>
+              <li><a href="/en/home"><span style="font-size:1.5em;color:#FDC63D">en</span> </a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+        <div class="container-fluid"style="background-color:#0050A0;margin-top:-20px;">
+            <center>
+              <h1 style="margin-top:30px;"><span style="color:#fff;font-size:1.3em;">OSP Agora</span></h1>
+              <img src="/img/agora.png" style="margin-top:-20px;width:500px;">
+              <p style="margin-top:-5px;"><b><span style="color:#fff;">Digital tools and support for your public consultations</b></span></p>
+            </center>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9" style="padding-left:30px;padding-right:30px;">
+                <!-- Preview Image -->
+              
+             
+              <br>
+                  <h4 id="what-is-a-public-consultation">WHAT IS A PUBLIC CONSULTATION?</h4>
+
+<p>A public consultation is an attempt at involving citizens in any public decision-making process. It must follow certain rules, such as starting in the early stages of decision-making and being as broad and inclusive as possible. Finally, a public consultation requires transparency and should be reviewed regularly.</p>
+
+<h4 id="several-tools-are-available">SEVERAL TOOLS ARE AVAILABLE.</h4>
+
+<p>We offer several types of platforms. We orient our partners towards one of them according to their specific needs.</p>
+
+<p><a href="https://dos.demo.osp.cat"><strong>Democracy OS</strong></a>, is a very simple tool built for online debate and e-voting that facilitates public consultation on any topic. This tool’s uncluttered interface allows the platform to be accelerated by its users (administrators and citizens).</p>
+
+<p><a href="http://www.decide.es/en/index.html"><strong>Consul</strong></a>, on the other hand, makes it possible to send ideas or proposals from the citizens.</p>
+
+<h4 id="public-consultations-require-significant-support">PUBLIC CONSULTATIONS REQUIRE SIGNIFICANT SUPPORT.</h4>
+
+<p>In order for these processes to be successful, namely making them inclusive and making sure they generate as many proposals as possible from participants, we conduct workshops to present and demonstrate the value of public consultations. We organized such meetings in partnership with “La Suite dans les Idées” which is a consulting agency, at the Mayor of the 18th arrondissement of Paris, but also in Sevran or for the Solidel network, which is affiliated to the “Mutuelle sociale agricole”.</p>
+
+<center><a href="/fr/accueil#contact" class="btn btn-primary">CONTACT US FOR MORE INFORMATION</a></center>
+
+<p><br /></p>
+<div class="well">
+<h4>ABOUT OPEN SOURCE POLITICS</h4>
+
+Open Source Politics is a solidarity economy company that builds civic tech open source tools in order to improve citizen participation. We provide technical and methodological support to both public and private stakeholders willing to engage in offline or online participation processes. We work on different types of projects: public consultation, participatory budgeting, collaborative decision-making, etc.
+
+<br />
+Our action is guided by the principles of open government: transparency, participation and cooperation. We are co-founded several Civic Tech : <a href="http://democracyos.eu" target="blank">DemocracyOS France</a>, <a href="http://democracy.earth" target="blank">Democracy Earth</a>, hackathons <a href="http://opendemocracynow.net" target="blank">Open Democracy Now</a>. 
+</div>
+
+             </div>
+            <div class="col-sm-3">
+              <br>
+              <div class="well" style = "padding:19px;background-color: #ecf0f1;">
+                <center>
+                  <a href="https://ospforms.typeform.com/to/A3FKHZ" target="_blank" ><img src="/img/forms.png" width="150px" alt="formulaire"></a>
+                  <!-- <p>&nbsp;</p> -->
+                   <p>You want to set up a participation process. <b>Fill in our questionnaire to precisely define your needs</b> and we will contact as soon as possible.</p>
+                  <!-- <p>&nbsp;</p> -->
+                  <a href="https://ospforms.typeform.com/to/A3FKHZ"  target="_blank" class="btn btn-primary">Questionnaire</a>
+                </center>
+              </div>
+              <div>
+                <h4>Other products</h4>
+<div class="list-group">
+      
+          
+               <li class="list-group-item"><a href="/civic-tech-training">OSP Training</a></li>
+          
+               <li class="list-group-item"><a href="/en-custom">OSP Custom</a></li>
+          
+               <li class="list-group-item"><a href="/participatory-budgeting">OSP Budget</a></li>
+          
+               <li class="list-group-item"><a href="/public-consultations">OSP Agora</a></li>
+          
+      
+</div>
+
+              </div>
+              
+              <div>
+                
+                <h4>Référence</h4>
+                <a href="/refs-en/2017-02-12-article69/" class="btn btn-secondary btn-project"><i class="fa fa-link"></i>&nbsp;&nbsp;French Digital Agency Consultation</a>
+                
+                
+                
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    <br>
+    <hr>
+    <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offers :</b></li>
+          
+          
+          <li><a href="/public-consultations" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+            <li><a href="/participatory-budgeting" class="menu-item" style="color:#fff;">OSP Bugdet</a></li>
+            
+            
+            <li><a href="/en-custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/en/Legal-Notice" class="menu-item" style="color:#fff;">Legal Notice</a></li>
+            
+            
+            <li><a href="/en/Credits" class="menu-item" style="color:#fff;">Credits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p>Open Source Politics is a solidarity economy LLC. We advocate the principles of open source through the tools we build and our partnerships.</p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+    </body>
+</html>

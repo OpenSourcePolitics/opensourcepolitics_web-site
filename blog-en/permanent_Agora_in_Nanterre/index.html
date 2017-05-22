@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>How we built a permanent Agora in Nanterre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/blog-en/permanent_Agora_in_Nanterre/">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+<body class="">
+  <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/en/home"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services">Services</a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/public-consultations">OSP AGORA</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/participatory-budgeting">OSP BUDGET</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/en-custom">OSP CUSTOM</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/civic-tech-training">OSP TRAINING</a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/en/productions" style = "margin-left:0px;">References</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/en/blog" style = "margin-left:4px;">Articles</a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"><span style="font-size:1em">fr</span></a></li>
+              <li><a href="/en/home"><span style="font-size:1.5em;color:#FDC63D">en</span> </a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+  <div class = "post post2" style = "background-color:white;">
+    <div class="container">
+      <br>
+      <!-- Date/Time -->
+      <div class = "col-md-8 col-md-offset-2 row">
+        <div class = "col-lg-8 col-md-12 col-sm-12" style = "margin-top:6px;"><p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;  Posted on 13 march 2017</b>
+          &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp; by Noe Jacomet <img src ="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" class ="img-circle avatar" style = "height:40px;"></b>
+        </div>
+        <a href="https://medium.com/open-source-politics/how-we-built-a-permanent-agora-in-nanterre-f4e5b019c6b4" class="btn btn-primary col-md-12 col-sm-12 col-xs-12 col-lg-4"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;See the article on Medium &nbsp; </a></p>
+        <hr>
+      </div>
+      <div class = "row col-md-10 col-md-offset-1">
+        <center><h1>How we built a permanent Agora in Nanterre</h1></center>
+      </div>
+    </div>
+    <div class = "row container-fluid" style = "  background-color: transparent; background-image:url(https://cdn-images-1.medium.com/max/2000/1*6WfBu6BXLP9KnvWd5BYoOg.png); background-size: cover; background-position: center; height:500px; margin-top:20px;"></div>
+
+
+
+
+
+    <div class="container-fluid" style = "background-color: transparent;">
+      <div class="row">
+
+
+
+        <div class="col-md-6 col-md-offset-3">
+          <!-- Preview Image -->
+
+          
+          <br>
+          <h4></h4>
+          <div class = "blogcontent"><div class="blogcontent">
+
+Virgile Deville and Alain Buchotte tell us about the collaboration between Open Source Politics and the town hall of Nanterre to create their consultation platform: participez.nanterre.fr.
+<br /><br />
+
+<b>How did you get in contact with the town hall of Nanterre?</b><br />
+
+<b>Virgile Deville:</b> Back then (mid 2015), we had just created DemocracyOS France. We got in touch with Pierre-Louis Rolle. At the time he was in charge of digital projects coordination at the directorate for a civic life in Nanterre. This department handles a third party called the Agora, a department for civic initiatives where one can find a public digital space, a conference room, a civic radio station and a shared garden. Pierre-Louis Rolle was part of a work group dealing with local democracy renewal. He first contacted DemocracyOS 🇦🇷, whose members told him to contact DemocracyOS 🇫🇷. That is how we met and — for the record — that is also how we realized we were almost neighbors. We then started working together and from there we had the idea of a <b>permanent Agora.</b>
+
+<br /><br />
+
+<b>What was their need?</b><br />
+
+<b>V.D.:</b> Mayor Patrick Jarry and deputy mayor for civic participation Hassan Hmani commissioned the development of a digital consultation tool designed to broaden the audience, innovate and render the process more inclusive. Nanterre has a long tradition of civic participation. In 1977, the city created the first district councils and organized consultations on a regular basis. However, the people involved remain, as everywhere, the same for years and traditional methods are struggling to mobilize young people and minorities. We therefore started the mayor’s need to create a platform that would fit, rather than to offer a tool that would already be built. The platform had to be open source and contain several softwares so that any service of the town hall could create an online consultation campaign according to their problem. Ultimately, the goal is to have a tool that can be mobilized by civil society.
+<br /><br />
+<b>Alain Buchotte:</b> Initially, we had this idea that an instance of DemocracyOS would be a good basis to initiate the digital turning point wanted by the town hall of Nanterre. However, we quickly realized that the standard tool would not be enough, and that it should be improved by additional functionalities in order to support the entire content associated with the consultation. We also sensed a tremendous motivation in Pierre-Louis Rolle who came up with the idea of integrating other open source tools that he had discovered through his own watch in the field.
+
+<br /><img src="https://cdn-images-1.medium.com/max/1200/1*4DGWpJQ58HVA0HLydw2PeA.jpeg" /><center><i>Alain and Hassan Hmani, deputy mayor in charge of communication, civic participation and public relations.</i></center>
+<br /><br />
+
+<b>Can you describe how the platform was built?</b>
+<br />
+<b>V.D.:</b> Once the project was validated by the municipal office, we began to work jointly with the town hall, knowing that the specifications still had to be defined. The uncertain aspect of the deliverable product initially caused us some anxiety. However, the Agora team submitted to us the idea of ​​using the public innovation week in November 2015 as a springboard, organizing a hackathon for civic participation. We brought together more than 60 people: developers, citizens, elected and public officials on the topics of open data, collaborative mapping and public consultation. Students also took part in the event and wrote 60 pages of report notes containing the citizens’ feedback on their ideal vision of the platform. This stage of collaborative design allowed us to establish a first specification. Subsequently, we managed to assemble a first team to carry on the project. We began by imagining the future consultation of the neighborhood of the Park, a sector of Nanterre engaged in a multi-million euro urban renewal plan. Despite this budgetary envelope, a number of elements of the project had yet to be defined, and a concerted effort was needed to reflect with the citizens. So it was really a local community management campaign.
+
+<br /><img src="https://cdn-images-1.medium.com/max/1200/1*Ip9svQ60Bz1mOH9fnctQog.jpeg" /><center><i>Civic participation hackathon (november 2015)</i></center><br /><br />
+
+<b>Can you tell us about a specific event on which the platform was used?</b>
+
+<b>V.D.:</b> In January 2016, the mayor decided to launch the platform on “les Assises pour la Ville”. This event brought together the citizens through assemblies, debates, meetings in apartments to discuss the evolution of the city etc. It was the first time “les Assises” had a digital counterpart. The moment was well chosen because, due to the integration of the city into the metropolis, the town hall was faced with a budgetary reduction and therefore a need to redefine the city project. The elected representatives and the citizens were mobilized and were rather convinced by the approach. Especially since the digital tool made it possible to keep track of the exchanges during les Assises, which was a first. In the end, it was more than 1500 people who were able to use the platform on this event. So it ended up being a very good beta-test!
+
+<br /><img src="https://cdn-images-1.medium.com/max/960/1*HMUGpqWQJM5o85eTzN35Ow.jpeg" /><center><i>http://www.nanterre.fr/1860-les-assises-2016.htm</i></center><br /><br />
+
+<b>A.B.:</b> Les Assises pour la ville gave us the opportunity to look at how our digital tools could compliment the way citizen contributions are currently being collected. This has also forced us to develop additional functionalities (the collective contribution module in particular). This process has brought us a fairly large amount of content, in terms of contributions. It allowed us to make real use of our platform, rather than having to create test contributions. Les Assises were the engine of the development of the site.
+
+<br /><br />
+
+<b>In terms of logistics, how did the collaboration go?</b><br />
+
+<b>V.D.: </b>We were almost incubated at the Agora of Nanterre, I went there very often, especially during the first months. In order to produce a tool that would not disappoint the expectations of the citizens, we had to collaborate with the various departments of the town hall and to understand concertation. This process took time, and despite previous deliverable products presented in January 2016, we had to double our efforts to make a stable platform by March, which was the deadline to present our first version. The week before the rendering was a tough one, but we managed to achieve a satisfactory result since the city has adopted it and is still using it to this day.
+
+<br /><img src="https://cdn-images-1.medium.com/max/960/1*UDHS58rflB9iZ_ivjucrog.jpeg" /><center><i>Virgile, Valentin and Anne-Gaël Chiche, head of the Agora, during a meeting in Nanterre — early 2016</i></center>
+<br /><br />
+<b>A.B.: </b>Personally I was less present in Nanterre; being in charge of the technical aspect, development that is, I mostly worked from afar. Our mode of operation was permanently iterative, we were 150% focused on this. From a logistical point of view this is not necessarily a good thing, but this type of experience in which you work almost exclusively on one project for several months remains very formative.
+<br /><br />
+<b>How did the first version of the platform work? What about the second?</b>
+<br />
+<b>V.D.:</b> The platform is composed of several tools that allow varying functionalities:
+<br />
+<ul>
+<li>OpenAgenda for participatory agendas;</li>
+<li>Timeline JS for interactive timelines;</li>
+<li>DemocracyOS, for concertation management.</li>
+</ul>
+<br /><br />
+It should be noted that in this case, the management of consultations is done in a “campaigns” format. This means that the services of the town hall that mobilize the tool bring together the various consultations within a unique overall device, a campaign. As for the second version, we have updated the technical database, going from Drupal 7 to Drupal 8. This allows us to have more compatibility between the different projects. The novelty is the collaborative mapping module, a very interesting feature because unique on the market. By the way, this module can be tested on the next campaign of the platform: “Optical fiber for all in Nanterre”!
+
+<br /><img src="https://cdn-images-1.medium.com/max/1200/1*Xa32KXtFUU7w9Tg4ufRGGg.png" /><center><i>participez.nanterre.fr is the city’s participation tool!</i></center>
+<br /><br />
+
+<b>A.B.: </b>I would say that the first version was a minimum viable product with basic functionalities. Some initial ambitions, such as mapping via Ushahidi, could not be done due to a lack of time. But this ended up being a good thing: a year later we have increased our skills so much (especially on Drupal) that the mapping module of the second version will be built directly on the platform, rather than with an additional tool.
+
+<b>What do you make of this experience in Nanterre?</b>
+<br />
+<b>A.B.:</b> I think it is very rare to be able to get started this way. This experience allowed us to grow and without this project we simply might not have been able to pursue our adventure. It also prompted us to create the Open Source Politics company, which until then was only a meetup. This allowed us to offer professional support to the institutions and companies engaged in concertations, while pursuing voluntary activities within the DemocracyOS 🇫🇷 association. We are also aware that this project cost us financially in the sense that our bill was pretty cheap and that we spent a lot of time on it. However, it is fair to say that this time investment was necessary to initiate a collaborative approach between the town hall and us. For these reasons, we would not be able to work on a similar project but it remains a very good experience because it has provided initial funding to the association, which to this day still subsists thanks to these revenues.
+
+<br /><img src="https://cdn-images-1.medium.com/max/1200/1*cWH0FIUUih6Ft1zBv6NmgA.jpeg" /><center><i>The “Code the city” Hackathon launched our 18-month collaboration with Nanterre city hall!</i></center><br /><br />
+
+<b>V.D.:</b> It was a special experience because the town hall of Nanterre is the first institution to have trusted us. We learned that consultation is a rather complex process. Determining the best way to problematize the topic requires specific engineering: how to ask the questions, what should be the degree of the involvement of the mayor in relation to the returns, which mobilization levers to use etc. On top of that, the project was very pleasant: we did not build a tool to find a user. It was the other way around: we started from a specific need and we created a suitable tool. This experience also gave me some clues on the ideal circumstances in which to work: the best projects are those that can be built with a motivated public servant who carries the project internally. They enable the creation of participation tools that meet the expectations of citizens because the institution they are sincere about what they are going to do with the contributions. I also enjoyed the collaborative aspect: we really built a tool together and, while we did not have the same status at all, I was very often in Nanterre and I felt as empowered as an agent of the city. Then there was this hackathon during the public innovation week, which foreshadowed what we did later with Open Democracy Now! Finally, les Assises pour la ville allowed us to gather urban planners, developers, elected officials, citizens… This experience has been a very valuable test to grasp the problems which, as a civic tech company, we must always keep in mind.
+
+
+
+
+
+</div>
+</div>
+          <!--<a href="" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; Project link</a> -->
+
+
+        </div>
+
+
+
+
+        <div class = "hidden-xs hidden-sm col-md-3" data-sticky data-margin-top="330" data-margin-bottom="500">
+
+          <center> <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/permanent_Agora_in_Nanterre&text=How we built a permanent Agora in Nanterre" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;Share on Twitter &nbsp;</a></center>
+          <center> <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/permanent_Agora_in_Nanterre&text=How we built a permanent Agora in Nanterre" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;Share on Facebook</a></center>
+        
+
+        </div>
+
+      </div>
+
+
+
+      <br><br>
+      <b><center>Other Articles</center><b>
+
+
+        <div class = "row col-xs-6 col-xs-offset-3">
+
+          
+
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-en/transform_our_democracy/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*dsmv165sAAF60Xx-_gMlGQ.png) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>French civic-tech is turning away from the digital commons creation dynamic we need to transform our democracy</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">Our generation yearns to create a more collaborative world. The stakes of our time does not leave us much choice anyway...</div>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>7 december 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-en/Madrid%E2%80%99s_European_Civic_Hall/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/2000/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>A Fifteen Days Immersion in Madrid’s European Civic Hall</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">Virgile Deville went to Madrid in order to work on Sovereign, Democracy....</div>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" alt="Noe Jacomet">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@noejacomet">Noe Jacomet</a> <br>21 december 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <hr>
+
+
+
+
+          
+
+        </div>
+        <div class = "col-md-6 col-md-offset-3" style = "margin-top:20px;">
+          <div id="disqus_thread"></div>
+
+          <div class=" hidden-lg hidden-md navbar navbar-default navbar-fixed-bottom" style = "padding-bottom:0px; width:100%;">
+            <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
+              Share : 
+              <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/permanent_Agora_in_Nanterre&text=How we built a permanent Agora in Nanterre" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/permanent_Agora_in_Nanterre&text=How we built a permanent Agora in Nanterre" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
+            </center>
+          </div>
+
+
+        </div>
+
+        <div class="modal fade centered" id="news" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="/img/R2D2.png">
+                          <h4 class="shadow-sw" id="myModalLabel"><span style="font-size:1.5em;color:#FDC63D">THE LIGHT SIDE OF DIGITAL DEMOCRACY</span></h4>
+                          <span style="font-size:1.2em;color:#000;">Follow the news of a french civic tech company</span>
+                        </div>
+                        <div class="modal-body">
+                          <p style="font-size:1.2em;">Recevez notre <b>newsletter mensuelle</b> : actualités, événements et nouveaux produits civic tech d'OSP.</p>
+                          <div id="control-group form-group">
+                            <form action="//opensourcepolitics.us14.list-manage.com/subscribe/post?u=6a0b5966e1f8f34a5f054f60c&amp;id=55bb1b9f49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="control-group form-group">
+                                <ul class="list-inline clearfix">
+                                  <li><input type="email" value="" name="EMAIL" class="form-width form-control margin-bottom" id="mce-EMAIL" placeholder="Email Adress" required></li>
+                                  <li class="hidden"><input type="text" name="b_6a0b5966e1f8f34a5f054f60c_dc16a6b5e6" tabindex="-1" value=""></li>
+                                  <li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></li>
+                                </ul>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://osp-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div> <!-- fin container -->
+  <br>
+  <hr>
+  <script src="/js/sticky.min.js">
+  </script>
+  <script id="dsq-count-scr" src="//osp-1.disqus.com/count.js" async></script>
+  <script>
+
+  var sticky = new Sticky('[data-sticky]', {});
+
+  </script>
+</div>
+<div style = "margin-bottom:50px;">
+  <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offers :</b></li>
+          
+          
+          <li><a href="/public-consultations" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+            <li><a href="/participatory-budgeting" class="menu-item" style="color:#fff;">OSP Bugdet</a></li>
+            
+            
+            <li><a href="/en-custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/civic-tech-training" class="menu-item" style="color:#fff;">OSP Training</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/en/Legal-Notice" class="menu-item" style="color:#fff;">Legal Notice</a></li>
+            
+            
+            <li><a href="/en/Credits" class="menu-item" style="color:#fff;">Credits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p>Open Source Politics is a solidarity economy LLC. We advocate the principles of open source through the tools we build and our partnerships.</p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+</div>
+
+
+ <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Democracy Earth, la promesse de votes en ligne sécurisés et indépendants</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.">
+    <link rel="canonical" href="http://opensourcepolitics.eu/blog-fr/Democracy_Earth/">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92341640-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+<body class="">
+  <!-- <div class="container nav-post">
+    <div class="row container">
+        <div class="col-sm-9">
+            <a href="/" class="navbar-brand"><span style="color:#fff;font-family:Source Sans Pro"><b>OSP</b></span></a>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline nav-post">
+                
+                <li><a href="newsletter" class="hidden-xs"><i class="fa fa-2x fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol" class="hidden-xs"><i class="fa fa-2x fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/" class="hidden-xs"><i class="fa fa-2x fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics" class="hidden-xs"><i class="fa fa-2x fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics" class="hidden-xs"><i class="fa fa-2x fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/" class="hidden-xs"><i class="fa fa-2x fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#000;">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/"><b>OSP</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-center">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                <!--  <a class="page-scroll menu-item" href="#services">Services</a> -->
+
+                  <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
+          <span class="caret"></span></button>
+          <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/consultations-publiques">OSP AGORA</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/budget-participatif">OSP BUDGET</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/custom">OSP CUSTOM</a></li>
+            <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="/formation-civic-tech">OSP FORMATION</a></li>
+          </ul>
+        </div>
+
+
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="/fr/references" style = "margin-left:0px;">Réalisation</a>
+              </li>
+              <li>
+              
+                  <a class="page-scroll menu-item" href="/fr/blog" style = "margin-left:4px;">Articles</a>
+              
+              </li>
+              <li>
+                  <a class="page-scroll menu-item" href="#contact" style = "margin-left:4px;">Contact</a>
+              </li>
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/fr/accueil"><span style="font-size:1.5em;color:#FDC63D">fr</span> </a></li>
+              <li><a href="/en/home"><span style="font-size:1em">en</span> </a></li>
+                
+                <li><a href="newsletter"><i class="fa fa-envelope"></i></a>
+                </li>
+                
+                <li><a href="http://twitter.com/opensourcepol"><i class="fa fa-twitter"></i></a>
+                </li>
+                
+                <li><a href="https://www.facebook.com/OpenSourcePolitics/"><i class="fa fa-facebook"></i></a>
+                </li>
+                
+                <li><a href="https://github.com/OpenSourcePolitics"><i class="fa fa-github"></i></a>
+                </li>
+                
+                <li><a href="https://medium.com/open-source-politics"><i class="fa fa-medium"></i></a>
+                </li>
+                
+                <li><a href="https://meetup.com/fr-FR/Open-Source-Politics/"><i class="fa fa-meetup"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+  <div class = "post post2" style = "background-color:white;">
+    <div class="container">
+      <br>
+      <!-- Date/Time -->
+      <div class = "col-md-8 col-md-offset-2 row">
+        <div class = "col-lg-8 col-md-12 col-sm-12" style = "margin-top:6px;"><p><b><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Posté le4 janvier 2017</b>
+          &nbsp;<b><i class="fa fa-user" aria-hidden="true"></i>&nbsp; par Noe Jacomet <img src ="https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg" class ="img-circle avatar" style = "height:40px;"></b>
+        </div>
+        <a href="https://medium.com/open-source-politics/democracy-earth-la-promesse-de-votes-en-ligne-s%C3%A9curis%C3%A9s-et-ind%C3%A9pendants-905476a39787" class="btn btn-primary col-md-12 col-sm-12 col-xs-12 col-lg-4"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;Voir l'article sur medium</a></p>
+        <hr>
+      </div>
+      <div class = "row col-md-10 col-md-offset-1">
+        <center><h1>Democracy Earth, la promesse de votes en ligne sécurisés et indépendants</h1></center>
+      </div>
+    </div>
+    <div class = "row container-fluid" style = "  background-color: transparent; background-image:url(https://cdn-images-1.medium.com/max/2000/1*TYA6R9SB06fxOKTjJjYiEg.png); background-size: cover; background-position: center; height:500px; margin-top:20px;"></div>
+
+
+
+
+
+    <div class="container-fluid" style = "background-color: transparent;">
+      <div class="row">
+
+
+
+        <div class="col-md-6 col-md-offset-3">
+          <!-- Preview Image -->
+
+          
+          <br>
+          <h4>Description du projet</h4>
+          <div class = "blogcontent"><div class="blogcontent">
+
+Une interview de Virgile Deville, co-fondateur d’Open Source Politics, des hackathons Open Democracy Now ! et ancien président de l’association Democracy OS France en 2015, à propos de son implication dans le projet international de la fondation Democracy Earth et sa plateforme Sovereign.
+
+<br /><br />
+
+<b>Tu es membre de la fondation Democracy Earth, peux-tu nous la présenter ?</b>
+<br /><b>Virgile Deville : </b>La fondation Democracy Earth a été créée en 2015. Elle est basée en Californie à Palo Alto. Le projet est né suite à l’incubation de Santiago Siri 🇦🇷 et Pia Mancini 🇦🇷 par Y Combinator, l’accélérateur de startups de la Silicon Valley (Airbnb, Dropbox, Reddit…). Une période d’incubation d’une durée de trois mois au bout desquels Democracy Earth a vu le jour avec pour but la création de plateformes permettant une gouvernance en ligne décentralisée et incorruptible. Depuis, la fondation a été renforcée par l’implication de Cyprien Grau 🇨🇦, Lucas Isasmendi 🇦🇷, Louis Margot-Duclos 🇫🇷, Herb Stephens 🇺🇸, Dan Swillow 🇺🇸, Mair Williams 🇦🇷, ainsi que moi-même. Il s’agit donc d’un petit collectif international mais le projet réunit en réalité une communauté plus vaste, un cercle élargi qui se retrouve beaucoup en ligne (près de 200 personnes échangent quotidiennement sur le Slack de la fondation pour faire avancer le projet).
+
+<br />
+
+<img src="https://cdn-images-1.medium.com/max/1200/1*S1Tgwblf3cN21u1AxAOvXw.png" />
+
+<br /><br />
+
+<b>Quelles problématiques abordez-vous au sein de Democracy Earth ?</b>
+<br />
+La fondation veut construire des outils de gouvernance à l’échelle d’internet en y intégrant les valeurs du web et de la démocratie, à savoir : la décentralisation, la transparence et l’incorruptibilité. Parallèlement, les membres de Democracy Earth ne sont pas insensibles au contexte mondial actuel où plusieurs pays font face à des crises diverses liées à la très forte désillusion autour du système démocratique. On pense notamment au Brexit, à l’élection de Trump, mais aussi par exemple au référendum colombien portant sur un accord de paix avec les FARC. C’est également à ce type de problèmes que la fondation peut proposer des solutions…
+
+<br /><br />
+
+<b>Comment fonctionne votre outil : Sovereign ?</b>
+<br />
+Sovereign est une application open source de gouvernance décentralisée où chacun est libre de faire des propositions sur lesquelles les membres de sa communauté peuvent voter et débattre. À ce propos, nous avons ouvert le code de Sovereign le jour de l’élection présidentielle américaine. Face aux résultats, de nombreuses personnes ont rejoint le projet sous l’impulsion de notre appel “Voting is not enough, join us coding”. Aujourd’hui le projet avance grâce à 12 contributeurs actifs, près de 40 personnes le suivent et il comptabilise plus de 360 étoiles sur Github. La prochaine version est prévue pour le 20 janvier, jour où Donald Trump entrera à la Maison Blanche. Toutes les bonnes volontés sont appréciées, rejoignez-nous dès maintenant ! Pour ce qui est du fonctionnement, ce projet de logiciel ouvre trois chantiers que nous considérons cruciaux pour tout processus démocratique en ligne : la décentralisation de la gestion des données utilisateur, la sécurisation des votes sur la blockchain et la démocratie liquide.
+
+<br /><br />
+<b>Peux-tu développer ces trois thématiques ?</b>
+<br /><b>Décentralisation de la gestion des données utilisateur</b>
+<br />De plus en plus, la gestion de notre identité en ligne est déléguée aux GAFAM (acronyme de Google, Apple, Facebook, Amazon, Microsoft). Lorsqu’on se connecte à une application via Facebook, il arrive que nous fournissions une quantité d’informations largement supérieure à ce que l’on voudrait que l’application détienne. Au sein de la fondation, nous sommes persuadés que la souveraineté personnelle passe par la reprise du contrôle de nos identités numériques. C’est pourquoi nous avons créé Self, une application mobile qui permet à ses utilisateurs de conserver leurs informations personnelles sur leurs smartphones et de donner accès aux informations au cas par cas, en flashant un QR code. Avec ce système, pas d’e-mail, pas de mot de passe et pas d’entreprise-tierce.
+
+<br />
+
+<img src="https://cdn-images-1.medium.com/max/960/1*_desf1kgig4D3VsII2s0gQ.gif" />
+
+<br /><br />
+
+<b>Voter sur la blockchain</b>
+<br />La blockchain est un système de comptabilisation incorruptible. Toute transaction ou information qui y est stockée est impossible à supprimer ou à modifier, garantissant une transparence obligatoire à tout processus démocratique qui s’inscrirait sur ce support. En ce qui concerne notre implémentation de cette technologie, nous considérons deux approches. La plus aboutie serait la création automatique pour chaque utilisateur d’identifiants blockchain (un portefeuille Bitcoin par exemple) permettant d’enregistrer dans une transaction chaque interaction ayant lieu sur la plateforme. Une autre, plus simple à mettre en place, serait d’utiliser les fonctionnalités de time stamping et d’authentification offertes par Bitcoin. En effet, avec une fonction de “hachage cryptographique” on peut transformer n’importe quelle donnée en chaine unique de caractères qui, si insérée dans une transaction Bitcoin, certifie son authenticité à un instant T.
+
+<br /><br />
+
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/wdOTQIo1BT4?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen=""></iframe></div>
+
+<br /><br />
+
+<b>Démocratie liquide</b>
+<br />Ce que Sovereign propose, c’est d’avoir la possibilité de donner un impact plus ou moins important à un vote en fonction de l’intérêt ou de l’opinion que l’on a sur la question. Pour faire simple : chaque votant possède une réserve limitée de votes — qui est pour l’instant établie à une centaine — pouvant être alloués de manière plus ou moins élevée à telle ou telle proposition pour donner une intensité au vote. Le vote classique dit “binaire”, où l’on se positionne simplement “pour” ou “contre” une proposition, est parfois trop réducteur. Sur Sovereign, un votant peut aussi choisir de déléguer une quantité de votes à une personne de confiance, qu’il juge inspirante, plus érudite ou plus à même de se prononcer sur une proposition ou un vote. C’est une manière de déléguer, comme on peut le faire dans nos pays en votant pour un candidat à des élections, sauf qu’en l’occurrence, la personne est nommée pour prendre une décision sur une proposition ou une thématique unique, et pas pour un mandat de cinq ans sur toutes les thématiques. On pourrait dire que c’est un mandat de très court terme, que l’on donne, soit sur un seul vote, soit sur un sujet choisi. L’aspect “liquide” se retrouve aussi dans le fait qu’à l’inverse de nos systèmes représentatifs, ici on ne donne pas de chèque en blanc à ces “experts” auxquels on délègue le pouvoir décisionnel.
+
+<br /><br />
+
+<b>Un tel système n’implique-t-il pas un risque de corruption des “experts” ?</b>
+<br />Effectivement, ce système implique un risque. Au sein de la fondation nous réfléchissons à ces questions et aux protocoles qu’il faut mettre en place pour limiter ce type de comportement. Une réponse pourrait par exemple être de fixer un nombre maximum de votes qu’un “expert” peut obtenir, limitant par la même occasion son influence. On pense aussi à un système de révocation des votes, où les personnes ayant délégué leur pouvoir de décision obtiennent une notification sur le vote de l’expert qu’elles ont désigné et peuvent potentiellement récupérer leurs votes si elles ne sont pas d’accord avec l’utilisation qui en est faite. Quoi qu’il en soit, ces questions sont effectivement très importantes et elles sont débattues en continu par les membres de la fondation.
+
+<br /><br />
+
+Effectivement, ce système implique un risque. Au sein de la fondation nous réfléchissons à ces questions et aux protocoles qu’il faut mettre en place pour limiter ce type de comportement. Une réponse pourrait par exemple être de fixer un nombre maximum de votes qu’un “expert” peut obtenir, limitant par la même occasion son influence. On pense aussi à un système de révocation des votes, où les personnes ayant délégué leur pouvoir de décision obtiennent une notification sur le vote de l’expert qu’elles ont désigné et peuvent potentiellement récupérer leurs votes si elles ne sont pas d’accord avec l’utilisation qui en est faite. Quoi qu’il en soit, ces questions sont effectivement très importantes et elles sont débattues en continu par les membres de la fondation.
+
+<br /><br />
+
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/UajbQTHnTfM?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen=""></iframe></div>
+
+<center><i>Conférence de Santiago Siri lors de l’Échapée Volée 2016 en France</i></center>
+
+<br /><br />
+
+<b>Sovereign a-t-il déjà été utilisé ? Si oui : où et comment ?</b>
+<br />Oui, il y a eu une utilisation publique, liée au dernier référendum en Colombie. À l’époque nous avons été contactés par des Colombiens vivant à l’étranger car certains expatriés ne pouvaient pas voter : le gouvernement avait en effet décidé de ne pas ré-ouvrir les inscriptions sur les listes électorales pour cette échéance. Il faut savoir que la communauté expatriée colombienne est proportionnellement, la plus importante au monde, justement parce que les tensions avec les FARC ont fait fuir beaucoup d’habitants. Ainsi, à l’étranger, c’est près de six millions de personnes qui n’ont pas pu voter lors de ce référendum. Pour tester notre plateforme, nous avons donc proposé à un petit nombre d’entre elles d’utiliser Sovereign pour exprimer leur avis sur la question. Il faut noter que le référendum ne concernait pas seulement un accord de paix avec les FARC, mais aussi un programme de réforme agraire, des mesures de prévention du trafic de drogue etc. C’est aussi ça que notre démarche tend à souligner : les plateformes en ligne permettent d’éviter d’avoir à répondre de manière binaire, comme ça a été le cas pour ce référendum, ou bien pour le Brexit par exemple.
+
+<br /><img src="https://cdn-images-1.medium.com/max/960/1*xdgmrNOyaINkHvzVcFun1Q.png" /><center><i>Référendum alternatif proposé aux expatriés colombiens par Democracy Earth.</i></center>
+<br /><br />
+Nous avons documenté notre réaction aux résultats surprenants du référendum, en montrant qu’une pluralité de questions et la participation des Colombiens expatriés auraient pu aboutir à des décisions différentes.
+
+<br /><br />
+<b>Quels projets pourraient utiliser un tel outil ?</b>
+<br />La technologie est open source et par conséquent accessible à tout type de structures. Il suffit qu’elles éprouvent le besoin de prendre des décisions collectives en ligne. Cela peut concerner des institutions de tailles très variées donc. Cela dit, au vu de mon expérience récente au Medialab Prado, il est probable que dans un premier temps la fondation soit amenée à travailler avec des mouvements qui s’intéressent à la gouvernance en ligne, comme les Indignados, Occupy, ou Nuit Debout en France… Les acteurs de ces structures expriment souvent le désir de s’organiser, de prendre des décisions en ligne, sans transmettre leurs données à un acteur tiers. Or, Sovereign permettra de prendre des décisions sur un système distribué où les utilisateurs choisissent les données qu’ils partagent. C’est donc l’outil idéal pour ce type de mouvements, mais la plateforme serait tout aussi adaptée aux consultations d’un élu ou d’un candidat.
+<br /><br />
+<b>Comment êtes vous financés ?</b>
+<br />Pour ce qui est du financement, la fondation a dans un premier temps suivi le processus d’incubation de Y Combinator, qui fournit un capital d’amorçage. Suite à cela, deux investisseurs se sont joints au projet : Teespring, qui est une plateforme de prêt-à-porter personnalisable, et l’accélérateur Fast Forward, qui est dédié spécifiquement aux entreprises tech à but non lucratif. En plus de cela la fondation est aussi financée par des dons, en Bitcoin évidemment, offerts par de généreux particuliers, souvent de manière anonyme. Democracy Earth expérimente également la plateforme de financement participatif opencollective.com, dont Pia Mancini est co-fondatrice.
+
+<br /><br /><b>Qu’est ce qui, dans ton parcours, t’as mené à ces thématiques ?</b>
+
+<br />C’est principalement mon implication dans la civic tech depuis deux ans au sein de la fondation, d’Open Source Politics dont je suis co-fondateur, mais aussi du projet Democracy OS auparavant, et donc de toutes les rencontres que cela implique. C’est ainsi que j’ai connu Santiago Siri et c’est lui qui m’a sensibilisé à ces thématiques de décentralisation et d’incorruptibilité. Des questions qui sont centrales pour la fondation et qui à notre sens doivent devenir des standards non seulement pour la civic tech, mais plus largement pour la démocratie en général.
+
+<br />
+<br /><br />
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+          <!--<a href="" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; Lien vers le projet</a> -->
+
+
+        </div>
+
+
+
+
+        <div class = "hidden-xs hidden-sm col-md-3" data-sticky data-margin-top="330" data-margin-bottom="500">
+
+          <center> <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/Democracy_Earth&text=Democracy Earth, la promesse de votes en ligne sécurisés et indépendants" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;Partager sur Twitter &nbsp;</a></center>
+          <center> <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/Democracy_Earth&text=Democracy Earth, la promesse de votes en ligne sécurisés et indépendants" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;Partager sur Facebook</a></center>
+          <center><button type="button" class="btn btn-primary" data-toggle="modal" style = "margin-bottom:5px;" data-target="#news"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Newsletter &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center> 
+
+        </div>
+
+      </div>
+
+
+
+      <br><br>
+      <b><center>Autres Articles</center><b>
+
+
+        <div class = "row col-xs-6 col-xs-offset-3">
+
+          
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-fr/notre_histoire/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/1200/1*SU8ucxS5Z6Jq7BmxKZYqZg.jpeg) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>Notre Histoire</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale...</div><br>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>22 septembre 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <br>
+          <hr>
+          <div class="row post-container" style = "margin-top:30px;">
+            <a href="/blog-fr/conseils_de_quartier_2_0/">
+
+              <!-- Post image -->
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url(https://cdn-images-1.medium.com/max/960/1*FzTeIYr-WMwHnk7Dt3GrAA.png) center no-repeat; background-size: cover ;"></div>
+              </div>
+
+
+              <!-- Post title & subtitle -->
+
+              <div class="col-sm-8 post-info">
+                <h2>20 propositions pour des conseils de quartier 2.0</h2>
+                <div class="list-font post-subtitle" style = "text-align: left; color: black;">L’engagement des citoyens progressera par la pratique démocratique concrète. Avec les associations CivicWise et...</div><br>
+              </a>
+
+              <!-- Post author & share -->
+
+              <div class="row details">
+                <div class="col-xs-6">
+
+                  <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg" alt="Valentin Chaput">
+                  <div class="post-date"><a class="blue" href="https://medium.com/@ValentinChaput">Valentin Chaput</a> <br>25 octobre 2016</div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          
+          <hr>
+
+          
+
+        </div>
+        <div class = "col-md-6 col-md-offset-3" style = "margin-top:20px;">
+          <div id="disqus_thread"></div>
+
+          <div class=" hidden-lg hidden-md navbar navbar-default navbar-fixed-bottom" style = "padding-bottom:0px; width:100%;">
+            <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
+              Partager : 
+              <a href="https://twitter.com/intent/tweet/?url=http://opensourcepolitics.eu/blog-fr/Democracy_Earth&text=Democracy Earth, la promesse de votes en ligne sécurisés et indépendants" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://opensourcepolitics.eu/blog-fr/Democracy_Earth&text=Democracy Earth, la promesse de votes en ligne sécurisés et indépendants" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
+            </center>
+          </div>
+
+
+        </div>
+
+        <div class="modal fade centered" id="news" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <img src="/img/R2D2.png">
+                          <h4 class="shadow-sw" id="myModalLabel"><span style="font-size:1.5em;color:#FDC63D">THE LIGHT SIDE OF DIGITAL DEMOCRACY</span></h4>
+                          <span style="font-size:1.2em;color:#000;">suivez l'actu d'une entreprise des civic tech libres</span>
+                        </div>
+                        <div class="modal-body">
+                          <p style="font-size:1.2em;">Recevez notre <b>newsletter mensuelle</b> : actualités, événements et nouveaux produits civic tech d'OSP.</p>
+                          <div id="control-group form-group">
+                            <form action="//opensourcepolitics.us14.list-manage.com/subscribe/post?u=6a0b5966e1f8f34a5f054f60c&amp;id=55bb1b9f49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="control-group form-group">
+                                <ul class="list-inline clearfix">
+                                  <li><input type="email" value="" name="EMAIL" class="form-width form-control margin-bottom" id="mce-EMAIL" placeholder="Adresse email" required></li>
+                                  <li class="hidden"><input type="text" name="b_6a0b5966e1f8f34a5f054f60c_dc16a6b5e6" tabindex="-1" value=""></li>
+                                  <li><input type="submit" value="Inscription" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></li>
+                                </ul>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://osp-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div> <!-- fin container -->
+  <br>
+  <hr>
+  <script src="/js/sticky.min.js">
+  </script>
+  <script id="dsq-count-scr" src="//osp-1.disqus.com/count.js" async></script>
+  <script>
+
+  var sticky = new Sticky('[data-sticky]', {});
+
+  </script>
+</div>
+<div style = "margin-bottom:50px;">
+  <footer style="background-color:#000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline clearfix">
+          
+          <li><b class="menu-item" style="color:#fff;">Offres :</b></li>
+          
+          
+          <li><a href="/consultations-publiques" class="menu-item" style="color:#fff;">OSP Agora</a></li>
+          
+          
+          <li><a href="/budget-participatif" class="menu-item" style="color:#fff;">OSP Budget</a></li>
+            
+            
+            <li><a href="/custom" class="menu-item" style="color:#fff;">OSP Custom</a></li>
+            
+            
+            <li><a href="/formation-civic-tech" class="menu-item" style="color:#fff;">OSP Formation</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline clearfix">
+            
+            <li><a href="/fr/Mentions-Legales" class="menu-item" style="color:#fff;">Mentions légales</a></li>
+            
+            
+            <li><a href="/fr/Credits" class="menu-item" style="color:#fff;">Crédits</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div style ="font-size:1em;color:#fff;">
+            <p>Open Source Politics,<br>
+              RCS Paris 820 412 161<br>
+              32 rue des Cascades<br>
+              75020 Paris (France)</p>
+            </div>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <p>Open Source Politics est une SARL relevant de l'économie sociale et solidaire. Elle défend les principes de l'open source dans les outils qu'elle déploie et dans les relations avec ses partenaires.</p>
+          </div>
+          <div class="col-md-4" style = "padding-right:20px;color:#fff;">
+            <br>
+            <p>contact@opensourcepolitics.eu<br>
+              <!--{ site.data.i18n[page.locale].footer.right-bottom }}<br>-->
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3b5269" data-link="#dddddd"
+  data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/"
+  data-message="Les cookies assurent le bon fonctionnement de notre site Internet en retenant vos préférences. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+</div>
+
+
+ <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+</body>
+</html>
