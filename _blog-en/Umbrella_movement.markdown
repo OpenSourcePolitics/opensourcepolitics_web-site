@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/how-the-umbrella-movement-sparked-new-concerns-for-democracy-in-hong-kong-49b3af23c928
 project-date : 3 may 2017
+date : 2017-03-05 11:17
 filename : Umbrella_movement
 article-description: An interview with Angus Chiu and SnD about civicdata.hk and how the 2014 protests gave birth to an active civic...
 ---
@@ -31,20 +32,20 @@ An interview with Angus Chiu and SnD about civicdata.hk and how the 2014 protest
 
 <b>SnD: </b>Ever since the end of august 2014, the Chinese government has been setting up new constraints on how the chief executive in Hong Kong can be elected. For instance, they created a committee which can nominate the candidates for the election. They basically have a veto on who can or cannot become a candidate. The idea of the pro-democracy Occupy movement was to tell the pro-Beijing camp they should not have that kind of power. Regarding the “Umbrella” part of it now, it is connected to the tactics used by authorities to silence protesters. On several occasions, the police used cold water jets or pepper spray to disperse people. Umbrellas can protect you of those things so it naturally became our symbol.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*bLFIjTAqjz0COp5LDLK8ig.png"><br><center><i>Symbol of the movement (picture: Wikimedia Commons)</i></center><br><br>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*bLFIjTAqjz0COp5LDLK8ig.png"><center><i>Symbol of the movement (picture: Wikimedia Commons)</i></center><br><br>
 
 <b>Would you say the 2014 protests started it all in Hong Kong?</b><br>
 
 <b>SnD:</b> There were protests before 2014. I think that ever since 2012, concerns were growing in the population because the chief executive was very unpopular. And ever since then, the pro-Beijing camp became more and more aggressive. I remember that at the time people were already using technology to inform one another, for instance, there was this movement called SocRec (Society Record) which emerged after 2012 and used to broadcast the news related to the protests on social media and stuff.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*5UMOT7D58hl9wH92vXkCEw.jpeg"><br><center><i>The Admiralty protest site on the night of 10 October 2014 (picture: Wikimedia Commons)</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*5UMOT7D58hl9wH92vXkCEw.jpeg"><center><i>The Admiralty protest site on the night of 10 October 2014 (picture: Wikimedia Commons)</i></center>
 <br><br>
 
 <b>Is civic tech popular in Hong Kong?</b>
 <br>
 <b>Angus:</b> There is not much people in Hong Kong that are trying to embrace the idea that technology can improve democracy and even though we have had some people taking part in our projects, we still feel like it is a work in progress, but we have had some popular projects in the past. For instance, there were over 65,000 people who expressed their opinion during our latest referendum, using our POPVote platforms. We were a bit disappointed because we expected more participation. It is still decent though, but we have had some major successes in the past. In June 2014, we campaigned alongside with the pan-democratic party for the civil referendum regarding constitutional reform proposals. There was a lot of enthusiasm and this ended up gathering almost 800,000 individual opinions. We mainly reached people through the Internet but I feel like the success of this referendum was mostly due to the pan-democratic party efforts.
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*894aolKryz-YhWTGep5i_w.png"><br><center><i>POPvote is an e-voting platform that was used by almost 800,000 people during the June 2014 civil referendum</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*894aolKryz-YhWTGep5i_w.png"><center><i>POPvote is an e-voting platform that was used by almost 800,000 people during the June 2014 civil referendum</i></center>
 
 <br><br>
 
@@ -52,7 +53,7 @@ An interview with Angus Chiu and SnD about civicdata.hk and how the 2014 protest
 <br>
 <b>SnD: </b>I don’t think there are private companies doing civic tech in Hong Kong at the moment. There used to be this one company that created a platform designed to empower whistle-blowers by giving its users a place to chat and share stuff that offered high privacy standards. But it was more like a hobby, they did not make money off of it. As for the projects that have been pushed by the Umbrella movement and the pan-democratic party, there is POPVote, (Public Opinion Programme) which Angus just mentioned. POP is a web platform and a mobile app which allows citizens to raise their concerns and voice their opinion online through an e-voting system. It has been used during 12 voting events here in Hong Kong, including 2 territory-wide civil referendums. In addition, we also built a tool called VotSonar, which lets citizens vote and see polling results in real-time. We used it during the Legislative Council (LegCo) Election on September 4th, 2016, and gathered over 42,000 votes.
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*OI93kETHiKrutkQZ0UOzdg.png"><br><center><i>VotSonar lets citizens vote and see polling results in real time</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*OI93kETHiKrutkQZ0UOzdg.png"><center><i>VotSonar lets citizens vote and see polling results in real time</i></center>
 
 <br><br>
 
@@ -65,7 +66,7 @@ An interview with Angus Chiu and SnD about civicdata.hk and how the 2014 protest
 
 <b>SnD: </b>I feel like the people in Hong Kong consider themselves to be pretty realistic. They think protests cannot really change things. This is especially true for teenagers, who are pretty detached and do not really care about politics. There is an upside to what we do though: technology. It allows people to raise concerns anonymously, so personally, I do believe things can change even though the situation is not perfect right now.
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*-pQ8tN8ho6oHFHYt9Qdfaw.jpeg"><br><center><i>Police officers surrounding a protest (picture: Wikimedia Commons)</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*-pQ8tN8ho6oHFHYt9Qdfaw.jpeg"><center><i>Police officers surrounding a protest (picture: Wikimedia Commons)</i></center>
 
 <br><br>
 

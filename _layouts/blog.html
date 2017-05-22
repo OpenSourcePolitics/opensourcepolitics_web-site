@@ -53,6 +53,7 @@
 
           <center> <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-bottom:5px;margin-top:40px; background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;  &nbsp;{% if page.locale == "fr" %}Partager sur{% else %}Share on{% endif %} Twitter &nbsp;</a></center>
           <center> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-bottom:5px; background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;{% if page.locale == "fr" %}Partager sur{% else %}Share on{% endif %} Facebook</a></center>
+        {% if page.locale == "fr" %}  <center><button type="button" class="btn btn-primary" data-toggle="modal" style = "margin-bottom:5px;" data-target="#news"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Newsletter &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center> {% endif %}
 
         </div>
 
@@ -160,8 +161,6 @@
             <div class="container" style = "background-color:white;margin-bottom:Opx; width:100%;"><center>
               {% if page.locale == "fr" %}Partager : {% else %}Share : {% endif %}
               <a href="https://twitter.com/intent/tweet/?url={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Twitter" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#1da1f2;border-color:#1da1f2;"><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp; Twitter</a>
-
-
               <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/blog-fr/{{page.filename}}&text={{ page.title }}" rel="nofollow" target="_blank" title="Partager sur Facebook" class="btn btn-primary" style = "margin-top:5px;margin-bottom:5px;background-color:#3b5998;border-color:#3b5998;"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; Facebook</a>
             </center>
           </div>
@@ -169,6 +168,7 @@
 
         </div>
 
+        {% include newsletter-popup.html %}
 
 
         <script>

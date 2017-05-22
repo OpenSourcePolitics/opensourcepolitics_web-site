@@ -9,41 +9,9 @@
 
 
 
+    <!-- Popup modal transparent -->
 
-
-
-
-                            <!-- Button modal transparent -->
-
-                  <div class="modal fade centered" id="news" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                    <img src="{{ site.baseurl }}/img/R2D2.png">
-                                    <h4 class="shadow-sw" id="myModalLabel"><span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">THE LIGHT SIDE OF DIGITAL DEMOCRACY</span></h4>
-                                    <span style="font-size:1.2em;color:#000;">{{ site.data.i18n[page.locale].newsletter.subtitle }}</span>
-                                  </div>
-                                  <div class="modal-body">
-                                    <p style="font-size:1.2em;">Recevez notre <b>newsletter mensuelle</b> : actualités, événements et nouveaux produits civic tech d'OSP.</p>
-                                    <div id="control-group form-group">
-                                      <form action="//opensourcepolitics.us14.list-manage.com/subscribe/post?u=6a0b5966e1f8f34a5f054f60c&amp;id=55bb1b9f49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                          <div id="control-group form-group">
-                                          <ul class="list-inline clearfix">
-                                            <li><input type="email" value="" name="EMAIL" class="form-width form-control margin-bottom" id="mce-EMAIL" placeholder="{{ site.data.i18n[page.locale].newsletter.email }}" required></li>
-                                            <li class="hidden"><input type="text" name="b_6a0b5966e1f8f34a5f054f60c_dc16a6b5e6" tabindex="-1" value=""></li>
-                                            <li><input type="submit" value="{{ site.data.i18n[page.locale].newsletter.subscribe-btn }}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></li>
-                                          </ul>
-                                        </div>
-                                      </form>
-                                    </div>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+    {% include newsletter-popup.html %}
 
     <!-- END Modal transparent -->
 

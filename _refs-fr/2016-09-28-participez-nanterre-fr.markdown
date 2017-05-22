@@ -6,7 +6,7 @@ thumbnail: participez-nanterre-fr-screens.png
 alt: image-alt
 project-date: mars 2016
 category: featured
-tag: plateforme de consultation, cartographie collaborative
+tag: Plateforme de consultation, Cartographie collaborative
 client-url: http://www.nanterre.fr/
 project-link: http://participez.nanterre.fr/
 client: Ville de Nanterre

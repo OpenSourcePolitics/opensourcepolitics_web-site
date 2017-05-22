@@ -6,7 +6,7 @@ thumbnail: nuit-des-debats-18.png
 alt: Nuit des débats Mairie du 18e
 project-date: avril 2016
 category: refs
-tag: barcamp, animation
+tag: Barcamp, Animation
 client-url: http://www.mairie18.paris.fr/mairie18/
 project-link: http://www.mairie18.paris.fr/mairie18/jsp/site/Portal.jsp?document_id=19314&portlet_id=2681
 client: Mairie 18e

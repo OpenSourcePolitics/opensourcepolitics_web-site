@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/a-fifteen-days-immersion-in-madrids-european-civic-hall-5d556cd401e6
 project-date : 21 december 2016
+date : 2016-12-21 11:17
 filename : Madrid’s_European_Civic_Hall
 article-description: Virgile Deville went to Madrid in order to work on Sovereign, Democracy....
 ---
@@ -25,7 +26,7 @@ Virgile arrived in Madrid on November 18, 2016. He was quickly able to immerse h
 
 Located in the center of the city, near the Atocha station, the civic hall has been established in an old lumber mill. The building is large and spacious: there is a fablab, an exhibition hall, a vast open space and a conference room. The Medialab team is composed of city hall employees — the “ParticipaLab” — as well as residents — sociologists, hackers, digital artists… This diverse staff works at the reception desk but also on personnal projects. A special attention is given to mediation. A part of the staff is here to welcome the public and help them make use of the place. Anyone can propose a project whenever they wish. To summarize, Medialab Prado consists in a warm and open team that is also hard working, professional and experienced. After all, it is ten years old and used to be located in an underground space.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*uTFk0i-Gu95CNn38fEUQFw.jpeg"><br><center><i>Located in an old lumber mill, the Medialab is vast and esthetically pleasing</i></center><br><br>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*uTFk0i-Gu95CNn38fEUQFw.jpeg"><center><i>Located in an old lumber mill, the Medialab is vast and esthetically pleasing</i></center><br><br>
 
 Once newcomers were accustomed to the place, the staff of the Medialab set out to form multidisciplinary working groups, with individual skills ranging from code to writing or narration and more artistic profiles.
 
@@ -37,7 +38,7 @@ The topic on which all the groups were to work was the following : <b>“Collect
 
 Besides Virgile 🇫🇷, the team consisted in Claudia (digital artist 🇵🇹), Angeliki (illustrator 🇬🇷), Mia (author of a thesis on new forms of political parties 🇩🇪), Mair (political science student 🇦🇷), Roxana (design-thinking expert 🇲🇽) and last but not least, Juan-Felipe (scriptwriter 🇨🇴). In addition, two coders joined the team : Gage (🇨🇦) and Osiel (🇲🇽).
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*zRejOb3DA8VE5JWTx7hq3w.jpeg"><br><center><i>Dream Team at work !</i></center><br><br>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*zRejOb3DA8VE5JWTx7hq3w.jpeg"><center><i>Dream Team at work !</i></center><br><br>
 
 A team whose members clearly had disparate backgrounds, but still compatible. Although it was not easy for Virgile to manage such an eclectic lineup, in the early days, participants had a chance to use Sovereign to help in their decision making process. They chose the following delivery process :<br><br>
 
@@ -73,7 +74,7 @@ So what is the outcome of the work of such a team, you ask? A tool that conveys 
 
 After a few days work, the team launched its platform “Kingdom Tale”. This is an online experiment which aims to underline the question of personal sovereignty in the years ahead and, through fictional narration, to discuss Spanish and other modern monarchies while comparing them to the digital aspects of our contemporary political systems.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*Sh9nZNz0DbB19luNn-KANQ.jpeg"><br><center><i>“Kingdom Tale” a narrative experiment on individual sovereignty</i></center><br><br>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*Sh9nZNz0DbB19luNn-KANQ.jpeg"><center><i>“Kingdom Tale” a narrative experiment on individual sovereignty</i></center><br><br>
 
 After this short introduction, the reader is propelled in a mini game in which they portray the current emperor of the “Kingdom whose name I don’t want to remember”. At first, everything seems calm and the player might acknowledge a few famous buildings of Madrid. As the emperor approaches, his subjects follow him peacefully… But quickly, they turn hostile and plot to overthrow him as they invade the Plaza de la Puerta del Sol (the spot where the Indignados gathered in May 2011)!
 
@@ -86,7 +87,7 @@ From that moment on, the narrative unfolds and the reader finds out about the wo
 
 The final link is a call to action entitled “Become Sovereign” which leads to a Democracy Earth instance that allows users to vote on questions such as Law of Succession or whether or not to grant powers to monarchy representatives.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*LFPc-EaKWxVR3fNMOkz_aw.png"><br><center><i>“Sovereign” by Democracy Earth</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*LFPc-EaKWxVR3fNMOkz_aw.png"><center><i>“Sovereign” by Democracy Earth</i></center>
 
 <br><br>
 

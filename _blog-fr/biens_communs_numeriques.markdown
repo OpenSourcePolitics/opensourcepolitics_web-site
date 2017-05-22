@@ -8,6 +8,7 @@ author : Valentin Chaput
 author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
 author-medium : https://medium.com/@ValentinChaput
 Medium-link : https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e
+date : 2016-12-06 10:17
 project-date : 6 decembre 2016
 filename : biens_communs_numeriques
 article-description: Notre génération aspire à créer un monde plus collaboratif. Les enjeux de notre époque ne nous laissent de toute façon pas le choix...
@@ -54,7 +55,7 @@ Le modèle propriétaire s’accompagne toutefois d’une série d’inconvénie
   <li>L’absence de collaboration durable enfin. Tous les gouvernements ayant les mêmes besoins, ils représentent une manne promise à ces entreprises. Au lieu de mutualiser ces besoins, les institutions — et donc in fine les contribuables — payent et repayent chacune à leur tour des technologies existantes. Une partie des gains sont certes réinvestis par ces entreprises, mais les améliorations ne profiteront qu’aux prochains clients. L’argent public ne finance pas le développement de biens communs librement réutilisables, mais des modèles économiques classiques. Dans le modèle propriétaire, il faut que chacun le sache et le comprenne, aucune mutualisation technique n’est possible.</li>
 </ul>  
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*EnJNP8fuxZtNXQOeuIYzig.jpeg"><br><i>Code is law, traduit en français par Framasoft</i>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*EnJNP8fuxZtNXQOeuIYzig.jpeg"><center><i>Code is law, traduit en français par Framasoft</i></center>
 
 <br><br>
 
@@ -82,7 +83,7 @@ La création de logiciels libres pour la démocratie est en train de se généra
 <br>
 <div class = "citation">La civic-tech française est à contre-courant.</div>
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/0*XhvN5dOVyzp0StLe."><br><i>code.gov, le portail qui donne accès aux logiciels développés par l’administration américaine.</i>
+<br><img src = "https://cdn-images-1.medium.com/max/960/0*XhvN5dOVyzp0StLe."><center><i>code.gov, le portail qui donne accès aux logiciels développés par l’administration américaine.</i></center>
 <br><br>
 Le modèle open source repose sur des licences qui définissent les conditions de libre accès, utilisation, transformation et commercialisation de plateformes qui sont codées de manière ouverte et collaborative. Les fichiers qui structurent les applications sont accessibles publiquement sur des plateformes comme GitHub ou Gitlab, et des notices vous expliquent comment déployer et configurer gratuitement des instances indépendantes que vous pouvez héberger sur vos propres serveurs et adapter à vos besoins. De là vient une incompréhension manifeste autour de l’open source : ce n’est pas parce que l’accès est gratuit que le développement l’est aussi. Le paramétrage technique, la traduction, l’ajout de fonctionnalités nécessitent du temps et des compétences de développement — parfois plus que pour une solution propriétaire qui existe déjà et dont le coup de duplication est infiniment plus faible que le prix de la licence d’exploitation que l’entreprise vous fait payer. En revanche, l’amélioration ainsi financée bénéficie à tous les acteurs de la communauté. Partout dans le monde. Ainsi, en choisissant Democracy OS pour développer le portail participez.nanterre.fr, la mairie de Nanterre a investi dans une amélioration de l’ergonomie de la plateforme qui a été réutilisée jusqu’au niveau du gouvernement argentin. La diffusion de l’open source est libre : la métropole de Reims a fait appel à un prestataire privé pour mettre en place une instance de consultation Democracy OS sans même que l’association ne soit au courant. De la même manière, n’importe quelle collectivité, n’importe quel projet associatif disposant en interne de la compréhension technique nécessaire peut utiliser Democracy OS. Il existe des dizaines d’alternatives développées à travers le monde : Discourse (Etats-Unis) pour des forums participatifs, Loomio (Nouvelle-Zélande) pour des prises de décisions adaptées aux organisations non pyramidales, Ushahidi (Kenya) pour de la cartographie collaborative, etc. Dans ces contextes, la plus-value provient de l’expertise déployée sur le terrain grâce à l’outil, et non du dangereux mirage d’un solutionnisme technologique qui prétend qu’un outil unique va tout changer.
 
@@ -94,7 +95,7 @@ Nous sommes convaincus qu’il y a un modèle économique pour ces common-tech. 
 
 Dans son ouvrage de référence sur les nouveaux modèles de pair-à-pair, Michel Bauwens explique qu’un commun a peu de chance de triompher s’il est isolé face à des concurrents privés, mais finit toujours par l’emporter s’il s’allie avec des acteurs publics ou privés qui apportent une stabilité et une rétribution au travail de la communauté. Comme le détaille ce brillant article d’Uzbek & Rica, le défi pour la puissance publique de comprendre et de collaborer avec l’émergence des communs dépasse le cadre de la civic-tech et concerne tout le secteur de l’innovation. La responsabilité des dirigeants réunis lors du sommet mondial du Partenariat pour un Gouvernement ouvert dépasse donc largement l’exercice de communication.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/0*Yl22uEF4SbOduSM_."><br><i>Le siècle des communs, à lire chez Usbek & Rica</i>
+<br><img src = "https://cdn-images-1.medium.com/max/960/0*Yl22uEF4SbOduSM_."><center><i>Le siècle des communs, à lire chez Usbek & Rica</i></center>
 <br><br>
 <b>Faire une différence est à portée de main</b>
 <br>

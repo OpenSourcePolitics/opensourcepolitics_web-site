@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/democracy-earth-the-promise-of-a-safe-independant-online-voting-system-37366935db5e
 project-date : 4 january 2017
+date : 2017-01-04 11:17
 filename : Democracy_Earth
 article-description: This interview deals with his involvement in Democracy Earth and their “Sovereign” tool.
 ---
@@ -43,7 +44,7 @@ Sovereign is an open source application that offers decentralized governance. An
 Decentralization of user data<br>
 Our data is increasingly being handled by GAFAM (acronym of Google, Apple, Facebook, Amazon, Microsoft). For instance, when connecting to an application via Facebook, we sometimes provide a much larger amount of information than we would like to. Within the foundation, we are convinced that personal sovereignty starts with the resumption of control over our digital identities. That’s why we created Self, a mobile app that allows users to keep their personal information on their smartphones and give access to it on a case-by-case basis by flashing a QR code. With this system, no e-mail, no password and no third-party.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*_desf1kgig4D3VsII2s0gQ.gif"><br><center><i>“Self” Demo</i></center><br><br>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*_desf1kgig4D3VsII2s0gQ.gif"><center><i>“Self” Demo</i></center><br><br>
 
 
 <b>Blockchain voting</b><br>
@@ -78,7 +79,7 @@ This system does involve a risk. However, within the foundation we are reflectin
 Yes it was, and it dealt with Colombia’s latest referendum. At the time, we were contacted by Colombians expatriates because some of theme could not vote: the government had decided not to re-open the registration on the electoral lists for that deadline. It is important to consider that the Colombian expatriate community is proportionally the largest in the world, precisely because the tensions with the FARC have driven many residents abroad. Hence the fact that nearly six million people were unable to vote in this referendum. Therefore, we offered to a small number of them the opportunity to use Sovereign to voice their opinion on the issue. It should be noted that the referendum was not only about a peace agreement with the FARC, but also dealt with a rural reform program, measures to prevent drug trafficking and so on. Our approach tends to emphasize this: online platforms can avoid having to answer in a binary fashion, as was the case for this referendum, or for the Brexit.
 
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*xdgmrNOyaINkHvzVcFun1Q.png"><br><center><i>Democracy Earth’s alternative referendum for Colombian expatriates</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*xdgmrNOyaINkHvzVcFun1Q.png"><center><i>Democracy Earth’s alternative referendum for Colombian expatriates</i></center>
 
 <br><br>
 

@@ -9,6 +9,7 @@ author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4
 author-medium : https://medium.com/@noejacomet
 Medium-link : https://medium.com/open-source-politics/how-the-g0v-movement-is-forking-the-taiwanese-government-74b7cce0e92b
 project-date : 13 april 2017
+date : 2017-04-13 11:17
 filename : forking_the_Taiwanese_government
 article-description: An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “CL” about the g0v (pronounced “gov zero”) movement in Taiwan...
 ---
@@ -24,7 +25,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 <b>CL:</b> I have been an open source developer since before 2000, and I actually started the g0v community in 2012 around the end of my sabatical. At the time I was in the hospital and I got interested in politics, so with friends we decided to try and make government information more understandable. In the meantime we thought it would be helpful to build a community of technologists who care about civic affairs that would want to use their abilities to take part in this new kind of civic movement.
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png"><br><center><i>CL in the hospital!</i></center>
+<img src = "https://cdn-images-1.medium.com/max/960/1*JnaI114hcSVUbqG31kMdtw.png"><center><i>CL in the hospital!</i></center>
 
 <br><br>
 
@@ -36,7 +37,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 <br>
 <b>TTcat:</b> I think it got really big with the sunflower movement in 2014, which was a student movement that occupied the Taiwanese parliament’s surroundings during 23 days. On the second day, I asked Audrey Tang to set up an internet connection around the parliament because there was none here, people were just using 3G which made it difficult for people inside to understand what was going on outside and vice-versa. Basically it was a logistical need that we filled, by allowing people to broadcast stuff online etc. We made the movement and its process more visible and more inclusive.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*YBlUqpn-FAFVAA02U7ZW0Q.jpeg"><br><center><i>gOv became big during the Sunflower movement demonstrations</i></center><br><br>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*YBlUqpn-FAFVAA02U7ZW0Q.jpeg"><center><i>gOv became big during the Sunflower movement demonstrations</i></center><br><br>
 
 <b>The initial motto of g0v was the idea of “forking the government” — can you elaborate on that? Is it still true nowadays?</b><br>
 
@@ -44,7 +45,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*cbVyghGWr8wPIF0kDw9lsQ.jpeg"><br><center><i>gOv Summit (2016)</i></center>
+<img src = "https://cdn-images-1.medium.com/max/960/1*cbVyghGWr8wPIF0kDw9lsQ.jpeg"><center><i>gOv Summit (2016)</i></center>
 
 <br><br>
 
@@ -61,7 +62,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 <b>TTcat: </b>We must be careful about what we call civic tech companies, some that we have categorized that way provide a very important logistical support to town halls and citizens, but to me civic tech is more about transparency, better democracies, making government data more understandable to the general public etc. As for the impact of g0v, well right now there are lots of meetings hosted by the government which have to do with the internet and fake news and whatnot, and g0v gets invited to these meetings very often, so we are recognized for the fact that we raise awareness on those topics.
 <br>
 
-<img src = "https://cdn-images-1.medium.com/max/960/1*GN68TvmMaZp8dj28HabwPA.jpeg"><br><center><i>image : http://g0v.asia/tw/</i></center>
+<img src = "https://cdn-images-1.medium.com/max/960/1*GN68TvmMaZp8dj28HabwPA.jpeg"><center><i>image : http://g0v.asia/tw/</i></center>
 <br><br>
 <b>This type of organization is very open and people often come in and out of the projects. How can a goal emerge in such a blurry context?</b>
 <b>TTcat:</b> Well there is no boss, obviously. But basically if a project discontinues, then it was probably not meant to happen. The general idea is that when a project is important people will care about it. If nobody contributes to a project, then it might not be a priority.
@@ -69,7 +70,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 
 <b>CL:</b> There are beta-projects, for example TTcat and I are part of the task force that organizes hackathons etc. it is kind of the community infrastructure. The community decides what is important and the task force makes sure things go smoothly. There are other basic task forces that make sure we can provide hosting services to projects. It is basically a multi-centralized community. The task force that are working on the fondamental parts of the project are very engaged.
 
-<br><img src = "https://cdn-images-1.medium.com/max/1200/1*JIRDDzbyLGtqqScR_g5a-Q.jpeg"><br><center><i>gOv Summit (2016)</i></center>
+<br><img src = "https://cdn-images-1.medium.com/max/1200/1*JIRDDzbyLGtqqScR_g5a-Q.jpeg"><center><i>gOv Summit (2016)</i></center>
 
 <br><br>
 
@@ -82,7 +83,7 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 
 <b>TTcat: </b>What’s most important to us is to try and learn from foreign experiences, it is a very important job which is just starting. We definitely support these different approaches and so far what I’ve learned is that the community models are all very different from one another. For example Code for Germany have a foundation to back them up, to initiate the movement. And there are different labs in different cities. I also know people from Malaysia which are part of an NGO but they are not very numerous. Each country has its own way of doing things.
 
-<br> <img src = "https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg"><br><center><i>The Puerta del Sol square in Madrid, during a 15-M demonstration (20 May 2011)</i></center>
+<br> <img src = "https://cdn-images-1.medium.com/max/960/1*dsOo7q_wRL96Tj9mrFmB1w.jpeg"><center><i>The Puerta del Sol square in Madrid, during a 15-M demonstration (20 May 2011)</i></center>
 
 <br><br>
 

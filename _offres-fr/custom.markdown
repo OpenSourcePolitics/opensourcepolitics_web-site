@@ -19,7 +19,7 @@ Pour répondre le plus précisément possible aux demandes de nos partenaires, n
 
 #### Accompagnement et échanges avec les équipes partenaires.
 
-Construire la plateforme numérique idéale passe par des échanges répétés et plusieurs itérations successives pour sélectionner et adapter les outils, concevoir une stratégie de concertation et la communication adéquate, accompagner leur déploiement en ligne et leur utilisation sur le terrain par le public le plus large possible. Notre expérience nous permet d'intervenir sur l'ensemble de ces enjeux pendant les mois nécessaires à la création d'un tel dispositif. Nous avons notamment réalisé une plateforme de ce type pour la mairie de Nanterre, un article retranscrivant cette aventure est disponible [ici](https://medium.com/open-source-politics/comment-nous-avons-co-construit-une-agora-permanente-%C3%A0-nanterre-69b4d2690d7a) !
+Construire la plateforme numérique idéale passe par des échanges répétés et plusieurs itérations successives pour sélectionner et adapter les outils, concevoir une stratégie de concertation et la communication adéquate, accompagner leur déploiement en ligne et leur utilisation sur le terrain par le public le plus large possible. Notre expérience nous permet d'intervenir sur l'ensemble de ces enjeux pendant les mois nécessaires à la création d'un tel dispositif. Nous avons notamment réalisé une plateforme de ce type pour la mairie de Nanterre, un article retranscrivant cette aventure est <b>[disponible ici](https://medium.com/open-source-politics/comment-nous-avons-co-construit-une-agora-permanente-%C3%A0-nanterre-69b4d2690d7a)</b> !
 
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 

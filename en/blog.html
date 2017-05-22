@@ -30,7 +30,9 @@ permalink: /en/blog
 
     <!-- Latest article -->
     {% assign posts = site.posts | sort: 'date' | reverse %}
-    {% for ref in site.blog-en  limit:1  %}
+    {% for ref in site.blog-en %}
+
+  {% if ref.mis-en-avant %}
     <div class="jumbotron hidden-xxs" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ ref.img }}) center no-repeat; background-size: cover ; ">
       <a href="{{site.baseurl}}{{ref.url}}">
         <div class="jumbotron-title">
@@ -41,8 +43,10 @@ permalink: /en/blog
       </div>
 
 
-      <a href="{{site.baseurl}}{{ref.url}}"><div class="btn btn-primary btn-md btn-lireplus">Lire l'article</div></a>
+      <a href="{{site.baseurl}}{{ref.url}}"><div class="btn btn-primary btn-md btn-lireplus">Read Article</div></a>
     </div>
+
+    {% endif %}
     {% endfor %}
 
     <!-- Search Box -->
@@ -62,7 +66,7 @@ permalink: /en/blog
 
 
     <!-- Posts list -->
-    {% for ref in site.blog-en %}
+    {% for ref in site.blog-en reversed %}
     <br>
     <hr>
     <div class="row post-container" style = "margin-top:30px;">
@@ -115,8 +119,6 @@ permalink: /en/blog
 
 
 
-
-      <a href="lien.html" >
 
 
 
