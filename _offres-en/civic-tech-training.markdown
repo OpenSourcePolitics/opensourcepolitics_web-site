@@ -15,6 +15,15 @@ It aims at raising awareness regarding civic tech and the different processes of
 
 Training is delivered by Valentin Chaput, who teaches at Sciences Po Lille and Saint-Germain-en-Laye (the impact of digital on democratic processes and public action), and Virgile Deville, who conducts trainings at Paris 8.
 
+<div class = "row">
+
+<div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-en/democracy_an_ongoing_process/"><img src = "img/products/formation/en/demo-1.jpg" class = "img-thumbnail" style = "margin-right:7px;margin-bottom: 8px;" alt = "Slide examples from one of our training session about civic tech"></a></div>
+<div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-en/democracy_an_ongoing_process/"><img src = "img/products/formation/en/demo-2.jpg" class = "img-thumbnail" style = "margin-right:7px;margin-bottom: 8px;" alt = "Slide examples from one of our training session about civic tech"></a></div>
+<div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-en/democracy_an_ongoing_process/"><img src = "img/products/formation/en/demo-3.jpg" class = "img-thumbnail" style = "margin-bottom: 8px;" alt = "Slide examples from one of our training session about civic tech"></a></div>
+</div>
+<center><i>Slide examples from one of our training session about civic tech</i></center>
+<br>
+
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">CONTACT US FOR MORE INFORMATION</a></center>
 
 <br>
