@@ -1,6 +1,6 @@
 ---
 title: ceci est un article test
-locale: fr
+locale: en
 layout: blog
 comment: 'true'
 mis-en-avant: 0
