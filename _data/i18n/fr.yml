@@ -5,8 +5,8 @@ menu:
   item-0-3: Articles
   item-1: Services
   item-2: Réalisations & Clients
-  item-3: A propos
-  item-4: Equipe
+  item-3: "À propos"
+  item-4: "Équipe"
   item-5: On recrute !
   item-6: Contact
 punchline:
@@ -26,7 +26,7 @@ service:
   feature-3: Conseil
   feature-3-desc: Nous vous accompagnons dans la mise en place de stratégies permettant
     de mobiliser les publics concernés.
-  feature-4: Evénements
+  feature-4: "Événements"
   feature-4-desc: Hackathons, meetups, workshops... Nous concrétisons votre démarche
     participative grâce à des événements physiques.
   title2: Pour mettre en place des
@@ -47,20 +47,20 @@ serviceV2:
   sm-feature-1: VOTATION<br>EN LIGNE
   sm-feature-2: CONSULTATIONS<br>PUBLIQUES
   sm-feature-3: BUDGETS<br>PARTICIPATIFS
-  sm-feature-4: APPELS<br>A PROJETS
+  sm-feature-4: APPELS<br>À PROJETS
   sm-feature-5: PLATEFORME<br>SUR MESURE
   sm-feature-6: CARTOGRAPHIE<br>COLLABORATIVE
-  sm-feature-7: "ÉVENEMENT,<br>ANIMATION"
+  sm-feature-7: "ÉVÉNEMENTS,<br>ANIMATIONS"
   sm-feature-8: PÉDAGOGIE,<br>FORMATION
 realisations:
   title: Réalisations
 story:
-  title: A propos
-  story-subheading: 'Open Source Politics est une entreprise relevant du champ de
-    l’économie sociale et solidaire qui développe des plateformes numériques libres
-    et open source et anime des ateliers d’intelligence collective pour accompagner
-    des acteurs publics, privés et associatifs engagés dans des démarches participatives.
-    Découvrez notre histoire :'
+  title: "À propos"
+  story-subheading: 'Open Source Politics est une entreprise qui développe des plateformes
+    de <b>démocratie participative</b> libres et open source et anime des ateliers
+    d''<b>intelligence collective</b> pour accompagner des acteurs publics, privés
+    et associatifs souhaitant s''engager dans un dispositif de <b>concertation</b>
+    ou de <b>budget participatif</b>. Découvrez notre histoire :'
   story-link: https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e#.5sdy4qtla
   story-article-title: Notre philosophie
   all-article-btn: Tous nos articles
@@ -85,9 +85,9 @@ contact:
   place-holder-msg: Votre message *
   msg-data-validation-required-message: Merci d'entrer votre message.
   btn-submit: Envoyer
-  message-form: Vous souhaitez mettre en place un processus de participation. <b>Remplissez
-    notre questionnaire pour définir avec précision vos besoins</b>, nous vous recontacterons
-    dans les plus brefs délais.
+  message-form: Vous souhaitez mettre en place un dispositif de </b>participation
+    citoyenne</b>. <b>Remplissez notre questionnaire pour définir avec précision vos
+    besoins</b>, nous vous recontacterons dans les plus brefs délais.
   btn-form: Questionnaire
   btn-link: https://ospforms.typeform.com/to/C5DUNs
 btn-apply: Postuler à cette offre
@@ -109,7 +109,7 @@ newsletter:
     y avoir de réelle démarche de Gouvernement ouvert."
   subtitle: suivez l'actu d'une entreprise des civic tech libres
 footer:
-  middle: Open Source Politics est une SARL relevant de l'économie sociale et solidaire.
-    Elle défend les principes de l'open source dans les outils qu'elle déploie et
-    dans les relations avec ses partenaires.
+  middle: Open Source Politics est une SARL relevant du champ de l'économie sociale
+    et solidaire. Elle défend les principes de l'open source dans les outils qu'elle
+    déploie et dans les relations avec ses partenaires.
   right-bottom: "édition mai 2017"
