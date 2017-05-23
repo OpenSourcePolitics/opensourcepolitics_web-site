@@ -1,140 +1,110 @@
-# data home
+---
 menu:
-  item-0-1: "Services"
-  item-0-2: "Productions"
-  item-0-3: "Articles"
-  item-1: "Services"
-  item-2: "Productions & Clients"
-  item-3: "About"
-  item-4: "Team"
-  item-5: "Now hiring!"
-  item-6: "Contact us"
-
+  item-0-1: Services
+  item-0-2: Productions
+  item-0-3: Articles
+  item-1: Services
+  item-2: Productions & Clients
+  item-3: About
+  item-4: Team
+  item-5: Now hiring!
+  item-6: Contact us
 punchline:
-  line-1: "Make democracy an <u>ongoing process</u> with digital technology"
-  line-2: ""
-  line-3: "Open Source Politics, Civic Tech Solutions"
-
-btn-contact: "Contact us"
-btn-cta : "Read the article"
-cta-link: "https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd"
-
-
+  line-1: Make democracy an <u>ongoing process</u> with digital technology
+  line-2: ''
+  line-3: Open Source Politics, Civic Tech Solutions
+btn-contact: Contact us
+btn-cta: Read the article
+cta-link: https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd
 service:
-  title-1: "Services"
-  feature-1: "Tool selection"
-  feature-1-desc: "Thanks to permanent monitoring, our team is able to identify the open source tools that best suit your needs."
-  feature-2: "Technical integration"
-  feature-2-desc: "Our teams can set up and maintain your participation tools."
-  feature-3: "Consulting"
-  feature-3-desc: "We help you set up strategies to muster the relevant public."
-  feature-4: "Events"
-  feature-4-desc: "Hackathons, meetups, workshops... We materialize your participatory initiative through physical events."
-  title2: "To help you set up"
-  feature-5: "Partipatory budgets"
-  bp-txt : "See product"
-  bp-btn : "OSP Budget"
-  feature-6: "Public consultations"
-  feature-7: "Call for projects"
-  feature-8: "Collaborative mapping"
-
-
-
-
+  title-1: Services
+  feature-1: Tool selection
+  feature-1-desc: Thanks to permanent monitoring, our team is able to identify the
+    open source tools that best suit your needs.
+  feature-2: Technical integration
+  feature-2-desc: Our teams can set up and maintain your participation tools.
+  feature-3: Consulting
+  feature-3-desc: We help you set up strategies to muster the relevant public.
+  feature-4: Events
+  feature-4-desc: Hackathons, meetups, workshops... We materialize your participatory
+    initiative through physical events.
+  title2: To help you set up
+  feature-5: Partipatory budgets
+  bp-txt: See product
+  bp-btn: OSP Budget
+  feature-6: Public consultations
+  feature-7: Call for projects
+  feature-8: Collaborative mapping
 serviceV2:
-  Main-title: "Our services"
-  title-1: "4 OFFERS"
-  bg-feature-1: "OSP AGORA"
-  bg-feature-2: "OSP BUDGET"
-  bg-feature-3: "OSP CUSTOM"
-  bg-feature-4: "OSP TRAINING"
-  title2: "To find the best fit for your requirements."
-  sm-feature-1: "ONLINE<br>VOTING"
-  sm-feature-2: "PUBLIC<br>CONSULTATION"
-  sm-feature-3: "PARTICIPATORY<br>BUDGET"
-  sm-feature-4: "CALL FOR<br>PROPOSALS"
-  sm-feature-5: "CUSTOMIZED<br>PLATFORM"
-  sm-feature-6: "COLLABORATIVE<br>MAPPING"
-  sm-feature-7: "EVENT,<br>ANIMATION"
-  sm-feature-8: "PEDAGOGY,<br>TRAINING"
-
-
+  Main-title: Our services
+  title-1: 4 OFFERS
+  bg-feature-1: OSP AGORA
+  bg-feature-2: OSP BUDGET
+  bg-feature-3: OSP CUSTOM
+  bg-feature-4: OSP TRAINING
+  title2: To find the best fit for your requirements
+  sm-feature-1: ONLINE<br>VOTING
+  sm-feature-2: PUBLIC<br>CONSULTATIONS
+  sm-feature-3: PARTICIPATORY<br>BUDGETING
+  sm-feature-4: CALLS FOR<br>PROPOSALS
+  sm-feature-5: CUSTOMIZED<br>PLATFORM
+  sm-feature-6: COLLABORATIVE<br>MAPPING
+  sm-feature-7: EVENTS,<br>ANIMATIONS
+  sm-feature-8: PEDAGOGY,<br>TRAINING
 realisations:
-  title: "Productions"
-
+  title: Productions
 story:
-  title: "About us"
-  story-subheading: "Open Source Politics is a solidarity economy company that builds free open source tools and hosts collective inteligence workshops for private or public stakeholders willing to engage in participatory initiatives. Learn more about our story :"
-  story-link: "https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2#.56a7n42yd"
-  story-article-title: "Our philosophy"
-  all-article-btn : "See more articles"
-  url : "/en/blog"
-
+  title: About us
+  story-subheading: 'Open Source Politics is a company that builds <b>participatory
+    democracy</b> open source tools and hosts <b>collective inteligence</b> workshops
+    for private or public stakeholders willing to engage in a <b>public consultation</b>
+    or a <b>participatory budgeting</b> process. Learn more about us:'
+  story-link: https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2#.56a7n42yd
+  story-article-title: Our philosophy
+  all-article-btn: See more articles
+  url: "/en/blog"
 team:
-  title: "Meet the founders"
-
+  title: Founding team
+  position-alain: Technical director
+  position-virgile: Product Management
+  position-valentin: Senior Consultant
+  position-olivier: Management
 jobs:
-  title: "OSP IS NOW HIRING!"
-
-jobs:
-  title: "OSP IS NOW HIRING!"
-  btn-action: "See job offer"
-
+  title: OSP IS NOW HIRING!
+  btn-action: See job offer
 contact:
-  title: "Contact"
-  place-holder-name: "Name *"
-  name-data-validation-required-message: "Please enter your name."
-  place-holder-mail: "Email *"
-  mail-data-validation-required-message: "Please enter your email."
-  place-holder-phone: "Phone number *"
-  phone-data-validation-required-message: "Please enter your phone number."
-  place-holder-msg: "Message *"
-  msg-data-validation-required-message: "Please enter your message."
-  btn-submit: "Send"
-  message-form: "You want to set up a participation process. <b>Fill in our questionnaire to precisely define your needs</b> and we will contact as soon as possible."
-  btn-form: "Questionnaire"
-  btn-link: "https://ospforms.typeform.com/to/A3FKHZ"
-# end data home
-
-# data job
-btn-apply: "Apply"
-# en data job
-
-# data ref
-btn-apply: "Apply"
-# en data ref
-
-# data side bar jobs
-other-job-offers: "Other job offers"
-# data side bar jobs
-
-# data side bar refs
-other-projects: "All projects"
-# data side bar refs
-
-team:
-  title: "Founding team"
-  position-alain: "Technical director"
-  position-virgile: "Product Management"
-  position-valentin: "Senior Consultant"
-  position-olivier: "Management"
-
-btn-link-project: "Project link"
-client-title : "They trust us"
-
-allref :
-  btn-text : "See all our productions"
-  url : "/en/productions"
-
-other-offre : Other products
-
+  title: Contact
+  place-holder-name: Name *
+  name-data-validation-required-message: Please enter your name.
+  place-holder-mail: Email *
+  mail-data-validation-required-message: Please enter your email.
+  place-holder-phone: Phone number *
+  phone-data-validation-required-message: Please enter your phone number.
+  place-holder-msg: Message *
+  msg-data-validation-required-message: Please enter your message.
+  btn-submit: Send
+  message-form: You want to set up a participation process. <b>Fill in our questionnaire
+    to precisely define your needs</b> and we will contact as soon as possible.
+  btn-form: Questionnaire
+  btn-link: https://ospforms.typeform.com/to/A3FKHZ
+btn-apply: Apply
+other-job-offers: Other job offers
+other-projects: All projects
+btn-link-project: Project link
+client-title: They trust us
+allref:
+  btn-text: See all our productions
+  url: "/en/productions"
+other-offre: Other products
 newsletter:
-  subscribe-btn : "Subscribe"
-  email : "Email Adress"
-  sub-prop : "Subsribe to the Open Source Politics monthly newsletter"
-  dem-def : "* Dans la galaxie des applications gov-tech propriétaires françaises, nous résistons autour des valeurs de l'open source sans lesquelles il ne peut y avoir de réelle démarche de Gouvernement ouvert."
-  subtitle : "Follow the news of a french civic tech company"
-
+  subscribe-btn: Subscribe
+  email: Email Adress
+  sub-prop: Subsribe to the Open Source Politics monthly newsletter
+  dem-def: "* Dans la galaxie des applications gov-tech propriétaires françaises,
+    nous résistons autour des valeurs de l'open source sans lesquelles il ne peut
+    y avoir de réelle démarche de Gouvernement ouvert."
+  subtitle: Follow the news of a french civic tech company
 footer:
-  middle: "Open Source Politics is a solidarity economy LLC. We advocate the principles of open source through the tools we build and our partnerships."
-  right-bottom: "Release: May 2017"
+  middle: Open Source Politics is a solidarity economy LLC. We advocate the principles
+    of open source through the tools we build and our partnerships.
+  right-bottom: 'Release: May 2017'
