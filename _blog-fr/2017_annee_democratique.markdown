@@ -4,14 +4,15 @@ title: 2017, année démocratique
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/960/1*Qhsk5JSFT2x7F7kd2RKGSA.png
-author : Valentin Chaput
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
-author-medium : https://medium.com/@ValentinChaput
-Medium-link : https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754
-project-date : 18 janvier 2017
-date : 2017-01-18 11:17
-filename : 2017_annee_democratique
-article-description: Le 6 janvier chez Volumes, nous avons présenté nos voeux et nos projets aux membres de notre meetup et à nos partenaires...
+author: Valentin Chaput
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
+author-medium: https://medium.com/@ValentinChaput
+Medium-link: https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754
+project-date: 18 janvier 2017
+date: 2017-01-18 11:17
+filename: 2017_annee_democratique
+article-description: Le 6 janvier chez Volumes, nous avons présenté nos voeux et nos
+  projets aux membres de notre meetup et à nos partenaires...
 ---
 
 <div class = "blogcontent">

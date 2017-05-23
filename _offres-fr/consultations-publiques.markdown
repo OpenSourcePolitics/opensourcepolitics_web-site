@@ -1,17 +1,19 @@
 ---
 title: OSP Agora
 layout: offres
-baseline: Notre offre de plateforme numérique et d'accompagnement pour vos consultations publiques
+baseline: Notre offre de plateforme numérique et d'accompagnement pour vos consultations
+  publiques
 published: true
-image: /img/agora.png
+image: "/img/agora.png"
 locale: fr
-permalink: /consultations-publiques
+permalink: "/consultations-publiques"
 ref1-name: Agence du numérique
-ref1-url: /refs-fr/2017-02-15-article69/
+ref1-url: "/refs-fr/2017-02-15-article69/"
 ref2-name: Consultation PGO Etalab
 ref2-url: https://democracyos.consultation.etalab.gouv.fr/
 ref3-name: Dépôt SNCF Ordener
-ref3-url: /refs-fr/2017-01-10-depot-ordener/
+ref3-url: "/refs-fr/2017-01-10-depot-ordener/"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 #### Une consultation publique, qu’est-ce que c’est ?

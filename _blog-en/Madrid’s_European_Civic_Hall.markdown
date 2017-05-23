@@ -4,14 +4,15 @@ title: A Fifteen Days Immersion in Madrid’s European Civic Hall
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg
-author : Noe Jacomet
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
-author-medium : https://medium.com/@noejacomet
-Medium-link : https://medium.com/open-source-politics/a-fifteen-days-immersion-in-madrids-european-civic-hall-5d556cd401e6
-project-date : 21 december 2016
-date : 2016-12-21 11:17
-filename : Madrid’s_European_Civic_Hall
-article-description: Virgile Deville went to Madrid in order to work on Sovereign, Democracy....
+author: Noe Jacomet
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
+author-medium: https://medium.com/@noejacomet
+Medium-link: https://medium.com/open-source-politics/a-fifteen-days-immersion-in-madrids-european-civic-hall-5d556cd401e6
+project-date: 21 december 2016
+date: 2016-12-21 11:17
+filename: Madrid’s_European_Civic_Hall
+article-description: Virgile Deville went to Madrid in order to work on Sovereign,
+  Democracy....
 ---
 
 <div class = "blogcontent">

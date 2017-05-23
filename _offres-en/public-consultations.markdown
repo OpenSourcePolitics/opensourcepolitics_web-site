@@ -3,11 +3,12 @@ title: OSP Agora
 layout: offres
 baseline: Digital tools and support for your public consultations
 published: true
-image: /img/agora.png
+image: "/img/agora.png"
 locale: en
-permalink: /public-consultations
+permalink: "/public-consultations"
 ref1-name: French Digital Agency Consultation
-ref1-url: /refs-en/2017-02-12-article69/
+ref1-url: "/refs-en/2017-02-12-article69/"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 #### WHAT IS A PUBLIC CONSULTATION?

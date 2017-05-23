@@ -5,13 +5,13 @@ img: solidel-thumbnail.png
 thumbnail: solidel-thumbnail.png
 alt: Solidel
 project-date: Novembre 2016
-category: refs
 tag: Animation
 client-url: http://www.solidel.fr/
 project-link: http://www.solidel.fr/
 client: Solidel
 locale: fr
-
+categories: refs
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 Au mois de novembre 2016, Open Source Politics a facilité les travaux préparatoires au Conseil d’administration de Solidel, le réseau pour les travailleurs handicapés du secteur agricole et des territoires ruraux affilié à la MSA.

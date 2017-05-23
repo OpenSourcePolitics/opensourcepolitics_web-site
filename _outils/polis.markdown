@@ -3,17 +3,22 @@ title: Pol.is
 layout: outils
 img: polisbanner.png
 logo: polis.png
-alt: {{ post.title }}
-editeur: Pol.is
+alt: {}
 editeur: http://pol.is
-category: products
 tag: Groupes d'opinion en temps réel, émergence de consensus
 product-url: http://pol.is
-description: Pol.is est un module de commentaire innovant où chacun peut faire une proposition et voter sur celles des autres. En fonction de ces votes un algorithme d'intelligence artificielle classe les personnes dans des groupes d'opinion ce qui permet d'observer points de consensus et dissensus au sein et à travers les différents groupes. L'outil est ainsi pensé pour que les différents groupes fasse des propositions le plus consensuelle possible afin de remporter l'adhésion la plus forte possible au sein de la communauté impliquée. Ce mécanisme permet de construire des bases communes solides propice à un débat, une négociation ou un accord.
-
+description: Pol.is est un module de commentaire innovant où chacun peut faire une
+  proposition et voter sur celles des autres. En fonction de ces votes un algorithme
+  d'intelligence artificielle classe les personnes dans des groupes d'opinion ce qui
+  permet d'observer points de consensus et dissensus au sein et à travers les différents
+  groupes. L'outil est ainsi pensé pour que les différents groupes fasse des propositions
+  le plus consensuelle possible afin de remporter l'adhésion la plus forte possible
+  au sein de la communauté impliquée. Ce mécanisme permet de construire des bases
+  communes solides propice à un débat, une négociation ou un accord.
 implementation1-name: vTaiwan
 implementatiion1-link: 
-
+categories: products
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 Pol.is est un module de commentaire innovant où chacun peut faire une proposition et voter sur celles des autres. En fonction de ces votes, un algorithme d'intelligence artificielle classe les personnes dans des groupes d'opinion. Cela permet d'observer les points de consensus et dissensus au sein et à travers les différents groupes. L'outil est pensé pour que les groupes fassent des propositions aussi consensuelles que possible afin de remporter l'adhésion la plus forte au sein de la communauté impliquée. Ce mécanisme permet de construire les bases communes propices à un débat, une négociation ou un accord.

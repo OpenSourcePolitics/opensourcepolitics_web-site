@@ -5,13 +5,13 @@ img: bp-rivp-thumbnail.png
 thumbnail: bp-rivp-thumbnail.png
 alt: Budget Participatif RIVP
 project-date: mars 2017
-category: featured
 tag: Budget participatif
 client-url: http://rivp.fr
 project-link: https://budget-participatif.rivp.fr
 client: RIVP
 locale: fr
-
+categories: featured
+date: '2017-03-29T00:00:00.000+00:00'
 ---
 
 Avant de nous demander quel nouvel outil créer pour répondre au besoin d'une institution, nous regardons ce qui se pratique ailleurs. Un exemple nous inspire particulièrement depuis de nombreux mois : Madrid. En novembre, [Virgile avait passé deux semaines au Medialab Prado](https://medium.com/open-source-politics/quinze-jours-en-immersion-dans-le-civic-hall-europ%C3%A9en-%C3%A0-madrid-8317299829f9) et nous avait décrit la recette de ce lieu où l'équipe de la ville collabore avec des activistes pour produire des biens communs numériques au service du plus grand nombre. Développée au centre de ce dispositif citoyen, [Consul](http://www.decide.es/en/) est une plateforme libre et complète permettant de conduire des appels à projets, des votations citoyennes et des budgets participatifs.

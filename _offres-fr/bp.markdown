@@ -1,13 +1,15 @@
 ---
 title: OSP Budget
 layout: offres
-baseline: Notre offre de plateforme numérique et d'accompagnement pour la mise en place de budgets participatifs
+baseline: Notre offre de plateforme numérique et d'accompagnement pour la mise en
+  place de budgets participatifs
 published: true
-image: /img/budget-participatif.png
+image: "/img/budget-participatif.png"
 locale: fr
-permalink: /budget-participatif
+permalink: "/budget-participatif"
 ref1-name: Budget participatif de la RIVP
-ref1-url: /refs-fr/2017-03-29-bp-rivp/
+ref1-url: "/refs-fr/2017-03-29-bp-rivp/"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 #### Le budget participatif, qu'est-ce que c'est ?
 

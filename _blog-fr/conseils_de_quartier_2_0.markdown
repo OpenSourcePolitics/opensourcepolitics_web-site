@@ -4,14 +4,15 @@ title: 20 propositions pour des conseils de quartier 2.0
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/960/1*FzTeIYr-WMwHnk7Dt3GrAA.png
-author : Valentin Chaput
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
-author-medium : https://medium.com/@ValentinChaput
-Medium-link : https://medium.com/open-source-politics/20-propositions-pour-des-conseils-de-quartier-2-0-805ba773ba8b
-project-date : 25 octobre 2016
-date : 2016-10-25 18:34
-filename : conseils_de_quartier_2_0
-article-description: L’engagement des citoyens progressera par la pratique démocratique concrète. Avec les associations CivicWise et...
+author: Valentin Chaput
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
+author-medium: https://medium.com/@ValentinChaput
+Medium-link: https://medium.com/open-source-politics/20-propositions-pour-des-conseils-de-quartier-2-0-805ba773ba8b
+project-date: 25 octobre 2016
+date: 2016-10-25 18:34
+filename: conseils_de_quartier_2_0
+article-description: L’engagement des citoyens progressera par la pratique démocratique
+  concrète. Avec les associations CivicWise et...
 ---
 
 <div class = "blogcontent">

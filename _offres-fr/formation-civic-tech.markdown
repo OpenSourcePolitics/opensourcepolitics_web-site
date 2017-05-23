@@ -3,9 +3,10 @@ title: OSP Formation
 layout: offres
 baseline: Notre offre de formation aux bonnes pratiques de la démocratie connectée
 published: true
-image: /img/formation.png
+image: "/img/formation.png"
 locale: fr
-permalink: /formation-civic-tech
+permalink: "/formation-civic-tech"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 #### OSP FORMATION est notre offre pédagogique

@@ -1,17 +1,19 @@
 ---
 locale: en
-title: The 15M generation is fulfilling its promise of political renewal through Podemos and Madrid’s ParticipaLab
+title: The 15M generation is fulfilling its promise of political renewal through Podemos
+  and Madrid’s ParticipaLab
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*CLHUVyp59uc9aI1QmCmPwg.png
-author : Noe Jacomet
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
-author-medium : https://medium.com/@noejacomet
-Medium-link : https://medium.com/open-source-politics/the-15m-generation-is-fulfilling-its-promise-of-political-renewal-through-podemos-and-madrids-4c8bd3b50fe8
-project-date : 20 april 2017
-date : 2017-04-20 11:17
-filename : Podemos_and_Madrid’s_ParticipaLab
-article-description: An interview with Yago Bermejo Abati about his involvement in the 15M movement, Podemos and his work at the Medialab Prado in Madrid...
+author: Noe Jacomet
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
+author-medium: https://medium.com/@noejacomet
+Medium-link: https://medium.com/open-source-politics/the-15m-generation-is-fulfilling-its-promise-of-political-renewal-through-podemos-and-madrids-4c8bd3b50fe8
+project-date: 20 april 2017
+date: 2017-04-20 11:17
+filename: Podemos_and_Madrid’s_ParticipaLab
+article-description: An interview with Yago Bermejo Abati about his involvement in
+  the 15M movement, Podemos and his work at the Medialab Prado in Madrid...
 ---
 
 <div class = "blogcontent">

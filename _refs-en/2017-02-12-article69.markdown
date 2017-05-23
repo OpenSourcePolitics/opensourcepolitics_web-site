@@ -5,13 +5,13 @@ img: article69.png
 thumbnail: article69.png
 alt: Concertation Agence du Numérique - Article 69
 project-date: Février 2017
-category: featured
 tag: Public consultation platform
 client-url: http://agencedunumerique.gouv.fr/
 project-link: https://article69.agencedunumerique.gouv.fr/
 client: Agence du Numérique
 locale: en
-
+categories: featured
+date: '2017-02-12T00:00:00.000+00:00'
 ---
 
 We helped the [French Digital Agency](http://agencedunumerique.gouv.fr/) (Ministry of Economy, Industry and Digital Technology) setup a [consultation platform](https://article69.agencedunumerique.gouv.fr/) which aimed at highlighting “guidelines for a national development of digital practices within territories “. This was part of the recommendations of Bill 69 for a Digital Republic.

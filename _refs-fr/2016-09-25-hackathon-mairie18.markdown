@@ -5,13 +5,13 @@ img: hackathon-odn-mairie18.jpeg
 thumbnail: hackathon-mairie-18.png
 alt: Hackathon ODN @ Mairie du 18e
 project-date: septembre 2016
-category: refs
 tag: hackathon, Animation
 client-url: http://www.mairie18.paris.fr/mairie18/
 project-link: http://opendemocracynow.net/
 client: Mairie 18e
 locale: fr
-
+categories: refs
+date: '2016-09-25T00:00:00.000+00:00'
 ---
 
 Les 16, 17 et 18 septembre s'est tenue la 4ème édition hackathon du cycle [Open Democracy Now](http://opendemocracynow.net/) à la mairie du 18e arrondissement de Paris.

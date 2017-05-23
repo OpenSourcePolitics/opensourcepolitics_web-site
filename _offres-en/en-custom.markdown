@@ -3,14 +3,14 @@ title: OSP Custom
 layout: offres
 baseline: For a tailor-made online participation platform
 published: true
-image: /img/custom.png
+image: "/img/custom.png"
 locale: en
-permalink: /en-custom
+permalink: "/en-custom"
 ref1-name: participez.nanterre.fr
-ref1-url: /refs-en/2016-09-28-participez-nanterre-fr/
+ref1-url: "/refs-en/2016-09-28-participez-nanterre-fr/"
 ref2-name: arcinnovation.fr
-ref2-url: /refs-en/2016-12-08-arc_innovation/
-
+ref2-url: "/refs-en/2016-12-08-arc_innovation/"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 #### OSP CUSTOM IS OUR TAILOR-MADE OFFER.

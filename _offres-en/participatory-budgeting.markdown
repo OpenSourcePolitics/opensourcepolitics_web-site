@@ -3,11 +3,12 @@ title: OSP Budget
 layout: offres
 baseline: Digital tools and support for participatory budgeting
 published: true
-image: /img/budget-participatif.png
+image: "/img/budget-participatif.png"
 locale: en
-permalink: /participatory-budgeting
+permalink: "/participatory-budgeting"
 ref1-name: Participatory Budget RIVP
-ref1-url: /refs-en/2017-03-29-bp-rivp/
+ref1-url: "/refs-en/2017-03-29-bp-rivp/"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 #### WHAT IS PARTICIPATORY BUDGETING?
 

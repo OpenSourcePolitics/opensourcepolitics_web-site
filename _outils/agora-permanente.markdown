@@ -3,17 +3,20 @@ title: Agora Permanente
 layout: outils
 img: participez-nanterre-fr-screens.png
 logo: agora_permanente.png
-alt: {{ post.title }}
-category: products
+alt: {}
 tag: CMS dédié à la concertation
 product-url: https://participez.nanterre.fr
 editeur: Open Source Politics
 editeur-url: http://opensourcepolitics.eu
-description: CMS dédié à la mise en place de campagnes de concertations en ligne. L'outil permet à l'organisation qui le met en place de lancer des consultations selon ses besoins et de choisir l'outil de collecte d'opinion citoyenne. Le citoyen quand il se rend sur le site peut voir les consultations en cours, obtenir de l'information sur le projet et consulter leur état d'avancement.
-
+description: CMS dédié à la mise en place de campagnes de concertations en ligne.
+  L'outil permet à l'organisation qui le met en place de lancer des consultations
+  selon ses besoins et de choisir l'outil de collecte d'opinion citoyenne. Le citoyen
+  quand il se rend sur le site peut voir les consultations en cours, obtenir de l'information
+  sur le projet et consulter leur état d'avancement.
 implementation1-name: Ville de Nanterre
 implementatiion1-link: https://participez.nanterre.fr
-
+categories: products
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 L'Agora Permanente est un outil que nous avons co-construit en partenariat avec les équipes de la Ville de Nanterre. Pendant 6 mois nous avons étudié leurs besoins en travaillant avec les diverses directions qui gèrent une ville de plus 100 000 habitants. Afin de nous assurer une pleine compréhension des enjeux, nous avons organisé un [hackathon lors de la semaine de l'innovation publique en novembre 2015](http://www.nanterredigital.fr/hackathon/) afin d'associer agents publics, élus, citoyens et professionnels du web (designers, développeurs, chefs de projet) à la réflexion.

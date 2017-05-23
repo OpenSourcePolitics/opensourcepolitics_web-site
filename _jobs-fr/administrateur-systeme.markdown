@@ -2,12 +2,12 @@
 title: Administrateur systèmes, stage 6 mois
 layout: job
 available-when: Dès que possible
-category: jobs
 type: code
 tag: admin sys, bash/shell, ubuntu/debian, openstack
 published: true
 locale: fr
-
+categories: jobs
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 ![Octo-Civic-Hacker]({{ site.baseurl }}/img/stage-admin-sys.png)
 

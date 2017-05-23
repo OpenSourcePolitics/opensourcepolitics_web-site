@@ -4,15 +4,15 @@ title: Make democracy an ongoing process with digital technology
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/960/1*D05JUs1gCyOozxlxgAI_7g.png
-author : Valentin Chaput
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
-author-medium : https://medium.com/@ValentinChaput
-Medium-link : https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd
-project-date : 4 mai 2017
-date : 2017-04-04 17:35
-filename : democracy_an_ongoing_process
-article-description: France’s presidential campaign is about to end. It has been exhausting for some, because of how unpredictable it got...
-
+author: Valentin Chaput
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
+author-medium: https://medium.com/@ValentinChaput
+Medium-link: https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd
+project-date: 4 mai 2017
+date: 2017-04-04 17:35
+filename: democracy_an_ongoing_process
+article-description: France’s presidential campaign is about to end. It has been exhausting
+  for some, because of how unpredictable it got...
 ---
 
 <div class = "blogcontent">
