@@ -4,15 +4,15 @@ title: Notre Histoire
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/1200/1*SU8ucxS5Z6Jq7BmxKZYqZg.jpeg
-author : Valentin Chaput
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
-author-medium : https://medium.com/@ValentinChaput
-Medium-link : https://medium.com/open-source-politics/notre-histoire-c61bbec90334
-project-date : 22 septembre 2016
-date : 2016-09-22 17:17
-filename : notre_histoire
-article-description: Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale...
-
+author: Valentin Chaput
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
+author-medium: https://medium.com/@ValentinChaput
+Medium-link: https://medium.com/open-source-politics/notre-histoire-c61bbec90334
+project-date: 22 septembre 2016
+date: 2016-09-22 17:17
+filename: notre_histoire
+article-description: Depuis le printemps 2016, Open Source Politics est une entreprise
+  relevant du champ de l’économie sociale...
 ---
 
 <div class = "blogcontent">

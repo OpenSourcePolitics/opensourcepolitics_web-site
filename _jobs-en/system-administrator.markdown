@@ -2,12 +2,12 @@
 title: System administrator - 6 month internship
 layout: job
 available-when: As soon as possible
-category: jobs
 type: code
 tag: admin sys, bash/shell, ubuntu/debian, openstack
 published: true
 locale: en
-
+categories: jobs
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 ![Octo-Civic-Hacker]({{ site.baseurl }}/img/stage-admin-sys.png)
 

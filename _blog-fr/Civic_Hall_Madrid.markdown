@@ -4,15 +4,15 @@ title: Quinze jours en immersion dans le Civic Hall européen à Madrid
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*_g5tvIJsf5sVWQkUClIZoQ.jpeg
-author : Noe Jacomet
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
-author-medium : https://medium.com/@noejacomet
-Medium-link : https://medium.com/open-source-politics/quinze-jours-en-immersion-dans-le-civic-hall-europ%C3%A9en-%C3%A0-madrid-8317299829f9
-project-date : 21 decembre 2016
-date : 2016-12-21 17:34
-filename : Civic_Hall_Madrid
-article-description: Dans le cadre d’un hackathon de deux semaines sur le thème de l’intelligence collective au service de...
-
+author: Noe Jacomet
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
+author-medium: https://medium.com/@noejacomet
+Medium-link: https://medium.com/open-source-politics/quinze-jours-en-immersion-dans-le-civic-hall-europ%C3%A9en-%C3%A0-madrid-8317299829f9
+project-date: 21 decembre 2016
+date: 2016-12-21 17:34
+filename: Civic_Hall_Madrid
+article-description: Dans le cadre d’un hackathon de deux semaines sur le thème de
+  l’intelligence collective au service de...
 ---
 
 <div class = "blogcontent">

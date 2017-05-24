@@ -4,14 +4,15 @@ title: How the Umbrella movement sparked new concerns for democracy in Hong Kong
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*utvgKETLtcNt1vlmv96fMg.png
-author : Noe Jacomet
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
-author-medium : https://medium.com/@noejacomet
-Medium-link : https://medium.com/open-source-politics/how-the-umbrella-movement-sparked-new-concerns-for-democracy-in-hong-kong-49b3af23c928
-project-date : 3 may 2017
-date : 2017-03-05 11:17
-filename : Umbrella_movement
-article-description: An interview with Angus Chiu and SnD about civicdata.hk and how the 2014 protests gave birth to an active civic...
+author: Noe Jacomet
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
+author-medium: https://medium.com/@noejacomet
+Medium-link: https://medium.com/open-source-politics/how-the-umbrella-movement-sparked-new-concerns-for-democracy-in-hong-kong-49b3af23c928
+project-date: 3 may 2017
+date: 2017-03-05 11:17
+filename: Umbrella_movement
+article-description: An interview with Angus Chiu and SnD about civicdata.hk and how
+  the 2014 protests gave birth to an active civic...
 ---
 
 <div class = "blogcontent">

@@ -5,13 +5,13 @@ img: arcinnovation.png
 thumbnail: arcinnovation.png
 alt: Arc de l'innovation
 project-date: Décembre 2016
-category: featured
 tag: Appel à projets, Cartographie collaborative
 client-url: http://www.paris.fr/
 project-link: https://arcinnovation.fr
 client: Mairie de Paris
 locale: fr
-
+Categories: featured
+date: '2016-12-08T00:00:00.000+00:00'
 ---
 
 Lancé fin 2015, l’Arc de l’innovation est un projet d’envergure métropolitaine qui vise à effacer le périphérique et accompagner la transformation des quartiers populaires. Il s’accomplit à travers de grands projets d’aménagement et de transport, mais aussi grâce à l’émergence de lieux et d’acteurs de toutes tailles, qui innovent dans les domaines de l’économie, du social, de l’industrie, de l’architecture et de la culture.

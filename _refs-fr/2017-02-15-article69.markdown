@@ -5,13 +5,13 @@ img: article69.png
 thumbnail: article69.png
 alt: Concertation Agence du Numérique - Article 69
 project-date: Février 2017
-category: featured
 tag: Plateforme de consultation
 client-url: http://agencedunumerique.gouv.fr/
 project-link: https://article69.agencedunumerique.gouv.fr/
 client: Agence du Numérique
 locale: fr
-
+Categories: featured
+date: '2017-02-15T00:00:00.000+00:00'
 ---
 
 Nous avons accompagné [L'Agence du Numérique](http://agencedunumerique.gouv.fr/) (Ministère de l'économie, de l'industrie et du numérique) sur la mise en place d'une [instance de consultation](https://article69.agencedunumerique.gouv.fr/) dont le but était de construire les "orientations nationales pour le développement des usages et des services numériques dans les territoires" prévues par l'article 69 de la loi pour une République numérique.

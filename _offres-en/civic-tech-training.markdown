@@ -3,9 +3,10 @@ title: OSP Training
 layout: offres
 baseline: For trainings in good practices of connected democracy
 published: true
-image: /img/formation.png
+image: "/img/formation.png"
 locale: en
-permalink: /civic-tech-training
+permalink: "/civic-tech-training"
+date: '2017-05-23T16:02:11.316+00:00'
 ---
 
 #### OSP TRAINING

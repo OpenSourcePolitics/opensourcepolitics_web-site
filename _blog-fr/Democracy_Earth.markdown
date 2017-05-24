@@ -4,14 +4,15 @@ title: Democracy Earth, la promesse de votes en ligne sécurisés et indépendan
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*TYA6R9SB06fxOKTjJjYiEg.png
-author : Noe Jacomet
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
-author-medium : https://medium.com/@noejacomet
-Medium-link : https://medium.com/open-source-politics/democracy-earth-la-promesse-de-votes-en-ligne-s%C3%A9curis%C3%A9s-et-ind%C3%A9pendants-905476a39787
-project-date : 4 janvier 2017
-date : 2017-01-04 19:17
-filename : Democracy_Earth
-article-description: Une interview de Virgile Deville, co-fondateur d’Open Source Politics, des hackathons Open Democracy Now ...
+author: Noe Jacomet
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
+author-medium: https://medium.com/@noejacomet
+Medium-link: https://medium.com/open-source-politics/democracy-earth-la-promesse-de-votes-en-ligne-s%C3%A9curis%C3%A9s-et-ind%C3%A9pendants-905476a39787
+project-date: 4 janvier 2017
+date: 2017-01-04 19:17
+filename: Democracy_Earth
+article-description: Une interview de Virgile Deville, co-fondateur d’Open Source
+  Politics, des hackathons Open Democracy Now ...
 ---
 
 <div class = "blogcontent">

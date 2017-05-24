@@ -1,18 +1,19 @@
 ---
 locale: fr
-title: La civic-tech française risque de se détourner de la création des biens communs numériques
+title: La civic-tech française risque de se détourner de la création des biens communs
+  numériques
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/960/1*dsmv165sAAF60Xx-_gMlGQ.png
-author : Valentin Chaput
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
-author-medium : https://medium.com/@ValentinChaput
-Medium-link : https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e
-date : 2016-12-06 10:17
-project-date : 6 decembre 2016
-filename : biens_communs_numeriques
-article-description: Notre génération aspire à créer un monde plus collaboratif. Les enjeux de notre époque ne nous laissent de toute façon pas le choix...
-
+author: Valentin Chaput
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
+author-medium: https://medium.com/@ValentinChaput
+Medium-link: https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e
+date: 2016-12-06 10:17
+project-date: 6 decembre 2016
+filename: biens_communs_numeriques
+article-description: Notre génération aspire à créer un monde plus collaboratif. Les
+  enjeux de notre époque ne nous laissent de toute façon pas le choix...
 ---
 
 <div class = "blogcontent">

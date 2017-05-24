@@ -5,13 +5,13 @@ img: projetdesprogressistes.jpg
 thumbnail: projetdesprogressistes.jpg
 alt: Projet des progressistes
 project-date: Septembre 2016
-category: refs
 tag: Co-construction de programme, Législatives 2017
 client-url: http://yanchantrel.com/
 project-link: https://ssl.projetdesprogressistes.org
 client: Yan Chantrel
 locale: fr
-
+Categories: refs
+date: '2016-09-26T00:00:00.000+00:00'
 ---
 
 L’équipe de campagne de Yan Chantrel, candidat à l’investiture du Parti socialiste pour la circonscription des Français de l’étranger comprenant le Canada et les Etats-Unis, nous a contacté à l’été 2016 pour lancer une consultation sur le Projet des progressistes que le candidat entend rassembler lors de l’élection législative de juin 2017.

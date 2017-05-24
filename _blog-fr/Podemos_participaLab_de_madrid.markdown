@@ -1,18 +1,19 @@
 ---
 locale: fr
-title: Comment la génération des Indignés remplit la promesse de renouvellement politique au sein de Podemos et du ParticipaLab de Madrid		
+title: Comment la génération des Indignés remplit la promesse de renouvellement politique
+  au sein de Podemos et du ParticipaLab de Madrid
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*CLHUVyp59uc9aI1QmCmPwg.png
-author : Noe Jacomet
-author-pic : https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
-author-medium : https://medium.com/@noejacomet
-Medium-link : https://medium.com/open-source-politics/comment-le-mouvement-umbrella-a-lanc%C3%A9-une-dynamique-de-renouveau-d%C3%A9mocratique-%C3%A0-hong-kong-46367c71603f
-project-date : 20 avril 2017
-date : 2017-04-20 20:43
-filename : Podemos_participaLab_de_madrid
-article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.hk et de la façon dont les manifestations de 2014 ont donné naissance...
-
+author: Noe Jacomet
+author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
+author-medium: https://medium.com/@noejacomet
+Medium-link: https://medium.com/open-source-politics/comment-le-mouvement-umbrella-a-lanc%C3%A9-une-dynamique-de-renouveau-d%C3%A9mocratique-%C3%A0-hong-kong-46367c71603f
+project-date: 20 avril 2017
+date: 2017-04-20 20:43
+filename: Podemos_participaLab_de_madrid
+article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.hk et
+  de la façon dont les manifestations de 2014 ont donné naissance...
 ---
 
 <div class = "blogcontent">
