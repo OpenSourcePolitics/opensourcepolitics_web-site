@@ -10,10 +10,9 @@ ref1-name: French Digital Agency Consultation
 ref1-url: "/refs-en/2017-02-12-article69/"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-
 #### WHAT IS A PUBLIC CONSULTATION?
 
-A public consultation is an attempt at involving citizens in any public decision-making process. It must follow certain rules, such as starting in the early stages of decision-making and being as broad and inclusive as possible. Finally, a public consultation requires transparency and should be reviewed regularly.
+A <b>public consultation</b> is an attempt at involving citizens in any public decision-making process. It must follow certain rules, such as starting in the early stages of decision-making and being as broad and inclusive as possible. Finally, a public consultation requires transparency and should be reviewed regularly.
 
 #### SEVERAL TOOLS ARE AVAILABLE.
 
@@ -30,11 +29,13 @@ In order for these processes to be successful, namely making them inclusive and 
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">CONTACT US FOR MORE INFORMATION</a></center>
 
 <br>
+
+
 <div class="well">
 <h4>ABOUT OPEN SOURCE POLITICS</h4>
 
-Open Source Politics is a solidarity economy company that builds civic tech open source tools in order to improve citizen participation. We provide technical and methodological support to both public and private stakeholders willing to engage in offline or online participation processes. We work on different types of projects: public consultation, participatory budgeting, collaborative decision-making, etc.
+Open Source Politics is a solidarity economy company that builds <b>participatory democracy</b> open source tools. We provide technical and methodological support to both public and private stakeholders willing to engage in online or offline participation processes. We work on different types of projects: <b>public consultations</b>, <b>participatory budgeting</b>, collaborative <b>decision-making</b>, etc.
 
 <br>
 Our action is guided by the principles of open government: transparency, participation and cooperation. We are co-founded several Civic Tech : <a href="http://democracyos.eu" target="blank">DemocracyOS France</a>, <a href="http://democracy.earth" target="blank">Democracy Earth</a>, hackathons <a href="http://opendemocracynow.net" target="blank">Open Democracy Now</a>. 
-</div>  
+</div>
