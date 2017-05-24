@@ -17,7 +17,7 @@ date: '2017-05-23T16:02:11.316+00:00'
 ---
 #### Une consultation publique, qu’est-ce que c’est ?
 
-Une consultation publique est une démarche visant à associer les citoyens à une prise de décision publique quelle qu’elle soit. Elle doit respecter certains principes, comme le fait de commencer en amont de la prise de décision et d’être aussi large et inclusive que possible. Enfin, une consultation publique exige la transparence et doit faire l'objet de bilans.
+Une <b>consultation publique</b> est une démarche visant à associer les citoyens à une prise de décision publique quelle qu’elle soit. Elle doit respecter certains principes, comme le fait de commencer en amont de la prise de décision et d’être aussi large et inclusive que possible. Enfin, une consultation publique exige la transparence et doit faire l'objet de bilans.
 
 #### Plusieurs plateformes disponibles.
 
