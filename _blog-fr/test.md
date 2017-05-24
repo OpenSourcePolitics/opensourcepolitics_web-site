@@ -12,7 +12,7 @@ author-medium: fqsd
 Medium-link: qsdf
 project-date: fdqs
 article-description: qdsf
-undefined: ''
+
 ---
 text
 
