@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source Politics</title>
-    <description>Solutions Civic Tech : nous mettons en place des outils open source et des méthodes efficaces pour faciliter vos prises de décisions collectives.</description>
+    <description>Outils numériques de démocratie participative : nous mettons en place des solutions civic tech open source et des méthodes efficaces pour faciliter la participation citoyenne.</description>
     <link>http://opensourcepolitics.eu/</link>
     <atom:link href="http://opensourcepolitics.eu/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 May 2017 09:11:33 +0000</pubDate>
-    <lastBuildDate>Wed, 24 May 2017 09:11:33 +0000</lastBuildDate>
+    <pubDate>Wed, 24 May 2017 10:26:52 +0000</pubDate>
+    <lastBuildDate>Wed, 24 May 2017 10:26:52 +0000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
   </channel>
