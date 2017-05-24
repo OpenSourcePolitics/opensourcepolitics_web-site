@@ -14,11 +14,11 @@ date: '2017-05-23T16:02:11.316+00:00'
 ---
 #### OSP CUSTOM est notre offre sur-mesure.
 
-Pour répondre le plus précisément possible aux demandes de nos partenaires, nos équipes sont en mesure de produire une plateforme personnalisée, qui puisse intégrer plusieurs moteurs de concertation et la construction d'une communauté d'utilisateurs. Notre démarche vise à échanger le plus possible, non seulement avec l’administration partenaire, mais aussi avec les citoyens, afin de co-construire l’outil dont leur collectivité a besoin.
+Pour répondre le plus précisément possible aux demandes de nos partenaires, nos équipes sont en mesure de produire une plateforme personnalisée, qui puisse intégrer plusieurs moteurs de <b>concertation</b> et la construction d'une communauté d'utilisateurs. Notre démarche vise à échanger le plus possible, non seulement avec l’administration partenaire, mais aussi avec les citoyens, afin de co-construire l’outil dont leur collectivité a besoin.
 
 #### Accompagnement et échanges avec les équipes partenaires.
 
-Construire la plateforme numérique idéale passe par des échanges répétés et plusieurs itérations successives pour sélectionner et adapter les outils, concevoir une stratégie de concertation et la communication adéquate, accompagner leur déploiement en ligne et leur utilisation sur le terrain par le public le plus large possible. Notre expérience nous permet d'intervenir sur l'ensemble de ces enjeux pendant les mois nécessaires à la création d'un tel dispositif. Nous avons notamment réalisé une plateforme de ce type pour la mairie de Nanterre, un article retranscrivant cette aventure est <b>[disponible ici](https://medium.com/open-source-politics/comment-nous-avons-co-construit-une-agora-permanente-%C3%A0-nanterre-69b4d2690d7a)</b> !
+Construire la plateforme numérique idéale passe par des échanges répétés et plusieurs itérations successives pour sélectionner et adapter les outils, concevoir une stratégie de concertation et la communication adéquate, accompagner leur déploiement en ligne et leur utilisation sur le terrain par le public le plus large possible. Notre expérience nous permet d'intervenir sur l'ensemble de ces enjeux pendant les mois nécessaires à la création d'un tel dispositif. Nous avons notamment réalisé une plateforme de <b>participation citoyenne</b> pour la mairie de Nanterre, un article retranscrivant cette aventure est <b>[disponible ici](https://medium.com/open-source-politics/comment-nous-avons-co-construit-une-agora-permanente-%C3%A0-nanterre-69b4d2690d7a)</b> !
 
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 
