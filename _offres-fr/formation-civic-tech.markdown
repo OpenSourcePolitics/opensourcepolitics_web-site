@@ -9,7 +9,7 @@ permalink: "/formation-civic-tech"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
 #### OSP FORMATION est notre offre pédagogique
-Elle vise à faire connaître la civic tech et les différents processus de participation citoyenne, ainsi que les enjeux et les bons usages du secteur (promesses et limites de la démocratie participative, historique et comparatif des processus de participation en ligne, organisation d'un budget participatif…).
+Elle vise à faire connaître la civic tech et les différents processus de <b>participation citoyenne</b>, ainsi que les enjeux et les bons usages du secteur (promesses et limites de la <b>démocratie participative</b>, historique et comparatif des processus de participation en ligne, organisation d'un budget participatif…).
 
 #### Nous intervenons directement auprès de vos services
 
