@@ -11,7 +11,7 @@
             <div class="row">
               {% if page.locale == "fr" %}
                   {% for ref in site.refs-fr reversed %}
-                  {% if ref.category == "featured" %}
+                  {% if ref.Categories == "featured" %}
                 <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
                     <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                         <!--<div class="portfolio-hover">
@@ -34,7 +34,7 @@
                 {% endfor %}
                 {% else %}
                 {% for ref in site.refs-en reversed %}
-                  {% if ref.category == "featured" %}
+                  {% if ref.Categories == "featured" %}
                     <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
                         <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
                             <!--<div class="portfolio-hover">

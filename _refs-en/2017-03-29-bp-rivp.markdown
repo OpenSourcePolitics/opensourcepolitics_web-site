@@ -10,7 +10,7 @@ client-url: http://rivp.fr
 project-link: https://budget-participatif.rivp.fr
 client: RIVP
 locale: en
-categories: featured
+Categories: featured
 date: '2017-03-29T00:00:00.000+00:00'
 ---
 

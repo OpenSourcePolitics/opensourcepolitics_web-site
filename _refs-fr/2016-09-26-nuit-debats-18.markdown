@@ -10,7 +10,7 @@ client-url: http://www.mairie18.paris.fr/mairie18/
 project-link: http://www.mairie18.paris.fr/mairie18/jsp/site/Portal.jsp?document_id=19314&portlet_id=2681
 client: Mairie 18e
 locale: fr
-categories: refs
+Categories: refs
 date: '2016-09-26T00:00:00.000+00:00'
 ---
 

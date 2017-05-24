@@ -10,7 +10,7 @@ client-url: http://agencedunumerique.gouv.fr/
 project-link: https://article69.agencedunumerique.gouv.fr/
 client: Agence du Numérique
 locale: en
-categories: featured
+Categories: featured
 date: '2017-02-12T00:00:00.000+00:00'
 ---
 

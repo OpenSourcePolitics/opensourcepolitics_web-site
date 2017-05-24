@@ -10,7 +10,7 @@ client-url: http://www.nanterre.fr/
 project-link: http://participez.nanterre.fr/
 client: Ville de Nanterre
 locale: fr
-categories: featured
+Categories: featured
 date: '2016-09-28T00:00:00.000+00:00'
 ---
 

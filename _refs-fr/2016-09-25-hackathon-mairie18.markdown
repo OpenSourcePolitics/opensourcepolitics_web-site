@@ -10,7 +10,7 @@ client-url: http://www.mairie18.paris.fr/mairie18/
 project-link: http://opendemocracynow.net/
 client: Mairie 18e
 locale: fr
-categories: refs
+Categories: refs
 date: '2016-09-25T00:00:00.000+00:00'
 ---
 

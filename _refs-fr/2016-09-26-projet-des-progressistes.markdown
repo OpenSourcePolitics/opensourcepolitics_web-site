@@ -10,7 +10,7 @@ client-url: http://yanchantrel.com/
 project-link: https://ssl.projetdesprogressistes.org
 client: Yan Chantrel
 locale: fr
-categories: refs
+Categories: refs
 date: '2016-09-26T00:00:00.000+00:00'
 ---
 
