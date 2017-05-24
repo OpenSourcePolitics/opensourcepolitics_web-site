@@ -10,7 +10,7 @@ client-url: http://www.solidel.fr/
 project-link: http://www.solidel.fr/
 client: Solidel
 locale: fr
-category: refs
+categories: refs
 date: '2017-05-23T16:02:11.316+00:00'
 ---
 
