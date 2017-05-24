@@ -10,6 +10,6 @@ client-url: http://ligueparis.org/
 project-link: http://ligueparis.org/
 client: Ligue de l'enseignement Paris
 locale: fr
-category: refs
+categories: refs
 date: '2017-03-25T00:00:00.000+00:00'
 ---
