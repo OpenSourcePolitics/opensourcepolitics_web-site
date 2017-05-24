@@ -15,7 +15,6 @@ ref3-name: Dépôt SNCF Ordener
 ref3-url: "/refs-fr/2017-01-10-depot-ordener/"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-
 #### Une consultation publique, qu’est-ce que c’est ?
 
 Une consultation publique est une démarche visant à associer les citoyens à une prise de décision publique quelle qu’elle soit. Elle doit respecter certains principes, comme le fait de commencer en amont de la prise de décision et d’être aussi large et inclusive que possible. Enfin, une consultation publique exige la transparence et doit faire l'objet de bilans.
@@ -35,11 +34,13 @@ Pour faire de ces processus un succès, c’est-à-dire les rendre inclusifs et 
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 
 <br>
+
+
 <div class="well">
 <h4>A propos d'Open Source Politics</h4>
 
-Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics. Nous accompagnons techniquement et méthodologiquement les acteurs publics, privés et associatifs dans la mise en place de processus de dispositif hors-ligne et en ligne de participation. Nous intervenons sur différents types de projets : consultation publique, budget participatif, prise de décisions collaborative etc.
+Open Source Politics est une entreprise de l'ESS qui développe des solutions de <b>démocratie participative</b> open source. Nous accompagnons techniquement et méthodologiquement des acteurs publics, privés et associatifs dans la mise en place de dispositif en ligne et hors-ligne de participation. Nous intervenons sur différents types de projets : <b>consultations publiques</b>, <b>budgets participatifs</b>, <b>prises de décisions collaboratives</b> etc.
 
 <br>
 Notre action est guidée par les principes du gouvernement ouvert : transparence, participation et coopération. Nous sommes co-fondateurs de plusieurs projets Civic Tech : <a href="http://democracyos.eu" target="blank">DemocracyOS France</a>, <a href="http://democracy.earth" target="blank">Democracy Earth</a>, les hackathons <a href="http://opendemocracynow.net" target="blank">Open Democracy Now</a>. Découvrez notre <a href="https://medium.com/open-source-politics/notre-histoire-c61bbec90334#.bmus5b392" target="blank">histoire</a>.
-</div>  
+</div>
