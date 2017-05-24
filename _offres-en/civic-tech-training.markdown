@@ -8,9 +8,8 @@ locale: en
 permalink: "/civic-tech-training"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-
 #### OSP TRAINING
-It aims at raising awareness regarding civic tech and the different processes of citizen participation, as well as the issues and good practices of the sector (such as the promises and limits of participatory democracy, historical and comparative of online participation processes, organization of a budget participatory and so on).
+It aims at raising awareness regarding civic tech and the different processes of <b>civic participation</b>, as well as the issues and good practices of the sector (such as the promises and limits of <b>participatory democracy</b>, historical and comparative of online participation processes, organization of a budget participatory and so on).
 
 #### WE WORK DIRECTLY WITH YOUR TEAMS.
 
@@ -28,11 +27,13 @@ Training is delivered by Valentin Chaput, who teaches at Sciences Po Lille and S
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">CONTACT US FOR MORE INFORMATION</a></center>
 
 <br>
+
+
 <div class="well">
 <h4>ABOUT OPEN SOURCE POLITICS</h4>
 
-Open Source Politics is a solidarity economy company that builds civic tech open source tools in order to improve citizen participation. We provide technical and methodological support to both public and private stakeholders willing to engage in offline or online participation processes. We work on different types of projects: public consultation, participatory budgeting, collaborative decision-making, etc.
+Open Source Politics is a solidarity economy company that builds <b>participatory democracy</b> open source tools. We provide technical and methodological support to both public and private stakeholders that are willing to engage in online or offline participation processes. We work on different types of projects: <b>public consultations</b>, <b>participatory budgeting</b>, <b>collaborative decision-making</b>, etc.
 
 <br>
 Our action is guided by the principles of open government: transparency, participation and cooperation. We are co-founded several Civic Tech : <a href="http://democracyos.eu" target="blank">DemocracyOS France</a>, <a href="http://democracy.earth" target="blank">Democracy Earth</a>, hackathons <a href="http://opendemocracynow.net" target="blank">Open Democracy Now</a>. 
-</div>  
+</div>
