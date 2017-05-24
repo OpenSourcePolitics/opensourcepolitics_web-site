@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 title: Open Source Politics Blog
 locale: fr
 permalink: "/fr/blog"
@@ -31,7 +31,7 @@ permalink: "/fr/blog"
     <!-- Latest article -->
     {% assign posts = site.posts | sort: 'date' | reverse %}
     {% for ref in site.blog-fr %}
-      {% if ref.mis-en-avant %}
+      {% if ref.mis-en-avant == 1%}
 
     <div class="jumbotron hidden-xxs" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{ ref.img }}) center no-repeat; background-size: cover ; ">
       <a href="{{site.baseurl}}{{ref.url}}">
@@ -127,7 +127,7 @@ permalink: "/fr/blog"
 
 
       <br>
-    
+
 
 
 
