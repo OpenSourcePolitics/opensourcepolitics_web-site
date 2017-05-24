@@ -12,7 +12,6 @@ ref2-name: arcinnovation.fr
 ref2-url: "/refs-fr/2016-12-08-arc_innovation/"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-
 #### OSP CUSTOM est notre offre sur-mesure.
 
 Pour répondre le plus précisément possible aux demandes de nos partenaires, nos équipes sont en mesure de produire une plateforme personnalisée, qui puisse intégrer plusieurs moteurs de concertation et la construction d'une communauté d'utilisateurs. Notre démarche vise à échanger le plus possible, non seulement avec l’administration partenaire, mais aussi avec les citoyens, afin de co-construire l’outil dont leur collectivité a besoin.
@@ -29,8 +28,8 @@ Construire la plateforme numérique idéale passe par des échanges répétés e
 <div class="well">
 <h4>A propos d'Open Source Politics</h4>
 
-Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics. Nous accompagnons techniquement et méthodologiquement les acteurs publics, privés et associatifs dans la mise en place de processus de dispositif hors-ligne et en ligne de participation. Nous intervenons sur différents types de projets : consultation publique, budget participatif, prise de décisions collaborative etc.
+Open Source Politics est une entreprise de l'ESS qui développe des solutions de <b>démocratie participative</b> open source. Nous accompagnons techniquement et méthodologiquement des acteurs publics, privés et associatifs dans la mise en place de dispositif en ligne et hors-ligne de participation. Nous intervenons sur différents types de projets : <b>consultations publiques</b>, <b>budgets participatifs</b>, <b>prises de décisions collaboratives</b> etc.
 
 <br>
 Notre action est guidée par les principes du gouvernement ouvert : transparence, participation et coopération. Nous sommes co-fondateurs de plusieurs projets Civic Tech : <a href="http://democracyos.eu" target="blank">DemocracyOS France</a>, <a href="http://democracy.earth" target="blank">Democracy Earth</a>, les hackathons <a href="http://opendemocracynow.net" target="blank">Open Democracy Now</a>. Découvrez notre <a href="https://medium.com/open-source-politics/notre-histoire-c61bbec90334#.bmus5b392" target="blank">histoire</a>.
-</div>  
+</div>
