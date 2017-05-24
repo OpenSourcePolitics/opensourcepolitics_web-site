@@ -11,8 +11,6 @@ ref1-name: Budget participatif de la RIVP
 ref1-url: "/refs-fr/2017-03-29-bp-rivp/"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-
-
 #### Le budget participatif, qu'est-ce que c'est ?
 
 Un **budget participatif** est une démarche qui consiste à impliquer les citoyens dans la gestion financière de leur ville, leur département etc. Une collectivité souhaitant mettre en place un budget participatif procèdera par étapes : définir le pourcentage du budget total qui sera alloué au processus, puis collecter les propositions des citoyens quant à l’utilisation de ces fonds. Enfin, il s’agira de faire voter puis mettre en place les meilleurs projets. À une période où la défiance des Français vis-à-vis de la politique se fait de plus en plus grande, une telle démarche permet de restaurer le lien de confiance entre élus et citoyens en mettant en place un dispositif de participation qui garantit le respect des engagements pris par tous.
@@ -29,4 +27,10 @@ Ayant un impact direct sur l’utilisation des fonds publics, une telle démarch
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 
 <div class="well">
-<h4>A propos d'Open Source Politics</h4><p>Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics. Nous accompagnons techniquement et méthodologiquement les acteurs publics, privés et associatifs dans la mise en place de processus de dispositif hors-ligne et en ligne de participation. Nous intervenons sur différents types de projets : <b>consultation publiqu</b>e, <b>budget participatif,</b> <b>prise de décisions collaborative</b> etc. Notre action est guidée par les principes du gouvernement ouvert : transparence, participation et coopération. Nous sommes co-fondateurs de plusieurs projets civic tech : DemocracyOS France, Democracy Earth, les hackathons Open Democracy Now. Découvrez notre histoire. </p></div>
+<h4>A propos d'Open Source Politics</h4>
+
+Open Source Politics est une entreprise de l'ESS qui développe des solutions civic tech en open source pour faciliter la participation des publics. Nous accompagnons techniquement et méthodologiquement les acteurs publics, privés et associatifs dans la mise en place de processus de dispositif hors-ligne et en ligne de participation. Nous intervenons sur différents types de projets : <b>consultation publique</b>, <b>budget participatif</b>, <b>prise de décisions collaborative</b> etc.
+
+<br>
+Notre action est guidée par les principes du gouvernement ouvert : transparence, participation et coopération. Nous sommes co-fondateurs de plusieurs projets Civic Tech : <a href="http://democracyos.eu" target="blank">DemocracyOS France</a>, <a href="http://democracy.earth" target="blank">Democracy Earth</a>, les hackathons <a href="http://opendemocracynow.net" target="blank">Open Democracy Now</a>. Découvrez notre <a href="https://medium.com/open-source-politics/notre-histoire-c61bbec90334#.bmus5b392" target="blank">histoire</a>.
+</div>
