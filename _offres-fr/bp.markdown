@@ -26,6 +26,9 @@ La plateforme permet aux citoyens de proposer, soutenir et décider directement 
 Ayant un impact direct sur l’utilisation des fonds publics, une telle démarche se doit d’être totalement inclusive. Pour cette raison, avec le cabinet  [Copas](http://copas.coop/), nous animons des ateliers sur le terrain pour présente les principes et l’intérêt des budgets participatifs et susciter un maximum de propositions venant des participants. Nous les aidons ensuite à approfondir ces idées pour en faire de véritables projets d’investissement.
 <center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
 
+<br>
+
+
 <div class="well">
 <h4>A propos d'Open Source Politics</h4>
 
