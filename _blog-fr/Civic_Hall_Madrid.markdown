@@ -14,7 +14,6 @@ filename: Civic_Hall_Madrid
 article-description: Dans le cadre d’un hackathon de deux semaines sur le thème de
   l’intelligence collective au service de...
 ---
-
 <div class = "blogcontent">
 
 
@@ -136,11 +135,5 @@ Le Medialab Prado est un véritable modèle d’innovation démocratique pour pl
 C’est assurément le modèle qui doit nous inspirer collectivement pour concevoir le futur <b>Civic Hall Parisien</b>.
 <br>
 <img src = "https://cdn-images-1.medium.com/max/960/1*mrVEKY450l2m1GfPfASLqw.jpeg"><br>
-
-<br>
-
-<div class = "citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
-
-<br>
-
-</div>
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
