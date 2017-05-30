@@ -43,8 +43,6 @@ On the one hand, citizens feel like they are not involved in public decision-mak
 <br><img src = "https://cdn-images-1.medium.com/max/960/1*L0j0CmREpZqueh_ldXQ1ww.png"><br>
 <img src = "https://cdn-images-1.medium.com/max/960/1*ELatUNhxK7N2TsR_XDyXfw.png"><br>
 <img src = "https://cdn-images-1.medium.com/max/960/1*v_bNhEQxP4JU-blQrUfIfA.png"><br>
-<img src = "https://cdn-images-1.medium.com/max/960/1*D05JUs1gCyOozxlxgAI_7g.png"><br>
-
-<div class = "citation"> Contact us if you wish to engage in a consultation process that makes use of civic-tech tools!</div>
+<img src = "https://cdn-images-1.medium.com/max/960/1*D05JUs1gCyOozxlxgAI_7g.png"><br></div>
 <br><br>
 <div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>
