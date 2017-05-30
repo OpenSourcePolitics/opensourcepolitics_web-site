@@ -14,7 +14,6 @@ filename: Democracy_Earth
 article-description: Une interview de Virgile Deville, co-fondateur d’Open Source
   Politics, des hackathons Open Democracy Now ...
 ---
-
 <div class = "blogcontent">
 
 Une interview de Virgile Deville, co-fondateur d’Open Source Politics, des hackathons Open Democracy Now ! et ancien président de l’association Democracy OS France en 2015, à propos de son implication dans le projet international de la fondation Democracy Earth et sa plateforme Sovereign.
@@ -101,24 +100,6 @@ Nous avons documenté notre réaction aux résultats surprenants du référendum
 <br>
 <br><br>
 <div class = "citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
 </div>
