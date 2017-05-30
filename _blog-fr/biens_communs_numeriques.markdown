@@ -15,7 +15,6 @@ filename: biens_communs_numeriques
 article-description: Notre génération aspire à créer un monde plus collaboratif. Les
   enjeux de notre époque ne nous laissent de toute façon pas le choix...
 ---
-
 <div class = "blogcontent">
 
 
@@ -113,15 +112,5 @@ Ces outils existent déjà pour la plupart. Nous mettons à l’honneur leurs au
 La civic-tech française a énormément grandi depuis dix-huit mois. De nouveaux leviers sont en train de se mettre en place. Un incubateur va naître grâce au soutien d’Axelle Lemaire. Il a vocation à être hébergé à terme par le « Civic Hall » voulu par Anne Hidalgo à Paris. Tant que nous n’aurons pas de garanties sur les critères techniques et politiques exigés pour en faire partie, nous regarderons ces deux initiatives avec la vigilance qui est attendue de la société civile dans une démarche de Gouvernement ouvert. Cette posture peut paraître idéaliste à l’heure où l’innovation démocratique souffre d’une réelle précarité économique, mais si ce n’est pas pour nous rapprocher d’un idéal démocratique plus libre et plus ouvert que nous nous battons, alors à quoi cela sert-il ?
 
 <br>@ValentinChaput
-
-
-
-
-
-
-
-
-
-
-
-</div>
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
