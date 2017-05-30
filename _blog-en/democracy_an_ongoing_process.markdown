@@ -14,7 +14,6 @@ filename: democracy_an_ongoing_process
 article-description: France’s presidential campaign is about to end. It has been exhausting
   for some, because of how unpredictable it got...
 ---
-
 <div class = "blogcontent">
 
 France’s presidential campaign is about to end. It has been exhausting for some, because of how unpredictable it got. But also frustrating for many, because of the fact that the last months have left very little space for substantive debate. In this troubling time, we wanted to carry a slightly different message, that of everyday life, and not of electoral events.
@@ -47,17 +46,5 @@ On the one hand, citizens feel like they are not involved in public decision-mak
 <img src = "https://cdn-images-1.medium.com/max/960/1*D05JUs1gCyOozxlxgAI_7g.png"><br>
 
 <div class = "citation"> Contact us if you wish to engage in a consultation process that makes use of civic-tech tools!</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+<br><br>
+<div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>
