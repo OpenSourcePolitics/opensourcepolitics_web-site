@@ -14,7 +14,6 @@ filename: Democracy_Earth
 article-description: This interview deals with his involvement in Democracy Earth
   and their “Sovereign” tool.
 ---
-
 <div class = "blogcontent">
 
 Virgile Deville, is the co-founder of Open Source Politics as well as Open Democracy Now hackathons. In 2015, he also founded and presided over Democracy OS France. This interview deals with his involvement in Democracy Earth and their “Sovereign” tool.
@@ -102,17 +101,6 @@ The foundation initially followed the incubation process of Y Combinator, which 
 
 <b>Which part of your background drove you to this field?</b>
 <br>
-It is mostly due to my involvement in civic tech for the last two years. With Democracy Earth of course, but with Open Source Politics as well, which I co-founded. I also became involved with Democracy OS. So basically I met lots of people during these years. This is how I met Santiago Siri for instance, and he was the one who made me aware of the importance of decentralization and incorruptibility. These issues are at the core of the foundation and in our view, they must become standards not only for civic tech, but for democracy in general.
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+It is mostly due to my involvement in civic tech for the last two years. With Democracy Earth of course, but with Open Source Politics as well, which I co-founded. I also became involved with Democracy OS. So basically I met lots of people during these years. This is how I met Santiago Siri for instance, and he was the one who made me aware of the importance of decentralization and incorruptibility. These issues are at the core of the foundation and in our view, they must become standards not only for civic tech, but for democracy in general.</div>
+<br><br>
+<div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>
