@@ -14,7 +14,6 @@ filename: forking_the_Taiwanese_government
 article-description: An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang
   Kao a.k.a. “CL” about the g0v (pronounced “gov zero”) movement in Taiwan...
 ---
-
 <div class = "blogcontent">
 
 An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “CL” about the g0v (pronounced “gov zero”) movement in Taiwan, a community that focuses on building open source digital tools designed to improve civic participation and make government data more transparent.
@@ -92,19 +91,6 @@ An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang Kao a.k.a. “C
 <b>CL:</b> So as I said earlier I have been a web developer for quite some time now. I have always had the technical background, however I used not to care that much about the way the government worked and the way they relate to the people. It was only when I was in the hospital that I took an interest in those things, to be honest.
 <br><br>
 
-<b>TTcat:</b> My story is a bit complex: I was an activist before all that, for green party Taiwan, LGBT rights etc. What I’ve learned on my journey is that we like bottom-up, but people usually don’t understand how the ones in power can listen to the citizens, so there is a lot of frustration in my past due to this. The way g0v operates is fascinating to me, because I think that we will only be able to make a real change if civil society adopts openness. Otherwise the classic system will turn any individual into the same model and we will be going round in circles. So the question which drives me is this: how do we bring this open culture and merge it back with civil society?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+<b>TTcat:</b> My story is a bit complex: I was an activist before all that, for green party Taiwan, LGBT rights etc. What I’ve learned on my journey is that we like bottom-up, but people usually don’t understand how the ones in power can listen to the citizens, so there is a lot of frustration in my past due to this. The way g0v operates is fascinating to me, because I think that we will only be able to make a real change if civil society adopts openness. Otherwise the classic system will turn any individual into the same model and we will be going round in circles. So the question which drives me is this: how do we bring this open culture and merge it back with civil society?</div>
+<br><br>
+<div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>
