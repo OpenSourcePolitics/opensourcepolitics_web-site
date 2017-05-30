@@ -14,7 +14,6 @@ filename: notre_histoire
 article-description: Depuis le printemps 2016, Open Source Politics est une entreprise
   relevant du champ de l’économie sociale...
 ---
-
 <div class = "blogcontent">
 Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale et solidaire qui développe des plateformes numériques libres et open source et anime des ateliers d’intelligence collective pour accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives.
 <br><br>
@@ -78,16 +77,5 @@ Comme la démocratie, nous avons conscience que l’entrepreneuriat n’est jama
 <br><br>
 
 contact@opensourcepolitics.eu / twitter @OpenSourcePol
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
