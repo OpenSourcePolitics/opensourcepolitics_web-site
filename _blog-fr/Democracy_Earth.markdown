@@ -14,7 +14,6 @@ filename: Democracy_Earth
 article-description: Une interview de Virgile Deville, co-fondateur d’Open Source
   Politics, des hackathons Open Democracy Now ...
 ---
-
 <div class = "blogcontent">
 
 Une interview de Virgile Deville, co-fondateur d’Open Source Politics, des hackathons Open Democracy Now ! et ancien président de l’association Democracy OS France en 2015, à propos de son implication dans le projet international de la fondation Democracy Earth et sa plateforme Sovereign.
@@ -96,29 +95,6 @@ Nous avons documenté notre réaction aux résultats surprenants du référendum
 
 <br><br><b>Qu’est ce qui, dans ton parcours, t’as mené à ces thématiques ?</b>
 
-<br>C’est principalement mon implication dans la civic tech depuis deux ans au sein de la fondation, d’Open Source Politics dont je suis co-fondateur, mais aussi du projet Democracy OS auparavant, et donc de toutes les rencontres que cela implique. C’est ainsi que j’ai connu Santiago Siri et c’est lui qui m’a sensibilisé à ces thématiques de décentralisation et d’incorruptibilité. Des questions qui sont centrales pour la fondation et qui à notre sens doivent devenir des standards non seulement pour la civic tech, mais plus largement pour la démocratie en général.
-
-<br>
+<br>C’est principalement mon implication dans la civic tech depuis deux ans au sein de la fondation, d’Open Source Politics dont je suis co-fondateur, mais aussi du projet Democracy OS auparavant, et donc de toutes les rencontres que cela implique. C’est ainsi que j’ai connu Santiago Siri et c’est lui qui m’a sensibilisé à ces thématiques de décentralisation et d’incorruptibilité. Des questions qui sont centrales pour la fondation et qui à notre sens doivent devenir des standards non seulement pour la civic tech, mais plus largement pour la démocratie en général.</div>
 <br><br>
-<div class = "citation">Open Source Politics est une entreprise qui développe des plateformes numériques dans le but d’accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>

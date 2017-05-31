@@ -15,7 +15,6 @@ filename: transformation_gouvernement_taïwanais
 article-description: Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao
   (“CL”) à propos du mouvement g0v (prononcer “gov zéro”)...
 ---
-
 <div class = "blogcontent">
 
 Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à propos du mouvement g0v (prononcer “gov zéro”) à Taïwan, une communauté qui se concentre sur la création de plateformes digitales open source permettant d’améliorer la participation citoyenne et de rendre les données gouvernementales plus transparentes.
@@ -111,20 +110,6 @@ Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao (“CL”) à p
 <b>CL :</b> Comme je l’ai dit plus tôt, je suis développeur web depuis un certain temps maintenant. J’ai toujours eu l’expérience technique, mais pour être honnête, je ne m’intéressais pas tellement à la façon dont le gouvernement fonctionnait, dont il communiquait avec gens. Ce n’est que lors de mon séjour à l’hôpital que je me suis intéressé à ces questions.
 <br><br>
 <b>TTcat : </b>Mon histoire est un peu complexe : j’étais activiste avant tout, pour le Green Party Taiwan, les droits LGBT, etc. Ce que j’ai appris au cours de ce parcours, c’est que les activistes aiment le bottom-up, mais les gens ne comprennent généralement pas comment ceux qui gouvernent peuvent écouter les citoyens. Il y a donc eu beaucoup de frustration dans mon passé en raison de cela. La façon dont g0v fonctionne est fascinante pour moi, car je pense que nous ne pourrons réaliser un véritable changement que si la société civile adopte les systèmes ouverts. Sinon, le système classique transformera chaque individu en un même modèle et nous tournerons en rond. La question qui m’anime est la suivante : comment faire connaître cette culture ouverte et la fusionner avec la société civile ?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
 </div>

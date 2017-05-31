@@ -14,7 +14,6 @@ filename: 2017_annee_democratique
 article-description: Le 6 janvier chez Volumes, nous avons présenté nos voeux et nos
   projets aux membres de notre meetup et à nos partenaires...
 ---
-
 <div class = "blogcontent">
 
 
@@ -65,27 +64,6 @@ Nous avons activement contribué à l’organisation de six hackathons en 2016. 
 <br> <img src = "https://cdn-images-1.medium.com/max/960/1*OV_ByoZH5bH1upcD-r2MhA.png">
 
 <br> Alain, Olivier, Valentin et Virgile
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
 </div>

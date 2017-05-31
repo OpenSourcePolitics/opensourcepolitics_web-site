@@ -15,7 +15,6 @@ filename: transform_our_democracy
 article-description: Our generation yearns to create a more collaborative world. The
   stakes of our time does not leave us much choice anyway...
 ---
-
 <div class = "blogcontent">
 
 
@@ -113,15 +112,6 @@ These tools, for the most part, already exist. We honored their creators from Ge
 
 French civic-tech has been growing tremendously for the last eighteen months. New levers are being put in place. An incubator is born with the support of the French Minister for Digital Affairs Axelle Lemaire. It is intended to be hosted by the “Civic Hall” Anne Hidalgo [mayor of Paris] calls for in Paris. As long as we do not have guarantees on the technical and political criteria required to be part of it, we will look at these two initiatives with the vigilance that is expected of the civil society in an approach of Open Government. This posture may seem idealistic at a time when democratic innovation suffers from a real economic precariousness, but if what we develop does not bring us closer to a freer and more open democratic, how useful can it really be?
 <br><br>
-Written by @ValentinChaput, with many thanks to the translator Noé Jacomet
-
-
-
-
-
-
-
-
-
-
-</div>
+Written by @ValentinChaput, with many thanks to the translator Noé Jacomet</div>
+<br><br>
+<div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>

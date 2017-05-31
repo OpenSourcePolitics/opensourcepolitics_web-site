@@ -14,7 +14,6 @@ filename: Umbrella_movement
 article-description: An interview with Angus Chiu and SnD about civicdata.hk and how
   the 2014 protests gave birth to an active civic...
 ---
-
 <div class = "blogcontent">
 
 
@@ -80,8 +79,6 @@ An interview with Angus Chiu and SnD about civicdata.hk and how the 2014 protest
 <b>What are your motivations? Why do you feel like civic tech is important?</b><br>
 <b>Angus:</b> Technology is a very powerful tool that can be used for the greater good but also to do tremendous harm, because it grants people in charge a power that in the past, they would only have had with an army supporting them. Nowadays, a dictator would need very few people to actually handle thousands and thousands of drones. My goal is to contribute to society by making people embrace open technology and enforce a virtuous use of it.
 <br><br>
-<b>SnD: </b>In my case, I used to work in the Silicon Valley and there are open source movements there that tend to use technology to affect society through open culture. So this kind of mindset is very common there and when I moved back to Hong Kong, the whole society seemed weird to me, especially when it comes to politics. I felt like people were angry and so I chose this life to try to improve the local situation.
-
-
-
-</div>
+<b>SnD: </b>In my case, I used to work in the Silicon Valley and there are open source movements there that tend to use technology to affect society through open culture. So this kind of mindset is very common there and when I moved back to Hong Kong, the whole society seemed weird to me, especially when it comes to politics. I felt like people were angry and so I chose this life to try to improve the local situation.</div>
+<br><br>
+<div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>

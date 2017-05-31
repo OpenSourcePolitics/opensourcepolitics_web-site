@@ -14,7 +14,6 @@ filename: La_democratie_continue
 article-description: La France sort d’une intense campagne. Haletante pour les uns,
   tant elle fut imprévisible et marquée par les rebondissements...
 ---
-
 <div class = "blogcontent">La France sort d’une intense campagne. Haletante pour les uns, tant elle fut imprévisible et marquée par les rebondissements. Frustrante pour beaucoup d’autres car les derniers mois ont laissé bien peu de place au débat de fond. En cette période troublante, nous souhaitions porter un message un peu différent, celui du quotidien, et non du « rendez-vous électoral ».
 <br><br>
 <div class ="citation">Heureusement, grâce au numérique, la démocratie ne s’arrête plus durant les cinq ans qui séparent deux scrutins.</div>
@@ -36,5 +35,6 @@ D’un côté, les citoyens estiment ne pas être associés et écoutés aux bon
 <img src ="https://cdn-images-1.medium.com/max/960/1*bxz-IjtjA36q7cbKYc5m5g.png">
 <br>
 <img src ="https://cdn-images-1.medium.com/max/960/1*kPZVQJuDA2YsmPysfQVh-Q.png">
-<br>
-<div class = "citation">Contactez-nous si vous souhaitez vous engager dans un dispositif de concertation utilisant des outils civic-tech !</div></div>
+<br><br>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>
+</div>

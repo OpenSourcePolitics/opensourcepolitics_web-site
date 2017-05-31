@@ -14,7 +14,6 @@ filename: conseils_de_quartier_2_0
 article-description: L’engagement des citoyens progressera par la pratique démocratique
   concrète. Avec les associations CivicWise et...
 ---
-
 <div class = "blogcontent">
 
 
@@ -54,19 +53,5 @@ Nous avons débuté notre collaboration au premier trimestre 2016 en organisant 
 <br>
 
 <img src = "https://cdn-images-1.medium.com/max/960/1*1vVMUnkyETDYLQwsyHK0Pw.png">
-
 <br><br>
-
-<i>
-
-Ces propositions vous intéressent et vous souhaitez nous aider à les mettre en place dans votre ville ou votre quartier ?
-<br><br>
-Ecrivez-nous à l’adresse contact@democracyos.eu.
-
-</i>
-
-
-
-
-
-</div>
+<div class="citation">Open Source Politics est une entreprise qui développe des plateformes de <b>démocratie participative</b> pour des acteurs publics, privés et associatifs. Contactez-nous si vous souhaitez vous engager dans un dispositif de <b>concertation</b> ou un <b>budget participatif</b> utilisant des outils civic tech ! <br></div>

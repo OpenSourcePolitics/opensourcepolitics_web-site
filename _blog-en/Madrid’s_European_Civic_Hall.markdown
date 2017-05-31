@@ -14,7 +14,6 @@ filename: Madrid’s_European_Civic_Hall
 article-description: Virgile Deville went to Madrid in order to work on Sovereign,
   Democracy....
 ---
-
 <div class = "blogcontent">
 
 As part of a two-weeks hackathon on collective intelligence for democracy, Virgile Deville (Open Source Politics / Democracy Earth) went to Madrid in order to work on Sovereign, Democracy Earth’s software. It was also an opportunity for him to discover Medialab Prado, a true civic collaborative space.
@@ -129,8 +128,6 @@ There are several reasons why Medialab Prado is a true model of democratic innov
 
 This is certainly the model that should inspire us collectively to design the upcoming Parisian Civic Hall.
 
-<br><img src = "https://cdn-images-1.medium.com/max/960/1*mrVEKY450l2m1GfPfASLqw.jpeg"><br>
-
-
-
-</div>
+<br><img src = "https://cdn-images-1.medium.com/max/960/1*mrVEKY450l2m1GfPfASLqw.jpeg"><br></div>
+<br><br>
+<div class="citation">Open Source Politics is a company that builds tools for <b>participatory democracy</b> designed for public or private stakeholders. Contact us if you are willing to get involved in <b>public consultation</b> or <b>participatory budgeting</b> processes using civic tech solutions! <br></div>
