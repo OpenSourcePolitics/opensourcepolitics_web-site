@@ -1,6 +1,6 @@
 ---
 locale: en
-title: How we built a permanent Agora in Nanterre
+title: How we built a permanent agora in Nanterre
 layout: blog
 comments: true
 img: https://cdn-images-1.medium.com/max/2000/1*6WfBu6BXLP9KnvWd5BYoOg.png
