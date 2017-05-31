@@ -8,12 +8,37 @@ locale: fr
 permalink: "/formation-civic-tech"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-#### OSP FORMATION est notre offre pédagogique
-Elle vise à faire connaître la civic tech et les différents processus de <b>participation citoyenne</b>, ainsi que les enjeux et les bons usages du secteur (promesses et limites de la <b>démocratie participative</b>, historique et comparatif des processus de participation en ligne, organisation d'un <b>budget participatif</b>, avenir de la <b>smart city</b>…).
+<div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>OSP FORMATION est notre offre pédagogique.</h2>
 
-#### Nous intervenons directement auprès de vos services
+      <p>Elle vise à faire connaître la civic tech et les différents processus de <b>participation citoyenne</b>, ainsi que les enjeux et les bons usages du secteur (promesses et limites de la <b>démocratie participative</b>, historique et comparatif des processus de participation en ligne, organisation d'un <b>budget participatif</b>, avenir de la <b>smart city</b>…).</p>
+    </div>
+    <div class="col-lg-6 hidden-xs">
+      <center>
+      <ul class="list-inline clearfix">
+        <li><img src="img/pic-formation-bg.png" width="300"></li>
+      </ul>  
+      </center>
+    </div>
+  </div>
+</div>
+<!-- fin -->
+<br>
+<!-- outils dispos -->
+<div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Nous intervenons directement auprès de vos services.</h2>
 
-Les formations sont assurées par Valentin Chaput, enseignant à Sciences Po Lille et Saint-Germain-en-Laye sur l’impact du numérique sur les processus démocratiques et l’action publique et Virgile Deville, intervenant à Paris 8.
+      <p>Les formations sont assurées par Valentin Chaput, enseignant à Sciences Po Lille et Saint-Germain-en-Laye sur l’impact du numérique sur les processus démocratiques et l’action publique et Virgile Deville, intervenant à Paris 8.</p>
+
+    </div>
+  </div>
+</div>
+
+
 <div class = "row">
 
 <div class = "col-sm-4"><a href ="{{ site.baseurl }}/blog-fr/La_democratie_continue/"><img src = "img/products/formation/fr/demo-1.jpg" class = "img-thumbnail" style = "margin-right:7px;margin-bottom: 8px;" alt = "Exemple de sildes présentés lors d'une formation sur la civic tech"></a></div>
