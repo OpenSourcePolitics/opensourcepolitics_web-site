@@ -11,23 +11,73 @@ ref1-name: Budget participatif de la RIVP
 ref1-url: "/refs-fr/2017-03-29-bp-rivp/"
 date: '2017-05-23T16:02:11.316+00:00'
 ---
-#### Le budget participatif, qu'est-ce que c'est ?
+<!-- definition -->
+<div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Le budget participatif, qu'est-ce que c'est ?</h2>
 
-Un **budget participatif** est une démarche qui consiste à impliquer les citoyens dans la gestion financière de leur ville, leur département etc. Une collectivité souhaitant mettre en place un budget participatif procèdera par étapes : définir le pourcentage du budget total qui sera alloué au processus, puis collecter les propositions des citoyens quant à l’utilisation de ces fonds. Enfin, il s’agira de faire voter puis mettre en place les meilleurs projets. À une période où la défiance des Français vis-à-vis de la politique se fait de plus en plus grande, une telle démarche permet de restaurer le lien de confiance entre élus et citoyens en mettant en place un dispositif de participation qui garantit le respect des engagements pris par tous.
+      <p>Un <b>budget participatif</b> est une démarche qui consiste à impliquer les citoyens dans la gestion financière de leur ville, leur département etc. Une collectivité souhaitant mettre en place un budget participatif procèdera par étapes : définir le pourcentage du budget total qui sera alloué au processus, puis collecter les propositions des citoyens quant à l’utilisation de ces fonds. Enfin, il s’agira de faire voter puis mettre en place les meilleurs projets. À une période où la défiance des Français vis-à-vis de la politique se fait de plus en plus grande, une telle démarche permet de restaurer le lien de confiance entre élus et citoyens en mettant en place un dispositif de participation qui garantit le respect des engagements pris par tous.</p>
+    </div>
+    <div class="col-lg-6 hidden-xs">
+      <center>
+      <ul class="list-inline clearfix">
+        <li><img src="img/laptop.png" width ="300"></li>
+        <li><img src="img/pic-bp.png" width="300"></li>
+      </ul>  
+      </center>
+    </div>
+  </div>
+</div>
+<!-- fin -->
+<br>
+<!-- outils dispos -->
+<div>
+  <div class="row">
+    <div class="col-lg-6">
+      <center>
+        <ul class="list-inline clearfix">
+          <li><img src="img/consul.png" width="200"></li>
+          <li><img src="img/consul-capture.png" width="400"></li>
+        </ul>
+      </center>
+    </div>
+    <div class="col-lg-6">
+      <h2>Consul, la plateforme de référence pour les budgets participatifs</h2>
 
-#### Consul, la plateforme open source de référence pour l’organisation d’un budget participatif
+      <p><a href="http://decide.es/en"><b>Consul</b></a> est la plateforme libre et open source dédiée à la <b>participation citoyenne</b> qui est développée depuis deux ans par la mairie de Madrid. La plateforme a été adoptée en moins d’un an par plus de 30 collectivités en Espagne et en Amérique latine dont les mairies de Barcelone, Valence et Buenos Aires.</p>
 
-[Consul](http://decide.es/en) est la plateforme libre et open source dédiée à la **participation citoyenne** qui est développée depuis deux ans par la mairie de Madrid et l’équipe du Medialab Prado. Après avoir rassemblé plus de 45 000 Madrilènes lors de la première édition en 2016 (comparable avec le nombre de votants en ligne au budget participatif de Paris), la plateforme a été adoptée, en moins d’un an, par plus de 30 collectivités en Espagne et en Amérique latine dont les mairies de Barcelone, Valence et Buenos Aires.
+      <p>La plateforme permet aux citoyens de proposer, soutenir et décider directement des dépenses du budget participatif sur l’ensemble de la ville et des quartiers, tout en fournissant à l’institution locale une interface d’administration complète pour superviser toutes les étapes et évaluer les propositions.</p>
 
-La plateforme permet aux citoyens de proposer, soutenir et décider directement des dépenses du budget participatif sur l’ensemble de la ville et des quartiers, tout en fournissant à l’institution locale une interface d’administration complète pour superviser toutes les étapes et évaluer les propositions.
-
+    </div>
+  </div>
+</div>
+<!-- fin -->
+<br>
 #### Les budgets participatifs nécessitent un accompagnement fort sur le terrain
 
-Ayant un impact direct sur l’utilisation des fonds publics, une telle démarche se doit d’être totalement inclusive. Pour cette raison, avec le cabinet  [Copas](http://copas.coop/), nous animons des ateliers sur le terrain pour présente les principes et l’intérêt des budgets participatifs et susciter un maximum de propositions venant des participants. Nous les aidons ensuite à approfondir ces idées pour en faire de véritables projets d’investissement.
-<center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
+Ayant un impact direct sur l’utilisation des fonds publics, une telle démarche se doit d’être totalement inclusive. Pour cette raison, avec le cabinet  **[Copas](http://copas.coop/)**, nous animons des ateliers sur le terrain pour présente les principes et l’intérêt des budgets participatifs et susciter un maximum de propositions venant des participants. Nous les aidons ensuite à approfondir ces idées pour en faire de véritables projets d’investissement.
 
 <br>
-
+<!-- offre accompagnement -->
+<p>&nbsp;</p>
+<div style="border-radius:2px;">
+    <div class="row">
+      <div class="col-lg-3">
+        <center><img src="img/accompagnement-orange.png" width="150"></center>
+      </div>
+      <div class="col-lg-9">
+        <center>
+        <h2>Offre accompagnement</h2>
+          <p>Une démarche de consultation doit <b>être suivie et animée</b>. Cela demande du temps et <b>certaines compétences</b> (création de contenus, newsletters, ateliers d'intelligence collective). Trouver des ressources internes n'est pas toujours évident, c'est pourquoi nous avons créé une <b>offre d'accompagnement adaptable sur mesure</b> capable de s'intégrer à vos services.</p>
+        </center>
+      </div>
+    </div>
+</div>
+<p>&nbsp;</p>
+<center><a href="{{ site.baseurl }}/fr/accueil#contact" class="btn btn-primary">Nous contacter pour plus d'info</a></center>
+<br>
+<!-- fin -->
 
 <div class="well">
 <h4>A propos d'Open Source Politics</h4>
