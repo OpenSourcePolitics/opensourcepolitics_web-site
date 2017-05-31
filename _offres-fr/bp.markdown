@@ -22,7 +22,7 @@ date: '2017-05-23T16:02:11.316+00:00'
     <div class="col-lg-6 hidden-xs">
       <center>
       <ul class="list-inline clearfix">
-        <li><img src="img/laptop.png" width ="300"></li>
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
         <li><img src="img/pic-bp.png" width="300"></li>
       </ul>  
       </center>
