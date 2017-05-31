@@ -12,7 +12,7 @@ project-date: 4 mai 2017
 date: 2017-04-04 17:35
 filename: democracy_an_ongoing_process
 article-description: France’s presidential campaign is about to end. It has been exhausting
-  for some, because of how unpredictable it got...
+  for some, because of how unpredictable it got ...
 ---
 <div class = "blogcontent">
 
