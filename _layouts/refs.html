@@ -13,7 +13,7 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9 col-lg-9 col-sm-12">
                 <!-- Preview Image -->
               {% if page.img %}
               <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/{{ page.img }}" alt="{{ page.title }}">
@@ -28,16 +28,14 @@
                   {{ content }}
                <a href="{{ page.project-link }}" class="btn btn-primary btn-project"><i class="fa fa-external-link" aria-hidden="true"></i> &nbsp; &nbsp; {{ site.data.i18n[page.locale].btn-link-project }}</a>
 
-
              </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-lg-3 col-sm-12">
               {% include sidebar-refs.html %}
-              
             </div>
           </div>
         </div>
+
     <br>
-    <hr>
     {% include footer.html %}
     {% include js.html %}
     </body>
