@@ -5,7 +5,7 @@ img: etalab-pgo.png
 thumbnail: etalab-pgo.png
 alt: Etalab consulation PGO
 project-date: Mai 2017
-Categories:
+Categories: 
 tag: Plateforme de consultation
 client-url: https://www.etalab.gouv.fr/
 project-link: https://gouvernement-ouvert.etalab.gouv.fr
