@@ -13,7 +13,7 @@ project-date: 3 mai 2017
 date: 2017-05-03 11:12
 filename: Mouvement_Umbrella_hong_Kong
 article-description: Une interview d’Angus Chiu et SnD à propos de civicdata.hk et
-  de la façon dont les manifestations de 2014 ont donné naissance...
+  de la façon dont les manifestations de 2014 ont donné naissance ...
 ---
 <div class="blogcontent">
 <b>Pouvez-vous vous présenter, en précisant comment vous avez commencé à vous intéresser à la civic tech ?</b>
