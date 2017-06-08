@@ -8,7 +8,7 @@ mis-en-avant: 0
 available-when: Maintenant
 type: Rédaction d'articles, gestion de projet, démarchage commercial etc.
 category: jobs
-tag: ''
+tag: communication, affaires publiques, civic tech
 published: 'true'
 ---
 
