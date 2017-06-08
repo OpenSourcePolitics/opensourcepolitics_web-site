@@ -1,5 +1,5 @@
 ---
-title: Affaires publiques, gestion de dispositifs de concertation et communication
+title: Affaires publiques
 locale: fr
 layout: blog
 comment: 'true'
