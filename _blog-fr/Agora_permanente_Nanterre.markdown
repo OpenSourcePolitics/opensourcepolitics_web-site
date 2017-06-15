@@ -13,7 +13,7 @@ date: 2017-03-09 14:42
 filename: Agora_permanente_Nanterre
 article-description: Virgile Deville et Alain Buchotte nous racontent la collaboration
   d’Open Source Politics avec la mairie de Nanterre...
-mis-en-avant: 1
+mis-en-avant: 0
 ---
 <div class = "blogcontent">
 
