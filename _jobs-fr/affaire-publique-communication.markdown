@@ -2,7 +2,7 @@
 title: Stage 6 mois, affaires publiques,communication
 layout: job
 available-when: Dès que possible
-type: 
+type:
 tag: Rédaction article, Affaires publiques , Civic Tech
 published: true
 locale: fr
