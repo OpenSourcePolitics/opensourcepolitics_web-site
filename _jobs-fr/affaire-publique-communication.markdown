@@ -1,14 +1,17 @@
 ---
-title: Stage 6 mois, affaires publiques,communication
+title: Offre de stage 6 mois, Chargé-e de projets junior
 layout: job
 available-when: Dès que possible
-type:
+type: 
 tag: Rédaction article, Affaires publiques , Civic Tech
 published: true
 locale: fr
 categories: jobs
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
+
+
+*Vous recherchez une expérience professionnelle porteuse de sens et d’impact sur notre démocratie ? L’équipe d’Open Source Politics vous accueille pour un stage concret, au contact des démarches de participation citoyenne. *
 
 ## Présentation de l’entreprise
 
@@ -18,25 +21,30 @@ Notre action est guidée par les principes du gouvernement ouvert : transparence
 
 ## Votre mission au sein d’OSP
 
- Au centre d’une équipe de 5 personnes et en relation étroite avec nos nombreux partenaires, vous interviendrez quotidiennement sur différents types de missions :
+Au centre d’une équipe de 6 personnes et en relation étroite avec nos nombreux partenaires, vous interviendrez quotidiennement sur différents types de missions :
 
- * Contacter des interlocuteurs publics pour leur présenter nos offres et lancer de nouveaux projets de concertation.
- * Suivi de projets de concertations : prises de contacts avec des partenaires ou clients, compte-rendus de rendez-vous et d’événements, animation d’ateliers ou de campagnes numériques ciblées.
- * Participation à la conception de nos éléments de communication et contribution à nos réseaux sociaux.
- * Rédaction et traduction d’articles pour notre publication sur Medium.
+* Contacter des interlocuteurs publics pour leur présenter nos offres et lancer de nouveaux projets de concertation<span style="font-size: 1rem;">.</span>
+* <span style="font-size: 1rem;">Participer à la conception de nos éléments de communication.</span>
+* <span style="font-size: 1rem;">Suivre des projets de concertations : prises de contacts avec des partenaires ou clients, compte-rendus de rendez-vous et d’événements, animation d’ateliers ou de campagnes numériques ciblées.</span>
+* <span style="font-size: 1rem;">Rédiger et traduire des articles pour notre publication sur Medium<br></span>
 
- En travaillant au contact de nombreux innovateurs sociaux, vous aurez l’occasion de développer des compétences en gestion de projet agile, en culture web.
+En travaillant au contact de nombreux innovateurs sociaux, vous aurez l’occasion de développer des compétences en gestion de projet agile, en culture web.
 
 ## Profil recherché
 
 Les qualités principales du candidat seront :
 
- * une curiosité pour les enjeux numériques,
- * un intérêt pour la civic tech et le renouveau démocratique,
- * une grande aisance rédactionnelle en français ; la maîtrise de l’anglais écrit et parlé sera appréciée,
- * un goût pour le relationnel et le business development,
- * une capacité à s’intégrer dans une équipe pluri-disciplinaire,
- * des compétences en graphisme seront valorisées (vous pouvez transmettre des références).
+* une curiosité pour les enjeux numériques,
+
+* un intérêt pour la civic tech et le renouveau démocratique,
+
+* une grande aisance rédactionnelle en français ; la maîtrise de l’anglais écrit et parlé sera appréciée,
+
+* un goût pour le relationnel et le business development,
+
+* une capacité à s’intégrer dans une équipe pluri-disciplinaire,
+
+* des compétences en graphisme seront valorisées (vous pouvez transmettre des références).
 
 ## Formation
 
