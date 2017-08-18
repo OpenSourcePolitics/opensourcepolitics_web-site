@@ -11,7 +11,7 @@ client-url: https://www.etalab.gouv.fr/
 project-link: https://gouvernement-ouvert.etalab.gouv.fr
 client: Etalab
 locale: fr
-date: '2017-05-20T00:00:00.000+00:00'
+date: 2017-05-20 00:00:00 +0000
 ---
 Les Etats membres du Partenariat pour un Gouvernement ouvert (PGO) s'engagent tous les deux ans sur un plan d'action national. Etalab a décidé d'ouvrir une consultation publique sur la phase d'idéation du plan d'action 2017-2019 et a choisi la plateforme open source Democracy OS pour le faire [https://gouvernement-ouvert.etalab.gouv.fr/topic/58f8b270dac46f831ad9196b]. L'équipe d'OSP est intervenue dans la configuration de cette instance et le développement de nouvelles fonctionnalités d'export de données générées par la consultation.
 

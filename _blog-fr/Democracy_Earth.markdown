@@ -9,7 +9,7 @@ author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4I
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/democracy-earth-la-promesse-de-votes-en-ligne-s%C3%A9curis%C3%A9s-et-ind%C3%A9pendants-905476a39787
 project-date: 4 janvier 2017
-date: 2017-01-04 19:17
+date: 2017-01-04 00:00:00 +0000
 filename: Democracy_Earth
 article-description: Une interview de Virgile Deville, co-fondateur d’Open Source
   Politics, des hackathons Open Democracy Now ...

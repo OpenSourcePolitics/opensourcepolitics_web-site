@@ -8,7 +8,7 @@ locale: en
 permalink: "/participatory-budgeting"
 ref1-name: Participatory Budget RIVP
 ref1-url: "/refs-en/2017-03-29-bp-rivp/"
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 <!-- definition -->
 <div>

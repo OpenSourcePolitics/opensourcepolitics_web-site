@@ -9,7 +9,7 @@ author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4I
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/comment-nous-avons-co-construit-une-agora-permanente-%C3%A0-nanterre-69b4d2690d7a
 project-date: 9 mars 2017
-date: 2017-03-09 14:42
+date: 2017-03-09 00:00:00 +0000
 filename: Agora_permanente_Nanterre
 article-description: Virgile Deville et Alain Buchotte nous racontent la collaboration
   d’Open Source Politics avec la mairie de Nanterre...

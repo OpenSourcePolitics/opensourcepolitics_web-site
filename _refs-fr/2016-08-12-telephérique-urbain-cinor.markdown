@@ -11,7 +11,7 @@ client-url: http://www.la-sdi.net/
 project-link: http://telepherique-urbain.cinor.org/
 client: La SDI
 locale: fr
-date: '2016-08-12T00:00:00.000+00:00'
+date: 2016-08-12 00:00:00 +0000
 ---
 
 À la fin de l’année 2019, la CINOR (Communauté Intercommunale du Nord de la Réunion) mettra en place le nouveau téléphérique urbain reliant certains quartiers de Saint-Denis et alentours. La CINOR cherche à déterminer le meilleur tracé pour la ligne de téléphérique en collectant les avis des habitants.

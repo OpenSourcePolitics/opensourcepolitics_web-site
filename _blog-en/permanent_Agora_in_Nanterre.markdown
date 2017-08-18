@@ -8,8 +8,8 @@ author: Noe Jacomet
 author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/how-we-built-a-permanent-agora-in-nanterre-f4e5b019c6b4
-project-date: 13 march 2017
-date: 2017-03-13 11:17
+project-date: 2017-03-13 00:00:00 +0000
+date: 2017-03-13 00:00:00 +0000
 filename: permanent_Agora_in_Nanterre
 article-description: Virgile Deville and Alain Buchotte tell us about the collaboration
   between Open Source Politics and the town hall of Nanterre ...

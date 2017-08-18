@@ -11,7 +11,7 @@ project-link: https://article69.agencedunumerique.gouv.fr/
 client: Agence du Numérique
 locale: en
 Categories: featured
-date: '2017-02-12T00:00:00.000+00:00'
+date: 2017-02-12 00:00:00 +0000
 ---
 
 We helped the [French Digital Agency](http://agencedunumerique.gouv.fr/) (Ministry of Economy, Industry and Digital Technology) setup a [consultation platform](https://article69.agencedunumerique.gouv.fr/) which aimed at highlighting “guidelines for a national development of digital practices within territories “. This was part of the recommendations of Bill 69 for a Digital Republic.

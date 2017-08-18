@@ -11,7 +11,7 @@ project-link: http://www.mairie18.paris.fr/mairie18/jsp/site/Portal.jsp?document
 client: Mairie 18e
 locale: fr
 Categories: refs
-date: '2016-09-26T00:00:00.000+00:00'
+date: 2016-09-26 00:00:00 +0000
 ---
 
 Le 2 avril 2016, la mairie de Paris a organisé sa première Nuit des débats. Ce nouveau temps fort de la vie démocratique locale a réuni plus de 2000 citoyens sur une centaine de lieux différents.

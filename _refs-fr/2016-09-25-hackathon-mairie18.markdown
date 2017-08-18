@@ -11,7 +11,7 @@ project-link: http://opendemocracynow.net/
 client: Mairie 18e
 locale: fr
 Categories: refs
-date: '2016-09-25T00:00:00.000+00:00'
+date: 2016-09-25 00:00:00 +0000
 ---
 
 Les 16, 17 et 18 septembre s'est tenue la 4ème édition hackathon du cycle [Open Democracy Now](http://opendemocracynow.net/) à la mairie du 18e arrondissement de Paris.

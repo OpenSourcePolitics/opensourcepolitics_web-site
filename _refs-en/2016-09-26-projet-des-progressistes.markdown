@@ -11,7 +11,7 @@ project-link: https://ssl.projetdesprogressistes.org
 client: Yan Chantrel
 locale: en
 Categories: refs
-date: '2016-09-26T00:00:00.000+00:00'
+date: 2016-09-26 00:00:00 +0000
 ---
 
 Yan Chantrel is the Socialist Party candidate for the French constituency abroad, which includes Canada and the United States. His campaign team contacted us in the summer of 2016 to launch a consultation on the “progressives project” that the candidate intends to embody during the June 2017 legislative election.

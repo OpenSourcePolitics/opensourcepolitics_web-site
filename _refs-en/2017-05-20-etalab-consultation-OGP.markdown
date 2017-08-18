@@ -11,7 +11,7 @@ client-url: https://www.etalab.gouv.fr/
 project-link: https://gouvernement-ouvert.etalab.gouv.fr
 client: Etalab
 locale: fr
-date: '2017-05-20T00:00:00.000+00:00'
+date: 2017-05-20 00:00:00 +0000
 ---
 
 

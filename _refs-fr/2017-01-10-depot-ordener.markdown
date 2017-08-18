@@ -11,7 +11,7 @@ project-link: http://telepherique-urbain.cinor.org/
 client: La SDI
 locale: fr
 Categories: refs
-date: '2017-01-10T00:00:00.000+00:00'
+date: 2017-01-10 00:00:00 +0000
 ---
 
 Nos expériences successives ont confirmé notre conviction : pour que les citoyens soient réellement et sincèrement impliqués, une démarche de concertation réussie doit nécessairement passer par un ancrage durable sur le terrain. Nous l’avons constaté lors de chacune de nos interventions, en partenariat avec l’agence spécialisée <a href = "http://la-sdi.net/">“La Suite dans les Idées”</a>, dans l’animation mensuelle des ateliers “Fab’Ordener” sur le devenir du dépôt Chapelle Ordener dans le 18e arrondissement de Paris.

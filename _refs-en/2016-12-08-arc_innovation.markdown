@@ -11,7 +11,7 @@ project-link: https://arcinnovation.fr
 client: Mairie de Paris
 locale: en
 Categories: featured
-date: '2016-12-08T00:00:00.000+00:00'
+date: 2016-12-08 00:00:00 +0000
 ---
 Launched at the end of 2015, the Innovation Arch is a major metropolitan project that aims at erasing the ring road that surrounds Paris and participate in the transformation of working-class neighborhoods through development and transport projects. The goal is to support the emergence of stakeholders of all sizes that innovate in the fields of economy, social matters, industry , Architecture and culture.
 

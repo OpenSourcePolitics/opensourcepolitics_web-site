@@ -11,7 +11,7 @@ project-link: http://opendemocracynow.net/
 client: 18th District's Paris City Hall
 locale: en
 Categories: refs
-date: '2016-09-25T00:00:00.000+00:00'
+date: 2016-09-25 00:00:00 +0000
 ---
 
 The fourth edition of [Open Democracy Now](http://opendemocracynow.net/) Hackathons cycle was held on the 16th, 17th and 18th of September 2016 at the town hall of the 18th district of Paris.

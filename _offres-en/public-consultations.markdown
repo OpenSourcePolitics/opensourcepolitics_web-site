@@ -8,7 +8,7 @@ locale: en
 permalink: "/public-consultations"
 ref1-name: French Digital Agency Consultation
 ref1-url: "/refs-en/2017-02-12-article69/"
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 <!-- definition -->
 <div>

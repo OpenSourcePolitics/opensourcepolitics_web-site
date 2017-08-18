@@ -9,7 +9,7 @@ locale: fr
 permalink: "/budget-participatif"
 ref1-name: Budget participatif de la RIVP
 ref1-url: "/refs-fr/2017-03-29-bp-rivp/"
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 <!-- definition -->
 <div>

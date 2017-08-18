@@ -15,7 +15,7 @@ implementation3-name: Mairie de Paris
 implementatiion2-link: http://ma-voix-democracyos.herokuapp.com/topic/56e4364fcde47610007b42fe
 implementation4-name: Ma Voix
 categories: products
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 
 DemocracyOS est une plateforme de vote et de débat en ligne. Une fois qu'un sujet à débattre est proposé, les utilisateurs peuvent :

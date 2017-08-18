@@ -17,7 +17,7 @@ implementation2-name: Ville de Barcelone
 implementatiion2-link: http://www.consultaoviedo.es/
 implementation3-name: Ville d'Oviedo
 categories: products
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 
 Consul est un outil développé en 2016 par la mairie de Madrid sous l’égide de la nouvelle équipe municipale et le [pilotage de Pablo Soto](http://rue89.nouvelobs.com/2015/12/20/rencontre-pablo-soto-geek-podemos-262540).

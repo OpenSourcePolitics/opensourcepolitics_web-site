@@ -11,7 +11,7 @@ project-link: http://www.mairie18.paris.fr/mairie18/jsp/site/Portal.jsp?document
 client: Mairie 18e
 locale: fr
 Categories: refs
-date: '2016-09-26T00:00:00.000+00:00'
+date: 2016-09-26 00:00:00 +0000
 ---
 
 On the 2nd of April 2016, Paris City Hall staff organized their first debates night event. This new highlight of local democratic initiatives gathered over 2000 citizens all across the city.

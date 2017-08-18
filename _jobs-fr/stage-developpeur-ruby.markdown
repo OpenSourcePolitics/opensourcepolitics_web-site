@@ -7,7 +7,7 @@ tag: Développement web, Ruby, Rails
 published: true
 locale: fr
 categories: jobs
-date: '2017-07-22T16:02:11.316+00:00'
+date: 2017-07-22 16:02:11 +0000
 ---
 ![Octo-Civic-Hacker]({{ site.baseurl }}/img/dev-ruby.png)
 

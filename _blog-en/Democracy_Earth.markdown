@@ -8,8 +8,8 @@ author: Noe Jacomet
 author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/democracy-earth-the-promise-of-a-safe-independant-online-voting-system-37366935db5e
-project-date: 4 january 2017
-date: 2017-01-04 11:17
+project-date: 2017-01-04 00:00:00 +0000
+date: 2017-01-04 00:00:00 +0000
 filename: Democracy_Earth
 article-description: This interview deals with his involvement in Democracy Earth
   and their “Sovereign” tool.

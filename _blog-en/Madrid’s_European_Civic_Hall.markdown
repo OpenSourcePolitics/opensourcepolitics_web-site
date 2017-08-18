@@ -8,8 +8,8 @@ author: Noe Jacomet
 author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/a-fifteen-days-immersion-in-madrids-european-civic-hall-5d556cd401e6
-project-date: 21 december 2016
-date: 2016-12-21 11:17
+project-date: 2016-12-21 00:00:00 +0000
+date: 2016-12-21 00:00:00 +0000
 filename: Madrid’s_European_Civic_Hall
 article-description: Virgile Deville went to Madrid in order to work on Sovereign,
   Democracy....

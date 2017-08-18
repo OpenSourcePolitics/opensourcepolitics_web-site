@@ -10,7 +10,7 @@ author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4I
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/comment-le-mouvement-g0v-transforme-le-gouvernement-ta%C3%AFwanais-gr%C3%A2ce-%C3%A0-des-solutions-open-source-9ed7d599f375
 project-date: 13 avril 2017
-date: 2017-04-13 14:32
+date: 2017-04-13 00:00:00 +0000
 filename: transformation_gouvernement_taïwanais
 article-description: Une discussion avec Wu Min Hsuan (“TTcat”) et Chia-liang Kao
   (“CL”) à propos du mouvement g0v (prononcer “gov zéro”)...

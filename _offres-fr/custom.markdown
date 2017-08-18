@@ -10,7 +10,7 @@ ref1-name: participez.nanterre.fr
 ref1-url: "/refs-fr/2016-09-28-participez-nanterre-fr/"
 ref2-name: arcinnovation.fr
 ref2-url: "/refs-fr/2016-12-08-arc_innovation/"
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 <!-- definition -->
 <div>

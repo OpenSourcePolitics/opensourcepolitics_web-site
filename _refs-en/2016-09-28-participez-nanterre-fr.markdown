@@ -11,7 +11,7 @@ project-link: http://participez.nanterre.fr/
 client: Ville de Nanterre
 locale: en
 Categories: featured
-date: '2016-09-28T00:00:00.000+00:00'
+date: 2016-09-28 00:00:00 +0000
 ---
 
 After a 6 month **collaboration with the city of Nanterre**, we created the "participez.nanterre.fr" platform. It was built using open source tools like Drupal, Timeline.js and DemocracyOS. During the month of November 2015, we also organized a [hackathon](http://www.nanterredigital.fr/hackathon/) that aimed at bringing together representatives, citizens, webdesigners and public stakeholders in order to push the process forward.

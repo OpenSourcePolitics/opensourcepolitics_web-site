@@ -11,5 +11,5 @@ project-link: http://ligueparis.org/
 client: Ligue de l'enseignement Paris
 locale: fr
 Categories: refs
-date: '2017-03-25T00:00:00.000+00:00'
+date: 2017-03-25 00:00:00 +0000
 ---

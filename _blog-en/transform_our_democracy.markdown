@@ -9,8 +9,8 @@ author: Valentin Chaput
 author-pic: https://cdn-images-1.medium.com/fit/c/120/120/0*qPkzIjhX0CUWVeaD.jpg
 author-medium: https://medium.com/@ValentinChaput
 Medium-link: https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2
-project-date: 7 december 2016
-date: 2016-12-07 11:17
+project-date: 2016-12-07 00:00:00 +0000
+date: 2016-12-07 00:00:00 +0000
 filename: transform_our_democracy
 article-description: Our generation yearns to create a more collaborative world. The
   stakes of our time does not leave us much choice anyway...

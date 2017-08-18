@@ -7,7 +7,7 @@ tag: Développment, Ruby On Rails, PHP, MySql, Drupal, Node.js, Meteor
 published: true
 locale: fr
 categories: jobs
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 ![Octo-Civic-Hacker]({{ site.baseurl }}/img/dev-freelance.png)
 

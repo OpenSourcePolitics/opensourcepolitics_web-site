@@ -16,7 +16,7 @@ description: CMS dédié à la mise en place de campagnes de concertations en li
 implementation1-name: Ville de Nanterre
 implementatiion1-link: https://participez.nanterre.fr
 categories: products
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 
 L'Agora Permanente est un outil que nous avons co-construit en partenariat avec les équipes de la Ville de Nanterre. Pendant 6 mois nous avons étudié leurs besoins en travaillant avec les diverses directions qui gèrent une ville de plus 100 000 habitants. Afin de nous assurer une pleine compréhension des enjeux, nous avons organisé un [hackathon lors de la semaine de l'innovation publique en novembre 2015](http://www.nanterredigital.fr/hackathon/) afin d'associer agents publics, élus, citoyens et professionnels du web (designers, développeurs, chefs de projet) à la réflexion.

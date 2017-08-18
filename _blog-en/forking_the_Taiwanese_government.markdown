@@ -8,8 +8,8 @@ author: Noe Jacomet
 author-pic: https://cdn-images-1.medium.com/fit/c/120/120/1*A-aABA8MNLeKXIpYLu4IUA.jpeg
 author-medium: https://medium.com/@noejacomet
 Medium-link: https://medium.com/open-source-politics/how-the-g0v-movement-is-forking-the-taiwanese-government-74b7cce0e92b
-project-date: 13 april 2017
-date: 2017-04-13 11:17
+project-date: 2017-04-13 00:00:00 +0000
+date: 2017-04-13 00:00:00 +0000
 filename: forking_the_Taiwanese_government
 article-description: An interview with Wu Min Hsuan a.k.a. “TTcat” and Chia-liang
   Kao a.k.a. “CL” about the g0v (pronounced “gov zero”) movement in Taiwan...

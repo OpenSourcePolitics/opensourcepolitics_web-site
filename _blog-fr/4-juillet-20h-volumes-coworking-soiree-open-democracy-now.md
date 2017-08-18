@@ -3,7 +3,7 @@ title: '4 juillet 20h @ Volumes Coworking : Soirée Open Democracy Now!'
 locale: fr
 layout: blog
 comment: 'true'
-date: '2017-06-15T17:40:53+00:00'
+date: 2017-06-15 17:40:53 +0000
 mis-en-avant: 1
 img: "/uploads/2017/06/15/soiree-odn.png"
 author: Virgile Deville

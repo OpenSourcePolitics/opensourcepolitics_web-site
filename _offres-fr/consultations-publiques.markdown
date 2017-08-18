@@ -13,7 +13,7 @@ ref2-name: Consultation PGO Etalab
 ref2-url: https://democracyos.consultation.etalab.gouv.fr/
 ref3-name: Dépôt SNCF Ordener
 ref3-url: "/refs-fr/2017-01-10-depot-ordener/"
-date: '2017-05-23T16:02:11.316+00:00'
+date: 2017-05-23 16:02:11 +0000
 ---
 <!-- definition -->
 <div>

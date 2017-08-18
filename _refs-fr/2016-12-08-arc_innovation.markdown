@@ -11,7 +11,7 @@ project-link: https://arcinnovation.fr
 client: Mairie de Paris
 locale: fr
 Categories: featured
-date: '2016-12-08T00:00:00.000+00:00'
+date: 2016-12-08 00:00:00 +0000
 ---
 
 Lancé fin 2015, l’Arc de l’innovation est un projet d’envergure métropolitaine qui vise à effacer le périphérique et accompagner la transformation des quartiers populaires. Il s’accomplit à travers de grands projets d’aménagement et de transport, mais aussi grâce à l’émergence de lieux et d’acteurs de toutes tailles, qui innovent dans les domaines de l’économie, du social, de l’industrie, de l’architecture et de la culture.
