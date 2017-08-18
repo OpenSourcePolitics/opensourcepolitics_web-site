@@ -261,7 +261,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: rgba(253, 198, 61, 0.78);
 }
 
 .bg-darkest-gray {
@@ -456,7 +456,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 5px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #000;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -488,7 +488,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/stars2.jpeg');
+    background-image: url('{{ site.baseurl }}/img/pattern.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -525,12 +525,13 @@ header .intro-text .intro-heading-min {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #000;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 230px;
-        padding-bottom: 200px;
+        padding-top: 130px;
+        padding-bottom: 20px;
     }
 
     header .intro-text .intro-lead-in {
@@ -541,6 +542,7 @@ header .intro-text .intro-heading-min {
         line-height: 30px;
         margin-left: 10%;
         margin-right: 10%;
+        color: #000;
     }
 
     header .intro-text .intro-heading {

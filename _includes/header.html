@@ -91,9 +91,9 @@
   <div class="container">
     <div class="intro-text">
 
-      <div class="intro-heading-min"  style ="font-size:3em;">{{ site.data.i18n[page.locale].punchline.line-1 }}{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
-      <div class="intro-lead-in" style ="font-size:1.6em;" >{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
-      <div>
+      <div class="intro-heading-min"  style ="font-size:2.5em;">{{ site.data.i18n[page.locale].punchline.line-1 }}{{ site.data.i18n[page.locale].punchline.line-2 }}</div>
+      <div class="intro-lead-in" style ="font-size:1.4em;" >{{ site.data.i18n[page.locale].punchline.line-3 }}</div>
+      <!-- <div>
         <center>
           <ul class="breadcrumb" style="font-size:1.2em;">
             <li>
@@ -102,9 +102,6 @@
             <li>
               <a class="page-scroll" href="#references" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-2 }}</b></a>
             </li>
-            <!-- <li> -->
-            <!-- <a class="page-scroll" href="#products">Outils</a> -->
-            <!-- </li> -->
             <li>
               <a class="page-scroll" href="#about" style="color:white;"><b>{{ site.data.i18n[page.locale].menu.item-3 }}</b></a>
             </li>
@@ -114,21 +111,30 @@
             <li>
               <a href="#jobs" class="page-scroll" style="color:white;"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
             </li>
-            <!-- <li>
-            <a class="page-scroll" href="#contact">{{ site.data.i18n[page.locale].menu.item-6 }}</a>
-          </li> -->
         </ul>
       </center>
       <p>&nbsp;</p>
-    </div>
-    <p><a href="#contact" class="page-scroll btn btn-xl">{{ site.data.i18n[page.locale].btn-contact }}</a>&nbsp;<a href="{{ site.data.i18n[page.locale].cta-link }}" class="page-scroll btn btn-link" style ="font-size:1.5em; color:white; font-weight:700; text-transform: uppercase; text-decoration: underline;">{{ site.data.i18n[page.locale].btn-cta }}</a></p>
+    </div> -->
+    <p><a href="#contact" class="page-scroll btn btn-primary">{{ site.data.i18n[page.locale].btn-contact }}</a>&nbsp;&nbsp;<a href="" class="btn btn-secondary" data-toggle="modal" data-target="#video-modal"><i class="fa fa-play" aria-hidden="true"></i>&nbsp;{{ site.data.i18n[page.locale].btn-vid }}</a>&nbsp;<a href="{{ site.data.i18n[page.locale].cta-link }}" class="page-scroll btn btn-link" style="underline">{{ site.data.i18n[page.locale].btn-cta }}</a></p>
+    <center><img src="{{ site.baseurl }}/img/devices.png"></center>
+    <div class="modal fade" id="video-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="color:black;">&times;</span></button>
+            <h5 style="color:black;" class="modal-title">{{ site.data.i18n[page.locale].video-modal-title }}</h5>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/IxEi15bk124?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
   </div>
+
 </div>
 
 
 </header>
-<!--
-{% for page in site.pages %}
-{% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-{% endfor %}
--->
