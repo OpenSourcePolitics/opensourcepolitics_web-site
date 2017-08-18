@@ -8,14 +8,10 @@ locale: fr
 {% include head.html %}
 <body id="page-top" class="index">
   {% include header.html %}
-  {% if page.locale == "fr" %}
-    {% include newsletter-section.html %}
-  {% endif %}
+  {% include clients.html %}
   {% include services.html %}
   {% include portfolio_grid.html %}
-  {% include clients.html %}
   {% include story.html %}
-  <!-- {% include products.html %} -->
   {% include team.html %}
   {% include jobs.html %}
   {% include contact_static.html %}

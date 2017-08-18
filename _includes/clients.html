@@ -1,51 +1,12 @@
-<!-- Clients Aside -->
-    <aside class="clients" style = "margin-top:50px;">
-        <!-- <div class="container"> -->
-        <div class="container">
-          <center><h3>{{ site.data.i18n[page.locale].client-title }}</h3></center>
-        </div>
-
-        <div class="container">
-          <div class="row">
-          <center>
-            <ul class="list-inline clear-fix">
-              {% for client in site.clients %}
-                <li><a href="{{ client.site-url }}" target="blank"><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" width="208px" height="120px" class="img-responsive img-centered"></a></li>
-              {% endfor %}
-            </ul>
-          </center>
-        </div>
-        <!-- </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-4 col-lg-offset-1">
-                    <a href="#">
-                        <img src="img/clients/paris.png" class="img-responsive img-responsive img-centered desaturate" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                    <a href="#">
-                        <img src="img/clients/rivp_logo.png" class="img-responsive img-centered desaturate" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                    <a href="#">
-                        <img src="img/clients/sncf.png" class="img-centered desaturate" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                    <a href="#">
-                        <img src="img/clients/nanterre.png" class="img-responsive img-centered desaturate" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                    <a href="#">
-                        <img src="img/clients/solidel.png" class="img-responsive img-centered desaturate" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-4">
-                    <a href="#">
-                        <img src="img/clients/mairie-du-18.png" class="img-responsive img-centered desaturate" alt="">
-                    </a>
-                </div>
-            </div> -->
-    </aside>
+<div class="container-fluid" style="background-color:#f7f7f7;border-top:solid;border-color:#b4bcc2;" >
+  <center>
+    <p>&nbsp;</p>
+    <p class="text-muted" style="font-size:1.4em;"><i>{{ site.data.i18n[page.locale].trust-title }}</i></p>
+    <ul class="list-inline clear-fix">
+      {% for client in site.clients %}
+        <li><a href="{{ client.site-url }}" target="blank"><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" width="121px" height="70px" class="img-responsive img-centered" style="-webkit-filter: grayscale(100%);"></a></li>
+      {% endfor %}
+    </ul>
+    <p>&nbsp;</p>
+  </center>
+</div>
