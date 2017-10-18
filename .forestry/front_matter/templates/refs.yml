@@ -1,0 +1,65 @@
+---
+hide_body: false
+fields:
+- name: locale
+  type: text
+  label: langue(en/fr)
+  config:
+    required: true
+  default: ''
+- name: layout
+  type: text
+  label: layout
+  description: ''
+  hidden: true
+  default: refs
+  config:
+    required: true
+- name: img
+  type: text
+  label: image
+  description: ''
+  config:
+    required: true
+- name: thumbnails
+  type: text
+  label: thumbnails
+  config:
+    required: true
+- name: alt
+  type: text
+  label: alt
+  description: message lors du survol a la souris
+  config:
+    required: ''
+- name: project-date
+  type: text
+  label: Date du projet
+  description: ''
+  config:
+    required: true
+- name: tag
+  type: text
+  label: Tag
+  description: ''
+- name: client-url
+  type: text
+  label: Site du client
+  config:
+    required: true
+- name: project-link
+  type: text
+  label: lien vers projet
+- name: client
+  type: text
+  label: Nom du client
+  description: ''
+  config:
+    required: true
+- name: Categories
+  type: text
+  label: Categories
+  config:
+    required: true
+  default: refs
+  description: ecrire "featured" pour qu'il apparaisse sur la home

@@ -1,0 +1,94 @@
+---
+pages:
+- _blog-fr/4-juillet-20h-volumes-coworking-soiree-open-democracy-now.md
+hide_body: false
+fields:
+- name: locale
+  type: textarea
+  label: Langue (en/fr)
+  description: Dans quelle langue est écrit l'article
+  default: fr
+  config:
+    required: true
+    source:
+      type: pages
+- name: title
+  type: text
+  label: Titre
+  description: Quel est le titre complet de l'article
+  config:
+    required: true
+- name: layout
+  type: text
+  label: layout
+  default: blog
+  hidden: true
+  config:
+    required: true
+- name: img
+  type: file
+  label: Lien de l'image clé de l'article
+  description: Lien de l'image qui apparait en grand en haut de l'article
+  config:
+    required: true
+- name: comment
+  type: text
+  label: comment
+  description: 'true'
+  hidden: true
+  default: 'true'
+  config:
+    required: true
+- name: author
+  type: text
+  label: Nom de l'auteur de l'article
+  description: ''
+  config:
+    required: true
+- name: author-pic
+  type: text
+  label: Image de l'auteur de l'article
+  description: "(a aller chercher sur le profil medium par exemple)"
+  config:
+    required: true
+- name: author-medium
+  type: text
+  label: Lien vers la page medium de l'auteur de l'article
+  description: ''
+  config:
+    required: true
+- name: Medium-link
+  type: text
+  label: Lien vers l'article sur medium
+  description: ''
+  config:
+    required: true
+- name: project-date
+  type: text
+  label: Date de l'article en toute lettre
+  description: par exemple "3 mai 2017"
+  config:
+    required: true
+- name: date
+  type: text
+  label: Date de publication au format année-mois-jour heure-minute      2017-03-09
+    14:42
+  description: 'exemple : 2017-03-09 14:42'
+  default: 2017-03-09 00:00:00 +0000
+  config:
+    required: true
+- name: article-description
+  type: text
+  label: Description de l'article
+  description: pas trop longue, sinon ca fait trop chargé sur la page des articles
+  config:
+    required: true
+- name: mis-en-avant
+  type: number
+  default: '0'
+  config:
+    min: '0'
+    max: '1'
+  label: Article mis en avant (1 pour activer)
+  description: L'article mis en avant, sera celui tout en haut en plus gros dans la
+    liste des articles

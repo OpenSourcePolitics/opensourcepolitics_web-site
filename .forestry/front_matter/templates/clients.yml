@@ -1,0 +1,22 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Nom du client
+  name: nom
+  config:
+    required: true
+- type: text
+  label: url du site du client
+  name: site-url
+  config:
+    required: true
+- type: text
+  label: image
+  name: img
+  config:
+    required: true
+- name: alt
+  type: text
+  label: alt
+  description: affiche quand on passe la souris au dessus du logo

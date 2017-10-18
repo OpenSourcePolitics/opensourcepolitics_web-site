@@ -1,0 +1,58 @@
+---
+hide_body: false
+fields:
+- name: locale
+  type: text
+  label: Langue (en/fr)
+  config:
+    required: true
+- name: title
+  type: text
+  label: Titre
+  description: Intutulé du poste
+  config:
+    required: true
+- name: layout
+  type: text
+  label: layout
+  hidden: true
+  default: job
+  config:
+    required: true
+- name: available-when
+  type: text
+  label: Disponible des
+  config:
+    required: true
+- name: category
+  type: text
+  label: category
+  hidden: true
+  config:
+    required: true
+  default: jobs
+- name: type
+  type: text
+  label: Type de travail
+  description: "(exemple : code)"
+  config:
+    required: true
+- name: tag
+  type: text
+  label: tags
+  description: Séparés par des ","
+  config:
+    required: true
+- name: published
+  type: text
+  label: published
+  hidden: true
+  default: 'true'
+  config:
+    required: true
+- name: categories
+  type: text
+  description: ''
+  default: jobs
+  config:
+    required: true
