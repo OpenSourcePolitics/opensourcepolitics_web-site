@@ -57,6 +57,8 @@ serviceV2:
   sm-feature-8: PÉDAGOGIE,<br>FORMATION
 realisations:
   title: Réalisations
+  highlight: Nos dernières réalisations
+  highlight-btn: Lire la synthèse
 story:
   title: "À propos"
   story-subheading: 'Open Source Politics est une entreprise qui développe des plateformes

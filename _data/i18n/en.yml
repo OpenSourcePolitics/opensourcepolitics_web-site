@@ -56,6 +56,8 @@ serviceV2:
   sm-feature-8: PEDAGOGY,<br>TRAINING
 realisations:
   title: Productions
+  highlight: Our latest productions
+  hightlight-btn: Read report
 story:
   title: About us
   story-subheading: 'Open Source Politics is a company that builds <b>participatory
