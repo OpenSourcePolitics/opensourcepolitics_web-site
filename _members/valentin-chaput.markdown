@@ -12,6 +12,6 @@ social:
   url: https://medium.com/@ValentinChaput
 - title: linkedin
   url: https://www.linkedin.com/in/valentinchaput
-categories: co-founder
+type: co-founder
 date: 2018-03-01 15:48:25 +0000
 ---

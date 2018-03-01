@@ -10,6 +10,6 @@ social:
   url: https://github.com/moustachu
 - title: linkedin
   url: https://www.linkedin.com/in/moustachu/
-categories: co-founder
+type: co-founder
 date: 2018-03-01 15:48:25 +0000
 ---

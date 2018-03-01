@@ -12,6 +12,6 @@ social:
   url: https://www.linkedin.com/in/virgiledeville
 - title: github
   url: https://github.com/virgile-dev
-categories: co-founder
+type: co-founder
 date: 2018-03-01 15:48:25 +0000
 ---
