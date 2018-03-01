@@ -1,12 +1,58 @@
 <div class="container-fluid" style="background-color:#f7f7f7;border-top:solid;border-color:#b4bcc2;" >
   <center>
     <p>&nbsp;</p>
-    <p class="text-muted" style="font-size:1.4em;"><i>{{ site.data.i18n[page.locale].trust-title }}</i></p>
-    <ul class="list-inline clear-fix">
+    <h2>{{ site.data.i18n[page.locale].trust-title }}</h2>
+    <p>{{ site.data.i18n[page.locale].trust-subtitle }}</p>
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-md-12">
+      <h4 class="text-muted">Consultations d’institutions publiques</h4>
+      <p>&nbsp;</p>
       {% for client in site.clients %}
-        <li><a href="{{ client.site-url }}" target="blank"><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" width="121px" height="70px" class="img-responsive img-centered" style="-webkit-filter: grayscale(100%);"></a></li>
+      {% if client.category == "public" %}
+        <div class="col-md-2">
+          <div class="client">
+            <img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="img-responsive">
+            {% if client.site-url == "none" %}
+            {% else %}
+            <div class="overlay">
+              <a href="{{ client.site-url }}" target="blank" class="icon">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% else %}
+        {% endif %}
       {% endfor %}
-    </ul>
+    </div>
+    <p>&nbsp;</p>
+  </row>
+  <div class="row">
+      <div class="col-md-12">
+      <h4 class="text-muted">Gouvernance d’entreprises et associations</h4>
+      <p>&nbsp;</p>
+      {% for client in site.clients %}
+      {% if client.category == "private" %}
+        <div class="col-md-2">
+          <div class="client">
+            <img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="img-responsive">
+            {% if client.site-url == "none" %}
+            {% else %}
+            <div class="overlay">
+              <a href="{{ client.site-url }}" target="blank" class="icon">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% else %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    </div>
     <p>&nbsp;</p>
   </center>
 </div>

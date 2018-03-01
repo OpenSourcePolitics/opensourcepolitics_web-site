@@ -1,6 +1,8 @@
-
-<!-- nom: Solidel
-site-url: http://www.solidel.fr/
+---
+category: private
+nom: Solidel
+site-url: none
 img: solidel.png
 alt: logo Solidel
-date: 2017-05-23 16:02:11 +0000 -->
+date: 2017-05-23 16:02:11 +0000
+---

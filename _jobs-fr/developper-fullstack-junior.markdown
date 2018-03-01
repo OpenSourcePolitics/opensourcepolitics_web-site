@@ -1,15 +1,17 @@
 ---
-title: Développeur Ruby, stage 3 à 6 mois
+title: Développeur Fullstack Junior, Apprentissage ou stage 6 mois
 layout: job
 available-when: Dès que possible
 type: code
-tag: Développement web, Ruby, Rails
+tag: Développement web, Admin sys, Ruby On Rails, Node.js
 published: true
 locale: fr
 categories: jobs
-date: 2017-07-22 16:02:11 +0000
+date: 2018-03-01 14:15:11 +0000
+img: fullstack.jpg
 ---
-![Octo-Civic-Hacker]({{ site.baseurl }}/img/dev-ruby.png)
+![](/img/fullstack.jpg)
+<br>
 
 ## Nous recherchons dès fin Juillet un stagiaire développeur Ruby On Rails tendance "Full Stack".
 <br>
@@ -17,7 +19,7 @@ date: 2017-07-22 16:02:11 +0000
 > Si tu as déjà modifié et déployé en ligne une application Rails, que tu aimes l'open source, et que tu cherches un stage, cette mission est pour toi.
 
 #### Votre mission au sein d’OSP
-Nous travaillons sur plusieurs applications basées sur la techno Ruby On Rails, dans le cadre de votre mission vous serez surtout amené à travailler sur [Decidim](). Il s'agit d'un logiciel dont l'architecture est modulaire, les fonctionnalités que vous aurez à développer iront de la petite personnalisation graphique à la création de plugin complet.
+Nous travaillons sur plusieurs applications basées sur la techno Ruby On Rails, dans le cadre de votre mission vous serez surtout amené à travailler sur [Decidim](https://decidim.org). Il s'agit d'un logiciel dont l'architecture est modulaire, les fonctionnalités que vous aurez à développer iront de la petite personnalisation graphique à la création de plugin complet.
 Soutenu par la ville de Barcelone, le projet est dans une phase très active de développement et vous pourrez vous appuyer sur sa communauté étendue.
 
 Vous serez accompagné dans ces différentes tâches par notre directeur technique et un administrateur système.
@@ -30,7 +32,7 @@ Vous serez accompagné dans ces différentes tâches par notre directeur techniq
 
 #### En bonus
 
-- être à l'aise sous Linux (principallement Debian/Ubuntu) sur les questions d'administration (SSH, firewall, serveurs web, email...)
+- être à l'aise sous Linux (principallement Debian/Ubuntu) sur les questions d'administration système (SSH, firewall, serveurs web, email...)
 
 #### Profil recherché
 En cours de formation (Bac +5 - Bac +4 - Bac +3 - licence Pro) ou en fin d’étude dans un cursus informatique ou web, les qualités principales du candidat seront :
@@ -48,10 +50,10 @@ Open Source Politics est une entreprise de l'ESS qui développe des solutions ci
 Notre action est guidée par les principes du gouvernement ouvert : transparence, participation et coopération. Nous sommes co-fondateurs de plusieurs projets Civic Tech : DemocracyOS France, Democracy Earth, les hackathons Open Democracy Now. Découvrez notre histoire.
 
 #### Info pratique
-Durée : 3 à 6 mois à temps plein
+Durée : Apprentissage ou 6 mois à temps plein
 
-Le stage est rémunéré
+Rémunéré
 
-Locaux : Coworking Volumes - 78 rue Compans - Paris 19ème - Métro Place des Fêtes
+Locaux : Liberté Living Lab - 9 rue d'Alexandrie - 2ème arrondissement - Métro Strasbourg Saint-Denis
 <hr>
 #### Pour candidater : Envoyez vos candidatures (CV + email d’introduction) *[contact@opensourcepolitics.eu](mailto:contact@opensourcepolitics.eu)
