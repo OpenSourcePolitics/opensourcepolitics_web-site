@@ -10,6 +10,7 @@ contact: static
 
 collections:
   clients:
+  members:
   refs-fr:
     output: true
   refs-en:

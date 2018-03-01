@@ -1,23 +1,31 @@
 <section id="about" style = "padding-top:100px;">
-  <div class="row" class="container">
-    <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ site.data.i18n[page.locale].story.title }}</h2>
-        <div class="section-subheading sub-heading-margin" style = "font-size:19px;">{{ site.data.i18n[page.locale].story.story-subheading }}</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ site.data.i18n[page.locale].story.title }}</h2>
+          <div class="section-subheading sub-heading-margin" style = "font-size:19px;">{{ site.data.i18n[page.locale].story.story-subheading }}</div>
+      </div>
+    </div>
+    <div class="row">
+      <p>&nbsp;</p>
+        <div class="col-md-6" style="background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ site.baseurl }}/img/story-equipe.jpeg); border-radius:6px;max-width:580px;max-height:306px;margin-right:5px;">
+          <div class="featured-article";>
+            <h3><a href="https://medium.com/open-source-politics/notre-histoire-c61bbec90334" target="_blank"><span style="color:#fff">Notre histoire</span></a></h3>
+            <p>Depuis le printemps 2016, Open Source Politics est une entreprise relevant du champ de l’économie sociale et solidaire qui développe des…</p>
+            <p><img class="avatar" src="{{ site.baseurl }}/img/team/valentin.jpg" alt="Valentin Chaput">Le 21 septembre 2016 <br>par <a href="https://medium.com/@ValentinChaput">&nbsp;<span style="color:#fff;text-decoration: underline;">Valentin Chaput</span></a></p>
+          </div>
+        </div>
+
+    <div class="col-md-6" style="background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url({{ site.baseurl }}/img/open-by-design.png); border-radius:6px;max-width:580px;max-height:306px;margin-left:5px;">
+      <div class="featured-article";>
+        <h3><a href="https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e" target="_blank"><span style="color:#fff">La civic-tech française risque de se détourner de la création des biens communs numériques</span></a></h3>
+        <p>#civictech #OGP16 — lancement du rapport de point d’aencrage</p>
+        <p><img class="avatar" src="{{ site.baseurl }}/img/team/valentin.jpg" alt="Valentin Chaput">Le 6 décembre 2016 <br>par <a href="https://medium.com/@ValentinChaput">&nbsp;<span style="color:#fff;text-decoration: underline;">Valentin Chaput</span></a></p>
+      </div>
+    </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-12 col-md-6 {% if page.locale == "en" %}hidden {% elsif page.locale == "en" %} {% endif %}">
-      <div class="medium-embed">
-        <script async src="https://static.medium.com/embed.js"></script>
-        <a class="m-story" data-width="100%" data-collapsed="true" href="https://medium.com/open-source-politics/notre-histoire-c61bbec90334#.9ux2w3e4s">Notre histoire</a>
-    </div>
-  </div>
-  <div class="col-sm-12 {% if page.locale == "fr" %} col-md-6 {% elsif page.locale == "en" %}col-lg-12{% endif %}">
-    <div class="medium-embed">
-      <script async src="https://static.medium.com/embed.js"></script>
-      <a class="m-story" data-width="100%" data-collapsed="true" href="{{ site.data.i18n[page.locale].story.story-link }}">{{ site.data.i18n[page.locale].story.story-article-title }}</a>
-  </div>
-</div>
-</div>
+
+  <p>&nbsp;</p>
               <center><a href="{{ site.baseurl }}{{ site.data.i18n[page.locale].story.url }}" class="btn btn-secondary">{{ site.data.i18n[page.locale].story.all-article-btn }}</a></center>
 </section>
