@@ -2,12 +2,13 @@
 title: Offre de stage 6 mois, Consultant-e Junior
 layout: job
 available-when: Dès que possible
-type:
+type: 
 tag: conseil, civic tech
 published: true
 locale: fr
 categories: jobs
 img: conseil.jpg
+date: 2018-03-01 15:48:25 +0000
 ---
 ![](/img/conseil.jpg)
 <br>
