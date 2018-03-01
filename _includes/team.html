@@ -67,7 +67,7 @@
         </div>
         <div class="row">
           {% for member in site.members %}
-          {% if member.category == "developer" %}
+          {% if member.type == "developer" %}
                 <div class="team-member col-sm-3">
                     <img src="{{site.baseurl }}/img/team/{{ member.pic }}" class="img-responsive img-circle headshot" width="205.2" alt="{{ member.name }}">
                     <h4>{{ member.name }}</h4>
