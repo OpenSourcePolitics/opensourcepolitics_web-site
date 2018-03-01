@@ -9,7 +9,7 @@
       <h4 class="text-muted">Consultations d’institutions publiques</h4>
       <p>&nbsp;</p>
       {% for client in site.clients %}
-      {% if client.category == "public" %}
+      {% if client.categories == "public" %}
         <div class="col-md-2">
           <div class="client">
             <img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="img-responsive">
@@ -34,7 +34,7 @@
       <h4 class="text-muted">Gouvernance d’entreprises et associations</h4>
       <p>&nbsp;</p>
       {% for client in site.clients %}
-      {% if client.category == "private" %}
+      {% if client.categories == "private" %}
         <div class="col-md-2">
           <div class="client">
             <img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="img-responsive">
