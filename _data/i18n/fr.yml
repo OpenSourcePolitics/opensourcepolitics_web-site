@@ -71,8 +71,7 @@ story:
   all-article-btn: Tous nos articles
   url: "/fr/blog"
 team:
-  title: L'équipe fondatrice
-  title2: Nos collaborateurs
+  title: Notre équipe
 jobs:
   title: OSP recrute !
   btn-action: Voir l'annonce
