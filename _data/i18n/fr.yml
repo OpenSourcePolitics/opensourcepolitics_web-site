@@ -49,8 +49,8 @@ other-job-offers: Toutes les offres d'emploi
 other-projects: Tous les projets
 client-title: Ils nous font confiance
 allref:
-  btn-text: Demandez une démo
-  url: "/fr/references"
+  btn-text: Contactez-nous
+  url: "/#contact"
 other-offre: Toutes nos offres
 newsletter:
   subscribe-btn: Inscription

@@ -96,8 +96,8 @@ other-projects: All projects
 btn-link-project: Project link
 client-title: They trust us
 allref:
-  btn-text: See all our use cases
-  url: "/en/productions"
+  btn-text: Contact us
+  url: "/#contact"
 other-offre: Other products
 newsletter:
   subscribe-btn: Subscribe

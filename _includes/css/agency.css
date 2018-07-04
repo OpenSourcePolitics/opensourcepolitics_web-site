@@ -208,13 +208,12 @@
     border: 1px solid #{{ site.data.template.color.secondary-dark }};
 }
 .portfolio-block {
-    background-color: #fff;
+    background-color: #EEEEEE;
     text-align: center;
     padding-top: 5px;
     padding-bottom:5px;
     margin-top: -5px;
     margin-bottom: 25px;
-    height: 80px;
 }
 img {
     display: block;
