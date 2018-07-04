@@ -10,64 +10,15 @@ menu:
   item-5: On recrute !
   item-6: Contact
 punchline:
-  line-1: Avec le numérique,<br>la démocratie <u>continue</u> entre les élections
-  line-3: Open Source Politics, solutions civic tech
-btn-contact: Contactez-nous
-btn-vid: Voir la video
-video-modal-title: INTERVENTION POUR LE MONDE SMART CITIES
-btn-cta: Lire l'article
-cta-link: https://medium.com/open-source-politics/la-d%C3%A9mocratie-continue-entre-les-%C3%A9lections-babf6fd18754
-trust-title: Plus d'une vingtaine d'organisations nous font confiance
-trust-subtitle: Cliquez sur les logos pour consulter nos références
-service:
-  title-1: Nos services
-  feature-1: Choix de l'outil
-  feature-1-desc: Grâce à une veille internationale soutenue, notre équipe est capable
-    d'identifier les outils open source les plus adaptés à vos besoins.
-  feature-2: Intégration technique
-  feature-2-desc: Nos équipes déploient et maintiennent les outils nécessaires à votre
-    démarche de participation.
-  feature-3: Conseil
-  feature-3-desc: Nous vous accompagnons dans la mise en place de stratégies permettant
-    de mobiliser les publics concernés.
-  feature-4: "Événements"
-  feature-4-desc: Hackathons, meetups, workshops... Nous concrétisons votre démarche
-    participative grâce à des événements physiques.
-  title2: Pour mettre en place des
-  feature-5: Budgets participatifs
-  bp-txt: Voir l'offre
-  bp-btn: OSP Budget
-  feature-6: Consultations publiques
-  feature-7: Appels à projets
-  feature-8: Cartographies collaboratives
-serviceV2:
-  Main-title: NOS OFFRES
-  title-1: 4 OFFRES
-  bg-feature-1: DÉPLOIEMENT DE PLATEFORMES
-  bg-feature-3: DÉVELOPPEMENT SPÉCIFIQUE
-  bg-feature-4: FORMATION ET CONSEIL
-  title2: Pour répondre au mieux à vos besoins
-  sm-feature-1: GOUVERNANCE<br>INTERNE
-  sm-feature-2: CONSULTATIONS<br>PUBLIQUES
-  sm-feature-3: BUDGETS<br>PARTICIPATIFS
-  sm-feature-4: APPELS<br>À PROJETS
-  sm-feature-5: PLATEFORME<br>SUR MESURE
-  sm-feature-6: CARTOGRAPHIE<br>COLLABORATIVE
-  sm-feature-7: "ÉVÉNEMENTS,<br>ANIMATIONS"
-  sm-feature-8: PÉDAGOGIE,<br>FORMATION
+  line-1: Faire de la démocratie <br> un <u>processus continu</u> avec le numérique
+  line-3: Open Source Politics, Plateformes de démocratie participative <br> pour institutions et organisations
+btn-contact: Demandez une démo
+btn-vid: Contactez-nous
 realisations:
-  title: Cas d'usages
-  highlight: Cas d'usages
-  highlight-btn: Lire la synthèse
+  title: Nos réalisations
 story:
   title: "À propos"
-  story-subheading: 'Open Source Politics est une entreprise qui développe des plateformes
-    de <b>démocratie participative</b> libres et open source et anime des ateliers
-    d''<b>intelligence collective</b> pour accompagner des acteurs publics, privés
-    et associatifs souhaitant s''engager dans un dispositif de <b>concertation</b>
-    ou de <b>budget participatif</b>. Découvrez notre histoire :'
-  story-link: https://medium.com/open-source-politics/la-civic-tech-fran%C3%A7aise-risque-de-se-d%C3%A9tourner-de-la-cr%C3%A9ation-des-biens-communs-num%C3%A9riques-dont-9ebcf5c55c2e#.5sdy4qtla
-  story-article-title: Notre philosophie
+  story-subheading: 'Open Source Politics défend une certaine vision de la démocratie participative numérique. <br> Découvrez la au travers des trois articles suivants :'
   all-article-btn: Tous nos articles
   url: "/fr/blog"
 team:
@@ -98,7 +49,7 @@ other-job-offers: Toutes les offres d'emploi
 other-projects: Tous les projets
 client-title: Ils nous font confiance
 allref:
-  btn-text: Voir tous nos cas d'usage
+  btn-text: Demandez une démo
   url: "/fr/references"
 other-offre: Toutes nos offres
 newsletter:
