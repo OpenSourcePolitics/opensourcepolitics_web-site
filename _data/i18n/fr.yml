@@ -10,7 +10,7 @@ menu:
   item-5: On recrute !
   item-6: Contact
 punchline:
-  line-1: Faire de la démocratie <br> un <u>processus continu</u> avec le numérique
+  line-1: Faire de la démocratie <br> une <u>démarche permanente</u> avec le numérique
   line-3: Open Source Politics, Plateformes de démocratie participative <br> pour institutions et organisations
 btn-contact: Demandez une démo
 know-more-decidim: En savoir plus sur Decidim
@@ -21,7 +21,7 @@ decidim:
   headline: UNE PLATEFORME DE PARTICIPATION ET GOUVERNANCE DÉMOCRATIQUE COMPLÈTE
   btn-head: Demandez une démo
   features-headline: LES 10 ATOUTS DE DECIDIM
-  f-one: Personnalisable et modulaire pour s'adapter à votre contexte
+  f-one: Personnalisable et modulaire pour s'adapter à votre contexte.
   f-two: De nombreuses fonctionnalités pour animer vos budgets participatifs, consultation publiques etc.
   f-three: Démarches gérées par les administrateurs et parfois lancées à l'initiative des participants (pétitions).
   f-four: Dimension sociale renforcée avec des notifications personnalisées, des profils auxquels s'abonner et une messagerie privée entre utilisateurs.
@@ -29,7 +29,7 @@ decidim:
   f-six: Gestion fine des droits d'administration.
   f-seven: Disponible en SAAS.
   f-eight: API complète pour l'open data.
-  f-nine: Véritablement <a href="https://medium.com/open-source-politics/pourquoi-et-comment-nous-choisissons-de-construire-un-mod%C3%A8le-%C3%A9conomique-fond%C3%A9-sur-des-biens-communs-6c4f3ec3c075">open source</a> conforme au RGPD
+  f-nine: Véritablement <a href="https://medium.com/open-source-politics/pourquoi-et-comment-nous-choisissons-de-construire-un-mod%C3%A8le-%C3%A9conomique-fond%C3%A9-sur-des-biens-communs-6c4f3ec3c075">open source</a> conforme au RGPD.
   f-ten: Conforme au RGPD.
   osp-advice: Un accompagnement à la mesure de vos enjeux
   a-one: Accompagnement méthodologique.
