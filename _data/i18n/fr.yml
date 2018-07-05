@@ -17,6 +17,28 @@ know-more-decidim: En savoir plus sur Decidim
 btn-vid: Contactez-nous
 realisations:
   title: Nos réalisations
+decidim:
+  headline: UNE PLATEFORME DE PARTICIPATION ET GOUVERNANCE DÉMOCRATIQUE COMPLÈTE
+  btn-head: Demandez une démo
+  features-headline: LES 10 ATOUTS DE DECIDIM
+  f-one: Personnalisable et modulaire pour s'adapter à votre contexte
+  f-two: De nombreuses fonctionnalités pour animer vos budgets participatifs, consultation publiques etc.
+  f-three: Démarches gérées par les administrateurs et parfois lancées à l'initiative des participants (pétitions).
+  f-four: Dimension sociale renforcée avec des notifications personnalisées, des profils auxquels s'abonner et une messagerie privée entre utilisateurs.
+  f-five: Panel d'administration avancé qui vous aide à organiser votre travail.
+  f-six: Gestion fine des droits d'administration.
+  f-seven: Disponible en SAAS.
+  f-eight: API complète pour l'open data.
+  f-nine: Véritablement <a href="https://medium.com/open-source-politics/pourquoi-et-comment-nous-choisissons-de-construire-un-mod%C3%A8le-%C3%A9conomique-fond%C3%A9-sur-des-biens-communs-6c4f3ec3c075">open source</a> conforme au RGPD
+  f-ten: Conforme au RGPD.
+  osp-advice: Un accompagnement à la mesure de vos enjeux
+  a-one: Accompagnement méthodologique.
+  a-two: Conseil stratégique en ingénierie de la concertation et mobilisation citoyenne.
+  a-three: Suivi et gestion de votre projet de A à Z.
+  a-four: Formations aux enjeux de la démocratie numérique.
+  a-five: Animation d'intelligence collective.
+  a-six: Production de synthèse qualitative.
+  btn-list: Contactez-nous
 story:
   title: "À propos"
   story-subheading: 'Open Source Politics défend une certaine vision de la démocratie participative numérique. <br> Découvrez la au travers des trois articles suivants :'

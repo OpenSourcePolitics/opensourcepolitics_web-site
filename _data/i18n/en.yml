@@ -60,6 +60,29 @@ realisations:
   title: Use cases
   highlight: Use cases
   hightlight-btn: Read report
+decidim:
+  headline: A FULL DEMOCRATIC PARTICIPATION AND GOVERNANCE PLATFORM
+  btn-head: Ask for a demo
+  features-headline: Decidim's 10 assets
+  f-one: Customizable and modular to adapt to your context
+  f-two: Numerous functionalities to animate your participatory budgets, public consultations, etc.
+  f-three: Approaches managed by administrators and sometimes initiated by participants (petitions).
+  f-four: Enhanced social dimension with personalized notifications, subscription profiles and private messaging between users.
+  f-five: Advanced administration panel that helps you organize your work.
+  f-six: Fine management of administration rights.
+  f-seven: Available in SAAS.
+  f-eight: Comprehensive API for open data
+  f-nine: Truly open source
+  f-ten: Compliant with GDPR
+  osp-advice: Support tailored to your challenges
+  a-one: Methodological support.
+  a-two: Strategic consulting in consultation engineering and citizen mobilization.
+  a-three: Follow-up and management of your project from A to Z.
+  a-four: Training in digital democracy issues.
+  a-five: Animation of collective intelligence workshops
+  a-six: Production of qualitative synthesis.
+  btn-list: Contact us
+
 story:
   title: About us
   story-subheading: 'Open Source Politics is a company that builds <b>participatory
@@ -71,7 +94,7 @@ story:
   all-article-btn: See more articles
   url: "/en/blog"
 team:
-  title: Founding team
+  title: Team
   title2: Team mates
 jobs:
   title: OSP IS NOW HIRING!
