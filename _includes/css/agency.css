@@ -6,11 +6,6 @@
 
 /*Mon CSS
 <--- ! --->*/
-@media (min-width: 750px){
-iframe {
-  margin-top: -40px;
-}
-}
 .featured-article{
   color: #fff;
   border-radius: 3px;
@@ -578,12 +573,17 @@ header .intro-text .intro-heading-min {
     color: #000;
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
+    header {
+      background-image: url({{ site.baseurl }}/img/strip-patterns-mobile-2.png);
+    }
     header .intro-text {
         padding-top: 100px;
         padding-bottom: 20px;
     }
-
+    header .intro-heading-min {
+      font-size: 40px;
+    }
     header .intro-text .intro-lead-in {
         margin-bottom: 50px;
         font-family: {{ site.data.template.font.secondary }};
