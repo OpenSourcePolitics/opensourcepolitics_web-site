@@ -1,59 +1,27 @@
-<!-- Portfolio Grid Section -->
-    <section id="references" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.i18n[page.locale].realisations.highlight }}</h2>
-                <br>
+<section id="references" class="bg-light-gray">
+    <div class="container-fluid">
+      <h2 class="section-heading" style="text-align:center;">{{ site.data.i18n[page.locale].realisations.title }}</h2>
+      <p>&nbsp;</p>
+        <div class="row">
+          {% for client in site.clients %}
+          {% if client.type == "featured" %}
+            <div class="col-md-2">
+              <div style="padding:20px; background-color:#fff;" class="radius-up">
+                <center><a href="{{ client.site-url }}"><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="img-responsive"></a></center>
               </div>
-              {% if page.locale == "fr" %}
-                  {% for ref in site.refs-fr reversed %}
-                  {% if ref.Categories == "featured" %}
-                <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
-                    <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
-                        <!--<div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div> -->
-                        <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
-                    </a>
-                    <div class="portfolio-block radius-down">
-                        <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
-                        <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
-                    </div>
-                    <!-- <div class="tag-portfolio radius-down">
-                        <p><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags }}</p>
-                    </div> -->
-                </div>
+              <div class="portfolio-block radius-down">
+                <h6><a href="{{ client.site-url}}">{{ client.site-name }}</h6>
+                {% if page.locale == "fr" %}
+                <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ client.tag-fr }}</span></p>
                 {% else %}
+                <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ client.tag-en }}</span></p>
                 {% endif %}
-                {% endfor %}
-                {% else %}
-                {% for ref in site.refs-en reversed %}
-                  {% if ref.Categories == "featured" %}
-                    <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item">
-                        <a href="{{ site.baseurl}}{{ ref.url }}" class="portfolio-link">
-                            <!--<div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div> -->
-                            <img src="{{ site.baseurl }}/img/portfolio/{{ ref.thumbnail }}" class="img-responsive img-centered radius-up" alt="">
-                        </a>
-                        <div class="portfolio-block radius-down">
-                            <h4><a href="{{ site.baseurl }}{{ ref.url }}"><span style="color:#000">{{ ref.title }}</span></a></h4>
-                            <p><span style="color:#b4bcc2"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;{{ ref.tags }}</span></p>
-                        </div>
-                        <!-- <div class="tag-portfolio radius-down">
-                            <p><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags }}</p>
-                        </div> -->
-                    </div>
-                {% else %}
-                {% endif %}
-                {% endfor %}
-                {% endif %}
+              </div>
             </div>
-              <center><a href="{{ site.baseurl }}{{ site.data.i18n[page.locale].allref.url }}" class="btn btn-primary">{{ site.data.i18n[page.locale].allref.btn-text }}</a></center>
+          {% else %}
+          {% endif %}
+          {% endfor %}
         </div>
-    </section>
+          <center><a href="{{ site.baseurl }}{{ site.data.i18n[page.locale].allref.url }}" class="page-scroll btn btn-lg btn-primary">{{ site.data.i18n[page.locale].allref.btn-text }}</a></center>
+    </div>
+</section>

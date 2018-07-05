@@ -6,6 +6,11 @@
 
 /*Mon CSS
 <--- ! --->*/
+@media (min-width: 750px){
+iframe {
+  margin-top: -40px;
+}
+}
 .featured-article{
   color: #fff;
   border-radius: 3px;
@@ -39,9 +44,6 @@
 .list-group-nl {
   background-color: transparent;
   border-color: #D0AE39;
-}
-.container-fluid {
-  background-color: #101719;
 }
 .osp-horizontal {
   background: #{{ site.data.template.color.primary }};
@@ -211,13 +213,12 @@
     border: 1px solid #{{ site.data.template.color.secondary-dark }};
 }
 .portfolio-block {
-    background-color: #fff;
+    background-color: #EEEEEE;
     text-align: center;
     padding-top: 5px;
     padding-bottom:5px;
     margin-top: -5px;
     margin-bottom: 25px;
-    height: 108px;
 }
 img {
     display: block;
@@ -535,10 +536,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/pattern.png');
+    background-image: url('{{ site.baseurl }}/img/Strip-Patterns.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -555,9 +555,9 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
+    font-size: 15px;
     line-height: 22px;
+    color: #000;
 }
 
 header .intro-text .intro-heading {
@@ -580,18 +580,15 @@ header .intro-text .intro-heading-min {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 130px;
+        padding-top: 100px;
         padding-bottom: 20px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 35px;
+        margin-bottom: 50px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 30px;
-        font-style: italic;
+        font-size: 15px;
         line-height: 30px;
-        margin-left: 10%;
-        margin-right: 10%;
         color: #000;
     }
 
