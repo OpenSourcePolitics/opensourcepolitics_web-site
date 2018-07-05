@@ -1,7 +1,6 @@
 ---
-pages:
-- _blog-fr/4-juillet-20h-volumes-coworking-soiree-open-democracy-now.md
 hide_body: false
+is_partial: false
 fields:
 - name: locale
   type: textarea
@@ -92,3 +91,5 @@ fields:
   label: Article mis en avant (1 pour activer)
   description: L'article mis en avant, sera celui tout en haut en plus gros dans la
     liste des articles
+pages:
+- _blog-fr/4-juillet-20h-volumes-coworking-soiree-open-democracy-now.md

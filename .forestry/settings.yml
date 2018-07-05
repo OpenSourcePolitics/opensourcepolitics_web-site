@@ -1,9 +1,56 @@
 ---
-upload_path: "/uploads/:year:/:month:/:day:"
-frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
-body_file_url_template: "/uploads/:year:/:month:/:day:"
 new_page_extension: md
 auto_deploy: true
 admin_path: 
 webhook_url: 
-collections: 
+collections:
+- path: _posts
+  label: Posts
+  create: all
+- path: _refs-fr
+  label: Refs-fr
+  create: all
+- path: _refs-en
+  label: Refs-en
+  create: all
+- path: _jobs-en
+  label: Jobs-en
+  create: all
+- path: _jobs-fr
+  label: Jobs-fr
+  create: all
+- path: _outils
+  label: Outils
+  create: all
+- path: _offres-fr
+  label: Offres-fr
+  create: all
+- path: _offres-en
+  label: Offres-en
+  create: all
+- path: _post-fr
+  label: Post-fr
+  create: all
+- path: _post-en
+  label: Post-en
+  create: all
+- path: _blog-fr
+  label: Blog-fr
+  create: all
+- path: _blog-en
+  label: Blog-en
+  create: all
+- path: _clients
+  label: Clients
+  create: all
+- path: _members
+  label: Members
+  create: all
+- path: ''
+  label: Pages
+  create: all
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
