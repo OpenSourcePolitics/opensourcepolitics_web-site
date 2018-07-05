@@ -1,46 +1,37 @@
+{% if page.locale == "fr" %}
 <section id="jobs">
   <div class="row" class="container">
     <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ site.data.i18n[page.locale].jobs.title }}</h2>
         <br>
-        <!-- <h3 class="section-subheading text-muted sub-heading-margin">Open Source Politics est une entreprise relevant du champ de l’économie sociale et solidaire qui développe des plateformes numériques libres et open source et anime des ateliers d’intelligence collective pour accompagner des acteurs publics, privés et associatifs engagés dans des démarches participatives. Découvrez notre histoire :</h3> -->
     </div>
   </div>
   <div class="container">
-    {% if page.locale == "fr" %}
-      {% for job in site.jobs-fr %}
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="jumbotron" style="background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}/img/background-articles.png');">
-        <div style="height:180px;">
+        <div>
           <center>
-            <h4><a href="{{ site.baseurl }}{{ job.url }}" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;{{ job.title }}</span></a></h4>
-            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>{{ job.available-when }}</span></p>
-            <p><a href="{{ site.baseurl }}{{ job.url }}" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
+            <h4><a href="{{ site.baseurl }}/img/2018-09-Stage-Business-Developpement.pdf" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;Customer Success Management</span></a></h4>
+            <p><span style="color:#fff">Stage 6 mois</span></p>
+            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>A partir du 15/08/2018</span></p>
+            <p><a href="{{ site.baseurl }}/img/2018-09-Stage-Customer-Success-Management.pdf" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
           </center>
         </div>
         </div>
       </div>
-      {% endfor %}
-      {% else %}
-      {% for job in site.jobs-en %}
-
-
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-
-        <div class="jumbotron">
-          <div style="height:180px;">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="jumbotron" style="background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}/img/background-articles.png');">
+        <div>
           <center>
-            <h4><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;{{ job.title }}</span></h4>
-            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>{{ job.available-when }}</span></p>
-            <p><a href="{{ site.baseurl }}{{ job.url }}" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
+            <h4><a href="{{ site.baseurl }}/img/2018-09-Stage-Customer-Success-Management.pdf" target="blank"><span style="color:#fff"><i class="fa fa-2x fa-{{ job.type }}"></i>&nbsp;&nbsp;Business Development</span></a></h4>
+            <p><span style="color:#fff">Stage 6 mois</span></p>
+            <p><span style="color:#fff"><i class="fa fa-calendar-o" aria-hidden="true">&nbsp;-&nbsp;</i>A partir du 15/08/2018</span></p>
+            <p><a href="{{ site.baseurl }}/img/2018-09-Stage-Customer-Success-Management.pdf" class="btn btn-primary">{{ site.data.i18n[page.locale].jobs.btn-action }}</a></p>
           </center>
         </div>
         </div>
       </div>
-      {% endfor %}
-      {% endif %}
-
+{% else %}
+{% endif %}
   </div>
-
-
 </section>

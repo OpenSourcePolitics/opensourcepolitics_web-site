@@ -6,6 +6,11 @@
 
 /*Mon CSS
 <--- ! --->*/
+@media (min-width: 750px){
+iframe {
+  margin-top: -40px;
+}
+}
 .featured-article{
   color: #fff;
   border-radius: 3px;
@@ -550,8 +555,9 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
+    font-size: 15px;
     line-height: 22px;
+    color: #000;
 }
 
 header .intro-text .intro-heading {
