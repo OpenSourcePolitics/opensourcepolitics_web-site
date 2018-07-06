@@ -32,11 +32,11 @@ decidim:
   f-nine: Disponible en <b>SAAS</b>.
   f-ten: Véritablement <a href="https://medium.com/open-source-politics/pourquoi-et-comment-nous-choisissons-de-construire-un-mod%C3%A8le-%C3%A9conomique-fond%C3%A9-sur-des-biens-communs-6c4f3ec3c075"><b>open source</b></a>, conforme au <b>RGPD</b> et doté d'une API complète pour l'<b>open data</b>.
   osp-advice: OSP vous accompagne à chaque étape
-  a-one: Formations aux enjeux de la démocratie participative numérique.
-  a-two: Conseil stratégique sur la création de vos contenus et la mobilisation citoyenne.
-  a-three: Suivi et gestion de votre projet de A à Z.
-  a-four: Animation d'ateliers d'intelligence collective.
-  a-five: Production de synthèses qualitatives avec des outils de traitement automatique de la langue.
+  a-one: Formations aux <b>enjeux de la démocratie participative numérique</b>.
+  a-two: Conseil stratégique sur la <b>création de vos contenus</b> et la <b>mobilisation citoyenne</b>.
+  a-three: Suivi et gestion de votre projet de <b>A à Z</b>.
+  a-four: Animation d'ateliers d'<b>intelligence collective</b>.
+  a-five: Production de <b>synthèses qualitatives</b> avec des outils de <b>traitement automatique de la langue</b>.
   btn-list: Contactez-nous
 story:
   title: "À propos"
