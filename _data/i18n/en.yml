@@ -12,7 +12,7 @@ menu:
 punchline:
   line-1: Make democracy an <u>ongoing process</u><br> with digital technology
   line-2: ''
-  line-3: Open Source Politics, online democracy platforms <br> for organizations and institutions
+  line-3: Open Source Politics, online democracy platforms <br> for organizations and institutions.
 btn-contact: Ask for a demo
 btn-vid: Watch the video
 know-more-decidim: Learn more about Decidim
@@ -64,23 +64,22 @@ decidim:
   headline: A FULL DEMOCRATIC PARTICIPATION AND GOVERNANCE PLATFORM
   btn-head: Ask for a demo
   features-headline: Decidim's 10 assets
-  f-one: Customizable and modular to adapt to your context.
-  f-two: Numerous functionalities to animate your participatory budgets, public consultations, etc.
-  f-three: Approaches managed by administrators and sometimes initiated by participants (petitions).
-  f-four: Enhanced social dimension with personalized notifications, subscription profiles and private messaging between users.
-  f-five: Advanced administration panel that helps you organize your work.
-  f-six: Fine management of administration rights.
-  f-seven: Available in SAAS.
-  f-eight: Comprehensive API for open data.
-  f-nine: Truly open source.
-  f-ten: Compliant with GDPR.
-  osp-advice: Support tailored to your challenges
-  a-one: Methodological support.
-  a-two: Strategic consulting in consultation engineering and citizen mobilization.
+  f-one: <b>Customizable and modular</b> to adapt to your context.
+  f-two: <b>Transparent participatory journey</b> from the submission of an idea to its implementation.
+  f-three: Numerous functionalities to animate your <b>participatory budgets, public consultations</b>, etc.
+  f-four: Approaches managed by administrators and sometimes initiated by participants (petitions).
+  f-five: Private spaces for multi-level governance.
+  f-six: <b>Enhanced social</b> dimension with personalized notifications, subscription profiles and private messaging between users.
+  f-seven: <b>Advanced administration panel</b> that helps you organize your work.
+  f-eight: Fine management of <b>administration rights</b>.
+  f-nine: Available in <b>SAAS</b>.
+  f-ten: Truly <b>open source</b>, compliant with GDPR and with comprehensive API for <b>open data</b>.
+  osp-advice: OSP accompanies you every step of the way
+  a-one: Training sessions on the challenges of digital participatory democracy.
+  a-two: Strategic advice on the creation of your content and citizen mobilization.
   a-three: Follow-up and management of your project from A to Z.
-  a-four: Training in digital democracy issues.
-  a-five: Animation of collective intelligence workshops.
-  a-six: Production of qualitative synthesis.
+  a-four: Facilitation of collective intelligence workshops.
+  a-five: Production of qualitative syntheses with automatic language processing tools.
   btn-list: Contact us
 
 story:
