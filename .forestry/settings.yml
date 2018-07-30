@@ -3,50 +3,76 @@ new_page_extension: md
 auto_deploy: true
 admin_path: 
 webhook_url: 
-collections:
-- path: _posts
+sections:
+- type: jekyll-posts
   label: Posts
   create: all
-- path: _refs-fr
+- type: directory
+  path: _refs-fr
   label: Refs-fr
   create: all
-- path: _refs-en
+  match: "**/*"
+- type: directory
+  path: _refs-en
   label: Refs-en
   create: all
-- path: _jobs-en
+  match: "**/*"
+- type: directory
+  path: _jobs-en
   label: Jobs-en
   create: all
-- path: _jobs-fr
+  match: "**/*"
+- type: directory
+  path: _jobs-fr
   label: Jobs-fr
   create: all
-- path: _outils
+  match: "**/*"
+- type: directory
+  path: _outils
   label: Outils
   create: all
-- path: _offres-fr
+  match: "**/*"
+- type: directory
+  path: _offres-fr
   label: Offres-fr
   create: all
-- path: _offres-en
+  match: "**/*"
+- type: directory
+  path: _offres-en
   label: Offres-en
   create: all
-- path: _post-fr
+  match: "**/*"
+- type: directory
+  path: _post-fr
   label: Post-fr
   create: all
-- path: _post-en
+  match: "**/*"
+- type: directory
+  path: _post-en
   label: Post-en
   create: all
-- path: _blog-fr
+  match: "**/*"
+- type: directory
+  path: _blog-fr
   label: Blog-fr
   create: all
-- path: _blog-en
+  match: "**/*"
+- type: directory
+  path: _blog-en
   label: Blog-en
   create: all
-- path: _clients
+  match: "**/*"
+- type: directory
+  path: _clients
   label: Clients
   create: all
-- path: _members
+  match: "**/*"
+- type: directory
+  path: _members
   label: Members
   create: all
-- path: ''
+  match: "**/*"
+- type: jekyll-pages
   label: Pages
   create: all
 upload_dir: uploads
