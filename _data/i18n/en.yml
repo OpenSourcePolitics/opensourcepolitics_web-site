@@ -19,8 +19,9 @@ know-more-decidim: Learn more about Decidim
 video-modal-title: At the conference Le Monde Smart Cities
 btn-cta: Read the article
 cta-link: https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd
-trust-title: 20+ organizations trust us
-trust-subtitle: Click on the logos to discover our use cases
+realisations:
+  title: Nos réalisations
+  subtitle: More than thirty organizations trust us
 service:
   title-1: Services
   feature-1: Tool selection
@@ -58,8 +59,7 @@ serviceV2:
   sm-feature-8: PEDAGOGY,<br>TRAINING
 realisations:
   title: Use cases
-  highlight: Use cases
-  hightlight-btn: Read report
+  subtitle: More than thirty organizations trust us
 decidim:
   headline: A FULL DEMOCRATIC PARTICIPATION AND GOVERNANCE PLATFORM
   btn-head: Ask for a demo
@@ -88,10 +88,8 @@ story:
     democracy</b> open source tools and hosts <b>collective inteligence</b> workshops
     for private or public stakeholders willing to engage in a <b>public consultation</b>
     or a <b>participatory budgeting</b> process. Learn more about us:'
-  story-link: https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2#.56a7n42yd
-  story-article-title: Our philosophy
   all-article-btn: See more articles
-  url: "/en/blog"
+  url: "https://medium.com/open-source-politics/tagged/english"
 team:
   title: Team
   title2: Team mates
