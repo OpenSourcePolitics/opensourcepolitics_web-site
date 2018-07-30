@@ -17,6 +17,7 @@ know-more-decidim: En savoir plus sur Decidim
 btn-vid: Contactez-nous
 realisations:
   title: Nos réalisations
+  subtitle: Plus d'une trentaine d'organisations nous font confiance
 decidim:
   headline: UNE PLATEFORME DE PARTICIPATION ET GOUVERNANCE DÉMOCRATIQUE COMPLÈTE
   btn-head: Demandez une démo
@@ -42,7 +43,7 @@ story:
   title: "À propos"
   story-subheading: 'Open Source Politics défend une certaine vision de la démocratie participative numérique. <br> Découvrez la au travers des trois articles suivants :'
   all-article-btn: Tous nos articles
-  url: "/fr/blog"
+  url: "https://medium.com/open-source-politics/"
 team:
   title: Notre équipe
 jobs:

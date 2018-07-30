@@ -8,6 +8,7 @@
     </div>
     <div class="row">
       <p>&nbsp;</p>
+      {% if page.locale == "fr" %}
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div style="margin-top:10px; padding: 30px; border-radius:6px; background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url({{ site.baseurl }}/img/background-articles.png);">
           <div>
@@ -32,6 +33,24 @@
           </div>
         </div>
       </div>
+      {% else %}
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div style="margin-top:10px; padding: 30px; border-radius:6px; background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url({{ site.baseurl }}/img/background-articles.png);">
+          <div>
+            <h3><a href="https://medium.com/open-source-politics/french-civic-tech-is-turning-away-from-the-digital-commons-creation-dynamic-we-need-to-transform-efd7867c3eb2" target="_blank"><span style="color:#fff">Open by design</span></a></h3>
+            <p style="color:#fff;">The 7th of December 2016<br>par<a href="https://medium.com/@ValentinChaput">&nbsp;<span style="color:#fff;text-decoration: underline;">Valentin Chaput</span></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div style="margin-top:10px;padding: 30px; border-radius:6px; background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url({{ site.baseurl }}/img/background-articles.png);">
+          <div>
+            <h3><a href="https://medium.com/open-source-politics/make-democracy-an-ongoing-process-with-digital-technology-7e48205bccd" target="_blank"><span style="color:#fff">Make democracy an ongoing process</span></a></h3>
+            <p style="color:#fff;">The 4th of May 2017<br>par <a href="https://medium.com/@ValentinChaput">&nbsp;<span style="color:#fff;text-decoration: underline;">Valentin Chaput</span></a></p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 
