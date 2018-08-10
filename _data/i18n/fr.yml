@@ -25,11 +25,11 @@ decidim:
   f-one: <b>Personnalisable et modulaire</b> pour s'adapter à votre contexte.
   f-two: <b>Parcours participatif transparent</b> du dépôt d’une idée à sa réalisation.
   f-three: Nombreuses fonctionnalités pour animer vos <b>budgets participatifs, consultation publiques</b> etc.
-  f-four: Démarches gérées par les administrateurs et parfois lancées à l'initiative des participants (pétitions).
-  f-five: Espaces privés pour une gouvernance à plusieurs échelles.
+  f-four: Démarches gérées par les administrateurs et parfois lancées <b>à l'initiative des participants (pétitions)</b>.
+  f-five: <b>Espaces privés</b> pour une gouvernance à plusieurs échelles.
   f-six: <b>Dimension sociale</b> renforcée avec des notifications personnalisées, des profils auxquels s'abonner et une messagerie privée entre utilisateurs.
-  f-seven: <b>Panel d'administration</b> avancé qui vous aide à organiser votre travail.
-  f-eight: Gestion fine des <b>droits d'administration</b>.
+  f-seven: <b>Panel d'administration</b> avancé qui vous aide à organiser votre travail et gestion fine des <b>droits d'administration</b>.
+  f-eight: Plateforme <b>responsive pour un affichage adapté à tous les écrans</b>.
   f-nine: Disponible en <b>SAAS</b>.
   f-ten: Véritablement <a href="https://medium.com/open-source-politics/pourquoi-et-comment-nous-choisissons-de-construire-un-mod%C3%A8le-%C3%A9conomique-fond%C3%A9-sur-des-biens-communs-6c4f3ec3c075"><b>open source</b></a>, conforme au <b>RGPD</b> et doté d'une API complète pour l'<b>open data</b>.
   osp-advice: OSP vous accompagne à chaque étape
