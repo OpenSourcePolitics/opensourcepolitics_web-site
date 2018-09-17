@@ -1,0 +1,55 @@
+---
+url: http://opensourcepolitics.eu
+baseurl: 
+title: Open Source Politics
+email: virgile@opensourcepolitics.eu
+description: 'Outils numériques de démocratie participative : nous mettons en place
+  des solutions civic tech open source et des méthodes efficaces pour faciliter la
+  participation citoyenne.'
+contact: static
+collections:
+  clients: 
+  members: 
+  refs-fr:
+    output: true
+  refs-en:
+    output: true
+  jobs-en:
+    output: true
+  jobs-fr:
+    output: true
+  outils:
+    output: true
+  offres-fr:
+    output: true
+  offres-en:
+    output: true
+  post-fr:
+    output: true
+  post-en:
+    output: true
+  blog-fr:
+    output: true
+  blog-en:
+    output: true
+social:
+- title: envelope
+  url: newsletter
+- title: twitter
+  url: http://twitter.com/opensourcepol
+- title: facebook
+  url: https://www.facebook.com/OpenSourcePolitics/
+- title: github
+  url: https://github.com/OpenSourcePolitics
+- title: medium
+  url: https://medium.com/open-source-politics
+- title: meetup
+  url: https://meetup.com/fr-FR/Open-Source-Politics/
+address:
+- line: 32 rue des Cascades
+- line: 75020 Paris France
+markdown: kramdown
+permalink: pretty
+gems:
+- jekyll-sitemap
+timezone: CET
