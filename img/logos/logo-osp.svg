@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3200px" height="3200px" viewBox="0 0 3200 3200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo bleu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-bleu">
+            <g>
+                <rect id="Rectangle-1" stroke="#0050A0" stroke-width="29" fill="#0050A0" x="14.5" y="14.5" width="3171" height="3171" rx="96"></rect>
+                <g id="Font" transform="translate(253.636364, 505.636364)" fill="#FFFFFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="560" font-weight="bold" letter-spacing="-10.4523077">
+                    <text id="OPEN">
+                        <tspan x="1186.47578" y="551">OPEN</tspan>
+                    </text>
+                    <text id="POLITICS-.">
+                        <tspan x="84.2437039" y="2034">POLITICS .</tspan>
+                    </text>
+                    <text id="SOURCE">
+                        <tspan x="545.432831" y="1290">SOURCE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
