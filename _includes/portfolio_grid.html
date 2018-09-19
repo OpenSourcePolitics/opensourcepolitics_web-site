@@ -7,7 +7,9 @@
           {% if client.type == "featured" %}
             <div class="col-md-2">
               <div style="padding:20px; background-color:#fff;" class="radius-up">
-                <center><a href="{{ client.site-url }}"><img src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="img-responsive"></a></center>
+                <center><a href="{{ client.site-url }}">
+                  <img data-src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}" style="min-width=208px;" class="lazy img-responsive"></a>
+                </center>
               </div>
               <div class="portfolio-block radius-down">
                 <h6><a href="{{ client.site-url}}">{{ client.site-name }}</h6>
