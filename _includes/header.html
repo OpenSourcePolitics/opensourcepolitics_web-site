@@ -20,22 +20,6 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
-        <!-- <li>
-
-
-          <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style = "background-color:transparent;border-color:transparent;text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;padding-top: 16.5px;padding-bottom: 19.5px;">Services
-              <span class="caret"></span></button>
-              <ul class="navbar dropdown-menu navbar-default page-scroll " style = "top: 100%;left: 0;z-index: 1000;float: right;min-width: 20px;padding-bottom:0px;margin-right:0px;margin-left:0px;margin-top: 10px;margin-left: -10px;-webkit-background-clip: padding-box;background-clip: padding-box;border: 0px solid #ccc;border: 0px solid rgba(0, 0, 0, .15);border-radius: 0px;  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .175);box-shadow: 0 0px 0pxrgba(0, 0, 0, .175);margin-bottom:0px;">
-                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}consultations-publiques{% else %}public-consultations{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-1 }}</a></li>
-                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}budget-participatif{% else %}participatory-budgeting{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-2 }}</a></li>
-                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}custom{% else %}en-custom{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-3 }}</a></li>
-                <li style = "text-transform: uppercase;font-family: Source Sans Pro;font-weight: 400;letter-spacing: 1px;color: #fff;font-size: 1.2em;"><a href="{{site.baseurl }}/{% if page.locale == "fr" %}formation-civic-tech{% else %}civic-tech-training{% endif %}">{{ site.data.i18n[page.locale].serviceV2.bg-feature-4 }}</a></li>
-              </ul>
-            </div>
-
-
-          </li> -->
           <li>
             <a class="page-scroll menu-item" href="{{site.baseurl }}/#references" style ="margin-left:0px;">{% if page.locale == "fr" %}Réalisations{% else %}References{% endif %}</a>
           </li>
@@ -56,28 +40,6 @@
           {% else %}
           {% endif %}
         </ul>
-        <!-- <ul class="nav navbar-nav navbar-center">
-        <li class="hidden">
-        <a href="#page-top"></a>
-      </li>
-      <li>
-      <a class="page-scroll" href="#services">{{ site.data.i18n[page.locale].menu.item-1 }}</a>
-    </li>
-    <li>
-    <a class="page-scroll" href="#references">{{ site.data.i18n[page.locale].menu.item-2 }}</a>
-  </li>
-
-  <li>
-  <a class="page-scroll" href="#about">{{ site.data.i18n[page.locale].menu.item-3 }}</a>
-</li>
-<li>
-<a class="page-scroll" href="#team">{{ site.data.i18n[page.locale].menu.item-4 }}</a>
-</li>
-<li>
-<a href="#jobs" class="page-scroll"><b><i class="fa fa-rocket"></i>&nbsp;{{ site.data.i18n[page.locale].menu.item-5 }}</b></a>
-</li>
-
-</ul> -->
 <ul class="nav navbar-nav navbar-right">
   <li><a href="{{ site.baseurl }}/fr/accueil">{% if page.locale == "fr" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">fr</span> {% elsif page.locale == "en" %}<span style="font-size:1em">fr</span>{% endif %}</a></li>
   <li><a href="{{ site.baseurl }}/en/home">{% if page.locale == "en" %}<span style="font-size:1.5em;color:#{{ site.data.template.color.secondary }}">en</span> {% elsif page.locale == "fr" %}<span style="font-size:1em">en</span> {% endif %}</a></li>
