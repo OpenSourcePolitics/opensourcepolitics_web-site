@@ -1839,4 +1839,327 @@ bodycorps {
     margin-bottom: 0;
 }
 
+.image-post{
+  height:200px;
+  border-radius: 2px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+@media (max-width: 550px){
+  .post-subtitle {
+    display: none;
+  }
+}
+.post-info h2{
+  text-align: left;
+  font-size: 25px;
+  line-height: 28px;
+  margin-top: 0px;
+}
+.post-info p{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+@media (min-width: 768px){
+  .post-container img {
+    margin-bottom: 0px;
+  }
+  .image-post{
+    margin-bottom:0px;
+  }
+}
+@media (min-width: 992px){
+  .post-info h2{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .post-info p{
+      line-height: 24px;
+      font-size: 17px;
+  }
+}
+.post-date {
+  font-size: 14px;
+  font-weight: 200;
+  color: #888;
+  text-align: left;
+  margin-right:-20px;
+}
+.avatar {
+  max-width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px;
+}
+.avatar-big {
+  max-width: 80px;
+  border-radius: 50%;
+}
+.author-name {
+  font-size: 28px;
+  margin-top:7px;
+}
+.author-name i {
+  padding-right: 10px;
+}
+@media (min-width: 768px){
+  .avatar-big {
+    float: right;
+  }
+  .author-name {
+    float: left;
+  }
+  .author-name i{
+    float: left;
+  }
+}
+hr{
+  border-top: 2px solid #ecf0f1;
+}
+/* End of Post Container */
+
+/* Container Post : container of main post content */
+.container-post {
+  max-width : 840px;
+}
+.post p, .post li{
+  font-family: ;
+  font-size: 22px;
+  word-spacing: 1px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 30px;
+}
+@media (min-width: 768px) {
+  .post p, .post li{
+  font-size: 24px;
+  word-spacing: 2px;
+  color: #3e3933;
+  line-height: 35px;
+}
+}
+
+
+/* sharing popover */
+
+.sharer{
+  text-align: right;
+  margin-top:-20px;
+  cursor: pointer;
+}
+.share-popover{
+  box-shadow: 0 0 0.25em rgba(17,17,17,0.2);
+  margin-top: -78px;
+  margin-right: -2px;
+  visibility: hidden;
+  max-width: 87px;
+  max-height: 50px;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: white;
+  z-index: 3000;
+}
+.btn-share:focus + .share-popover {
+  visibility: visible;
+}
+.btn-media i{
+  padding: 5px;
+  font-size: 30px;
+}
+.btn-media .fa-twitter-square{
+  color: #55acee;
+  opacity: 1;
+  transition: all 0.01s ease;
+}
+.btn-media .fa-facebook-square{
+  color: #3B5998;
+  opacity: 1;
+  transition: all 0.01s ease;
+}
+.btn-media .fa-twitter-square:hover, .btn-media .fa-facebook-square:hover{
+  opacity: 0.8;
+}
+
+/* Icon Forward */
+.hvr-icon-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.hvr-icon-forward:before {
+  content: "\f064";
+  position: absolute;
+  right: 1em;
+  padding: 0 0 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
+
+/* end of sharing popover */
+
+.btn-blog{
+  background-color: transparent;
+}
+.btn-blog:hover {
+  background-color: #3498db;
+}
+.post h2, .post h3, .post h4, .post h5, .post h6 {
+  font-family: ;
+  text-transform: none;
+  color: #473f36;
+}
+.post img:not(.avatar) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+.post{
+  font-size: 20px;
+}
+.blue {
+  color: #3498db;
+  transition: all 0.2s ease;
+}
+.blue:hover, .blue:focus {
+  color: #217DBB;
+}
+.brown {
+  color: #0050A0;
+  transition: all 0.2s ease;
+}
+.brown:hover, .brown:focus {
+    color: #0050A0;
+}
+.nav .btn-md {
+  margin-right: 15px;
+  margin-top:5px;
+}
+@media (max-width: 768px){
+  .nav .btn-md {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Search Box */
+
+.search-result {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 10px 5px 10px 15px;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+@media (max-width: 992px) {
+  .search-result {
+    font-size: 16px;
+  }
+}
+.search-result:hover {
+  background-color: #0050A0;
+  color:white
+}
+.search-list{
+  border-bottom: 2px solid #0050A0;
+  border-left: 2px solid #0050A0;
+  border-right: 2px solid #0050A0;
+  margin-top: -2px;
+}
+#search-input {
+  font-size: 20px;
+  font-weight: 200;
+  border-radius: 0px;
+}
+.container-search {
+  position: absolute;
+  margin-top: -80px;
+  left: 15px;
+  right: 15px;
+  z-index: 2000;
+}
+.container-search-author {
+  position: absolute;
+  margin-top: -30px;
+  left: 15px;
+  right: 15px;
+  z-index: 2000;
+}
+@media (min-width: 768px) {
+  .container-search, .container-search-author {
+    max-width: 720px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 992px) {
+  .container-search, .container-search-author {
+    max-width: 940px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1200px) {
+.container-search, .container-search-author {
+    max-width: 1140px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.input-group-btn .btn-default {
+  border-radius: 0px;
+}
+
+/* We use 56.25% to obtain a 16/9 ratio like a youtube video */
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* This is a ugly fix but it works. Should be removed and fix properly. @armandfardeau */
+@media (max-width: 768px) {
+  .row {
+    margin: initial;
+  }
+}
+
 
