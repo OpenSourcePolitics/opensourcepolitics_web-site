@@ -5,7 +5,7 @@ position-fr: Commercial
 position-en: Business Development
 social:
 - title: envelope
-  url: mailto:contact@opensourcepolitics.eu
+  url: mailto:leo@opensourcepolitics.eu
 - title: linkedin
   url: https://www.linkedin.com/in/leocochin/
 type: collaborator
