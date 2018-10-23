@@ -38,31 +38,6 @@
                     <p>&nbsp;</p>
                 </div>
             </div>
-            <div class="row">
-              {% for member in site.members %}
-              {% if member.type == "collaborator" %}
-                    <div class="team-member col-sm-3">
-                        <img data-src="{{site.baseurl }}/img/team/{{ member.pic }}" class="lazy img-responsive img-circle headshot" width="205.2" alt="{{ member.name }}">
-                        <h4>{{ member.name }}</h4>
-                        {% if page.locale == "fr" %}
-                        <p>{{ member.position-fr }}</p>
-                        {% else %}
-                        <p>{{ member.position-en }}</p>
-                        {% endif %}
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-            {% else %}
-            {% endif %}
-            {% endfor %}
-        </div>
         <div class="row">
           {% for member in site.members %}
           {% if member.type == "developer" %}
@@ -88,6 +63,31 @@
         {% endif %}
         {% endfor %}
     </div>
+    <div class="row">
+      {% for member in site.members %}
+      {% if member.type == "collaborator" %}
+            <div class="team-member col-sm-3">
+                <img data-src="{{site.baseurl }}/img/team/{{ member.pic }}" class="lazy img-responsive img-circle headshot" width="205.2" alt="{{ member.name }}">
+                <h4>{{ member.name }}</h4>
+                {% if page.locale == "fr" %}
+                <p>{{ member.position-fr }}</p>
+                {% else %}
+                <p>{{ member.position-en }}</p>
+                {% endif %}
+                <ul class="list-inline social-buttons">
+                    {% for network in member.social %}
+                    <li>
+                        <a href="{{ network.url }}">
+                            <i class="fa fa-{{ network.title }}"></i>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+    {% else %}
+    {% endif %}
+    {% endfor %}
+</div>
     <div class="row">
       <div class="team-member">
         <center>
