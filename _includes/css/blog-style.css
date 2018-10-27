@@ -320,3 +320,8 @@ hr{
     margin: initial;
   }
 }
+
+/* Transform text title on references to lowercase */
+#references .portfolio-block p > span {
+  text-transform: lowercase;
+}
