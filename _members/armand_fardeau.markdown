@@ -9,5 +9,5 @@ social:
 - title: linkedin
   url: https://www.linkedin.com/in/armandfardeau/
 type: developer
-date: 2018-07-02 12:30:00 +0000
+date: 2018-07-01 12:30:00 +0000
 ---

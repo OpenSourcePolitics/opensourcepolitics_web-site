@@ -9,5 +9,5 @@ social:
 - title: linkedin
   url: https://www.linkedin.com/in/ludivine-coipel-83a46299/
 type: developer
-date: 2018-03-01 15:48:25 +0000
+date: 2018-07-02 12:30:00 +0000
 ---

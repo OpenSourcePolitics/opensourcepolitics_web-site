@@ -9,5 +9,5 @@ social:
 - title: linkedin
   url: https://www.linkedin.com/in/leocochin/
 type: collaborator
-date: 2018-09-01 15:48:25 +0000
+date: 2018-08-01 15:48:25 +0000
 ---
