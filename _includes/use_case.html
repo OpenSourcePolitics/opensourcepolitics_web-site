@@ -1,27 +1,22 @@
-<div class="row margin-top">
-    <div class="col-lg-9 col-md-12">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-2">
-                <h1>Etude de cas budget participatif de la ville d'Angers</h1>
-                <p></p>
-                <img id="myImg"
-                     src="{{ site.baseurl }}/img/uses_cases/use-case-angers.png"
-                     class="img-responsive"
-                     alt="{{ use_case.alt }}"
-                     data-src="{{ site.baseurl }}/img/uses_cases/bp_angers-full.jpg"
-                >
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                </div>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <p></p>
+            <img
+                 src="{{ site.baseurl }}/img/uses_cases/use-case-angers.png"
+                 class="img-responsive"
+                 alt="{{ use_case.alt }}"
+            >
         </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <center>
+          <h1>Etude de cas :</h1>
+          <h2 style="font-size:20px;">Le Budget participatif de la ville d'Angers</h2>
+          <p>Nous avons accompagné Angers sur la mise en place de leur premier <a href="https://ecrivons.angers.fr/processes/BP2018">budget participatif</a> avec <a href="https://www.opensourcepolitics.eu/#decidim">Decidim</a>. Dans cette étude de cas revient sur les différentes étapes et facteurs de clés de succès qui ont assuré la réussite de ce processus participatif.</p>
+        </center>
+          <div id="email_capture" class="email_iframe" style="max-height:600px">
+              {% include email_capture_use_case.html %}
+          </div>
+      </div>
     </div>
-    <div class="col-lg-3 col-md-12">
-        <div id="email_capture" class="sticky email_iframe">
-            {% include email_capture_use_case.html %}
-        </div>
-    </div>
-
 </div>

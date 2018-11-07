@@ -18,6 +18,9 @@ btn-vid: Contactez-nous
 realisations:
   title: Nos réalisations
   subtitle: Plus d'une trentaine d'organisations nous font confiance
+use_cases:
+  title: Nos cas d'usage
+  subtitle:
 decidim:
   headline: UNE PLATEFORME DE PARTICIPATION ET GOUVERNANCE DÉMOCRATIQUE COMPLÈTE
   btn-head: Demandez une démo
