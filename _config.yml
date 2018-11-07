@@ -9,6 +9,8 @@ description: "Outils numériques de démocratie participative : nous mettons en 
 contact: static
 
 collections:
+  use_cases:
+    output: true
   clients:
   members:
   refs-fr:
