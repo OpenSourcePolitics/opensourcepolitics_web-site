@@ -1,0 +1,27 @@
+<div class="row margin-top">
+    <div class="col-lg-9 col-md-12">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+                <h1>Etude de cas budget participatif de la ville d'Angers</h1>
+                <p></p>
+                <img id="myImg"
+                     src="{{ site.baseurl }}/img/uses_cases/use-case-angers.png"
+                     class="img-responsive"
+                     alt="{{ use_case.alt }}"
+                     data-src="{{ site.baseurl }}/img/uses_cases/bp_angers-full.jpg"
+                >
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-12">
+        <div id="email_capture" class="sticky email_iframe">
+            {% include email_capture_use_case.html %}
+        </div>
+    </div>
+
+</div>
