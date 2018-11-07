@@ -2155,11 +2155,4 @@ hr{
   border: 0;
 }
 
-/* This is a ugly fix but it works. Should be removed and fix properly. @armandfardeau */
-@media (max-width: 768px) {
-  .row {
-    margin: initial;
-  }
-}
-
 
