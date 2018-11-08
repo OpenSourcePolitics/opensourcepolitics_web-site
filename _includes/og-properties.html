@@ -9,7 +9,7 @@
     {% endif %}">
 
 <meta property="og:description"
-    content="{% if page.excerpt %}
+    content="{% if page.description %}
         {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
       {% else %}
         {{ site.description }}
@@ -24,7 +24,7 @@
     <meta property="og:locale" content="fr_FR" />
 
     <meta name="twitter:site" content="@OpenSourcePol" />
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
 
 {% if page.title %}
@@ -44,11 +44,11 @@
   <!-- <meta property="article:publisher" content="" /> -->
 
   <!-- Article section isn't a required property, but it can be good to have -->
-  <meta property="article:section" content="{{page.vertical}}" />
+  <meta property="article:section" content="{{ page.vertical }}" />
 
   <!-- I use the page.categories property for OG tags. -->
   {% for tag in page.categories %}
-    <meta property="article:tag" content="{{tag}}" />
+    <meta property="article:tag" content="{{ tag }}" />
   {% endfor %}
 
   <!-- I prefer the summary_large_image Twitter card for posts. -->
@@ -56,12 +56,12 @@
   <!-- You, you're the creator. -->
   <meta name="twitter:creator" content="@OpenSourcePol" />
   <!-- This property is for the article title, not site title. -->
-  <meta name="twitter:title" content="{{page.title}}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
 
 
   {% if page.image %}
-    <meta property="og:image" content="{{page.img}}" />
-    <meta name="twitter:image" content="{{page.img}}" />
+    <meta property="og:image" content="{{ page.img }}" />
+    <meta name="twitter:image" content="{{ page.img }}" />
   {% else %}
     <meta property="og:image" content="{{ site.baseurl }}/img/thumbnail-osp+decidim.png" />
     <meta name="twitter:image" content="{{ site.baseurl }}/img/thumbnail-osp+decidim.png" />
