@@ -5,16 +5,16 @@
             <img
                  src="{{ site.baseurl }}/img/uses_cases/use-case-angers.png"
                  class="img-responsive"
-                 alt="{{ use_case.alt }}"
+                 alt="{{ page.alt }}"
             >
         </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <center>
           <h1>Etude de cas :</h1>
-          <h2 style="font-size:20px;">Le Budget participatif de la ville d'Angers</h2>
-          <p>Nous avons accompagné Angers sur la mise en place de leur premier <a href="https://ecrivons.angers.fr/processes/BP2018">budget participatif</a> avec <a href="https://www.opensourcepolitics.eu/#decidim">Decidim</a>. Dans cette étude de cas revient sur les différentes étapes et facteurs de clés de succès qui ont assuré la réussite de ce processus participatif.</p>
+          <h2 style="font-size:20px;">{{ page.title }}</h2>
+          <p>{{ page.description }}</p>
         </center>
-          <div id="email_capture" class="email_iframe" style="max-height:600px">
+          <div id="email_capture" class="email_iframe">
               {% include email_capture_use_case.html %}
           </div>
       </div>
