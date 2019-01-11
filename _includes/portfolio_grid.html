@@ -80,6 +80,33 @@
             {% endif %}
             {% endfor %}
         </div>
+        <div class="row">
+            {% for client in site.clients %}
+            {% if client.type == "featured-4" %}
+            <div class="col-md-2">
+                <div style="padding:20px; background-color:#fff;" class="radius-up">
+                    <center>
+                        <a href="{{ client.site-url }}">
+                            <img data-src="{{ site.baseurl }}/img/clients/{{ client.img }}" alt="{{ client.alt }}"
+                                 style="min-width=208px;" class="lazy img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="portfolio-block radius-down">
+                    <h6>
+                        <a href="{{ client.site-url}}">{{ client.site-name }}</a>
+                    </h6>
+                    {% if page.locale == "fr" %}
+                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ client.tag-fr }}</span></p>
+                    {% else %}
+                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ client.tag-en }}</span></p>
+                    {% endif %}
+                </div>
+            </div>
+            {% else %}
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
 
     <div class="container-fluid" style="margin-top:2em;">
