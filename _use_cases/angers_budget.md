@@ -1,6 +1,8 @@
 ---
 name: Ville d'Angers
 img: bp-angers-169.png
+img-env: use-case-angers.png
+published: true
 layout: use_cases
 title: Le budget participatif de la ville d'Angers
 description: Nous avons accompagné Angers sur la mise en place de leur premier <a href="https://ecrivons.angers.fr/processes/BP2018">budget participatif</a> avec <a href="https://www.opensourcepolitics.eu/#decidim">Decidim</a>. Dans cette étude de cas nous revenons sur les différentes étapes et facteurs de clés de succès qui ont assuré la réussite de ce processus participatif.

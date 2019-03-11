@@ -112,30 +112,42 @@
     <div class="container-fluid" style="margin-top:2em;">
         <h2 class="section-heading" style="text-align:center;">{{ site.data.i18n[page.locale].use_cases.title }}</h2>
         <p style="text-align:center;">{{ site.data.i18n[page.locale].use_cases.subtitle }}</p>
-        {% for use_case in site.use_cases %}
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <div style="padding:20px; background-color:#fff;" class="radius-up">
                     <center>
-                        <a href="{{ use_case.url }}">
-                            <img data-src="{{ site.baseurl }}/img/uses_cases/{{ use_case.img }}" alt="{{ use_case.title }}"
+                        <a href="https://medium.com/open-source-politics/cas-dusage-le-premier-budget-participatif-de-la-ville-d-angers-a34b6f6e3642">
+                            <img data-src="{{ site.baseurl }}/img/uses_cases/bp-angers-169.png" alt="Budget participatif Angers"
                                  style="min-width=208px;" class="lazy img-responsive">
                         </a>
                     </center>
                 </div>
                 <div class="portfolio-block radius-down">
-                    <h6>
-                        <a href="{{ use_case.site-url}}">{{ use_case.site-name }}</a>
-                    </h6>
                     {% if page.locale == "fr" %}
-                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ use_case.tag-fr }}</span></p>
+                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://medium.com/open-source-politics/cas-dusage-le-premier-budget-participatif-de-la-ville-d-angers-a34b6f6e3642">Étude de cas du budget participatif 2018 de la ville d'Angers</a></span></p>
                     {% else %}
-                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ use_case.tag-en }}</span></p>
+                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://medium.com/open-source-politics/cas-dusage-le-premier-budget-participatif-de-la-ville-d-angers-a34b6f6e3642">Case study Angers participatory budget</a></span></p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div style="padding:20px; background-color:#fff;" class="radius-up">
+                    <center>
+                        <a href="https://frama.link/mel-usecase">
+                            <img data-src="{{ site.baseurl }}/img/uses_cases/mel-use-case.png" alt="Plateforme consultation métropole européenne de Lille"
+                                 style="min-width=208px;" class="lazy img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="portfolio-block radius-down">
+                    {% if page.locale == "fr" %}
+                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://medium.com/open-source-politics/cas-dusage-la-m%C3%A9tropole-europ%C3%A9enne-de-lille-construire-une-politique-publique-de-participation-43a179ef19e8">Étude de cas du plateforme de consultation de la Métropole Européenne de Lille</a></span></p>
+                    {% else %}
+                    <p><span style:"color:grey;"><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://medium.com/open-source-politics/cas-dusage-la-m%C3%A9tropole-europ%C3%A9enne-de-lille-construire-une-politique-publique-de-participation-43a179ef19e8">Case study Metropolitan Area of Lille a consultation platform to shape public policy</a></span></p>
                     {% endif %}
                 </div>
             </div>
         </div>
-        {% endfor %}
         <center>
             <a href="{{ site.baseurl }}{{ site.data.i18n[page.locale].allref.url }}"
                class="page-scroll btn btn-lg btn-primary">{{ site.data.i18n[page.locale].allref.btn-text }}
